@@ -4,10 +4,10 @@
 
 | 项 | 删除前 | 删除后 |
 |---|---:|---:|
-| GameData 顶层目录 | 222 | 138 |
-| CKAN 记录模块 | 251 | 146 |
-| GameData 体积 | 16.82 GB | 6.21 GB |
-| 释放空间 | — | **约 10.61 GB** |
+| GameData 顶层目录 | 222 | 137 |
+| CKAN 记录模块 | 251 | 145 |
+| GameData 体积 | 16.82 GB | 6.10 GB |
+| 释放空间 | — | **约 10.72 GB** |
 
 最初名单 54 个顶层目录。经过两轮调整，相对原始 222 个目录实际移除了 58 个，
 并新增了 Final Frontier 的 `STMRibbons`，当前 165 个。`Kopernicus`、
@@ -75,6 +75,10 @@ Decaying RTGs、Xenon Hall Thrusters、DMagic Orbital Science、ScienceAlert、
 Space Dust/Next、Tarsier、Custom Barn Kit、DMagic Utilities、Final Frontier/
 绶带、ReStrategia、Benjee10 Suits、Crew Light、REPOSoftTech/DeepFreeze、
 Resupply Network。
+
+另外按用户要求删除 **FreeIva 0.2.20.2**：它在 IVA 里会锁住飞船控制，
+导致 Z（满油门）、X（油门归零）等键失效。备份在
+`_disabled_mods\BDA_20261019\FreeIva_removed_20261019\`。
 
 CKAN 因 `CryoTanks` 依赖顺手移除了未勾选的 **Kerbal Atomics**；已用
 `KerbalAtomics-NTRsUseLF` 补丁把它装回，保留核推进，但不再依赖 CryoTanks。

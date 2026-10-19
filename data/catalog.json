@@ -65,7 +65,7 @@
   "Firefly": {"title": "Firefly", "purpose": "再入等离子体、气动加热与相关视觉/音效。", "category": "visual", "action": "keep"},
   "FireflyAPI": {"title": "Firefly API", "purpose": "Firefly 与其它模组通信的接口。", "category": "core", "action": "keep"},
   "Firespitter": {"title": "Firespitter", "purpose": "螺旋桨、旋翼与起落架插件/资源库。", "category": "aircraft", "action": "keep"},
-  "FreeIva": {"title": "FreeIva", "purpose": "离开座椅在舱内自由漂浮移动。", "category": "iva", "action": "keep"},
+  "FreeIva": {"title": "FreeIva", "purpose": "离开座椅在舱内自由漂浮移动；会锁住 IVA 中的飞船控制键。", "category": "iva", "action": "delete", "note": "已按用户要求删除，备份在 _disabled_mods\\BDA_20261019\\FreeIva_removed_20261019。"},
   "FruitKocktail": {"title": "Vertikal Speed Indicator", "purpose": "导航球垂直速度颜色/数值提示。", "category": "flight", "action": "keep"},
   "FShangarExtender": {"title": "Hangar Extender Extended", "purpose": "扩大 VAB/SPH 建造空间，方便大型飞机/导弹。", "category": "engineering", "action": "keep"},
   "FutureTechnologiesExpansion 0.3.1": {"title": "Future Technologies Expansion: Frontier Aeronautics", "purpose": "聚变核热喷气发动机，属于远未来主题。", "category": "parts", "action": "delete"},

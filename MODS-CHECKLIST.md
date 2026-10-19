@@ -118,7 +118,6 @@
 
 - [ ] **ASET Consolidated**（ASET 座舱仪表）— 高精度 IVA 道具、航空仪表、ALCOR 座舱与 Mk1/Mk12 座舱内饰。
 - [ ] **DE_IVAExtension**（DE 座舱内饰扩展）— 给原版座舱增加更完整的高级 IVA。
-- [ ] **FreeIva**（自由舱内移动）— 离开座椅在舱内自由漂浮移动。
 - [ ] **JSI / RasterPropMonitor**（JSI/RPM 舱内显示器）— RPM 舱内显示器、透明座舱与相关 IVA 工具。
 - [ ] **KSA IVA Upgrade**（KSA 座舱内饰升级）— 原版座舱的高精度 IVA 内饰升级。
 - [ ] **MOARdV's Avionics Systems**（MOARdV 航电系统）— 高级 IVA 航电、MFD 页面与舱内交互。

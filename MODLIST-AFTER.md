@@ -2,10 +2,10 @@
 
 - 快照时间：2026-10-19
 - KSP：1.12.5（zh-cn，Steam）
-- GameData 顶层目录：**138** 个
-- CKAN 已记录模块：**146** 个
-- GameData 总体积：**6.13 GB**
-- 删除后仍存在的顶层目录：**138** 个
+- GameData 顶层目录：**137** 个
+- CKAN 已记录模块：**145** 个
+- GameData 总体积：**6.09 GB**
+- 删除后仍存在的顶层目录：**137** 个
 - 可选项（IVA/视觉/科学等，按需保留）：约 **126 MB**
 
 > 这是“当前安装”的盘点，不是推荐安装顺序。BDA+ LMP 版依赖
@@ -157,7 +157,6 @@
 | `ASET` | ASET Consolidated | 高精度 IVA 道具、航空仪表、ALCOR 座舱与 Mk1/Mk12 座舱内饰。 | 1.0.1 等 7 个 | ✅ 必留 | 66 MB |
 | `NearFutureProps` | Near Future Props | Near Future 系列 IVA 道具与内饰。 | 1:0.7.2 | ✅ 必留 | 63 MB |
 | `MOARdV` | MOARdV's Avionics Systems | 高级 IVA 航电、MFD 页面与舱内交互。 | v1.3.7 | ✅ 必留 | 39 MB |
-| `FreeIva` | FreeIva | 离开座椅在舱内自由漂浮移动。 | 0.2.20.2 | ✅ 必留 | 31 MB |
 | `JSI` | JSI / RasterPropMonitor | RPM 舱内显示器、透明座舱与相关 IVA 工具。 | V0.1.24.0 / 1:v1.1.0.1 | ✅ 必留 | 6.4 MB |
 | `ProbeControlRoom` | Probe Control Room | 无人飞船的地面控制室视角与界面。 | 1.4.0 | ✅ 必留 | 5.9 MB |
 | `DE_IVAExtension` | DE_IVAExtension | 给原版座舱增加更完整的高级 IVA。 | v1.3.0 | ✅ 必留 | <1 MB |

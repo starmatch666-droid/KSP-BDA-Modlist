@@ -1,6 +1,6 @@
 # BDA+ 与多人联机安装记录
 
-当前环境：KSP 1.12.5，138 个 GameData 顶层目录，146 个 CKAN 模块。
+当前环境：KSP 1.12.5，137 个 GameData 顶层目录，145 个 CKAN 模块。
 BDA 与联机部分**已经安装**。
 
 ## 为什么不是直接装 CKAN 的 BDArmoryForRunwayProject

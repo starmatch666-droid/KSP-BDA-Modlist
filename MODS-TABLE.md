@@ -1,6 +1,6 @@
 # 当前模组中英对照表
 
-共 138 个 GameData 顶层目录；按类别排序。
+共 137 个 GameData 顶层目录；按类别排序。
 
 | 英文名 | 中文名 | 作用简述 |
 |---|---|---|
@@ -21,7 +21,7 @@
 | KSP Community Fixes | KSP 社区修复 | 社区维护的大量底层 bug 修复与性能改进，必留。 |
 | KSP Texture Loader | KSP 纹理加载器 | 运行时纹理加载库。 |
 | KSPWheel | KSP 轮式物理库 | 轮子/悬挂物理库，Kerbal Foundries 等使用。 |
-| Luna Multiplayer Client | Luna 多人客户端 | LMP 多人联机客户端（0.30.0-Draft）。 |
+| Luna Multiplayer Client | Luna 多人客户端 | LMP 多人联机客户端（0.29.2，匹配 BDA-MP-Renewed 的 LmpClient 引用）。 |
 | Modular Flight Integrator | 模块化飞行集成器 | 气动/热集成框架，FAR 等模组使用。 |
 | PatchManager | 补丁管理器 | 在游戏内查看/管理 ModuleManager 补丁。 |
 | Physics Range Extender | 物理范围扩展 | 扩展物理范围，BDA 雷达/远距离交战需要。 |
@@ -91,7 +91,6 @@
 | Hide Empty Tech Tree Nodes | 隐藏空科技节点 | 隐藏没有可用部件的科技树节点。 |
 | ASET Consolidated | ASET 座舱仪表 | 高精度 IVA 道具、航空仪表、ALCOR 座舱与 Mk1/Mk12 座舱内饰。 |
 | DE_IVAExtension | DE 座舱内饰扩展 | 给原版座舱增加更完整的高级 IVA。 |
-| FreeIva | 自由舱内移动 | 离开座椅在舱内自由漂浮移动。 |
 | JSI / RasterPropMonitor | JSI/RPM 舱内显示器 | RPM 舱内显示器、透明座舱与相关 IVA 工具。 |
 | KSA IVA Upgrade | KSA 座舱内饰升级 | 原版座舱的高精度 IVA 内饰升级。 |
 | MOARdV's Avionics Systems | MOARdV 航电系统 | 高级 IVA 航电、MFD 页面与舱内交互。 |
