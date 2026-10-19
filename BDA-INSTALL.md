@@ -32,7 +32,7 @@ BDA+ 依赖 `ModuleManager` 和 `PhysicsRangeExtender`；标准单机版不再�
 
 FAR 自带 `zh-cn`，残留的 25 个英文 UI 字符串也已补译。
 
-ModuleManager 最近一次完整启动：**33440 个补丁、0 错误、1 个 TURD 换色警告**；
+ModuleManager 最近一次完整启动：**33500 个补丁、0 错误、1 个 TURD 换色警告**；
 `BDA_CN_Info` 成功替换 23 个武器/导弹信息方法。
 
 ## 已安装的 BDA 部件包
@@ -72,6 +72,17 @@ PartModule（`BDACategoryModule`、`BDALookConstraintUp`、`AnimatedIntake`）
 在 Kerbin、月球和轨道提供防空、对地、反舰、太空拦截与武器测试合同。
 自带 `zh-cn`；其对地、反舰、太空和测试合同残留的 99 个英文键已由
 `ZZZ_BDA_CN/Localization/UI/KomUniMun_zh.cfg` 补全。
+
+原包的普通战斗合同 `science = 0`，只有测试合同给 0.5–2.5 科研点。
+`ZZZ_BDA_CN/Patches/KUM_MilitaryScience.cfg` 已给全部 60 个合同追加：
+
+```text
+rewardScience = 原科研 + 合同资金 / 1500
+```
+
+例如 9000 资金合同约给 6 科研点，14000 资金合同约给 9.3 科研点；
+测试合同会在此之上再加原本的 0.5–2.5。想更快把 `1500` 改成 `1000`，
+想更慢改成 `2500`。
 
 旧的 **Defense Combat Advisors (DCA)** 依赖 `BDArmoryContinued`，与 BDA+ 冲突，
 因此没有安装。

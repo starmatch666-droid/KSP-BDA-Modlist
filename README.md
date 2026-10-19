@@ -66,6 +66,10 @@ North Kerbin Dynamics Renewed-Extended、TURD、BK Weapons、Kerbal Powers Armor
 Fishy Weapons Pack、Fox Defense Contracts。旧 BDAc 分支、联机包与不兼容的
 BDA UI Team Icons 未安装。
 
+军事合同包使用 KomUniMun Contractual Warfare；原包战斗合同不给科研点，
+已由 `ZZZ_BDA_CN/Patches/KUM_MilitaryScience.cfg` 按合同资金追加科研奖励，
+使其可以支撑“军事承包商”生涯的科技树。
+
 ## 保留的核心
 
 - **飞行/空战**：AtmosphereAutopilot、B9 Procedural Wings、CorrectCoL、Trajectories、
