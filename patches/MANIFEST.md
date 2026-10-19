@@ -1,6 +1,6 @@
 # 补丁文件清单与校验和
 
-共 117 个文件。SHA256 以 `patches/SHA256SUMS.txt` 为准。
+共 121 个文件。SHA256 以 `patches/SHA256SUMS.txt` 为准。
 
 | 文件 | 大小 | SHA256（前 16 位） |
 |---|---:|---|
@@ -18,6 +18,10 @@
 | `Endurance_适配/Endurance_RangerThermal.cfg` | 1.9 KB | `af3077118d8832ef` |
 | `Endurance_适配/Endurance_RangerUI.cfg` | 8.0 KB | `233b302550dfd9ea` |
 | `Endurance_适配/Endurance_适配.cfg` | 3.1 KB | `a1d222055f4ecd7d` |
+| `FAR_ModdedAeroPatches/Fishy_ImprovedWings.cfg` | 1.6 KB | `e975bea8be9bac96` |
+| `FAR_ModdedAeroPatches/ModBodyLiftCleanup.cfg` | 2.9 KB | `64c3c6060c066a16` |
+| `FAR_ModdedAeroPatches/README.md` | 4.0 KB | `b5a3e4cfafad86b4` |
+| `FAR_ModdedAeroPatches/SpikeX_Wings.cfg` | 3.5 KB | `abc58e097869d88c` |
 | `KISA_Fixes/AgroponicsFertilizer.cfg` | 2.2 KB | `75339b12c12253db` |
 | `KISA_Fixes/CapComCC/CapComCC.dll` | 7.0 KB | `4febad64109204c3` |
 | `KISA_Fixes/LabOneScientist.cfg` | 1.1 KB | `9c4ae4da29df44ec` |

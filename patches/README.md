@@ -18,6 +18,7 @@
 | `DSH_Plugins` | 独立插件 | 喷气发动机反推/换向控制 | 无额外依赖 | **保留**（适合 BDA 喷气机） |
 | `Endurance_适配` | MM 配置 | Endurance 漫游者号电力、热控、USI/Cryo 兼容 | Endurance、USI-LS、CryoTanks | **随 Endurance 删除** |
 | `Endurance_CN` | MM 配置 | Endurance 部件与 PAW 简体中文 | Endurance | **随 Endurance 删除** |
+| `FAR_ModdedAeroPatches` | MM 配置 | 让 SpikeX / Fishy 的机翼与舵面接入 FAR，并清理第三方部件残留的原版升力面 | FAR Continued；SpikeX、fishy、Mk2Expansion、NearFutureSpacecraft 等 | **保留** |
 | `MLP_CN` | MM 配置 | Modular Launch Pads 简体中文 | ModularLaunchPads | **随 MLP 删除** |
 | `ZZZ_GC_CN` | MM 配置 + Harmony 插件 | GroundConstruction 部件与界面简体中文 | GroundConstruction、Harmony | **随 GroundConstruction 删除** |
 | `ZZZ_USI_CN` | MM 配置 | Konstruction / USI-LS / Akita 简体中文 | USI 系列 | **随 USI 删除** |
@@ -44,4 +45,7 @@
   分别针对 Mk-33、USI-LS 等模组；对应模组删除后，这些配置不会被任何部件匹配。
 - `DSH_Plugins` 目前只有编译好的 DLL，源码暂未找到；如果后续要维护，建议补一份
   `.cs` 与构建脚本。
+- `FAR_ModdedAeroPatches` 里 SpikeX 机翼的翼展/弦长/后掠角是按 `.mu` 模型测量得到的
+  近似值（其余部件沿用原版或模组自带数据）；实飞手感不对时按目录内 `README.md`
+  调整 `ctrlSurfFrac` / `maxdeflect` / `b_2` / `MAC` 即可。
 - 所有补丁按“原样提供”分发；第三方模组本体与其美术资源仍遵循各自许可证。
