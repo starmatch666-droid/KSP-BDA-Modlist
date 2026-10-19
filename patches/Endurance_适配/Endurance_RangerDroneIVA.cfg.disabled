@@ -1,0 +1,100 @@
+// ============================================================================
+//  漫游者号：加一个"无人控制室"IVA 视角（参考探针核心的做法）
+//  作者：Codex  2026-10-13
+//
+//  ── 需求 ───────────────────────────────────────────────────────────
+//    想要像无人指令模块那样，没人也能进 IVA 看画面。
+//
+//  ── 为什么原来没有（ProbeControlRoom 的挂载条件）────────────────────
+//    ProbeControlRoom 的 cfg 里只给同时满足这三条的零件挂控制室：
+//        HAS[@MODULE[ModuleCommand] & !INTERNAL & #CrewCapacity[0]]
+//      ① 有指令模块                 —— 漫游者号 ✓
+//      ② 没有自己的 INTERNAL        —— 漫游者号有 rangerInternal ✗
+//      ③ CrewCapacity = 0           —— 漫游者号是 6（本来 4）✗
+//    所以它一直落在三个条件之外，拿不到那个"任务控制室"IVA。
+//
+//  ── 本文件的写法 ───────────────────────────────────────────────────
+//    照抄 ProbeControlRoom 自己的 PROBECONTROLROOM_CONFIG 结构，把三样东西
+//    挂到 ENrangerBody 上：
+//      · ProbeControlRoomPart        —— PCR 的核心模块（让无人船也能进 IVA）
+//      · ModuleIVASwitch             —— Reviva 的 IVA 切换模块
+//      · ModuleB9PartSwitch(IVASwitch) —— 面板上的切换器，两个选项：
+//            任务控制室（无人） = MissionControl_ASET   （PCR 的默认布局，你装了 ASET）
+//            漫游者号座舱       = rangerInternal        （它原来的座舱，保持不变）
+//    默认仍停在"漫游者号座舱"，需要时在 PAW 里切换。想反过来把控制室设成默认，
+//    把下面 ModuleIVASwitch 的 internalName 改成 MissionControl_ASET 即可。
+//
+//    RasterPropMonitorComputer 没有重复添加：漫游者号本来就有（JSI 兼容补丁加的）。
+//
+//  只作用于 ENrangerBody。删掉本文件即完全还原（IVA 回到只有座舱一个）。
+// ============================================================================
+
+@PART[ENrangerBody]:NEEDS[ProbeControlRoom]:FINAL
+{
+	// ---- PCR 核心模块：无人也能进 IVA ----
+	MODULE
+	{
+		name = ProbeControlRoomPart
+	}
+
+	// ---- Reviva 的 IVA 切换 ----
+	MODULE:NEEDS[RevIVA]
+	{
+		name = ModuleIVASwitch
+		internalName = rangerInternal
+	}
+
+	// ---- 面板上的切换器（照抄 PCR 默认配置的结构）----
+	MODULE:NEEDS[RevIVA]
+	{
+		name = ModuleB9PartSwitch
+		moduleID = IVASwitch
+		switcherDescription = IVA
+		switcherDescriptionPlural = IVAs
+		switchInFlight = true
+		uiGroupName = IVASwitch
+		uiGroupDisplayName = IVA 切换
+
+		SUBTYPE
+		{
+			name = MissionControl_ASET
+			title = 任务控制室（无人）
+			primaryColor = White
+			secondaryColor = White
+			descriptionSummary = 无人控制室
+			descriptionDetail = 使用 ProbeControlRoom 的任务控制室布局（ASET 道具）。
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleIVASwitch
+				}
+				DATA
+				{
+					internalName = MissionControl_ASET
+				}
+			}
+		}
+
+		SUBTYPE
+		{
+			name = rangerInternal
+			title = 漫游者号座舱
+			primaryColor = Green
+			secondaryColor = White
+			descriptionSummary = 原生座舱
+			descriptionDetail = 漫游者号自带的座舱 IVA（含 6 块 RPM 屏），保持不变。
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleIVASwitch
+				}
+				DATA
+				{
+					internalName = rangerInternal
+				}
+			}
+		}
+	}
+}
