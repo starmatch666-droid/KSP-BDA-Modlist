@@ -88,7 +88,7 @@
 | `ZZZ_BDA_CN/Patches/Fishy_zh.cfg` | 18.4 KB | `47cf9ce71c83efc3` |
 | `ZZZ_BDA_CN/Patches/FoxAmmo_zh.cfg` | 397 B | `81ab2fbfe2aaad2e` |
 | `ZZZ_BDA_CN/Patches/FoxDefense_zh.cfg` | 37.9 KB | `e35d73e7a627d9cc` |
-| `ZZZ_BDA_CN/Patches/KUM_MilitaryScience.cfg` | 430 B | `e20c7ebd80980d87` |
+| `ZZZ_BDA_CN/Patches/KUM_MilitaryScience.cfg` | 426 B | `c51838dfb2c5f3ab` |
 | `ZZZ_BDA_CN/Patches/NKDR_zh.cfg` | 9.6 KB | `fbccdc5a242f0e63` |
 | `ZZZ_BDA_CN/Patches/PartText_zh.cfg` | 4.6 KB | `513e5180d75ab53e` |
 | `ZZZ_BDA_CN/Patches/VABOrganizer_zh.cfg` | 3.5 KB | `15990400c90317ed` |

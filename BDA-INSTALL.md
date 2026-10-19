@@ -77,12 +77,12 @@ PartModule（`BDACategoryModule`、`BDALookConstraintUp`、`AnimatedIntake`）
 `ZZZ_BDA_CN/Patches/KUM_MilitaryScience.cfg` 已给全部 60 个合同追加：
 
 ```text
-rewardScience = 原科研 + 合同资金 / 700 + 2
+rewardScience = 原科研 + 合同资金 / 300 + 5
 ```
 
-例如 5500 资金合同约给 9.9 科研点，9000 资金约给 14.9，14000 资金约给 22；
-测试合同会在此之上再加原本的 0.5–2.5。想更快把 `700` 改成 `500`，
-想更慢改成 `1000`。
+例如 5500 资金合同约给 23.3 科研点，9000 资金约给 35，14000 资金约给 51.7；
+测试合同会在此之上再加原本的 0.5–2.5。想更快把 `300` 改成 `200`，
+想更慢改成 `500`。
 
 ## BDA 科技树分布
 
