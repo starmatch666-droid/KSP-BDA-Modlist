@@ -6,6 +6,7 @@ BDA+ 1.13.x 自带 `zh-cn` 词条，但新增的 AI 设置、轰炸、装甲工�
 另外包含：
 
 - `Patches/VABOrganizer_zh.cfg`：BDA 的 VABOrganizer 子分类中文
+- `Patches/PartText_zh.cfg`：Mk1 Open Cockpit Type 2、BD 装甲板等硬编码部件文本
 - `Plugins/BDA_CN_Categories.dll`：把 BDA 编辑器顶部的分类按钮显示名
   （Guns/Gun turrets/Missiles 等）换成中文，但不改变过滤用的英文键
 

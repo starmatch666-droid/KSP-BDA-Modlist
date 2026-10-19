@@ -1,6 +1,6 @@
 # 补丁文件清单与校验和
 
-共 98 个文件。SHA256 以 `patches/SHA256SUMS.txt` 为准。
+共 99 个文件。SHA256 以 `patches/SHA256SUMS.txt` 为准。
 
 | 文件 | 大小 | SHA256（前 16 位） |
 |---|---:|---|
@@ -78,10 +78,11 @@
 | `WormholeRelay/Source/WormholeRelay.cs` | 7.0 KB | `592f21046ea77cb1` |
 | `WormholeRelay/WormholeRelay.cfg` | 942 B | `b88489347d424cd4` |
 | `ZZZ_BDA_CN/Localization/UI/zh-cn-extra.cfg` | 14.4 KB | `3d9cb4287d8e3d2d` |
+| `ZZZ_BDA_CN/Patches/PartText_zh.cfg` | 4.6 KB | `513e5180d75ab53e` |
 | `ZZZ_BDA_CN/Patches/VABOrganizer_zh.cfg` | 3.2 KB | `2f6d7408ec5cc48c` |
 | `ZZZ_BDA_CN/Plugins/BDA_CN_Categories.cs` | 2.6 KB | `fe6c644b5285ec46` |
 | `ZZZ_BDA_CN/Plugins/BDA_CN_Categories.dll` | 6.0 KB | `6d8f05b99c6d064e` |
-| `ZZZ_BDA_CN/README.md` | 990 B | `f922af15116653ca` |
+| `ZZZ_BDA_CN/README.md` | 1.1 KB | `d3b39c4f3067f25e` |
 | `ZZZ_FAR_CN/Localization_zh-cn.cfg` | 16.6 KB | `1b3c3ef593dece40` |
 | `ZZZ_FAR_CN/README.md` | 691 B | `189ddde461fd7eee` |
 | `ZZZ_GC_CN/Localization/GroundConstruction_en-us.cfg` | 2.8 KB | `d78ce6ce70a65bb8` |
