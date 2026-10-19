@@ -2,7 +2,7 @@
 
 **勾选 = 想删。** 勾选不会立刻删除文件；把勾好的清单发给我，或直接告诉我勾了哪些，我再按名单执行。
 
-当前共 **148** 个 GameData 顶层目录。
+当前共 **154** 个 GameData 顶层目录。
 
 
 ## 基础框架 / 前置
@@ -15,6 +15,7 @@
 - [ ] **Textures Unlimited**（无限纹理着色库）— 金属度/贴图着色框架，Near Future 换色与 ReStock 外观会用到。
 - [ ] **Toolbar Controller**（工具栏控制器）— 统一管理 Blizzy/原版工具栏按钮。
 - [ ] **B9 Part Switch**（B9 部件切换）— 部件模型/资源/节点切换框架，大量部件包的前置。
+- [ ] **BahamutoD Animation Modules**（BahamutoD 动画模块）— BDA/旧式部件动画模块库，供使用 BDAnimator 的部件播放动画。
 - [ ] **BDArmory Plus**（BDA 军械库 Plus（单机版））— 标准单机 BDA+ 1.13.1.0；武器、雷达、导弹、炮塔与 AI。
 - [ ] **Community Category Kit**（社区分类套件）— 社区通用部件分类。
 - [ ] **Community Resource Pack**（社区资源包）— 社区通用资源定义，Near Future/Cryo/USI 等共用。
@@ -163,7 +164,12 @@
 - [ ] **Refurbished Armory**（翻新军械库）— 重制 BDArmory、Malfunc、PEW 等旧武器包，加入现代 BDA+ 兼容部件。
 - [ ] **BD Modular Missile Parts**（BDA 模块化导弹部件）— BDA 自定义导弹的程序化弹体、弹头、SRB 与发射管。
 - [ ] **BK Weapons Pack**（BK 武器包）— Bilikerman 工业武器包，含额外机炮与弹药。
+- [ ] **FDC Armor**（Fox 装甲兼容）— Fox Defense Contracts 的装甲与伤害兼容配置，为坦克部件提供 BDA 装甲和碰撞数据。
+- [ ] **Fishy Mod Core**（Fishy 武器核心）— Fishy 武器包的共享模型、贴图、音效与资源。
+- [ ] **Fishy Weapons Pack**（Fishy 武器包）— 105 个机炮、导弹、炸弹、雷达、激光与核武器部件。
+- [ ] **Fox Defense Contracts**（Fox 防务合同）— 209 个二战至现代坦克/自行火炮炮塔、机炮、炸弹与地雷部件。
 - [ ] **Kerbal Advanced Defense Reborn**（坎巴拉先进防御重制）— 现代防空导弹、雷达与防空系统部件包。
+- [ ] **Kerbal Powers Armory + Core**（坎巴拉强权军械库）— 32 个现代舰炮、导弹、雷达与弹道武器部件；含 Kerbal Powers Core 机构与本地化。
 - [ ] **Lithobrake Exploration Technologies**（LET 探索部件）— 原版风格着陆腿、梯子、居住舱等探索部件。
 - [ ] **Mk2 Expansion**（Mk2 扩展）— Mk2 机身扩展部件包。
 - [ ] **Mk3 Expansion**（Mk3 扩展）— Mk3 机身扩展部件包。

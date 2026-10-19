@@ -1,10 +1,10 @@
 {
     "spec_version": "v1.6",
     "identifier": "",
-    "name": "已安装-自定义",
-    "abstract": "已安装在 KSP 实例 自定义 的模组列表",
+    "name": "已安装-可移动",
+    "abstract": "已安装在 KSP 实例 可移动 的模组列表",
     "author": "STARM",
-    "version": "2026.10.19.09.43.16",
+    "version": "2026.10.19.11.38.39",
     "ksp_version_min": "1.8",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -13,10 +13,16 @@
             "name": "ModuleManager"
         },
         {
-            "name": "Harmony2"
+            "name": "PhysicsRangeExtender"
+        },
+        {
+            "name": "BDArmoryForRunwayProject"
         },
         {
             "name": "ASETAgency"
+        },
+        {
+            "name": "Harmony2"
         },
         {
             "name": "ASETProps"
@@ -28,22 +34,10 @@
             "name": "ASETAvionics"
         },
         {
-            "name": "FinalFrontier"
-        },
-        {
             "name": "NearFutureProps"
         },
         {
-            "name": "FilterExtensions"
-        },
-        {
             "name": "KSPBurst-Lite"
-        },
-        {
-            "name": "NearFutureElectrical-Core"
-        },
-        {
-            "name": "NearFuturePropulsion"
         },
         {
             "name": "NearFutureSpacecraft"
@@ -55,19 +49,13 @@
             "name": "VesselView"
         },
         {
-            "name": "VesselView-UI-Toolbar"
+            "name": "VesselView-UI-RasterPropMonitor"
         },
         {
             "name": "AvionicsSystems"
         },
         {
             "name": "Chatterer"
-        },
-        {
-            "name": "CommunityCategoryKit"
-        },
-        {
-            "name": "ContractConfigurator"
         },
         {
             "name": "FirespitterCore"
@@ -79,13 +67,22 @@
             "name": "IndicatorLights"
         },
         {
+            "name": "KerbalAtomics"
+        },
+        {
+            "name": "KerbalAtomics-NTRsUseLF"
+        },
+        {
             "name": "KSPBurst"
         },
         {
             "name": "ModularFlightIntegrator"
         },
         {
-            "name": "NearFutureElectrical"
+            "name": "NearFutureElectrical-Core"
+        },
+        {
+            "name": "NearFuturePropulsion"
         },
         {
             "name": "NearFutureSolar"
@@ -106,16 +103,22 @@
             "name": "ASET-PRC"
         },
         {
-            "name": "Astrogator"
+            "name": "AtmosphereAutopilot"
         },
         {
-            "name": "AtmosphereAutopilot"
+            "name": "AviatorArsenal"
         },
         {
             "name": "B9-PWings-Fork"
         },
         {
-            "name": "Benjee10Suits"
+            "name": "BDAnimationModules"
+        },
+        {
+            "name": "BDModularMissileParts"
+        },
+        {
+            "name": "BDArmoryExtended"
         },
         {
             "name": "BetterBurnTime"
@@ -124,7 +127,7 @@
             "name": "BetterTimeWarpCont"
         },
         {
-            "name": "CapCom"
+            "name": "BKWeaponsPack"
         },
         {
             "name": "ChattererExtended"
@@ -142,6 +145,9 @@
             "name": "CommNetAntennasInfo"
         },
         {
+            "name": "CommunityCategoryKit"
+        },
+        {
             "name": "CommunityTechTree"
         },
         {
@@ -151,16 +157,10 @@
             "name": "ConformalDecals"
         },
         {
-            "name": "ContractsWindowPlus"
+            "name": "ContractConfigurator"
         },
         {
             "name": "CorrectCoL"
-        },
-        {
-            "name": "CrewLight"
-        },
-        {
-            "name": "CryoEngines-NFAero"
         },
         {
             "name": "CustomPreLaunchChecks"
@@ -169,22 +169,10 @@
             "name": "DE-IVAExtension"
         },
         {
-            "name": "DeepFreeze"
-        },
-        {
             "name": "Deferred"
         },
         {
-            "name": "DMagicOrbitalScience"
-        },
-        {
             "name": "DockRotate"
-        },
-        {
-            "name": "DockingCamKURS"
-        },
-        {
-            "name": "DockingPortAlignmentIndicator"
         },
         {
             "name": "EasyVesselSwitch"
@@ -193,19 +181,16 @@
             "name": "EditorExtensionsRedux"
         },
         {
-            "name": "STMsFFRibbonPackEngineeringRoles"
-        },
-        {
             "name": "FerramAerospaceResearchContinued"
-        },
-        {
-            "name": "FilterExtensionsDefaultConfig"
         },
         {
             "name": "Firefly"
         },
         {
-            "name": "FreeIva"
+            "name": "FishyAntiMissileSpam"
+        },
+        {
+            "name": "FoxDefenseContracts"
         },
         {
             "name": "HangerExtenderExtended"
@@ -223,13 +208,10 @@
             "name": "JSIAdvancedTransparentPods"
         },
         {
+            "name": "KerbalAdvancedDefenseReborn"
+        },
+        {
             "name": "KerbalAlarmClock"
-        },
-        {
-            "name": "KerbalAtomics"
-        },
-        {
-            "name": "KAS"
         },
         {
             "name": "KerbalFlightIndicators"
@@ -238,13 +220,13 @@
             "name": "KerbalFoundriesContinued"
         },
         {
-            "name": "KIS"
-        },
-        {
             "name": "KerbalJointReinforcementNext"
         },
         {
             "name": "KerbalPlanetEmblems"
+        },
+        {
+            "name": "KerbalPowersArmory"
         },
         {
             "name": "KerbalShipEmblems2D"
@@ -271,9 +253,6 @@
             "name": "LowEndVolumetricCloudsMod"
         },
         {
-            "name": "LunaMultiplayer"
-        },
-        {
             "name": "MechJeb2"
         },
         {
@@ -289,13 +268,7 @@
             "name": "Mk3Expansion"
         },
         {
-            "name": "MoarFEConfigs"
-        },
-        {
             "name": "NavHudRenewed"
-        },
-        {
-            "name": "NavUtilitiesUpdated"
         },
         {
             "name": "NearFutureAeronautics"
@@ -304,7 +277,7 @@
             "name": "NearFutureConstruction"
         },
         {
-            "name": "NearFutureElectrical-DecayingRTGs"
+            "name": "NearFutureElectrical"
         },
         {
             "name": "NearFutureExploration"
@@ -313,13 +286,10 @@
             "name": "NearFutureLaunchVehicles"
         },
         {
-            "name": "NearFuturePropulsion-XenonHETs"
-        },
-        {
             "name": "NearFutureSpacecraft-OrbitalLFOEngines"
         },
         {
-            "name": "STMsFFRibbonPackOperationsRoles"
+            "name": "NorthKerbinDynamicsRenewedExtended"
         },
         {
             "name": "PatchManager"
@@ -328,34 +298,13 @@
             "name": "PersistentRotationUpgraded"
         },
         {
-            "name": "PhysicsRangeExtender"
-        },
-        {
             "name": "PlanetInfoPlus"
         },
         {
             "name": "ProbeControlRoomRecontrolled"
         },
         {
-            "name": "QuickExit"
-        },
-        {
-            "name": "QuickGoTo"
-        },
-        {
-            "name": "QuickHide"
-        },
-        {
-            "name": "QuickIVA"
-        },
-        {
-            "name": "QuickSearch"
-        },
-        {
             "name": "RasterPropMonitor"
-        },
-        {
-            "name": "RCSBuildAidCont"
         },
         {
             "name": "RealChute"
@@ -367,13 +316,13 @@
             "name": "RecolorCollection-NearFutureSpacecraft"
         },
         {
+            "name": "RefurbishedArmory"
+        },
+        {
             "name": "RestockWaterfallExpansion"
         },
         {
             "name": "ReStockPlus"
-        },
-        {
-            "name": "ReStrategia"
         },
         {
             "name": "Reviva"
@@ -383,15 +332,6 @@
         },
         {
             "name": "SCANsat"
-        },
-        {
-            "name": "ScienceRolesFinalFrontierRibbonPack"
-        },
-        {
-            "name": "ShipManifest"
-        },
-        {
-            "name": "SpaceDustNext"
         },
         {
             "name": "SpacetuxSA"
@@ -424,13 +364,7 @@
             "name": "SystemHeat-Harvesters"
         },
         {
-            "name": "TarsierSpaceTechnologyWithGalaxies"
-        },
-        {
             "name": "TextureReplacer"
-        },
-        {
-            "name": "JanitorsCloset"
         },
         {
             "name": "ThrottleControlledAvionics"
@@ -443,6 +377,12 @@
         },
         {
             "name": "TransferWindowPlannerFork"
+        },
+        {
+            "name": "TURD-BDArmory"
+        },
+        {
+            "name": "TURD-BDAssociated"
         },
         {
             "name": "TweakScaleRescaled"
@@ -460,7 +400,7 @@
             "name": "VertikalSpeedIndicator"
         },
         {
-            "name": "VesselView-UI-RasterPropMonitor"
+            "name": "VesselView-UI-Toolbar"
         },
         {
             "name": "WaypointManager"
@@ -469,6 +409,6 @@
             "name": "ZTheme"
         }
     ],
-    "release_date": "2026-10-19T17:43:16.7953005+08:00",
+    "release_date": "2026-10-19T19:38:39.7920074+08:00",
     "kind": "metapackage"
 }

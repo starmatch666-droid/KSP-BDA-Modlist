@@ -2,15 +2,18 @@
 
 ## 结果
 
-| 项 | 删除前 | 删除后 |
+| 项 | 删除前 | 删除后（第二轮结束时） |
 |---|---:|---:|
 | GameData 顶层目录 | 222 | 148 |
 | CKAN 记录模块 | 251 | 158 |
 | GameData 体积 | 16.82 GB | 7.27 GB |
 | 释放空间 | — | **约 9.55 GB** |
 
+上表是第二轮清理结束时的快照。后续取消联机并补装全部兼容 BDA 部件包后，
+当前为 **154 个顶层目录、164 个 CKAN 模块、8.96 GB**；详见文末第四轮。
+
 最初名单 54 个顶层目录。经过两轮调整，相对原始 222 个目录实际移除了 58 个，
-并新增了 Final Frontier 的 `STMRibbons`，当前 165 个。`Kopernicus`、
+并新增了 Final Frontier 的 `STMRibbons`，当时为 165 个。`Kopernicus`、
 `WildBlueIndustries\001KerbalActuators` 以及后来恢复的 Mk2/Mk3/SXT/KSCExtended
 及其配套建筑都在。CKAN 管理的部分已用 `ckan remove` 注销，手工安装的部分已移出
 `GameData`。目录没有直接永久删除：原件都在
@@ -118,13 +121,24 @@ Parallax 与三套纹理已在第二轮按要求删除。
 - Final Frontier 与三个角色绶带包在连带删除后也已重新安装，`Nereid` 与
   `STMRibbons` 目录已恢复。
 
-## 当前需要补的东西
+## 第四轮：取消联机后补装全部兼容 BDA 部件（2026-10-19）
 
-- **BDArmory Continued 尚未安装**。
-- BDA 的 CKAN 依赖 `ModuleManager` 已有；`PhysicsRangeExtender` 尚未安装，
-  安装 BDA 时 CKAN 会自动带上。
-- 如果还要装 BDA 的扩展包（BDArmoryExtended、BDModularMissileParts 等），
-  再按需安装，不要一次把旧的主题包全装回来。
+- 补装 `KerbalPowersArmory` + `KerbalPowersCore`：32 个现代舰炮、导弹、雷达与
+  弹道武器；CKAN 元数据明确依赖 `BDArmoryForRunwayProject`。
+- 补装 `FishyAntiMissileSpam` + `Fishy-Mod-Core`：105 个机炮、导弹、炸弹、
+  雷达、激光与核武器部件。
+- 补装 `FoxDefenseContracts` + `FDC_Armor`：209 个二战至现代坦克/自行火炮
+  炮塔、机炮、炸弹、地雷与装甲兼容配置。
+- 补装 `BDAnimationModules`，供旧式 BDA 部件播放动画。
+- 中文补丁：Kerbal Powers 146 个词条、Fishy 104 个部件、Fox 209 个部件；
+  `ZZZ_BDA_CN` 同步到仓库。
+- `BDArmoryContinued`、`NorthKerbinDynamicRenewed` 与 BDA+ 冲突；
+  `BDArmoryMultiplayer` 随联机取消；`BDAUITeamIcons` 引用旧 BDA 1.3.6.4，
+  仍不安装。
+- `KISA_Fixes\VABOrganizer_SubcategoryFix.cfg` 中两个部件名列表含制表符，
+  已清除；ModuleManager 最近一次完整启动为 **31798 个补丁、0 错误、1 个警告**。
+
+当前 GameData：**154 个顶层目录、164 个 CKAN 模块、8.96 GB**。
 
 ## 回滚
 

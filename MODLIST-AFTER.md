@@ -2,13 +2,13 @@
 
 - 快照时间：2026-10-19
 - KSP：1.12.5（zh-cn，Steam）
-- GameData 顶层目录：**148** 个
-- CKAN 已记录模块：**158** 个
-- GameData 总体积：**7.27 GB**
-- 删除后仍存在的顶层目录：**148** 个
+- GameData 顶层目录：**154** 个
+- CKAN 已记录模块：**164** 个
+- GameData 总体积：**8.96 GB**
+- 删除后仍存在的顶层目录：**154** 个
 - 可选项（IVA/视觉/科学等，按需保留）：约 **126 MB**
 
-> 这是“当前安装”的盘点，不是推荐安装顺序。BDA+ LMP 版依赖
+> 这是“当前安装”的盘点，不是推荐安装顺序。BDA+ 标准单机版依赖
 > ModuleManager 与 PhysicsRangeExtender；下面标为“必留”的多数是飞行、建造、
 > 通信与 Near Future 推进等对空战/飞行有用的基础设施。
 
@@ -29,7 +29,7 @@
 
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
-| `KSPCommunityFixes` | KSP Community Fixes | 社区维护的大量底层 bug 修复与性能改进，必留。 | 1:1.41.1 | ✅ 必留 | 853 MB |
+| `KSPCommunityFixes` | KSP Community Fixes | 社区维护的大量底层 bug 修复与性能改进，必留。 | 1:1.41.1 | ✅ 必留 | 955 MB |
 | `000_KSPBurst` | KSPBurst | Burst 编译器与粒子/着色器优化库；体积大但属于性能基础设施。 | v1.7.4.11 | ✅ 必留 | 391 MB |
 | `BDArmory` | BDArmory Plus | 标准单机 BDA+ 1.13.1.0；武器、雷达、导弹、炮塔与 AI。<br>注：CKAN 包 BDArmoryForRunwayProject；多人联机已取消。 | 2:v1.13.1.0 | ✅ 必留 | 57 MB |
 | `Kopernicus` | Kopernicus | 行星模组框架；Kerbal Planet Emblems 仍需要它，行星包与 Parallax 删除后保留本体。<br>注：不再安装 Kcalbeloh/OPM/Parallax，但星球徽章依赖此框架。 | 2:release-1.12.1-251 | ✅ 必留 | 20 MB |
@@ -39,6 +39,7 @@
 | `000_Harmony` | Harmony2 | 运行时方法补丁库，大量插件的前置。 | 2.2.1.0 | ✅ 必留 | <1 MB |
 | `000_AT_Utils` | AT Utils | Allista 系列模组的通用工具库（资源、动画、UI 辅助）。 | v1.10.1 | ✅ 必留 | <1 MB |
 | `SpaceTuxLibrary` | SpaceTux Library | SpaceTux 系列模组的通用库。 | 0.0.9 | ✅ 必留 | <1 MB |
+| `BahaSP` | BahamutoD Animation Modules | BDA/旧式部件动画模块库，供使用 BDAnimator 的部件播放动画。 | 1:v0.6.7.1 | ✅ 必留 | <1 MB |
 | `B9PartSwitch` | B9 Part Switch | 部件模型/资源/节点切换框架，大量部件包的前置。 | v2.21.0.4 | ✅ 必留 | <1 MB |
 | `KSPWheel` | KSPWheel | 轮子/悬挂物理库，Kerbal Foundries 等使用。 | 1:0.16.14.33 | ✅ 必留 | <1 MB |
 | `CommunityCategoryKit` | Community Category Kit | 社区通用部件分类。 | v112.0.1 | ✅ 必留 | <1 MB |
@@ -200,17 +201,22 @@
 
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
+| `FoxDefenseContracts` | Fox Defense Contracts | 209 个二战至现代坦克/自行火炮炮塔、机炮、炸弹与地雷部件。 | 2.2.1 | ✅ 必留 | 1.43 GB |
 | `NKDR` | North Kerbin Dynamics Renewed-Extended | 核武器、重型火炮、巡航导弹与大型爆炸物。 | 0.1.2 | ✅ 必留 | 262 MB |
+| `fishy_weapons_dev` | Fishy Weapons Pack | 105 个机炮、导弹、炸弹、雷达、激光与核武器部件。 | 1:0.10.0 | ✅ 必留 | 108 MB |
 | `SXT` | SXTContinued | 内存占用较低的原版风格部件扩展包。 | 2:0.3.31.1 | ✅ 必留 | 96 MB |
 | `ReStockPlus` | ReStock+ | 补充原版缺口的部件。 | 1.5.1 | ✅ 必留 | 65 MB |
 | `BDArmoryRefurbished` | Refurbished Armory | 重制 BDArmory、Malfunc、PEW 等旧武器包，加入现代 BDA+ 兼容部件。 | v1.2.2 | ✅ 必留 | 57 MB |
 | `BDArmoryExtended` | BDArmory Extended | BDA+ 半官方扩展，补充武器、雷达、部件与功能示例。 | 1:1.5.3 | ✅ 必留 | 56 MB |
+| `KerbalPowers` | Kerbal Powers Armory + Core | 32 个现代舰炮、导弹、雷达与弹道武器部件；含 Kerbal Powers Core 机构与本地化。 | v1.2.3 / v1.1 | ✅ 必留 | 49 MB |
 | `Mk2Expansion` | Mk2 Expansion | Mk2 机身扩展部件包。 | 2:1.9.1.4 | ✅ 必留 | 42 MB |
 | `Mk3Expansion` | Mk3 Expansion | Mk3 机身扩展部件包。 | 1.6.1.4 | ✅ 必留 | 36 MB |
 | `ProceduralParts` | Procedural Parts | 程序化油箱、SRB 与结构件。 | v2.8.0.0 | ✅ 必留 | 34 MB |
 | `AviatorArsenal` | Aviator Arsenal Continued | 二战风格航空机炮、炸弹、火箭与挂架部件包。 | 1.5.5 | ✅ 必留 | 31 MB |
 | `KerbalAdvancedDefenseReborn` | Kerbal Advanced Defense Reborn | 现代防空导弹、雷达与防空系统部件包。 | V0.4 | ✅ 必留 | 18 MB |
 | `BDModularMissileParts` | BD Modular Missile Parts | BDA 自定义导弹的程序化弹体、弹头、SRB 与发射管。 | v3.0 | ✅ 必留 | 5.6 MB |
+| `Fishy-Mod-Core` | Fishy Mod Core | Fishy 武器包的共享模型、贴图、音效与资源。 | 1.1.5a | ✅ 必留 | 3.6 MB |
+| `FDC_Armor` | FDC Armor | Fox Defense Contracts 的装甲与伤害兼容配置，为坦克部件提供 BDA 装甲和碰撞数据。 | 2.2.1 | ✅ 必留 | 1.4 MB |
 | `BilikermanIndustry` | BK Weapons Pack | Bilikerman 工业武器包，含额外机炮与弹药。 | Pre_0.1.2 | ✅ 必留 | 1.3 MB |
 | `LithobrakeExplorationTechnologies` | Lithobrake Exploration Technologies | 原版风格着陆腿、梯子、居住舱等探索部件。 | 0.6.2 | ◻️ 可选 | 8.5 MB |
 
@@ -235,8 +241,8 @@
 |---|---|---|---|---|---:|
 | `KISA_Flags` | KISA Flags | 自制：KISA 机构任务旗与 EVE 任务特别版。 | 手工 | ✅ 必留 | 5.4 MB |
 | `KISA_FlagsAgency` | KISA Flags Agency | 自制：KISA 机构徽章与方形贴花。 | 手工 | ✅ 必留 | 2.9 MB |
-| `KISA_Fixes` | KISA Fixes | 自制：生涯存档用的杂项修复（USI 资源、CapCom、VAB 分类、Endurance 移除等）。 | 手工 | ✅ 必留 | <1 MB |
 | `ZZZ_BDA_CN` | BDA+ 中文补充 | 自制：补 BDA+ 1.13.x 官方 zh-cn 尚未覆盖的 186 个 UI 键。 | 手工 | ✅ 必留 | <1 MB |
+| `KISA_Fixes` | KISA Fixes | 自制：生涯存档用的杂项修复（USI 资源、CapCom、VAB 分类、Endurance 移除等）。 | 手工 | ✅ 必留 | <1 MB |
 | `RealChute_CN` | RealChute 中文补丁 | 自制：RealChute 界面与预设的简体中文 Harmony 插件。 | 手工 | ✅ 必留 | <1 MB |
 | `DSH_Plugins` | Engine Thrust Reverser | 自制插件：为喷气发动机提供反推/换向控制。 | 手工 | ✅ 必留 | <1 MB |
 

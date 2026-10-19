@@ -1,0 +1,152 @@
+#LOC_KPDynamics_SnoopLarge_title	SNOOP-7(V)3 Large Phased Array Radar
+#LOC_KPDynamics_SnoopLarge_description	The THE/SNOOP-7(V)3 is the largest single phased array radar system ever built. With a fearsome 37 individual scanning cells, it is capable of detecting targets, tracking targets, frying electronics, frying kerbals and frying itself. 
+#LOC_KPDynamics_SnoopLarge_radar	SNOOP-7 Large
+#LOC_KPDynamics_SnoopSmall_title	SNOOP-7(V)1 Small Phased Array Radar
+#LOC_KPDynamics_SnoopSmall_description	The THE/SNOOP-7(V)1 packs cutting edge AESA architecture into a small form factor - with only 9 scanning cells, it is so weak that its operation doesn't pose a danger to anyone - in fact it barely does anything at all!
+#LOC_KPDynamics_SnoopSmall_radar	SNOOP-7 Small
+#LOC_KPDynamics_SnoopRotate_title	SNOOP-R(V)4 Mobile Phased Array Radar
+#LOC_KPDynamics_SnoopRotate_description	The THE/SNOOP-R(V)4 packs 10 AESA scanning cells into a versatile package. The "R" stands for "Rotate"!
+#LOC_KPDynamics_SnoopRotate_radar	SNOOP-R 
+#LOC_KPDynamics_SnoopRotate_Variant_Bare	Bare
+#LOC_KPDynamics_SnoopRotate_Variant_Covered	Protective Covers
+#LOC_KPDynamics_EsperiEye_title	"EsperiEye" AEW&C Radar
+#LOC_KPDynamics_EsperiEye_description	The EsperiEye is an S band AESA radar system designed by Aerfel Industries for airborne surveillance and maritime patrol missions. It provides 300 degrees of coverage at much longer ranges than contemporary fighter radars.
+#LOC_KPDynamics_EsperiEye_radar	EsperiEye
+#LOC_KPDynamics_EsperiEye_Variant_Bare	Bare
+#LOC_KPDynamics_EsperiEye_Variant_Struts	Struts
+#LOC_KPDynamics_Simpson_title	"SIMPSON" Multi-Function Radar
+#LOC_KPDynamics_Simpson_description	While designing this radar, the engineers initially made some mistakes, made some assumptions that were incorrect, and failed out loud, but the SIMPSON is now ready for market. A solid state AESA radar capable of tracking hundreds of targets, it can perform multiple roles but is optimised as the fire control component of a naval air defence system.
+#LOC_KPDynamics_Simpson_radar	SIMPSON
+#LOC_KPDynamics_Simpson_Variant_rods	Lighting Rods
+#LOC_KPDynamics_Simpson_Variant_bare	Bare
+#LOC_KPDynamics_OATS_title	Optical Advanced Targeting System
+#LOC_KPDynamics_OATS_description	The Optical Advanced Targeting System (OATS) is a
+#LOC_KPDynamics_OATS_camera	OATS
+#LOC_KPDynamics_Neolidas_title	"Neolidas" HPM Turret
+#LOC_KPDynamics_Neolidas_description	The Neolidas High-Power Microwave Turret is a directed energy weapon designed to disable swarms of light drones.\nIn testing, prototypes have been responsible for destroying over 12,000 mobile phones.
+#LOC_KPDynamics_Neolidas_weapon	Neolidas
+#LOC_KPDynamics_Lynx_title	KP41 "Axe" IFV Turret
+#LOC_KPDynamics_Lynx_description	The KP41 "Axe" is a versatile IFV turret outfitted with a burst-fire autocannon. Initial designs limited bursts to three and asked "why not more" only for the barrel to melt.
+#LOC_KPDynamics_Lynx_weapon	Axe
+#LOC_KPDynamics_Lynx_Variant_Manned	Manned
+#LOC_KPDynamics_Lynx_Variant_Unmanned	Unmanned
+#LOC_KPDynamics_20_title	20mm Mk7 Naval Gun
+#LOC_KPDynamics_20_description	This light naval gun fires 20mm ammunition. Manufactured by Gladia Ordnance & Ballistics, a subsidiary of Gladia Fleetworks, it can be purchased with a modern shroud or left barren and skeletal.\n\n<color=orange></color>
+#LOC_KPDynamics_20_weapon	20mm Naval
+#LOC_KPDynamics_40_title	40mm Mk4 Naval Gun
+#LOC_KPDynamics_40_description	This light naval gun fires 40mm ammunition. Manufactured by Gladia Ordnance & Ballistics, a subsidiary of Gladia Fleetworks, it comes with a gun.\n\n<color=orange>PFHE is a mass fragmentation round with a customisable Prox fuse and best used against missiles. GP explodes and burns targets, AP penetrates up to 110mm RHA.</color>
+#LOC_KPDynamics_40_weapon	40mm Naval
+#LOC_KPDynamics_57_title	57mm Mk3 Naval Gun
+#LOC_KPDynamics_57_description	This light naval gun fires 57mm ammunition. Manufactured by Gladia Ordnance & Ballistics, a subsidiary of Gladia Fleetworks, it can be purchased with one of two different shrouds - the basic, cheap and boring standard mount of yesterday, or the flashy, monolithic and expensive stealth mount of tomorrow. \n\n<color=orange>Estimated 45% accuracy against a 2x2 target at 8500m. Standard shell simulates proximity HE.</color>
+#LOC_KPDynamics_57_weapon	57mm Naval
+#LOC_KPDynamics_57_Variant_Standard	Standard Shroud
+#LOC_KPDynamics_57_Variant_Stealth	Stealth Shroud
+#LOC_KPDynamics_76_title	76mm Mk62 Naval Gun
+#LOC_KPDynamics_76_description	This medium naval gun fires 76mm ammunition. Manufactured by Gladia Ordnance & Ballistics, a subsidiary of Gladia Fleetworks, it can be outfitted in a variety of configurations - the longstanding domed model, smaller but antiquated with a high radar profile, or the modern and "Super-Rapid" (does not make you go faster) outfits.\n\n<color=orange>\Use the GP round to make things burn and explode, PLA-P to penetrate moderately armoured targets. PF-HE comes with a customisable Prox fuse but has little to no armour piercing.</color>
+#LOC_KPDynamics_76_weapon	76mm Naval
+#LOC_KPDynamics_76_Variant_Standard	Standard
+#LOC_KPDynamics_76_Variant_Super	Super Rapido
+#LOC_KPDynamics_76_Variant_Dome	Dome
+#LOC_KPDynamics_100_title	100mm Mk8 Naval Gun
+#LOC_KPDynamics_100_description	This medium naval gun fires 100mm ammunition. Manufactured by Gladia Ordnance & Ballistics, a subsidiary of Gladia Fleetworks, .\n\n<color=orange></color>
+#LOC_KPDynamics_100_weapon	100mm Naval
+#LOC_KPDynamics_127_title	127mm Mk4 Naval Gun
+#LOC_KPDynamics_127_description	This heavy naval gun fires 127mm shells. Manufactured by Gladia Ordnance & Ballistics, a subsidiary of Gladia Fleetworks, it is well suited for destroyers, as it can destroy things quite well at range.\n\n<color=orange>GP comes with explosive and incendiary magic and SAP detonates after embedding in the target's armour. Cargo round sprays 40 submunitions in a wide cone.</color>
+#LOC_KPDynamics_127_weapon	127mm Naval
+#LOC_KPDynamics_155_title	155mm Mk51 Primitive Gun System
+#LOC_KPDynamics_155_description	This long range naval gun fires 155m guided shells. Manufactured by Gladia Ordnance & Ballistics, a subsidiary of Gladia Fleetworks, it is well suited to alpha-strike engagements. Due to its primitive nature its development program was exceptionally fast, inexpensive and untroubled.\n\n<color=orange>Fires an LRLAP round with inflight course correction while drawing 2 shells</color>
+#LOC_KPDynamics_155_weapon	155mm PGS
+#LOC_KPDynamics_141_title	Mk141 "Gaff" Launch Tube
+#LOC_KPDynamics_141_description	This deck-mounted Launch System assembly is perfect for air defence missiles. Attach a missile to the top node to load the launcher with that type of missile. Missiles sold separately.
+#LOC_KPDynamics_141_weapon	Mk141 Tube
+#LOC_KPDynamics_141_Variant_Both	Double Support
+#LOC_KPDynamics_141_Variant_Fore	Fore Only
+#LOC_KPDynamics_141_Variant_Rear	Rear Only
+#LOC_KPDynamics_141_Variant_None	No Supports
+#LOC_KPDynamics_CUDA_title	AIM-160 CUDA Missile
+#LOC_KPDynamics_CUDA_description	The AIM-160 CUDA is an advanced air-to-air missile featuring similar performance to the AIM-120 in a smaller package. Production staff as BD Dynamics forgot to install the front end of an AIM-120 which resulted in a fully functional missile the size of hellfire or brimstone half-rails.
+#LOC_KPDynamics_CUDA_weapon	CUDA
+#LOC_KPDynamics_SCALP_title	SRS-2003 "Shadow Realm" Cruise Missile
+#LOC_KPDynamics_SCALP_description	The SRS-2003 is a long range, low-observable, deep strike weapon. It is designed for pre-planned attacks against high value stationary targets and aided in reaching these targets by stealth characteristics. 
+#LOC_KPDynamics_SCALP_weapon	SCALP
+#LOC_KPDynamics_Taurus_title	SRS-3505 "Capal" Cruise Missile
+#LOC_KPDynamics_Taurus_description	The SRS-2014 is a heavy-duty, long range, deep strike weapon. It is designed for pre-planned attacks against hardened targets such as bunkers and bridges. 
+#LOC_KPDynamics_Taurus_weapon	Capal
+#LOC_KPDynamics_AST3_title	SRS-1238 "Brimstone" Missile  //"Deepslate"?
+#LOC_KPDynamics_AST3_description	Brimstone is a precise, tactical, strike weapon capable of engaging a wide range of target types in both direct and indirect modes; including Moving Vehicles, Buildings, Allied Armour, and Small Naval Vessels. It boasts fire-and-forget radar guidance and slightly extended range over the Hellfire at the cost of some manoeuvrability.
+#LOC_KPDynamics_AST3_weapon	Brimstone
+#LOC_KPDynamics_AST3_Variant_Black	Black
+#LOC_KPDynamics_AST3_Variant_Grey	Grey
+#LOC_KPDynamics_Meteor_title	SRA-1239 "Meteor" Missile
+#LOC_KPDynamics_Meteor_description	The Meteor is a radar guided, beyond-visual-range air-to-air missile (BVRAAM). Tired of having to ram jets themselves; GNC boffins decided to stick a jet engine into a missile which grants the Meteor great range and turning capacity.
+#LOC_KPDynamics_Meteor_weapon	Meteor
+#LOC_KPDynamics_ASRAAM_title	SRA-132 "Comet" Missile
+#LOC_KPDynamics_ASRAAM_description	The Comet is an Advanced Short Range Air-to-Air Missile(ASRAAM) with heat-based guidance.
+#LOC_KPDynamics_ASRAAM_weapon	Comet
+#LOC_KPDynamics_Spear_title	SRS-30 "Sulfur" Small Diameter Cruise Missile
+#LOC_KPDynamics_Spear_description	The Sulfur, also referred to as "Sphere-3" due to its three fins and domed frontend, is a small diameter cruise missile intended for grouped launch from missile rails traditionally reserved for A2A missiles. Much like the Meteor; the Sulfur is powered by a jet engine which grants it moderate range despite its small size.
+#LOC_KPDynamics_Spear_weapon	Sulfur
+#LOC_KPDynamics_SpearGlide_title	GBU-30 "Sulfur" Small Diameter Glide Bomb
+#LOC_KPDynamics_SpearGlide_description	The Sulfur, also referred to as "Sphere-3" due to its three fins and domed frontend, is a small diameter cruise missile intended for grouped launch from missile rails traditionally reserved for A2A missiles. This variant is stripped of propulsion in place of additional explosives.
+#LOC_KPDynamics_SpearGlide_weapon	Sulfur-Glide
+#LOC_KPDynamics_SpearEW_title	SRA-404 "Sulfur-EW" Electronic Warfare System
+#LOC_KPDynamics_SpearEW_description	The Sulfur, also referred to as "Sphere-3" due to its three fins and domed frontend, is a small diameter cruise missile intended for grouped launch from missile rails traditionally reserved for A2A missiles. This variant acts as a mobile radar jammer.
+#LOC_KPDynamics_SpearEW_weapon	Sulfur-EW
+#LOC_KPDynamics_Spear_Variant_Plain	Grey
+#LOC_KPDynamics_Spear_Variant_Stripes	Grey & Grey
+#LOC_KPDynamics_Kreuger_title	BIM-100 "Dhole" Missile
+#LOC_KPDynamics_Kreuger_description	
+#LOC_KPDynamics_Kreuger_weapon	Dhole
+#LOC_KPDynamics_Coyote_title	BIM-45 "Dingo" Missile
+#LOC_KPDynamics_Coyote_description	
+#LOC_KPDynamics_Coyote_weapon	Dingo
+#LOC_KPDynamics_MdCN_title	SRS-2004 "Abyssal Zone" Missile
+#LOC_KPDynamics_MdCN_description	Typically referred to in the literal "Naval Cruise Missile", the Abyssal Zone missile is intended to be launched from naval and surface platforms onto stationary targets. Sharing most key components with the SRS-2003, the missile trades the key reduction in visibility for this advanced launch capacity. 
+#LOC_KPDynamics_MdCN_weapon	SCALP-N
+#LOC_KPDynamics_SiAW_title	AGM-88H "SiAW" Missile
+#LOC_KPDynamics_SiAW_description	The AGM-88H Stand-in Attack Weapon (SiAW) is an anti-radiation missile intended to attack anti-air installations. It is said the sharpened ridges help it slice through targets like butter, but the explosive warhead may also have an effect.
+#LOC_KPDynamics_SiAW_weapon	SiAW
+#LOC_KPDynamics_ASN4G_title	ASN4G 
+#LOC_KPDynamics_ASN4G_description	A strangely named hypersonic cruise missile from a strange country.
+#LOC_KPDynamics_ASN4G_weapon	ASN4G
+#LOC_KPDynamics_GMLRS_title	MGM-30 Guided Rocket Launch System
+#LOC_KPDynamics_GMLRS_description	The MGM-30 "Girls" is a GPS-guided rocket system which can provide guided fire at medium range GPS targets.
+#LOC_KPDynamics_GMLRS_weapon	GRLS
+#LOC_KPDynamics_PRSM_title	MGM-250 Precision Strike Rocket
+#LOC_KPDynamics_PRSM_description	The MGM-250 "Purser" is a next-generation ballistic system that can carry a singular warhead to GPS targets at a farther distance than any other system. Though this comes at a greater cost.
+#LOC_KPDynamics_PRSM_weapon	PRSR
+#LOC_KPDynamics_ATACMS_title	MGM-140 Clustered Ammunition Rocket System
+#LOC_KPDynamics_ATACMS_description	The MGM-140 "Cars" is a large tactical rocket which can deliver a cluster submunitions against GPS targets at long ranges.
+#LOC_KPDynamics_ATACMS_weapon	CARS
+#LOC_KPDynamics_Variant_Coloured	Coloured
+#LOC_KPDynamics_Variant_White	White
+#LOC_KPDynamics_GBU39_title	GBU-39 "Watershed" SDGM
+#LOC_KPDynamics_GBU39_description	A GPS guided small diameter bomb. It has built-in folding wings that allow it to glide for long distances and hit targets with precision.
+#LOC_KPDynamics_GBU39_weapon	GBU-39
+#LOC_KPDynamics_84jdamer_title	Mk84 JDAM-ER Glide Bomb
+#LOC_KPDynamics_84jdamer_description	A 2000lb GPS-guided bomb with an extended range glide package
+#LOC_KPDynamics_84jdamer_weapon	Mk84 JDAM-ER
+#LOC_KPDynamics_83jdamer_title	Mk83 JDAM-ER Glide Bomb
+#LOC_KPDynamics_83jdamer_description	A 1000lb GPS-guided bomb with an extended range glide package
+#LOC_KPDynamics_83jdamer_weapon	Mk83 JDAM-ER
+#LOC_KPDynamics_82jdamer_title	Mk82 JDAM-ER Glide Bomb
+#LOC_KPDynamics_82jdamer_description	A 500lb GPS-guided bomb with an extended range glide package
+#LOC_KPDynamics_82jdamer_weapon	Mk82 JDAM-ER
+#LOC_KPDynamics_84paveway_title	Mk84 Laser Guided Bomb
+#LOC_KPDynamics_84paveway_description	A 2000lb Laser-guided bomb 
+#LOC_KPDynamics_84paveway_weapon	Mk84 Sidewalk
+#LOC_KPDynamics_83jdamer_title	Mk83 Laser Guided Bomb
+#LOC_KPDynamics_83jdamer_description	A 1000lb Laser-guided bomb 
+#LOC_KPDynamics_83jdamer_weapon	Mk83 Sidewalk
+#LOC_KPDynamics_82jdamer_title	Mk82 Laser Guided Bomb
+#LOC_KPDynamics_82jdamer_description	A 500lb Laser-guided bomb 
+#LOC_KPDynamics_82jdamer_weapon	Mk82 Sidewalk
+#LOC_KPDynamics_GBU28_title	GBU-28 "Sidewalk III" 
+#LOC_KPDynamics_GBU28_description	Often referred to as a "bunker buster" bomb, the GBU-28 is a heavy 
+#LOC_KPDynamics_GBU28_weapon	GBU-28
+#LOC_KPDynamics_SUU_title	SUU-14/A Drogue Bomblet Dispenser
+#LOC_KPDynamics_SUU_description	The SUU-14 dispenser is a combinate bomb housing designed to be carried on low altitude aircraft. It houses 30 drogue bomblets and is designed to fit on standard rails and even internal bays
+#LOC_KPDynamics_SUU_weapon	SUU-14
+#LOC_KPDynamics_Bomblet_title	Mk3 Bomblet
+#LOC_KPDynamics_Bomblet_description	Dumb Drogue Bomblet Fired by the SUU-14 and LADY Dispensers. What are you doing here, you shouldn't even be able to read this.
+#LOC_KPDynamics_Bomblet_weapon	SUU-14
