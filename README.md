@@ -27,6 +27,7 @@
 |---|---|
 | [`MODLIST.md`](MODLIST.md) | **清理前**全量清单：名称、用途、版本、BDA 取舍、体积 |
 | [`MODLIST-AFTER.md`](MODLIST-AFTER.md) | **当前**清单（170 个目录） |
+| [`MODS-TABLE.md`](MODS-TABLE.md) | 当前 170 个模组的中英对照表：英文名 / 中文名 / 作用简述 |
 | [`DELETION-PLAN.md`](DELETION-PLAN.md) | 删除名单、保留名单、可选项与回滚说明 |
 | [`DELETION-LOG.md`](DELETION-LOG.md) | 实际执行记录、CKAN 连带删除与恢复情况 |
 | [`BDA-INSTALL.md`](BDA-INSTALL.md) | BDA+ LMP 版的版本选择、安装记录与扩展建议 |

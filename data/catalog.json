@@ -94,7 +94,7 @@
   "KISA_Fixes": {"title": "KISA Fixes", "purpose": "自制：生涯存档用的杂项修复（USI 资源、CapCom、VAB 分类、Endurance 移除等）。", "category": "local", "action": "keep"},
   "KISA_Flags": {"title": "KISA Flags", "purpose": "自制：KISA 机构任务旗与 EVE 任务特别版。", "category": "local", "action": "keep"},
   "KISA_FlagsAgency": {"title": "KISA Flags Agency", "purpose": "自制：KISA 机构徽章与方形贴花。", "category": "local", "action": "keep"},
-  "Kopernicus": {"title": "Kopernicus", "purpose": "行星模组框架；Parallax Continued 与 Kerbal Planet Emblems 仍需要它，行星包删除后保留本体。", "category": "core", "action": "keep", "note": "不再安装 Kcalbeloh/OPM，但 Parallax 与星球徽章依赖此框架。"},
+  "Kopernicus": {"title": "Kopernicus", "purpose": "行星模组框架；Kerbal Planet Emblems 仍需要它，行星包与 Parallax 删除后保留本体。", "category": "core", "action": "keep", "note": "不再安装 Kcalbeloh/OPM/Parallax，但星球徽章依赖此框架。"},
   "KopernicusExpansion": {"title": "Kopernicus Expansion Continueder", "purpose": "Kopernicus 的行星效果扩展。", "category": "planet", "action": "delete-with-parent"},
   "KSA": {"title": "KSA IVA Upgrade", "purpose": "原版座舱的高精度 IVA 内饰升级。", "category": "iva", "action": "keep"},
   "KSCExtended": {"title": "KSC Extended", "purpose": "扩建肯尼迪航天中心，增加发射台与建筑。", "category": "station", "action": "keep"},

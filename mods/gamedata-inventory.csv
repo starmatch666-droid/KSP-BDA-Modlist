@@ -72,7 +72,7 @@ KIS,Kerbal Inventory System,engineering,keep,1.29,KIS,211,36440243,舱外库存�
 KISA_Fixes,KISA Fixes,local,keep,手工,,11,64682,自制：生涯存档用的杂项修复（USI 资源、CapCom、VAB 分类、Endurance 移除等）。,
 KISA_Flags,KISA Flags,local,keep,手工,,16,5611510,自制：KISA 机构任务旗与 EVE 任务特别版。,
 KISA_FlagsAgency,KISA Flags Agency,local,keep,手工,,11,3018953,自制：KISA 机构徽章与方形贴花。,
-Kopernicus,Kopernicus,core,keep,2:release-1.12.1-251,Kopernicus,46,21466568,行星模组框架；Parallax Continued 与 Kerbal Planet Emblems 仍需要它，行星包删除后保留本体。,不再安装 Kcalbeloh/OPM，但 Parallax 与星球徽章依赖此框架。
+Kopernicus,Kopernicus,core,keep,2:release-1.12.1-251,Kopernicus,46,21466568,行星模组框架；Kerbal Planet Emblems 仍需要它，行星包与 Parallax 删除后保留本体。,不再安装 Kcalbeloh/OPM/Parallax，但星球徽章依赖此框架。
 KSA,KSA IVA Upgrade,iva,keep,v1.6.7,KSAIVAUpgrade,30,357224,原版座舱的高精度 IVA 内饰升级。,
 KSCExtended,KSC Extended,station,keep,3.0.3,KSCExtended,117,751560,扩建肯尼迪航天中心，增加发射台与建筑。,
 KSPCommunityFixes,KSP Community Fixes,core,keep,1:1.41.1,KSPCommunityFixes,3252,615530420,社区维护的大量底层 bug 修复与性能改进，必留。,
