@@ -2,11 +2,11 @@
 
 - 快照时间：2026-10-19
 - KSP：1.12.5（zh-cn，Steam）
-- GameData 顶层目录：**170** 个
-- CKAN 已记录模块：**195** 个
-- GameData 总体积：**10.83 GB**
-- 删除后仍存在的顶层目录：**170** 个
-- 可选项（IVA/视觉/科学等，按需保留）：约 **529 MB**
+- GameData 顶层目录：**164** 个
+- CKAN 已记录模块：**184** 个
+- GameData 总体积：**7.16 GB**
+- 删除后仍存在的顶层目录：**164** 个
+- 可选项（IVA/视觉/科学等，按需保留）：约 **314 MB**
 
 > 这是“当前安装”的盘点，不是推荐安装顺序。BDArmory Continued 本体只依赖
 > ModuleManager 与 PhysicsRangeExtender；下面标为“必留”的多数是飞行、建造、
@@ -179,51 +179,38 @@
 
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
-| `ASET` | ASET Consolidated | 高精度 IVA 道具、航空仪表、ALCOR 座舱与 Mk1/Mk12 座舱内饰。 | 1.0.1 等 7 个 | ◻️ 可选 | 66 MB |
-| `NearFutureProps` | Near Future Props | Near Future 系列 IVA 道具与内饰。 | 1:0.7.2 | ◻️ 可选 | 63 MB |
-| `MOARdV` | MOARdV's Avionics Systems | 高级 IVA 航电、MFD 页面与舱内交互。 | v1.3.7 | ◻️ 可选 | 39 MB |
-| `FreeIva` | FreeIva | 离开座椅在舱内自由漂浮移动。 | 0.2.20.2 | ◻️ 可选 | 31 MB |
-| `JSI` | JSI / RasterPropMonitor | RPM 舱内显示器、透明座舱与相关 IVA 工具。 | V0.1.24.0 / 1:v1.1.0.1 | ◻️ 可选 | 6.4 MB |
-| `ProbeControlRoom` | Probe Control Room | 无人飞船的地面控制室视角与界面。 | 1.4.0 | ◻️ 可选 | 5.9 MB |
-| `DE_IVAExtension` | DE_IVAExtension | 给原版座舱增加更完整的高级 IVA。 | v1.3.0 | ◻️ 可选 | <1 MB |
-| `KSA` | KSA IVA Upgrade | 原版座舱的高精度 IVA 内饰升级。 | v1.6.7 | ◻️ 可选 | <1 MB |
-| `VesselView` | Vessel Viewer Continued | 在 IVA 中显示飞船外部视图。 | 2:0.8.9 / 1:0.8.9 | ◻️ 可选 | <1 MB |
-| `ThroughTheEyes` | Through The Eyes | 第一人称/舱内视角增强。 | 手工 | ◻️ 可选 | <1 MB |
-| `Reviva` | Reviva | 在编辑器/飞行中切换多个 IVA。 | 1.0.2 | ◻️ 可选 | <1 MB |
+| `ASET` | ASET Consolidated | 高精度 IVA 道具、航空仪表、ALCOR 座舱与 Mk1/Mk12 座舱内饰。 | 1.0.1 等 7 个 | ✅ 必留 | 66 MB |
+| `NearFutureProps` | Near Future Props | Near Future 系列 IVA 道具与内饰。 | 1:0.7.2 | ✅ 必留 | 63 MB |
+| `MOARdV` | MOARdV's Avionics Systems | 高级 IVA 航电、MFD 页面与舱内交互。 | v1.3.7 | ✅ 必留 | 39 MB |
+| `FreeIva` | FreeIva | 离开座椅在舱内自由漂浮移动。 | 0.2.20.2 | ✅ 必留 | 31 MB |
+| `JSI` | JSI / RasterPropMonitor | RPM 舱内显示器、透明座舱与相关 IVA 工具。 | V0.1.24.0 / 1:v1.1.0.1 | ✅ 必留 | 6.4 MB |
+| `ProbeControlRoom` | Probe Control Room | 无人飞船的地面控制室视角与界面。 | 1.4.0 | ✅ 必留 | 5.9 MB |
+| `DE_IVAExtension` | DE_IVAExtension | 给原版座舱增加更完整的高级 IVA。 | v1.3.0 | ✅ 必留 | <1 MB |
+| `KSA` | KSA IVA Upgrade | 原版座舱的高精度 IVA 内饰升级。 | v1.6.7 | ✅ 必留 | <1 MB |
+| `VesselView` | Vessel Viewer Continued | 在 IVA 中显示飞船外部视图。 | 2:0.8.9 / 1:0.8.9 | ✅ 必留 | <1 MB |
+| `ThroughTheEyes` | Through The Eyes | 第一人称/舱内视角增强。 | 手工 | ✅ 必留 | <1 MB |
+| `Reviva` | Reviva | 在编辑器/飞行中切换多个 IVA。 | 1.0.2 | ✅ 必留 | <1 MB |
 
 ### 视觉与音效
 
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
-| `Parallax_StockTerrainTextures` | Parallax Continued - Terrain Textures | 视差地形纹理（约 2 GB）。 | 1.0.3 | ✅ 必留 | 1.93 GB |
-| `Parallax_StockScatterTextures` | Parallax Continued - Scatter Textures | 视差地表散射纹理。 | 1.0.3 | ✅ 必留 | 1.16 GB |
 | `ReStock` | ReStock | 原版部件模型/纹理重制，不改变数值。 | 1.5.1 | ✅ 必留 | 687 MB |
-| `ScattererAtmosphereCache` | Scatterer Atmosphere Cache | Scatterer 自动生成的大气缓存（可重建）。<br>注：缓存目录，删掉后首次进入会重新生成。 | 手工 | ✅ 必留 | 410 MB |
-| `Parallax_StockPlanetTextures` | Parallax Continued - Planet Textures | 视差行星纹理。 | 1.0.3 | ✅ 必留 | 250 MB |
-| `Spectra` | Spectra | 原版行星的 EVE 云层/大气配置。 | v1.6.5 / 1.6.5 | ✅ 必留 | 150 MB |
 | `RocketSoundEnhancementDefault` | RSE Default Config | 原版发动机/轮子/分离器的 RSE 音效配置。 | 1.3.1 | ✅ 必留 | 108 MB |
-| `TUFX` | TUFX | 后处理/色彩分级效果框架。 | 1.1.1 | ✅ 必留 | 31 MB |
-| `ParallaxContinued` | Parallax Continued | 视差地形/地表散射渲染框架。 | 1.0.4 | ✅ 必留 | 25 MB |
 | `Waterfall` | Waterfall Core | 可编程发动机尾焰/羽流核心。 | 0.11.0 | ✅ 必留 | 11 MB |
-| `Scatterer` | Scatterer | 大气散射、海洋与太阳耀斑渲染。 | 3:v0.0878 | ✅ 必留 | 10.0 MB |
 | `RestockWaterfallExpansion` | Restock Waterfall Expansion | ReStock 引擎的 Waterfall 尾焰配置。 | 3.1.1 | ✅ 必留 | 8.5 MB |
 | `Firefly` | Firefly | 再入等离子体、气动加热与相关视觉/音效。 | 1.0.6 | ✅ 必留 | 1.8 MB |
-| `StockScattererConfigs` | Scatterer Default Config | 原版行星的 Scatterer 参数与太阳耀斑。 | 3:v0.0878 | ✅ 必留 | 1.8 MB |
 | `StockWaterfallEffects` | Stock Waterfall Effects | 原版发动机的 Waterfall 尾焰配置。 | 3.1.1 | ✅ 必留 | 1.7 MB |
-| `EnvironmentalVisualEnhancements` | EVE Redux | 云层、城市灯光与大气视觉效果框架。 | 3:1.11.7.2 | ✅ 必留 | <1 MB |
 | `RocketSoundEnhancement` | Rocket Sound Enhancement | 分层发动机音效框架。 | 0.9.13 | ✅ 必留 | <1 MB |
 | `WaterfallRestock` | Waterfall Restock | ReStock 发动机的 Waterfall 配置。 | 3.1.1 | ✅ 必留 | <1 MB |
-| `PlanetShine` | PlanetShine | 行星反照光/环境光。 | 0.2.6.6 | ✅ 必留 | <1 MB |
 | `Benjee10_Suits` | Benjee10 Suits | 历史宇航服与可穿戴道具，纯外观。 | v1.1.0 | ◻️ 可选 | 99 MB |
 | `Chatterer` | Chatterer | 乘员无线电闲聊、SSTV 与提示音。 | 0.9.99 / 0.6.2 | ◻️ 可选 | 45 MB |
 | `TextureReplacer` | TextureReplacer | 乘员/宇航服纹理替换。 | v4.5.3 | ◻️ 可选 | 30 MB |
 | `ConformalDecals` | Conformal Decals | 在任意曲面贴贴花/机徽。 | 0.4.2 | ◻️ 可选 | 24 MB |
-| `KSPRC` | KSPRC City Lights | 城市灯光/EVE 配置。 | 0.7_PreRelease_3 | ◻️ 可选 | 2.9 MB |
 | `ZTheme` | ZTheme | 深色 UI 主题。 | v1.2.2 | ◻️ 可选 | 1.7 MB |
 | `KerbalPlanetEmblems` | Kerbal Planet Emblems | 任务徽章/星球标志贴花。 | V2.3 | ◻️ 可选 | <1 MB |
 | `IndicatorLights` | Indicator Lights | 部件状态指示灯（电力、资源、对接口等）。 | 1.8.3 | ◻️ 可选 | <1 MB |
 | `KerbalShipEmblems2D` | Kerbal Ship Emblems 2D | 飞船 2D 徽章/贴花。 | V1.1 | ◻️ 可选 | <1 MB |
-| `LowEndVolumetricCloudsMod` | Low End Volumetric Clouds | 低配体积云纹理/配置。 | 手工 | ◻️ 可选 | <1 MB |
 | `TU_NearFutureSpacecraft` | Recolor Collection - NF Spacecraft | Near Future Spacecraft 部件的 Textures Unlimited 换色。 | v1.4.1 | ◻️ 可选 | <1 MB |
 | `TU_NearFuturePropulsion` | Recolor Collection - NF Propulsion | Near Future Propulsion 部件的 Textures Unlimited 换色。 | v1.3 | ◻️ 可选 | <1 MB |
 | `CrewLight` | Crew Light | 按舱内是否有乘员自动开关灯光。 | 1:1.20.1.2 | ◻️ 可选 | <1 MB |
@@ -237,13 +224,20 @@
 
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
+| `SXT` | SXTContinued | 内存占用较低的原版风格部件扩展包。 | 2:0.3.31.1 | ✅ 必留 | 96 MB |
 | `ReStockPlus` | ReStock+ | 补充原版缺口的部件。 | 1.5.1 | ✅ 必留 | 65 MB |
+| `Mk2Expansion` | Mk2 Expansion | Mk2 机身扩展部件包。 | 2:1.9.1.4 | ✅ 必留 | 42 MB |
+| `Mk3Expansion` | Mk3 Expansion | Mk3 机身扩展部件包。 | 1.6.1.4 | ✅ 必留 | 36 MB |
 | `LithobrakeExplorationTechnologies` | Lithobrake Exploration Technologies | 原版风格着陆腿、梯子、居住舱等探索部件。 | 0.6.2 | ◻️ 可选 | 8.5 MB |
 
 ### 空间站、基地与发射场
 
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
+| `TundraSpaceCenter` | Tundra's Space Center | 新一代发射台与航天中心建筑；KSC Extended 的配套建筑。 | 2.0.2 | ✅ 必留 | 75 MB |
+| `OSSNTR` | Omega's Stockalike Structures: No Textures Required | 原版风格机场、跑道、发射场静态建筑；KSC Extended 的配套建筑。 | 0.0.12 | ✅ 必留 | 34 MB |
+| `KerbalKonstructs` | Kerbal Konstructs | 静态建筑/发射场框架，KSC Extended 的前置。 | v1.12.3.0 | ✅ 必留 | 9.9 MB |
+| `KSCExtended` | KSC Extended | 扩建肯尼迪航天中心，增加发射台与建筑。 | 3.0.3 | ✅ 必留 | <1 MB |
 | `REPOSoftTech` | REPOSoftTech（BackgroundResources/DeepFreeze） | 后台资源处理与乘员冷冻休眠。 | 1:v0.18.0.0 等 3 个 | ◻️ 可选 | 50 MB |
 
 ### 第三方本地化

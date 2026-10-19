@@ -1,6 +1,6 @@
 # 安装 BDArmory Continued
 
-当前环境已经清到 170 个顶层目录、195 个 CKAN 模块，BDA 本体尚未安装。
+当前环境已经清到 164 个顶层目录、184 个 CKAN 模块，BDA 本体尚未安装。
 
 ## 版本选择
 
@@ -51,4 +51,4 @@ cd "C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program"
 1. 启动游戏，确认 `KSP.log` 里没有 `BDArmory` 的 `Exception`。
 2. 进 VAB/SPH，确认有 BDA 的武器分类。
 3. 发射一架带武器/雷达的飞机，确认右键菜单和 BDA 窗口能打开。
-4. 如果掉帧，优先考虑关闭 Parallax（约 3.4 GB 纹理）或降低 BDA 的物理范围/AI 数量。
+4. 如果掉帧，优先降低 BDA 的物理范围/AI 数量；Parallax、Scatterer、EVE 等环境美化已经移除。

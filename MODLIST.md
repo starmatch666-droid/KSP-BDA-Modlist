@@ -1,5 +1,9 @@
 # KSP 现有模组清单（BDA 取舍版）
 
+> **这是清理前的原始快照。** 后续用户要求恢复 Mk2/Mk3/SXT/KSCExtended 与全部
+> IVA，并把 Parallax/Scatterer/EVE 等环境美化改为删除；当前状态与最终取舍见
+> [`MODLIST-AFTER.md`](MODLIST-AFTER.md) 和 [`DELETION-LOG.md`](DELETION-LOG.md)。
+
 - 快照时间：2026-10-19
 - KSP：1.12.5（zh-cn，Steam）
 - GameData 顶层目录：**222** 个

@@ -4,7 +4,7 @@
     "name": "已安装-自定义",
     "abstract": "已安装在 KSP 实例 自定义 的模组列表",
     "author": "STARM",
-    "version": "2026.10.19.09.07.46",
+    "version": "2026.10.19.09.12.47",
     "ksp_version_min": "1.8",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -13,10 +13,10 @@
             "name": "ModuleManager"
         },
         {
-            "name": "Harmony2"
+            "name": "ASETAgency"
         },
         {
-            "name": "ASETAgency"
+            "name": "Harmony2"
         },
         {
             "name": "ASETProps"
@@ -28,31 +28,10 @@
             "name": "ASETAvionics"
         },
         {
-            "name": "KSPBurst-Lite"
-        },
-        {
-            "name": "EnvironmentalVisualEnhancements"
-        },
-        {
-            "name": "KSPBurst"
-        },
-        {
             "name": "FinalFrontier"
         },
         {
             "name": "NearFutureProps"
-        },
-        {
-            "name": "ParallaxContinued"
-        },
-        {
-            "name": "ParallaxContinued-Planet-Textures"
-        },
-        {
-            "name": "ParallaxContinued-Scatter-Textures"
-        },
-        {
-            "name": "ParallaxContinued-Terrain-Textures"
         },
         {
             "name": "FilterExtensions"
@@ -70,13 +49,10 @@
             "name": "ReStock"
         },
         {
-            "name": "Spectra"
-        },
-        {
             "name": "VesselView"
         },
         {
-            "name": "VesselView-UI-Toolbar"
+            "name": "VesselView-UI-RasterPropMonitor"
         },
         {
             "name": "AvionicsSystems"
@@ -91,7 +67,16 @@
             "name": "ContractConfigurator"
         },
         {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "FirespitterResourcesConfig"
+        },
+        {
             "name": "IndicatorLights"
+        },
+        {
+            "name": "KSPBurst-Lite"
         },
         {
             "name": "NearFutureElectrical"
@@ -103,13 +88,7 @@
             "name": "NearFutureSolar-Core"
         },
         {
-            "name": "Scatterer-config"
-        },
-        {
-            "name": "Scatterer-sunflare"
-        },
-        {
-            "name": "TUFX"
+            "name": "RetractableLiftingSurface"
         },
         {
             "name": "Waterfall"
@@ -190,9 +169,6 @@
             "name": "Deferred"
         },
         {
-            "name": "DistantObject"
-        },
-        {
             "name": "DMagicOrbitalScience"
         },
         {
@@ -218,12 +194,6 @@
         },
         {
             "name": "Firefly"
-        },
-        {
-            "name": "FirespitterCore"
-        },
-        {
-            "name": "FirespitterResourcesConfig"
         },
         {
             "name": "FreeIva"
@@ -274,10 +244,10 @@
             "name": "WindTunnel"
         },
         {
-            "name": "KeremsTUFXProfile"
+            "name": "KSAIVAUpgrade"
         },
         {
-            "name": "KSAIVAUpgrade"
+            "name": "KSCExtended"
         },
         {
             "name": "KSPCommunityFixes"
@@ -289,7 +259,7 @@
             "name": "KSP2PreAlphaStyleNavBall"
         },
         {
-            "name": "KSPRC-CityLights"
+            "name": "KSPBurst"
         },
         {
             "name": "LithobrakeExplorationTechnologies"
@@ -302,6 +272,12 @@
         },
         {
             "name": "MK12PodIVAReplacementbyASET"
+        },
+        {
+            "name": "Mk2Expansion"
+        },
+        {
+            "name": "Mk3Expansion"
         },
         {
             "name": "MoarFEConfigs"
@@ -349,9 +325,6 @@
             "name": "PlanetInfoPlus"
         },
         {
-            "name": "PlanetShine"
-        },
-        {
             "name": "ProbeControlRoomRecontrolled"
         },
         {
@@ -394,9 +367,6 @@
             "name": "ReStrategia"
         },
         {
-            "name": "RetractableLiftingSurface"
-        },
-        {
             "name": "Reviva"
         },
         {
@@ -404,9 +374,6 @@
         },
         {
             "name": "SCANsat"
-        },
-        {
-            "name": "Scatterer"
         },
         {
             "name": "ScienceRolesFinalFrontierRibbonPack"
@@ -421,16 +388,13 @@
             "name": "SpacetuxSA"
         },
         {
-            "name": "Spectra-EVEKerbinLaytheSnow"
-        },
-        {
-            "name": "Spectra-EVEMinmusGeysers"
-        },
-        {
             "name": "SpeedUnitAnnex"
         },
         {
             "name": "StagedAnimation"
+        },
+        {
+            "name": "SXTContinued"
         },
         {
             "name": "SystemHeat-CryoTanks"
@@ -487,7 +451,7 @@
             "name": "VertikalSpeedIndicator"
         },
         {
-            "name": "VesselView-UI-RasterPropMonitor"
+            "name": "VesselView-UI-Toolbar"
         },
         {
             "name": "WaypointManager"
@@ -496,6 +460,6 @@
             "name": "ZTheme"
         }
     ],
-    "release_date": "2026-10-19T17:07:46.7962507+08:00",
+    "release_date": "2026-10-19T17:12:47.5477783+08:00",
     "kind": "metapackage"
 }

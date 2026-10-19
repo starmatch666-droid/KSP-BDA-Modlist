@@ -2,8 +2,13 @@
 
 > **2026-10-19 已执行。** 实际结果、CKAN 连带删除与恢复情况见
 > [`DELETION-LOG.md`](DELETION-LOG.md)。执行后保留了 `Kopernicus` 与
-> `WildBlueIndustries\001KerbalActuators`，因为 Parallax / Kerbal Planet Emblems
+> `WildBlueIndustries\001KerbalActuators`，因为 Kerbal Planet Emblems
 > 和 Near Future Aeronautics 仍分别依赖它们。
+>
+> **第二轮调整：** 用户要求恢复 `Mk2Expansion`、`Mk3Expansion`、`SXT`、
+> `KSCExtended`（含 KerbalKonstructs/Tundra/OSSNTR）与全部 IVA；同时删除
+> Parallax、Scatterer、EVE/Spectra、TUFX、PlanetShine 等环境美化。
+> 以下旧名单仅作历史记录，当前状态以 `DELETION-LOG.md` 为准。
 
 目标：保留 BDA 空战/飞行真正需要的东西，删掉“远未来、行星包、航天飞机、殖民地、
 空间站、科幻太空飞机”等主题包及其专属补丁。
