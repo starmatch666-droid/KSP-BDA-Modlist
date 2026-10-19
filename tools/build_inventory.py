@@ -265,7 +265,7 @@ def main() -> None:
         ),
         f"- 可选项（IVA/视觉/科学等，按需保留）：约 **{fmt_mb(optional_bytes)}**",
         "",
-        "> 这是“当前安装”的盘点，不是推荐安装顺序。BDArmory Continued 本体只依赖",
+        "> 这是“当前安装”的盘点，不是推荐安装顺序。BDA+ LMP 版依赖",
         "> ModuleManager 与 PhysicsRangeExtender；下面标为“必留”的多数是飞行、建造、",
         "> 通信与 Near Future 推进等对空战/飞行有用的基础设施。",
         "",

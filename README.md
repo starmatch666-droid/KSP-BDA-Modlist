@@ -6,8 +6,8 @@
 2. 按“BDA 空战”主题给出保留/删除名单；
 3. 收纳我们自己写的补丁与插件，方便恢复或迁移到另一台机器。
 
-> 当前状态：**主题包清理已经执行，BDArmory Continued 还没有安装**。
-> 本仓库同时保留了“清理前”和“清理后”两份清单，方便回滚与继续安装 BDA。
+> 当前状态：**BDA+ LMP 版、Luna Multiplayer、PhysicsRangeExtender 已安装**。
+> 本仓库同时保留了“清理前”和“清理后”两份清单，方便回滚与继续调整。
 
 ## 环境
 
@@ -16,9 +16,9 @@
 | 游戏 | Kerbal Space Program 1.12.5（Steam） |
 | 语言 | zh-cn |
 | 路径 | `C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program` |
-| GameData 顶层目录 | 清理前 222 → 当前 165 |
-| CKAN 已记录模块 | 清理前 251 → 当前 185 |
-| GameData 体积 | 清理前 16.82 GB → 当前 7.16 GB |
+| GameData 顶层目录 | 清理前 222 → 当前 168 |
+| CKAN 已记录模块 | 清理前 251 → 当前 187 |
+| GameData 体积 | 清理前 16.82 GB → 当前 7.22 GB |
 | 已释放 | **约 9.66 GB** |
 
 ## 文件
@@ -26,10 +26,11 @@
 | 路径 | 内容 |
 |---|---|
 | [`MODLIST.md`](MODLIST.md) | **清理前**全量清单：名称、用途、版本、BDA 取舍、体积 |
-| [`MODLIST-AFTER.md`](MODLIST-AFTER.md) | **当前**清单（165 个目录） |
+| [`MODLIST-AFTER.md`](MODLIST-AFTER.md) | **当前**清单（168 个目录） |
 | [`DELETION-PLAN.md`](DELETION-PLAN.md) | 删除名单、保留名单、可选项与回滚说明 |
 | [`DELETION-LOG.md`](DELETION-LOG.md) | 实际执行记录、CKAN 连带删除与恢复情况 |
-| [`BDA-INSTALL.md`](BDA-INSTALL.md) | BDA 1.12.5 的版本选择、安装命令与扩展建议 |
+| [`BDA-INSTALL.md`](BDA-INSTALL.md) | BDA+ LMP 版的版本选择、安装记录与扩展建议 |
+| [`MULTIPLAYER.md`](MULTIPLAYER.md) | LMP 服务器启动、客户端连接、配置与联机注意事项 |
 | [`mods/installed-modules-before.csv`](mods/installed-modules-before.csv) | 清理前 CKAN 的 251 个模块 |
 | [`mods/installed-modules.csv`](mods/installed-modules.csv) | 当前 CKAN 的 185 个模块 |
 | [`mods/gamedata-inventory-before.csv`](mods/gamedata-inventory-before.csv) | 清理前 222 个顶层目录 |
@@ -39,13 +40,17 @@
 | [`tools/build_inventory.py`](tools/build_inventory.py) | 重新生成清单的脚本（只读 GameData，不改游戏文件） |
 | [`data/catalog.json`](data/catalog.json) | 人工维护的中文名称/用途/BDA 取舍 |
 
-## BDA 需要什么
+## BDA 与联机
 
-CKAN 当前稳定通道里的 **BDArmory Continued 1:v1.3.5_beta**：
+当前安装的是 **BDArmory Plus LMP edition 1.13.1.0**（BDA-MP-Renewed v0.1）：
 
+- 基础是 BDA+ 1.13.1.0，包含武器、雷达、导弹、炮塔、AI、战斗管理界面
+- 为 Luna Multiplayer 增加了武器同步
 - 依赖：`ModuleManager`、`PhysicsRangeExtender`
-- 自带：武器、雷达、导弹、炮塔、AI、战斗管理界面
-- 语言：自带 `zh-cn` 词条
+- 语言：自带多语言词条（含中文）
+
+标准 BDA+ 不能和 LMP 同步武器，所以这里用 LMP 分支；详见
+[`BDA-INSTALL.md`](BDA-INSTALL.md) 和 [`MULTIPLAYER.md`](MULTIPLAYER.md)。
 
 也就是说，下面这些被删掉的主题包都不是 BDA 的运行前提。真正需要优先保证的是
 `ModuleManager`、`Harmony`、`KSPCommunityFixes`、物理/气动辅助，以及 Near Future

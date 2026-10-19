@@ -2,13 +2,13 @@
 
 - 快照时间：2026-10-19
 - KSP：1.12.5（zh-cn，Steam）
-- GameData 顶层目录：**165** 个
-- CKAN 已记录模块：**185** 个
-- GameData 总体积：**7.16 GB**
-- 删除后仍存在的顶层目录：**165** 个
+- GameData 顶层目录：**168** 个
+- CKAN 已记录模块：**187** 个
+- GameData 总体积：**7.22 GB**
+- 删除后仍存在的顶层目录：**168** 个
 - 可选项（IVA/视觉/科学等，按需保留）：约 **314 MB**
 
-> 这是“当前安装”的盘点，不是推荐安装顺序。BDArmory Continued 本体只依赖
+> 这是“当前安装”的盘点，不是推荐安装顺序。BDA+ LMP 版依赖
 > ModuleManager 与 PhysicsRangeExtender；下面标为“必留”的多数是飞行、建造、
 > 通信与 Near Future 推进等对空战/飞行有用的基础设施。
 
@@ -31,10 +31,12 @@
 |---|---|---|---|---|---:|
 | `KSPCommunityFixes` | KSP Community Fixes | 社区维护的大量底层 bug 修复与性能改进，必留。 | 1:1.41.1 | ✅ 必留 | 1.10 GB |
 | `000_KSPBurst` | KSPBurst | Burst 编译器与粒子/着色器优化库；体积大但属于性能基础设施。 | v1.7.4.11 | ✅ 必留 | 391 MB |
+| `BDArmory` | BDArmory Plus (LMP edition) | BDA+ 1.13.1.0 的 Luna Multiplayer 分支；武器、雷达、导弹、炮塔与 AI。<br>注：来自 LVCKSTRiKE/BDA-MP-Renewed v0.1，不是 CKAN 的 BDArmoryForRunwayProject。 | 手工 | ✅ 必留 | 57 MB |
 | `Kopernicus` | Kopernicus | 行星模组框架；Parallax Continued 与 Kerbal Planet Emblems 仍需要它，行星包删除后保留本体。<br>注：不再安装 Kcalbeloh/OPM，但 Parallax 与星球徽章依赖此框架。 | 2:release-1.12.1-251 | ✅ 必留 | 19 MB |
 | `000_TexturesUnlimited` | Textures Unlimited | 金属度/贴图着色框架，Near Future 换色与 ReStock 外观会用到。 | 1.6.4.30 | ✅ 必留 | 11 MB |
 | `WildBlueIndustries` | Kerbal Actuators（Mk-33 已删除） | Near Future Aeronautics 的作动器前置；Mk-33 太空飞机部件包已删除。<br>注：目录保留的是 001KerbalActuators，供 NFA 的螺旋桨/倾转发动机使用。 | v1.9.0 | ✅ 必留 | 5.2 MB |
 | `KSPTextureLoader` | KSP Texture Loader | 运行时纹理加载库。 | 1.0.36 | ✅ 必留 | 2.1 MB |
+| `LunaMultiplayer` | Luna Multiplayer Client | LMP 多人联机客户端（0.30.0-Draft）。 | 0.30.0-Draft | ✅ 必留 | 1.6 MB |
 | `000_Harmony` | Harmony2 | 运行时方法补丁库，大量插件的前置。 | 2.2.1.0 | ✅ 必留 | <1 MB |
 | `000_AT_Utils` | AT Utils | Allista 系列模组的通用工具库（资源、动画、UI 辅助）。 | v1.10.1 | ✅ 必留 | <1 MB |
 | `SpaceTuxLibrary` | SpaceTux Library | SpaceTux 系列模组的通用库。 | 0.0.9 | ✅ 必留 | <1 MB |
@@ -48,6 +50,7 @@
 | `KerbalJointReinforcement` | Kerbal Joint Reinforcement | 加固部件连接，减少大型飞行器抖动。 | v4.2.28 | ✅ 必留 | <1 MB |
 | `PatchManager` | PatchManager | 在游戏内查看/管理 ModuleManager 补丁。 | 0.0.17.8 | ✅ 必留 | <1 MB |
 | `CustomPreLaunchChecks` | Custom Pre Launch Checks | 发射前检查 API，供其他模组挂接。 | 1.8.1.1 | ✅ 必留 | <1 MB |
+| `PhysicsRangeExtender` | Physics Range Extender | 扩展物理范围，BDA 雷达/远距离交战需要。 | 1.21.0 | ✅ 必留 | <1 MB |
 | `Shabby` | Shabby | 着色器资源包加载库。 | 0.4.2 | ✅ 必留 | <1 MB |
 | `ModularFlightIntegrator` | Modular Flight Integrator | 气动/热集成框架，FAR 等模组使用。 | 1.2.10.0 | ✅ 必留 | <1 MB |
 | `StagedAnimation` | Staged Animation | 分级时播放部件动画的插件。 | v2.0 | ✅ 必留 | <1 MB |

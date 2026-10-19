@@ -4,9 +4,9 @@
 
 | 项 | 删除前 | 删除后 |
 |---|---:|---:|
-| GameData 顶层目录 | 222 | 165 |
-| CKAN 记录模块 | 251 | 185 |
-| GameData 体积 | 16.82 GB | 7.16 GB |
+| GameData 顶层目录 | 222 | 168 |
+| CKAN 记录模块 | 251 | 187 |
+| GameData 体积 | 16.82 GB | 7.22 GB |
 | 释放空间 | — | **约 9.66 GB** |
 
 最初名单 54 个顶层目录。经过两轮调整，相对原始 222 个目录实际移除了 58 个，
@@ -52,6 +52,15 @@ ReStock、Waterfall、Rocket Sound Enhancement、Firefly 等部件/引擎外观�
 
 **体积云恢复：** `LowEndVolumetricCloudsMod` 已用 CKAN 1.0.3 重新安装，
 包含 `Plugins`、`Shaders` 与版本文件；旧的手工目录只有一张纹理，已在备份里保留。
+
+## BDA 与联机安装
+
+- BDA+ LMP 版 `1.13.1.0`：`GameData\BDArmory`（来自 BDA-MP-Renewed v0.1）
+- Luna Multiplayer Client `0.30.0-Draft`
+- Physics Range Extender `1.21.0`
+- LMP 服务端在 `C:\Users\STARM\Documents\KSP-BDA-Work\LMP-Server-0.30.0\LMPServer`
+
+详见 [`BDA-INSTALL.md`](BDA-INSTALL.md) 与 [`MULTIPLAYER.md`](MULTIPLAYER.md)。
 
 ## 保留但原本在“随上级删除”里的东西
 

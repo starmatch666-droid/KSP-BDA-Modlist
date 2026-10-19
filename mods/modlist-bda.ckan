@@ -4,7 +4,7 @@
     "name": "已安装-自定义",
     "abstract": "已安装在 KSP 实例 自定义 的模组列表",
     "author": "STARM",
-    "version": "2026.10.19.09.15.47",
+    "version": "2026.10.19.09.21.24",
     "ksp_version_min": "1.8",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -13,10 +13,10 @@
             "name": "ModuleManager"
         },
         {
-            "name": "ASETAgency"
+            "name": "Harmony2"
         },
         {
-            "name": "Harmony2"
+            "name": "ASETAgency"
         },
         {
             "name": "ASETProps"
@@ -268,6 +268,9 @@
             "name": "LowEndVolumetricCloudsMod"
         },
         {
+            "name": "LunaMultiplayer"
+        },
+        {
             "name": "MechJeb2"
         },
         {
@@ -323,6 +326,9 @@
         },
         {
             "name": "PersistentRotationUpgraded"
+        },
+        {
+            "name": "PhysicsRangeExtender"
         },
         {
             "name": "PlanetInfoPlus"
@@ -463,6 +469,6 @@
             "name": "ZTheme"
         }
     ],
-    "release_date": "2026-10-19T17:15:47.0645753+08:00",
+    "release_date": "2026-10-19T17:21:24.1122996+08:00",
     "kind": "metapackage"
 }

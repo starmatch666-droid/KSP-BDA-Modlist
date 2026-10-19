@@ -13,6 +13,7 @@ Astrogator,Astrogator,flight,keep,v1.0.2,Astrogator,27,177992,转移窗口计算
 AtmosphereAutopilot,AtmosphereAutopilot,flight,keep,v1.6.1,AtmosphereAutopilot,9,264421,大气层电传飞控，喷气机/战斗机保持姿态很好用。,
 B9_Aerospace_ProceduralWings,B9 Procedural Wings,aircraft,keep,3:0.46.1,B9-PWings-Fork,44,3684951,程序化机翼，自由设计战斗机/轰炸机翼型。,
 B9PartSwitch,B9 Part Switch,core,keep,v2.21.0.4,B9PartSwitch,18,293603,部件模型/资源/节点切换框架，大量部件包的前置。,
+BDArmory,BDArmory Plus (LMP edition),core,keep,手工,,691,59821821,BDA+ 1.13.1.0 的 Luna Multiplayer 分支；武器、雷达、导弹、炮塔与 AI。,来自 LVCKSTRiKE/BDA-MP-Renewed v0.1，不是 CKAN 的 BDArmoryForRunwayProject。
 Benjee10_Suits,Benjee10 Suits,visual,optional,v1.1.0,Benjee10Suits,60,103729721,历史宇航服与可穿戴道具，纯外观。,
 BetterBurnTime,BetterBurnTime,flight,keep,1.10,BetterBurnTime,6,79522,点火、自杀式着陆与交会燃烧时间提示。,
 BetterTimeWarp,BetterTimeWarpContinued,flight,keep,2.3.14.2,BetterTimeWarpCont,12,69894,更细的时间加速档位与物理加速控制。,
@@ -77,6 +78,7 @@ KSPTextureLoader,KSP Texture Loader,core,keep,1.0.36,KSPTextureLoader,11,2232877
 KSPWheel,KSPWheel,core,keep,1:0.16.14.33,KSPWheel,6,233823,轮子/悬挂物理库，Kerbal Foundries 等使用。,
 LithobrakeExplorationTechnologies,Lithobrake Exploration Technologies,parts,optional,0.6.2,LithobrakeExplorationTechnologies,71,8914204,原版风格着陆腿、梯子、居住舱等探索部件。,
 LowEndVolumetricCloudsMod,Low End Volumetric Clouds,visual,keep,v1.0.3,LowEndVolumetricCloudsMod,3,14489,低配体积云插件/着色器；按用户要求恢复。,用 CKAN 1.0.3 重新安装，包含 Plugins 与 Shaders，不是旧的手工纹理目录。
+LunaMultiplayer,Luna Multiplayer Client,core,keep,0.30.0-Draft,LunaMultiplayer,385,1633096,LMP 多人联机客户端（0.30.0-Draft）。,
 MechJeb2,MechJeb2,flight,keep,2.15.3.1,MechJeb2,231,9099568,自动驾驶、轨道信息、交会/着陆辅助。,
 Mk2Expansion,Mk2 Expansion,parts,keep,2:1.9.1.4,Mk2Expansion,548,43961656,Mk2 机身扩展部件包。,
 Mk3Expansion,Mk3 Expansion,parts,keep,1.6.1.4,Mk3Expansion,471,37558847,Mk3 机身扩展部件包。,
@@ -101,6 +103,7 @@ OrbitalLFOEngines,Orbital LFO Engines,propulsion,keep,1.4.6,NearFutureSpacecraft
 OSSNTR,Omega's Stockalike Structures: No Textures Required,station,keep,0.0.12,StockalikeStructures,160,36085703,原版风格机场、跑道、发射场静态建筑；KSC Extended 的配套建筑。,
 PatchManager,PatchManager,core,keep,0.0.17.8,PatchManager,17,75418,在游戏内查看/管理 ModuleManager 补丁。,
 PersistentRotation,Persistent Rotation Upgraded,flight,keep,1.9.2.1,PersistentRotationUpgraded,74,1989455,时间加速/切换飞船时保持姿态与自转。,
+PhysicsRangeExtender,Physics Range Extender,core,keep,1.21.0,PhysicsRangeExtender,7,35864,扩展物理范围，BDA 雷达/远距离交战需要。,
 PlanetInfoPlus,Planet Info Plus,flight,keep,1.4.3,PlanetInfoPlus,8,73604,跟踪站/地图显示行星详细数据。,
 ProbeControlRoom,Probe Control Room,iva,keep,1.4.0,ProbeControlRoomRecontrolled,110,6145962,无人飞船的地面控制室视角与界面。,
 QuickMods,QuickMods（QuickExit/GoTo/Hide/IVA/Search）,engineering,keep,1:2.2.0.12 等 5 个,"QuickExit, QuickGoTo, QuickHide, QuickIVA, QuickSearch",71,354450,快速退出、场景跳转、隐藏工具栏、IVA 切换与搜索。,
