@@ -1,725 +1,725 @@
 Tier	Node	Pack	Name	Title	Category
-3	efficientFlightSystems	BDArmory	bahaGatlingGun	#loc_BDArmory_part_20mmVulcan_title	Gun turrets
-2	subsonicFlight	BDArmory	bahaTurret	#loc_BDArmory_part_bahaTurret_title  //.50cal Turret	Gun turrets
-8	experimentalElectricalSystems	BDArmory	bahaABL	#loc_BDArmory_part_bahaABL_title  //USAF Airborne Laser	Laser turrets
-4	specializedFlightSystems	BDArmory	bahaAdjustableRail	#loc_BDArmory_part_bahaAdjustableRail_title  //Adjustable Missile Rail	Missile turrets
-4	specializedFlightSystems	BDArmory	bahaAgm86B	#loc_BDArmory_part_bahaAgm86B_title  //AGM-86C Cruise Missile	Missiles
-4	specializedFlightSystems	BDArmory	AMRAAM_EMP	#loc_BDArmory_part_bahaEMP120_title  //AMRAAM EMP Missile	Missiles
-6	advEMSystems	BDArmory	bahaAim120	#loc_BDArmory_part_bahaAim120_title //AIM-120 AMRAAM Missile	Missiles
-6	advEMSystems	BDArmory	bdOrbitalAI	#loc_BDArmory_part_bdOrbitalAI_title  //AI Orbital Pilot	Control
-6	advEMSystems	BDArmory	bdPilotAI	#loc_BDArmory_part_bdPilotAI_title  //AI Pilot Flight Computer	Control
-6	advEMSystems	BDArmory	bdShipAI	#loc_BDArmory_part_bdDriverAI_title  //AI Surface Operation Driver	Control
-6	advEMSystems	BDArmory	bdVTOLAI	#loc_BDArmory_part_bdVTOLAI_title  //AI Vertical Takeoff and Landing Pilot	Control
-4	specializedFlightSystems	BDArmory	bahaAIR-2	#loc_BDArmory_part_genie_title //AIR-2 Genie Air-To-Air Rocket	Missiles
-1	enhancedSurvivability	BDArmory	baha20mmAmmo	#loc_BDArmory_part_baha20mmAmmo_title //20mm Ammunition Box	Ammo
-1	enhancedSurvivability	BDArmory	baha25mmAmmo	#loc_BDArmory_part_baha25mmAmmo_title //25mm Ammunition Box	Ammo
-1	enhancedSurvivability	BDArmory	baha30mmAmmo	#loc_BDArmory_part_baha30mmAmmo_title //30mm Ammunition Box	Ammo
-1	enhancedSurvivability	BDArmory	baha50CalAmmo	#loc_BDArmory_part_baha50CalAmmo_title //50cal Ammunition Box	Ammo
-1	enhancedSurvivability	BDArmory	BDAcUniversalAmmoBox	#loc_BDArmory_part_BDAcUniversalAmmoBox_title //Universal Ammo Box	Ammo
-1	enhancedSurvivability	BDArmory	bahaCannonShellBox	#loc_BDArmory_part_bahaCannonShellBox_title //Cannon Ammunition Box	Ammo
-1	enhancedSurvivability	BDArmory	bahaRocketBox	70mm 火箭弹药箱	Ammo
-1	enhancedSurvivability	BDArmory	BD_PanelArmorIsoTri	#loc_BDArmory_part_TriIsoPanel_title //BD Armor Panel Oblique Triangle	Armor
-1	enhancedSurvivability	BDArmory	BD_PanelArmor	#loc_BDArmory_part_Panel_title //BD Armor Panel	Armor
-1	enhancedSurvivability	BDArmory	BD_PanelArmorTri	#loc_BDArmory_part_TriPanel_title //BD Armor Panel Right Triangle	Armor
-6	advEMSystems	BDArmory	awacsRadar	#loc_BDArmory_part_awacsRadar_title  //AWACS Detection Radar	Radars
-4	specializedFlightSystems	BDArmory	bdammGuidanceModule	#loc_BDArmory_part_bdammGuidanceModule_title  //Modular Missile Guidance (EXPERIMENTAL)	Control
-2	subsonicFlight	BDArmory	bahaBrowningAnm2	#loc_BDArmory_part_bahaBrowningAnm2_title  //Browning Heavy Machine Gun (AN/M3)	Guns
-4	specializedFlightSystems	BDArmory	bahaClusterBomb	#loc_BDArmory_part_bahaClusterBomb_title  //CBU-87 Cluster Bomb	Bombs
-3	efficientFlightSystems	BDArmory	bahaChaffPod	#loc_BDArmory_part_bahaChaffPod_title  //Chaff Dispenser	Countermeasures
-3	efficientFlightSystems	BDArmory	bahaCmPod	#loc_BDArmory_part_bahaCmPod_title  //Flare Dispenser	Countermeasures
-3	efficientFlightSystems	BDArmory	bahaBubblePod	#loc_BDArmory_part_bahaSBTPod_title  //Decoy Launcher	Countermeasures
-3	efficientFlightSystems	BDArmory	bahaDecoyPod	#loc_BDArmory_part_bahaDecoyPod_title  //Decoy Launcher	Countermeasures
-3	efficientFlightSystems	BDArmory	bahaECMJammer	#loc_BDArmory_part_bahaECMJammer_title  //AN/ALQ-131 ECM Jammer	Countermeasures
-3	efficientFlightSystems	BDArmory	BDA_EJ200	#loc_BDArmory_part_EJ200_title //TFJ-EJ200 "Typhoon" Afterburning Turbofan	
-4	specializedFlightSystems	BDArmory	BahaF86Launcher	#loc_BDArmory_part_F86RL_title // FFAR Reloadable Rocket Pod	Rocket pods
-4	specializedFlightSystems	BDArmory	bahaGau-22	#loc_BDArmory_part_GAU22_title //GAU-22/A 25x137mm Cannon	Guns
-3	efficientFlightSystems	BDArmory	bahaGau-8	#loc_BDArmory_part_bahaGau-8_title  //GAU-8 30x173mm Cannon	Guns
-4	specializedFlightSystems	BDArmory	bahaGoalKeeper	#loc_BDArmory_part_bahaGoalKeeper_title  //Goalkeeper CIWS	Gun turrets
-4	specializedFlightSystems	BDArmory	GoalKeeperBDAcMk1	#loc_BDArmory_part_GoalKeeperBDAcMk1_title  //GoalkeeperMk1 CIWS	Gun turrets
-4	specializedFlightSystems	BDArmory	BDAcGKmk2	#loc_BDArmory_part_BDAcGKmk2_title  //Goalkeeper MK2 CIWS	Gun turrets
-8	experimentalElectricalSystems	BDArmory	bdImpulseGun	重力枪（零点能量场操纵器）	Lasers
-6	advEMSystems	BDArmory	scanLockRadar1	#loc_BDArmory_part_scanLockRadar1_title  //TWS Locking Radar	Radars
-4	specializedFlightSystems	BDArmory	scanLargeRadar	#loc_BDArmory_part_scanLargeRadar_title  //Large Detection Radar	Radars
-4	specializedFlightSystems	BDArmory	bahaH70Launcher	#loc_BDArmory_part_bahaH70Launcher_title  //Hydra-70 Rocket Pod	Rocket pods
-4	specializedFlightSystems	BDArmory	bahaH70Turret	#loc_BDArmory_part_bahaH70Turret_title  //Hydra-70 Rocket Turret	Rocket turrets
-6	advEMSystems	BDArmory	bahaHarm	#loc_BDArmory_part_bahaHarm_title  //AGM-88 HARM Missile	Missiles
-4	specializedFlightSystems	BDArmory	bahaHEKV1	#loc_BDArmory_part_bahaHEKV1_title  //HE-KV-1 Missile	Missiles
-4	specializedFlightSystems	BDArmory	HellfireEMP	#loc_BDArmory_part_bahaAGM-114_EMP_title //AGM-114R Hellfire II EMP	Missiles
-4	specializedFlightSystems	BDArmory	bahaAGM-114	#loc_BDArmory_part_bahaAGM-114_title  //AGM-114R Hellfire II	Missiles
-3	efficientFlightSystems	BDArmory	bahaHiddenVulcan	#loc_BDArmory_part_bahaHiddenVulcan_title //Vulcan (Hidden)	Guns
-6	advEMSystems	BDArmory	bahaIRSTpod	#loc_BDArmory_part_bahaIRSTPod_title //AN/AAQ-42 IRST Pod	Radars
-5	aerospaceComposites	BDArmory	bahaJdamMk83	#loc_BDArmory_part_bahaJdamMk83_title  //Mk83 JDAM Bomb	Bombs
-4	specializedFlightSystems	BDArmory	bahaKKV	#loc_BDArmory_part_bahaKKV_title  //Kinetic Kill Vehicle	Missiles
-5	aerospaceComposites	BDArmory	bahaM102Howitzer	#loc_BDArmory_part_bahaM102Howitzer_title //M102 Howitzer (Radial)	Gun turrets
-6	advEMSystems	BDArmory	bahaM1Abrams	#loc_BDArmory_part_bahaM1Abrams_title  //M1 Abrams Cannon	Gun turrets
-3	efficientFlightSystems	BDArmory	bahaM230ChainGun	#loc_BDArmory_part_bahaM230ChainGun_title //M230 Chain Gun Turret	Gun turrets
-4	specializedFlightSystems	BDArmory	bahaAGM-65	#loc_BDArmory_part_bahaAGM-65_title //AGM-65 Maverick Missile	Missiles
-4	specializedFlightSystems	BDArmory	bdMissileBay	#loc_BDArmory_part_BombBay_title //Ordnance Bay	Missile turrets
-4	specializedFlightSystems	BDArmory	missileTurretTest	#loc_BDArmory_part_missileTurretTest_title //Jernas Missile Turret	Missile turrets
-2	subsonicFlight	BDArmory	mk1opencockpit_RP_type2	Mk1 Open Cockpit Type 2	Control
-3	efficientFlightSystems	BDArmory	seatExternalCmdweaponized	#loc_BDArmory_part_combatSeat_title //EAS-2 External Combat Seat	
-4	specializedFlightSystems	BDArmory	bahaMk82Bomb	#loc_BDArmory_part_bahaMk82Bomb_title //Mk82 Bomb	Bombs
-4	specializedFlightSystems	BDArmory	bahaMk82BombBrake	#loc_BDArmory_part_bahaMk82BombBrake_title //Mk82 SnakeEye Bomb	Bombs
-4	specializedFlightSystems	BDArmory	bahaOMillennium	#loc_BDArmory_part_bahaOMillennium_title //Oerlikon Millennium Cannon	Gun turrets
-6	advEMSystems	BDArmory	bahaPac-3	#loc_BDArmory_part_bahaPac-3_title //MIM-104F PATRIOT PAC-3	Missiles
-6	advEMSystems	BDArmory	patriotLauncherTurret	#loc_BDArmory_part_patriotLauncherTurret_title //Patriot Launcher Turret	Missile turrets
-4	specializedFlightSystems	BDArmory	radarDataReceiver	#loc_BDArmory_part_radarDataReceiver_title //Radar Data Receiver	Radars
-4	specializedFlightSystems	BDArmory	bdRadome1	#loc_BDArmory_part_bdRadome1_title //AN/APG-63V2 Radome	Radars
-4	specializedFlightSystems	BDArmory	bdRadome1GA	#loc_BDArmory_part_bdRadome1_ground_title //APG-77v1 air-to-ground Radar	Radars
-4	specializedFlightSystems	BDArmory	bdRadome1inline	#loc_BDArmory_part_bdRadome1inline_title //AN/APG-63V2 Inline Radome	Radars
-4	specializedFlightSystems	BDArmory	bdRadome1inlineGA	#loc_BDArmory_part_bdRadome1inline_ground_title  //APG-77v1 air-to-ground Radar (Inline)	Radars
-4	specializedFlightSystems	BDArmory	bdRadome1snub	#loc_BDArmory_part_bdRadome1snub_title //AN/APG-63V1 Radome	Radars
-4	specializedFlightSystems	BDArmory	bdRadome1snubGA	#loc_BDArmory_part_bdRadome1snub_ground_title  //APG-77v1 air-to-ground Radar (Snub)	Radars
-4	specializedFlightSystems	BDArmory	bahaRBS-15Cruise	#loc_BDArmory_part_bahaRBS-15Cruise_title //RBS-15 Cruise Missile	Missiles
-4	specializedFlightSystems	BDArmory	bahaRBS-15ALCruise	#loc_BDArmory_part_bahaRBS-15ALCruise_title //RBS-15 Air launched Cruise Missile	Missiles
-4	specializedFlightSystems	BDArmory	BD1x0.5ReactiveArmor	#loc_BDArmory_part_REA_title //BD 1x0.5 Reactive Armor	Armor
-4	specializedFlightSystems	BDArmory	bdRotBombBay	#loc_BDArmory_part_bdRotBombBay_title //Adjustable Rotary Bomb Rack	Missile turrets
-4	specializedFlightSystems	BDArmory	bahaS-8Launcher	#loc_BDArmory_part_bahaS-8Launcher_title //S-8KOM Rocket Pod	Rocket pods
-3	efficientFlightSystems	BDArmory	SaturnAL31	#loc_BDArmory_part_SaturnAL31_title //Saturn AL-31FM1 Afterburning Jet Engine	
-3	efficientFlightSystems	BDArmory	bahaSidamTurret	#loc_BDArmory_part_sidam_title //Sidam Anti-Air gun	Gun turrets
-3	efficientFlightSystems	BDArmory	bahaAim9	#loc_BDArmory_part_bahaAim9_title //AIM-9 Sidewinder Missile	Missiles
-3	efficientFlightSystems	BDArmory	bdWarheadSmall	#loc_BDArmory_part_bdWarheadSmall_title //Small High Explosive Warhead	Warheads
-3	efficientFlightSystems	BDArmory	bahaSmokeCmPod	#loc_BDArmory_part_bahaSmokeCmPod_title //Smoke Countermeasure Pod	Countermeasures
-4	specializedFlightSystems	BDArmory	BDAsonarPod1A	#loc_BDArmory_part_BDAsonarPod1A_title //BDA MK1 Sonar Pod	Radars
-4	specializedFlightSystems	BDArmory	StingRayBDATorpedo	#loc_BDArmory_part_StingRayBDATorpedo_title //Sting Ray BDA LightWeight Torpedo	Torpedoes
-4	specializedFlightSystems	BDArmory	bahaFlirBall	#loc_BDArmory_part_bahaFlirBall_title //FLIR Targeting Ball	Targeting
-4	specializedFlightSystems	BDArmory	bahaCamPod	#loc_BDArmory_part_bahaCamPod_title //AN/AAQ-28 Targeting Pod	Targeting
-4	specializedFlightSystems	BDArmory	towLauncherTurret	#loc_BDArmory_part_towLauncherTurret_title //Tow Launcher	Missile turrets
-4	specializedFlightSystems	BDArmory	bahaTowMissile	#loc_BDArmory_part_bahaTowMissile_title //BGM-71 Tow Missile	Missiles
-2	subsonicFlight	BDArmory	missileController	#loc_BDArmory_part_missileController_title //Weapon Manager	Control
-5	aerospaceComposites	BDArmoryExtended	baha100mmTurret	#loc_BDArmory_part_baha100mmTurret_title //100mm Heavy Turret	Gun turrets
-5	aerospaceComposites	BDArmoryExtended	baha130mmTurret	#loc_BDArmory_part_baha130mmTurret_title //130mm Heavy Turret	Gun turrets
-4	specializedFlightSystems	BDArmoryExtended	baha76mmTurret	#loc_BDArmory_part_baha76mmTurret_title //76mm Turret	Gun turrets
-3	efficientFlightSystems	BDArmoryExtended	baha50CalAmmoScalable	可缩放弹药箱（.50 Cal） // Rescalable Ammo Box (.50Cal)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha50CalAmmoDrumScalable	可缩放弹药弹鼓（.50 Cal） // Rescalable Ammo Magazine (.50Cal)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha20mmAmmoScalable	可缩放弹药箱（20mm） // Rescalable Ammo Box (20mm)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha20mmAmmoDrumScalable	可缩放弹药弹鼓（20mm） // Rescalable Ammo Magazine (20mm)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha25mmAmmoScalable	可缩放弹药箱（25mm） // Rescalable Ammo Box (25mm)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha25mmAmmoDrumScalable	可缩放弹药弹鼓（25mm） // Rescalable Ammo Magazine (25mm)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha30mmAmmoScalable	可缩放弹药箱（30mm） // Rescalable Ammo Box (30mm)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha30mmAmmoDrumScalable	可缩放弹药弹鼓（30mm） // Rescalable Ammo Magazine (30mm)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha37mmAmmoScalable	可缩放弹药箱（37mm） // Rescalable Ammo Box (37mm)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha37mmAmmo	37mm 弹药箱 // 37mm Ammunition Box	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha37mmAmmoDrumScalable	可缩放弹药弹鼓（37mm） // Rescalable Ammo Magazine (37mm)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha57mmAmmoScalable	可缩放弹药箱（57mm） // Rescalable Ammo Box (57mm)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha57mmAmmoDrumScalable	可缩放弹药弹鼓（57mm） // Rescalable Ammo Magazine (57mm)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha76mmAmmoScalable	可缩放弹药箱（76mm） // Rescalable Ammo Box (76mm)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha76mmShellBox	#loc_BDArmory_part_baha76mmShellBox_title //76mm Ammunition Bin	Ammo
-3	efficientFlightSystems	BDArmoryExtended	baha76mmAmmoDrumScalable	可缩放弹药弹鼓（76mm） // Rescalable Ammo Magazine (76mm)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	bahaCannonAmmoDrumScalable	可缩放弹药弹鼓（火炮弹药） // Rescalable Ammo Magazine (CannonShells)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	bahaCannonAmmoScalable	可缩放弹药箱（火炮弹药） // Rescalable Ammo Box (CannonShells)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	bahaFlakAmmoDrumScalable	可缩放弹药弹鼓（防空炮弹药） // Rescalable Ammo Magazine (Flak Shells)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	bahaFlakAmmoScalable	可缩放弹药箱（防空炮弹药） // Rescalable Ammo Box (Flak Shells)	Ammo
-3	efficientFlightSystems	BDArmoryExtended	bahaRocketAmmoScalable	Rescalable Ammo Box (Rockets)	Ammo
-4	specializedFlightSystems	BDArmoryExtended	baha57mmTurret	#loc_BDArmory_part_baha57mmTurret_title //57mm Turret	Gun turrets
-3	efficientFlightSystems	BDArmoryExtended	bahaCloakGenerator	隐形装置 // Cloaking Device	Countermeasures
-4	specializedFlightSystems	BDArmoryExtended	bahaCLS_Long	C-VLS-24 导弹荚 // C-VLS-24 MissilePod	Missiles
-4	specializedFlightSystems	BDArmoryExtended	bahaCLS_Short	C-VLS-12 导弹荚 // C-VLS-12 MissilePod	Missiles
-4	specializedFlightSystems	BDArmoryExtended	bahaBombletDispenser	UGB-128D 炸弹投放器 // UGB-128D Bomblet Dispenser	Bombs
-4	specializedFlightSystems	BDArmoryExtended	bahaDroptank	可抛弃油箱 // Drop Tank	
-5	aerospaceComposites	BDArmoryExtended	baha105mmGun	105mm L/45 榴弹炮 // 105mm L/45 Howitzer	Guns
-3	efficientFlightSystems	BDArmoryExtended	baha105mmRCL	105mm 无后坐力炮 // 105mm Recoilless Gun	Guns
-6	advEMSystems	BDArmoryExtended	baha120mmGunLong	M2 120mm L/58 坦克炮 // M2 120mm L/58 Cannon	Guns
-6	advEMSystems	BDArmoryExtended	baha120mmGun	#loc_BDArmory_part_bahaM1Abrams_title  //M1 Abrams Cannon	Guns
-5	aerospaceComposites	BDArmoryExtended	baha155mmHowitzer	155mm L/40 榴弹炮 // 155mm L/40 Howitzer	Guns
-5	aerospaceComposites	BDArmoryExtended	baha203mmHowitzer	203mm L/21 榴弹炮 // 203mm L/21 Howitzer	Guns
-4	specializedFlightSystems	BDArmoryExtended	bahaHephestus	赫菲斯托斯 20mm 转管机炮 // Hephestus 20mm Rotary Gun	Guns
-4	specializedFlightSystems	BDArmoryExtended	baha20mmRevolver	M20 航空转膛炮 // M20 Aircraft Revolver Cannon	Guns
-4	specializedFlightSystems	BDArmoryExtended	baha30mmGatling	#loc_BDArmory_part_bahaGAC-6_title	Guns
-4	specializedFlightSystems	BDArmoryExtended	baha76mmGun	76mm L/38 坦克炮 // 76mm L/38 Cannon	
-4	specializedFlightSystems	BDArmoryExtended	bahaQF6Pounder	QF-6磅 57mm 反坦克炮 // QF-6P 57mm Anti-Tank Gun	
-3	efficientFlightSystems	BDArmoryExtended	baha57mmAmmo	57mm 弹药箱 // 57mm Ammunition Box	Ammo
-2	subsonicFlight	BDArmoryExtended	bahaYakB	#loc_BDArmory_part_bahaYakB_title //YakB Aircraft Heavy Machine Gun	
-3	efficientFlightSystems	BDArmoryExtended	bahaNudelman	N-37 航炮 // N-37 Aircraft Autocannon	
-3	efficientFlightSystems	BDArmoryExtended	bahaFlakcannon	F-90 航炮 // F-90 Aircraft Flak Cannon	
-4	specializedFlightSystems	BDArmoryExtended	bahaHeavyAutocannon	57mm 重型机关炮 // 57mm Heavy Autocannon	
-8	experimentalElectricalSystems	BDArmoryExtended	bahaRailgun	航空轨道炮 // Aircraft Railgun	Guns
-3	efficientFlightSystems	BDArmoryExtended	bahaRepeaterCannon	#loc_BDArmory_part_bahaRepeater_title //BD-2 Repeater	Guns
-3	efficientFlightSystems	BDArmoryExtended	bahaRevolverCannon	#loc_BDArmory_part_bahaRevolverCannon_title //M-27 Revolver cannon	Guns
-4	specializedFlightSystems	BDArmoryExtended	baha37mmCIWS	#loc_BDArmory_part_baha37mmCIWS_title //37mm CIWS Turret	Gun turrets
-4	specializedFlightSystems	BDArmoryExtended	baha37mmTurret	#loc_BDArmory_part_baha37mmTurret_title //37mm Turret	Gun turrets
-8	experimentalElectricalSystems	BDArmoryExtended	bahaBeamLaser	小型连续激光器 // Small Continuous Laser	Lasers
-8	experimentalElectricalSystems	BDArmoryExtended	bahaChemLaser	航空化学激光器 // Aircraft Chemical Laser	Lasers
-8	experimentalElectricalSystems	BDArmoryExtended	bahaElectroLaser	电弧发射器 // Arc Caster	
-8	experimentalElectricalSystems	BDArmoryExtended	bahaFlakLaser	爆破激光 // Flak Laser	
-8	experimentalElectricalSystems	BDArmoryExtended	bahaLGL	激光炮 // Laser Cannon	Lasers
-8	experimentalElectricalSystems	BDArmoryExtended	bahaCombatLaser	重型脉冲激光器 // Heavy Pulse Laser	Lasers
-8	experimentalElectricalSystems	BDArmoryExtended	bahaPlasmaBeam	航空等离子激光 // Aircraft Plasma Beam	
-8	experimentalElectricalSystems	BDArmoryExtended	bahaPulseLaser	脉冲激光器 // Pulse Laser	Lasers
-8	experimentalElectricalSystems	BDArmoryExtended	bahaScatterLaser	#loc_BDArmory_part_bahascatterLas_title //ScatterLaser	Lasers
-8	experimentalElectricalSystems	BDArmoryExtended	bahaLightningGun	特斯拉炮 // Tesla Cannon	Lasers
-3	efficientFlightSystems	BDArmoryExtended	bahaTorsionGun	拖曳炮 // Torsion Cannon	
-3	efficientFlightSystems	BDArmoryExtended	bahaReloadableRailMagazine	弹药库 // Ordnance Magazine	Ammo
-3	efficientFlightSystems	BDArmoryExtended	bahaMissileMagazine	弹药库（圆柱形） // Ordnance Magazine (Cylinder)	Ammo
-4	specializedFlightSystems	BDArmoryExtended	bdMissilePod	可展开导弹吊舱 // Deployable Missile Pod	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	bdReloadableMissilePod	可展开导弹吊舱（可复装） // Deployable Missile Pod (Reloading)	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	bahaReloadableAdjustableRail	可调节导弹挂架（可重新装填） // Adjustable Missile Rail (reloadable)	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	bahaTwinRail	双联装导弹导轨 // Twin-mount Missile Rail	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	BahaClusterMissile	集束导弹 // Cluster Missile	Missiles
-6	advEMSystems	BDArmoryExtended	bahaAAHARM	#loc_BDArmory_part_bahaAAHARM_title //AR-18	Missiles
-4	specializedFlightSystems	BDArmoryExtended	bahaLSAM	#loc_BDArmory_part_bahaLSAM_title //SA-10 Thrall Missile	Missiles
-4	specializedFlightSystems	BDArmoryExtended	bahaClusterSAM	SA-25 哈尔贝克 地对空导弹 // SA-25 Halbech Surface-to-Air Missile	Missiles
-4	specializedFlightSystems	BDArmoryExtended	bahaHSAM	#loc_BDArmory_part_bahaHSAM_title //SA-30 Cataphract Missile	Missiles
-4	specializedFlightSystems	BDArmoryExtended	bahaMRSAM	#loc_BDArmory_part_bahaMRSAM_title //SA-16 Jannisary Missile	Missiles
-4	specializedFlightSystems	BDArmoryExtended	bahaAIM4FalconGAR11	AIM-4 “隼” GAR-11 // AIM-4 Falcon GAR-11	Missiles
-4	specializedFlightSystems	BDArmoryExtended	bahaAIM4FalconGAR2	AIM-4 “隼” GAR-2 // AIM-4 Falcon GAR-2	Missiles
-4	specializedFlightSystems	BDArmoryExtended	bahaAIM4FalconMK1	AIM-4 “隼” GAR-1 // AIM-4 Falcon GAR-1	Missiles
-4	specializedFlightSystems	BDArmoryExtended	bahaHomingH70Launcher	#loc_BDArmory_part_bahaHydraAPKWS_title  //Hydra-70 Rocket Pod	Missiles
-4	specializedFlightSystems	BDArmoryExtended	bahaCIMS	Pavise 近程防御导弹系统 // Pavise CIMS	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	bahaGMLR	重型导弹发射塔 // Heavy Missile Launch Rail Turret	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	BahaJernasReloadable	#loc_BDArmory_part_JernasReload_title //Jernas Missile Turret (reloadable)	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	bahaSingleGMLR	单联导弹发射挂架炮塔 // Single Missile Launch Rail Turret	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	bahaSmallMissileTurret	#loc_BDArmory_part_missileTurretTwin_title //Jernas Missile Turret	Missile turrets
-3	efficientFlightSystems	BDArmoryExtended	bahaAPS	#loc_BDArmory_part_bahaPalash_title //Active Protection System	Countermeasures
-3	efficientFlightSystems	BDArmoryExtended	PointDefenseMG	气泡型.50 近防炮塔 // Point Defense Blister Turret	Countermeasures
-4	specializedFlightSystems	BDArmoryExtended	bdRepulsorGear	X-01 径向推进器 // X-01 Radial Repulsorlift	
-4	specializedFlightSystems	BDArmoryExtended	bdWarheadSmall_CR	#loc_BDArmory_part_CRWarheadSmall_title //Small Continuous Rod Warhead	Warheads
-4	specializedFlightSystems	BDArmoryExtended	bdWarheadSmall_EMP	#loc_BDArmory_part_EMPWarheadSmall_title //Small EMP Warhead	Warheads
-4	specializedFlightSystems	BDArmoryExtended	bdWarheadSmall_FR	#loc_BDArmory_part_FragWarheadSmall_title //Small Fragmentation Warhead	Warheads
-7	highPowerElectricalSystems	BDArmoryExtended	bdWarheadSmall_N	#loc_BDArmory_part_NWarheadSmall_title //Small Nuclear Warhead	Warheads
-4	specializedFlightSystems	BDArmoryExtended	bdWarheadSmall_SC	#loc_BDArmory_part_SCWarheadSmall_title //Small Shaped Charge Warhead	Warheads
-4	specializedFlightSystems	BDArmoryExtended	BDAsonarPod1B	#loc_BDArmory_part_BDAsonarPod1B_title //BDA Passive Sonar Pod	Radars
-3	efficientFlightSystems	BDArmoryExtended	bahaChaffStrip	#loc_BDArmory_part_bahaChaffPod_title  //Chaff Dispenser	Countermeasures
-3	efficientFlightSystems	BDArmoryExtended	bahaFlareStrip	#loc_BDArmory_part_bahaCmPod_title  //Flare Dispenser	Countermeasures
-4	specializedFlightSystems	BDArmoryExtended	baha_SwordfishTorpedo	#loc_BDArmory_part_SwordfishTorpedo_title //Swordfish Passive Acoustic Torpedo	Torpedoes
-4	specializedFlightSystems	BDArmoryExtended	TigersharkBDATorpedo	#loc_BDArmory_part_TigersharkTorpedo_title //Tigershark Active Sonar Torpedo	Torpedoes
-4	specializedFlightSystems	BDArmoryExtended	baha_Torplauncher	三联鱼雷发射器 // Triple Torpedo Launcher	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	bahaTowLauncherSingle	陶式导弹发射器（单联） // TOW Missile Pod	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	bahaTowLauncherDouble	陶式导弹发射器（双联） // TOW Missile Twin Pod	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	bahaTowLauncherTriple	陶式导弹发射器（三联） // TOW Missile Triple Pod	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	bahaVLSQuad	四坑垂直发射（VLS）系统 // Quad VLS Cell	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	bahaVLSSingle	VLS 发射单元 // VLS Cell	Missile turrets
-4	specializedFlightSystems	BDArmoryExtended	bahaRIM-66	RIM-66D “标准”II型导弹 // RIM-66D Standard Missile 2	Missiles
-4	specializedFlightSystems	BDArmoryRefurbished	bahaMk83Bomb	Mk83 Bomb	Bombs
-4	specializedFlightSystems	BDArmoryRefurbished	bahaMk84Bomb	Mk84 Bomb	Bombs
-4	specializedFlightSystems	BDArmoryRefurbished	bahaMk83BombBrake	Mk83 SnakeEye Bomb	Bombs
-4	specializedFlightSystems	BDArmoryRefurbished	bahaMk84BombBrake	Mk84 SnakeEye Bomb	Bombs
-5	aerospaceComposites	BDArmoryRefurbished	bahaJdamMk82	Mk82 JDAM Bomb	Bombs
-5	aerospaceComposites	BDArmoryRefurbished	bahaJdamMk84	Mk84 JDAM Bomb	Bombs
-4	specializedFlightSystems	BDArmoryRefurbished	kpaHellfireKinetic	AGM-114R-9X Hellfire "Slapchop" Missile	Missiles
-4	specializedFlightSystems	BDArmoryRefurbished	SingleReactiveArmor	BD 0.3x0.25 Light Reactive Armor	Armor
-3	efficientFlightSystems	BDArmoryRefurbished	bahaSmallSmokeCmPod	#LOC_BDRefurb_SmokeCmPod_title //Smoke Countermeasure Pod	Countermeasures
-6	advEMSystems	BDArmoryRefurbished	APARradar	Advanced Phased Array Radar	Radars
-4	specializedFlightSystems	BDArmoryRefurbished	RAMLauncherTurret	MK-49 RAM Launcher	Missile turrets
-4	specializedFlightSystems	BDArmoryRefurbished	thephalanx	Phalanx CIWS	Gun turrets
-5	aerospaceComposites	BDArmoryRefurbished	SEARAMLauncherTurret	SeaRAM Launcher	Missile turrets
-5	aerospaceComposites	BDArmoryRefurbished	THERIM-116	RIM-116 Rolling Airframe Missile	Missiles
-6	advEMSystems	BDArmoryRefurbished	smartsradar	SMART-S Radar	Radars
-6	advEMSystems	BDArmoryRefurbished	STIRradar	STIR Locking Radar	Radars
-6	advEMSystems	BDArmoryRefurbished	PEW9M96E2	9M96E2 Intercept Missile	Missiles
-6	advEMSystems	BDArmoryRefurbished	PEW-BLU-82	BLU-82 "Daisy Cutter" Bomb	Bombs
-6	advEMSystems	BDArmoryRefurbished	PEW-GBU-43/B	GBU-43/B MOAB	Bombs
-5	aerospaceComposites	BDArmoryRefurbished	PEWGBU53A	GBU-53/B "Stormbreaker" Small Diameter Bomb	Bombs
-6	advEMSystems	BDArmoryRefurbished	PEW-GBU-57/A	GBU-57A/B Kerbin Penetrating Bomb	Bombs
-4	specializedFlightSystems	BDArmoryRefurbished	PEWR-77	R-77 "Adder" Missile	Missiles
-6	advEMSystems	BDArmoryRefurbished	THERIM-162	RIM-162 Evolved Sea Sparrow Missile	Missiles
-3	efficientFlightSystems	BDArmoryRefurbished	PEW-BMP2	BMP2 Turret	Gun turrets
-4	specializedFlightSystems	BDArmoryRefurbished	PEW-Bradley-TOW	M2 Bradley Turret (TOW)	Gun turrets
-3	efficientFlightSystems	BDArmoryRefurbished	PEW-Bradley	M2 Bradley Turret	Gun turrets
-3	efficientFlightSystems	BDArmoryRefurbished	Challenger299Turret	Challenger II Turret	Gun turrets
-3	efficientFlightSystems	BDArmoryRefurbished	Eland90BTurret	Eland 90B Turret	Gun turrets
-3	efficientFlightSystems	BDArmoryRefurbished	PEW-mk19	Mk.19 Grenade Launcher	Gun turrets
-3	efficientFlightSystems	BDArmoryRefurbished	T90MS	T-90MS Turret	Gun turrets
-5	aerospaceComposites	BDModularMissileParts	proceduralHighExplosive	Procedural High Explosive	Warheads
-4	specializedFlightSystems	BDModularMissileParts	proceduralMissileCore	Procedural Missile Core for BDArmory	Control
-4	specializedFlightSystems	BDModularMissileParts	proceduralMissileSRB	Procedural SRB customized for BDArmory	Missiles
-4	specializedFlightSystems	BDModularMissileParts	MMmk1Tube	MK1 ModularMissile Tube Launcher	
-2	subsonicFlight	AviatorArsenal	50calBox	#LOC_AA_12.7mmBox_title //WW2 12.7mm Ammo Box	
-2	subsonicFlight	AviatorArsenal	13mmBox	#LOC_AA_13mmBox_title //WW2 13mm Ammo Box	
-2	subsonicFlight	AviatorArsenal	15mmBox	#LOC_AA_15mmBox_title //WW2 15mm Ammo Box	
-2	subsonicFlight	AviatorArsenal	20mmBox	#LOC_AA_20mmBox_title //WW2 20mm Ammo Box	
-2	subsonicFlight	AviatorArsenal	23mmBox	#LOC_AA_23mmBox_title //WW2 23mm Ammo Box	
-2	subsonicFlight	AviatorArsenal	30mmBox	#LOC_AA_30mmBox_title //WW2 30mm Ammo Box	
-2	subsonicFlight	AviatorArsenal	40mmBox	#LOC_AA_40mmBox_title //WW2 40mm Ammo Box	
-2	subsonicFlight	AviatorArsenal	75mmBox	#LOC_AA_75mmBox_title //WW2 75mm Ammo Box	
-2	subsonicFlight	AviatorArsenal	7mmBox	#LOC_AA_7mmBox_title //WW2 7mm Ammo Box	
-3	efficientFlightSystems	AviatorArsenal	AIantenna	#LOC_AA_CommAntenna_title //WW2 Communications Antenna	
-2	subsonicFlight	AviatorArsenal	AeroAntenna	#LOC_AA_BallAntenna_title //WW2 Ball Antenna	
-2	subsonicFlight	AviatorArsenal	ringantenna	#LOC_AA_RingAntenna_title //WW2 Ring Antenna	
-2	subsonicFlight	AviatorArsenal	ANM30	#LOC_AA_100lb_title //WW2 AN-M64 100lb Bomb	
-2	subsonicFlight	AviatorArsenal	ANM57	#LOC_AA_250lb_title // WW2 AN-M64 250lb Bomb	
-2	subsonicFlight	AviatorArsenal	ANM64	#LOC_AA_500lb_title //WW2 AN-M64 500lb Bomb	
-2	subsonicFlight	AviatorArsenal	ANM65	#LOC_AA_1000lb_title //WW2 AN-M65 1000lb Bomb	
-3	efficientFlightSystems	AviatorArsenal	hispanoEnclosed	#LOC_AA_HispanoShroud_title //WW2 Hispano MK2 20mm Cannon (Enclosed)	
-3	efficientFlightSystems	AviatorArsenal	hispanoExposed	#LOC_AA_Hispano_title //WW2 Hispano MK2 20mm Cannon	
-3	efficientFlightSystems	AviatorArsenal	WW2Ho5WingMount	#LOC_AA_Ho5_title //WW2 Ho-5 20mm Cannon	
-3	efficientFlightSystems	AviatorArsenal	Mg151Long	#LOC_AA_151LB_title//WW2 MG 151 15mm Long Barrel	
-3	efficientFlightSystems	AviatorArsenal	Mg151Short	#LOC_AA_151SB_title // WW2 MG 151 15mm Short Barrel	
-3	efficientFlightSystems	AviatorArsenal	MG151WingPod	#LOC_AA_15120_title //WW2 MG 151 20mm Surface Mounted	
-3	efficientFlightSystems	AviatorArsenal	ShVAKWing	#LOC_AA_shVAKWing_title //WW2 ShVAK 20mm Wing Mounted Cannon	
-3	efficientFlightSystems	AviatorArsenal	ShVAKBody	#LOC_AA_shVAK_title //WW2 ShVAK 20mm Body Port Cannon	
-3	efficientFlightSystems	AviatorArsenal	Bk75	#LOC_AA_bk75_title //WW2 Bk 7.5 75mm Cannon	
-3	efficientFlightSystems	AviatorArsenal	WW2Ho155	#LOC_AA_Ho155_title //WW2 Ho-155 30mm Cannon	
-3	efficientFlightSystems	AviatorArsenal	Mk108	#LOC_AA_mk108_title //WW2 MK 108 30mm Cannon	
-3	efficientFlightSystems	AviatorArsenal	VickersShortPod	#LOC_AA_Vickers_title //WW2 Vickers S 40mm Cannon	
-3	efficientFlightSystems	AviatorArsenal	VYa23	#LOC_AA_VYA_title //WW2 VYa-23 23mm Cannon	
-3	efficientFlightSystems	AviatorArsenal	BerezinUBK	#LOC_AA_UBK_title//WW2 Berezin UBK 12.7mm Long Barrel	
-3	efficientFlightSystems	AviatorArsenal	BredaSAFATLong	#LOC_AA_SAFATLB_title //WW2 Breda-SAFAT 7.7mm MG Long Barrel	
-3	efficientFlightSystems	AviatorArsenal	BredaSAFATPort	#LOC_AA_SAFATS_title //WW2 Breda-SAFAT 7.7mm MG Port	
-3	efficientFlightSystems	AviatorArsenal	WW2Ho3ExposedBarrel	#LOC_AA_HO3_title //WW2 Ho-103 .50 Long Barrel	
-3	efficientFlightSystems	AviatorArsenal	M2Blister	#LOC_AA_M2Pod_title //WW2 Browning M2 .50 Blister Pod	
-3	efficientFlightSystems	AviatorArsenal	M2ExposedBarrel	#LOC_AA_M2LB_title //WW2 Browning M2 .50 Long Barrel	
-3	efficientFlightSystems	AviatorArsenal	M2GunPort	#LOC_AA_M2Port_title //WW2 Browning M2 .50 Port	
-3	efficientFlightSystems	AviatorArsenal	M2Pod	#LOC_AA_M2S_title //WW2 Browning M2 .50 Surface Mounted	
-3	efficientFlightSystems	AviatorArsenal	MG131	#LOC_AA_131_title //WW2 MG 131 13mm Surface Mounted	
-3	efficientFlightSystems	AviatorArsenal	shKAS	#LOC_AA_shKAS_title //WW2 ShKAS 7.62mm	
-2	subsonicFlight	AviatorArsenal	WW2HVARRocket	#LOC_AA_HVAR_title //WW2 Rocket HVAR	
-2	subsonicFlight	AviatorArsenal	WW2R4MRocket	#LOC_AA_R4M_title //WW2 R4M Rocket Rack	
-2	subsonicFlight	AviatorArsenal	WW2RocketPod	#LOC_AA_158_title //WW2 Rocket Pod XM158	
-2	subsonicFlight	AviatorArsenal	WW2RP3Rocket	#LOC_AA_RP3_title //WW2 Rocket RP-3	
-3	efficientFlightSystems	AviatorArsenal	BallTurret	#LOC_AA_BallTurret_title//WW2 Ball Turret .50 Cal	
-3	efficientFlightSystems	AviatorArsenal	MG131zTurret	#LOC_AA_131zFLD_title //WW2 MG 131z 13mm Turret	
-3	efficientFlightSystems	AviatorArsenal	smallDropTank	#LOC_AA_droptank_title //WW2 Small Drop Tank	
-3	efficientFlightSystems	AviatorArsenal	HeavyMount	#LOC_AA_Heavymount_title //WW2 Heavy Ordnance Mount	
-3	efficientFlightSystems	AviatorArsenal	JerichoTrumpet	#LOC_AA_Trumpet_title //WW2 Jericho Trumpet	
-2	subsonicFlight	AviatorArsenal	StructBomb	#LOC_AA_mount_title //WW2 Structural Bomb Mount	
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_PL15_AAM	PL-15 远程空空导弹	Missiles
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_PL5EII_AAM	PL-5EII 近程空空导弹	Missiles
-3	efficientFlightSystems	KerbalAdvancedDefenseReborn	KAD_R3R_AAM	R-3R “环礁” 近程SARH空空导弹	Missiles
-3	efficientFlightSystems	KerbalAdvancedDefenseReborn	KAD_R3S_AAM	R-3S “环礁” 近程IR空空导弹	Missiles
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_R40R_AAM	R-40R “尖顶” 中程SARH空空导弹	Missiles
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_R40RD_AAM	R-40RD “尖顶” 中程SARH空空导弹	Missiles
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_R40T_AAM	R-40T “尖顶” 中程IR空空导弹	Missiles
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_R40TD_AAM	R-40TD “尖顶” 中程IR空空导弹	Missiles
-4	specializedFlightSystems	KerbalAdvancedDefenseReborn	KAD_R60K_AAM	R-60K “蚜虫” 近程IR空空导弹	Missiles
-4	specializedFlightSystems	KerbalAdvancedDefenseReborn	KAD_R60MK_AAM	R-60MK “蚜虫” 近程IR空空导弹	Missiles
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_RedTop_AAM	“红头” 近程空空导弹	Missiles
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_Super530D_AAM	Super 530D 中程空空导弹	Missiles
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_CM102_ARM	CM-102 反辐射导弹	Missiles
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_Kh58U_ARM	Kh-58U 反辐射导弹	Missiles
-7	highPowerElectricalSystems	KerbalAdvancedDefenseReborn	KAD_B28FI_NucBomb	B-28FI 1.45兆吨级核武器	Bombs
-7	highPowerElectricalSystems	KerbalAdvancedDefenseReborn	KAD_B61_NucBomb	B-61 10千吨级战术核弹	Bombs
-7	highPowerElectricalSystems	KerbalAdvancedDefenseReborn	KAD_MK41_NucBomb	MK-41 25兆吨级核武器	Bombs
-7	highPowerElectricalSystems	KerbalAdvancedDefenseReborn	KAD_MK8_NucBomb	MK-8 30千吨级核弹	Bombs
-7	highPowerElectricalSystems	KerbalAdvancedDefenseReborn	KAD_RN28_NucBomb	RN-28 5千吨级战术核弹	Bombs
-7	highPowerElectricalSystems	KerbalAdvancedDefenseReborn	KAD_Tsar_NucBomb	沙皇炸弹|AN602（5000万吨）	Bombs
-7	highPowerElectricalSystems	KerbalAdvancedDefenseReborn	KAD_Tsar100_NucBomb	沙皇炸弹|AN602（1亿吨）	Bombs
-7	highPowerElectricalSystems	KerbalAdvancedDefenseReborn	KAD_W88	W88 热核弹头	Warheads
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_8TK_IRST	8TK/8TP 红外搜索与跟踪系统(IRST)	Radars
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_TP23_IRST	TP-23 红外搜索与跟踪系统(IRST)	Radars
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_TP26_IRST	TP-26 红外搜索与跟踪系统(IRST)	Radars
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_TP26Sh1_IRST	TP-26Sh-1 红外搜索与跟踪系统(IRST)	Radars
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_RP21M_Radar	RP-21M “旋扫-B” 火控雷达	Radars
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_RP22SM_Radar	RP-22SM “松鸦鸟” 火控雷达	Radars
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_RP25M_Radar	RP-25M “高云雀” 火控雷达	Radars
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_RP25_Radar	RP-25 “狐火” 火控雷达	Radars
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_RP31M_Radar	RP-31M“高云雀”火控雷达	Radars
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_RP31_Radar	RP-31“闪舞”火控雷达	Radars
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_9M33M3_Osa	9M33 “黄蜂-AKM” 地空导弹	Missiles
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_9M38M1_Buk_SAM	9M38M1 “山毛榉” 中程地空导弹	Missiles
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_FIM92K_Stinger	FIM-92K “毒刺” 单兵便携式防空导弹	Missiles
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_IRIS-T_SLM	IRIS-T SLM 中程地空导弹	Missiles
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_RBS98	IRIS-T SLS 近程地空导弹	Missiles
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_MIM-104E_Patriot	MIM-104E “爱国者” 远程地空导弹	Missiles
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_RapierMk1	“轻剑MK1” 近程地空导弹	Missiles
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_RapierMk1E	“轻剑MK1E” 近程地空导弹	Missiles
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_RapierMk2	“轻剑MK2” 近程地空导弹	Missiles
-6	advEMSystems	KerbalAdvancedDefenseReborn	KAD_S-300PS_5V55R	S300-5V55R 远程地空导弹	Missiles
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_9M37M_SAM	9M37M “箭-10” 近程地空导弹	Missiles
-5	aerospaceComposites	KerbalAdvancedDefenseReborn	KAD_Type81_C	81式 “短SAM”(C标准型)	Missiles
-4	specializedFlightSystems	NKDR	harp12kBomb	12,000lb Conventional Bomb	
-7	highPowerElectricalSystems	NKDR	b83Nuke	B-83 Nuclear Bomb	
-7	highPowerElectricalSystems	NKDR	harpCastleBravo	Castle Bravo	
-4	specializedFlightSystems	NKDR	FAB-100Bomb	FAB-100 Bomb	
-4	specializedFlightSystems	NKDR	FAB-250Bomb	FAB-250 Bomb	
-6	advEMSystems	NKDR	FAB-5000Bomb	FAB-5000 Bomb	
-5	aerospaceComposites	NKDR	foabBomb	FOAB	
-5	aerospaceComposites	NKDR	GBU39	GBU-39 Small Diameter Bomb	
-5	aerospaceComposites	NKDR	GBU44	GBU-44 VIPER SDB	
-5	aerospaceComposites	NKDR	k12Cloudmaker	K-12 Cloudmaker	
-4	specializedFlightSystems	NKDR	harpKineticBombarder	Kinetic Bombardment Weapon	
-5	aerospaceComposites	NKDR	paveWayIV	Paveway IV Guided Bomb	
-5	aerospaceComposites	NKDR	moabBomb	Massive Ordinance Air Burst (MOAB)	
-7	highPowerElectricalSystems	NKDR	thermoMIRV	W88 ThermoNuclear MIRV	
-7	highPowerElectricalSystems	NKDR	tsarBomba	Tsar Bob-a	
-3	efficientFlightSystems	NKDR	harpBahaCmPod	Slim Flare Dispenser	Countermeasures
-5	aerospaceComposites	NKDR	harpGSH301Pod	Gryazev-Shipunov GSh-301	
-5	aerospaceComposites	NKDR	harpGSHPod	Gryazev-Shipunov GSh-23	
-5	aerospaceComposites	NKDR	harpM129Pod	M129 Grenade Launcher	
-5	aerospaceComposites	NKDR	harpVulcanPod	M61 Vulcan Cannon	
-7	highPowerElectricalSystems	NKDR	harpAtomAnnieR	M65 'Nuclear Valentina' Radial	
-8	experimentalElectricalSystems	NKDR	harpRailgunR	Prototype Railgun Radial	
-4	specializedFlightSystems	NKDR	harpAK230	AK-230 CIWS	
-5	aerospaceComposites	NKDR	harpGSHTurret	Gryazev-Shipunov GSh-23 Helicopter Turret	
-5	aerospaceComposites	NKDR	harpKarl	Karl Gerat 041	
-5	aerospaceComposites	NKDR	harpKompensator	2A3 Kompensator 2P	
-5	aerospaceComposites	NKDR	harpKV2	Old KV-2 Turret	
-5	aerospaceComposites	NKDR	harpLAVADTurret	LAV AD Turret	
-5	aerospaceComposites	NKDR	harpLAV25	LAV-25 Turret	
-5	aerospaceComposites	NKDR	harpM1Howitzer	M1 8-inch Howitzer	
-5	aerospaceComposites	NKDR	harpM198Howitzer	M198 155mm Howitzer	
-5	aerospaceComposites	NKDR	harpMk45	Mk45 Naval Gun Turret	
-7	highPowerElectricalSystems	NKDR	harpAtomAnnie	M65 'Nuclear Valentina'	
-5	aerospaceComposites	NKDR	harpPaladinTurret	M109 Paladin Turret	
-8	experimentalElectricalSystems	NKDR	harpRailgun	Prototype Railgun	
-5	aerospaceComposites	NKDR	harpAAD	AAD Anti Ballistic Missile	
-5	aerospaceComposites	NKDR	agm158	AGM-158B Cruise missile	
-5	aerospaceComposites	NKDR	harpDavyCrockett	W54 Davy Crockett Warhead	
-5	aerospaceComposites	NKDR	harpExocet	MM-40 Exocet Anti-Ship Missile	
-5	aerospaceComposites	NKDR	harpM26	M-26 Artillery Missile	
-5	aerospaceComposites	NKDR	harpM30	M-30 Artillery Missile	
-5	aerospaceComposites	NKDR	harpMGM	MGM-140 ATACMS	
-5	aerospaceComposites	NKDR	harpOhka	Yokosuka MXY7 Ohka	
-5	aerospaceComposites	NKDR	harpScud	Scud Missile (Conventional)	
-7	highPowerElectricalSystems	NKDR	harpScudNuclear	Scud Missile (Nuclear)	
-5	aerospaceComposites	NKDR	harpStinger	Stinger Missile	
-5	aerospaceComposites	NKDR	harpTomahawkConv	Tomahawk Cruise Missile (Conventional)	
-4	specializedFlightSystems	NKDR	harpV1	V-1 Flying Bomb	
-5	aerospaceComposites	NKDR	chaparralTurret	Chaparral Missile Turret	
-5	aerospaceComposites	NKDR	davyCrockettLauncher	Davy Crockett Turret	
-5	aerospaceComposites	NKDR	launcherMLRSTurret	MLRS Turret	
-5	aerospaceComposites	NKDR	scudLauncher	Scud Launcher	
-5	aerospaceComposites	NKDR	Slow Parachute	Kerbalie parachute	
-5	aerospaceComposites	NKDR	harpMGMCap	MGM Tube Cap	
-5	aerospaceComposites	NKDR	harpMGMTube	MGM Tube	
-5	aerospaceComposites	NKDR	harpPod	Modular Gunpod	Misc
-5	aerospaceComposites	NKDR	harpRocketTube	Rocket Tube	
-3	efficientFlightSystems	KerbalPowers	kpaATACMS	MGM-140 集束弹药火箭系统	Missiles
-5	aerospaceComposites	KerbalPowers	kpaGMLRS	MGM-30 制导火箭发射系统	Missiles
-5	aerospaceComposites	KerbalPowers	kpaPRSM	MGM-250 精确打击火箭	Missiles
-5	aerospaceComposites	KerbalPowers	bahaJdamerMk82	Mk82 JDAM-ER 滑翔制导炸弹	Bombs
-5	aerospaceComposites	KerbalPowers	bahaJdamerMk83	Mk83 JDAM-ER 滑翔制导炸弹	Bombs
-5	aerospaceComposites	KerbalPowers	bahaJdamerMk84	Mk84 JDAM-ER 滑翔制导炸弹	Bombs
-3	efficientFlightSystems	KerbalPowers	kpaSUU	SUU-14/A 伞降子弹药布撒器	Bombs
-6	advEMSystems	KerbalPowers	kpaAim160	AIM-160“CUDA”空空导弹	Missiles
-5	aerospaceComposites	KerbalPowers	kpaComet	SRA-132“彗星”导弹	Missiles
-6	advEMSystems	KerbalPowers	kpaMeteor	SRA-1239“流星”导弹	Missiles
-5	aerospaceComposites	KerbalPowers	kpaAST3	SRS-1238“硫磺石”导弹	Missiles
-6	advEMSystems	KerbalPowers	kpaSiAW	AGM-88H“SiAW”导弹	Missiles
-6	advEMSystems	KerbalPowers	kpaASN4G	ASN4G 高超音速巡航导弹	Missiles
-6	advEMSystems	KerbalPowers	kpaMdCN	SRS-2004“深渊区”导弹	Missiles
-6	advEMSystems	KerbalPowers	kpaSCALP	SRS-2003“暗影领域”巡航导弹	Missiles
-5	aerospaceComposites	KerbalPowers	kpaSphereEW	SRA-404“硫磺-EW”电子战系统	Missiles
-5	aerospaceComposites	KerbalPowers	kpaSphereGlide	GBU-30“硫磺”小直径滑翔炸弹	Bombs
-5	aerospaceComposites	KerbalPowers	kpaSphere	SRS-30“硫磺”小直径巡航导弹	Missiles
-5	aerospaceComposites	KerbalPowers	kpaMk141Launcher	Mk141“钩”发射管	Missile turrets
-5	aerospaceComposites	KerbalPowers	kpaEsperieye	“鹰眼”预警雷达	Radars
-6	advEMSystems	KerbalPowers	kpaSimpson	“辛普森”多功能雷达	Radars
-6	advEMSystems	KerbalPowers	kpaSNOOP7Large	SNOOP-7(V)3 大型相控阵雷达	Radars
-6	advEMSystems	KerbalPowers	kpaSNOOP7Small	SNOOP-7(V)1 小型相控阵雷达	Radars
-6	advEMSystems	KerbalPowers	kpaSNOOPR	SNOOP-R(V)4 机动相控阵雷达	Radars
-5	aerospaceComposites	KerbalPowers	kpa127Mod4	127 毫米 Mk4 舰炮	Gun turrets
-5	aerospaceComposites	KerbalPowers	kpa155Mk51	155 毫米 Mk51 简易炮系统	Gun turrets
-5	aerospaceComposites	KerbalPowers	kpa40Mk4	40 毫米 Mk4 舰炮	Gun turrets
-5	aerospaceComposites	KerbalPowers	kpa57Mk3	57 毫米 Mk3 舰炮	Gun turrets
-5	aerospaceComposites	KerbalPowers	kpaLynx	KP41“斧”步战车炮塔	Gun turrets
-8	experimentalElectricalSystems	KerbalPowers	kpaNeolidas	“尼奥利达斯”高功率微波炮塔	Laser turrets
-5	aerospaceComposites	KerbalPowers	kpaOTO76	76 毫米 Mk62 舰炮	Gun turrets
-3	efficientFlightSystems	fishy_weapons_dev	102XE	102mm XE (hidden)	
-3	efficientFlightSystems	fishy_weapons_dev	12mmm_gun_pod	12mm gun pod	
-4	specializedFlightSystems	fishy_weapons_dev	1kg_bomb	1kg bomb	
-3	efficientFlightSystems	fishy_weapons_dev	1M cal turret	1M cal	
-4	specializedFlightSystems	fishy_weapons_dev	1shot	1shot	
-3	efficientFlightSystems	fishy_weapons_dev	2mm	2.5mm AP (hidden)	
-3	efficientFlightSystems	fishy_weapons_dev	322mm	322mm cannon	
-3	efficientFlightSystems	fishy_weapons_dev	3mmXE	3mmXE gun	
-3	efficientFlightSystems	fishy_weapons_dev	47HE gun	47mm XE (hidden)	
-3	efficientFlightSystems	fishy_weapons_dev	6mm shotgun (fully working in the future)	6mm shotgun	
-4	specializedFlightSystems	fishy_weapons_dev	A-90GX	A-90GX	
-4	specializedFlightSystems	fishy_weapons_dev	advanced_AL37	AL-37 (advanced)	
-4	specializedFlightSystems	fishy_weapons_dev	Advanced_cam	128k Advanced camera	Targeting
-6	advEMSystems	fishy_weapons_dev	modern aim-132	aim-132 ASRAAM	
-4	specializedFlightSystems	fishy_weapons_dev	AL37	AL-37a	
-3	efficientFlightSystems	fishy_weapons_dev	active_protection_sys	active protection system	
-4	specializedFlightSystems	fishy_weapons_dev	anti missile system	anti missile system	
-6	advEMSystems	fishy_weapons_dev	anti_rad	air to air harm missile	
-4	specializedFlightSystems	fishy_weapons_dev	guided_rocket_ax2	AX2 guided rocket	
-3	efficientFlightSystems	fishy_weapons_dev	chaffBIG	BIG Chaff Dispenser	Countermeasures
-3	efficientFlightSystems	fishy_weapons_dev	FlareBIG	BIG Flare Dispenser	Countermeasures
-3	efficientFlightSystems	fishy_weapons_dev	FlareFASTER	FASTER-Flares	Countermeasures
-3	efficientFlightSystems	fishy_weapons_dev	FlareFAST	FAST-Flares	Countermeasures
-3	efficientFlightSystems	fishy_weapons_dev	FlareBomb	FlareBomb	Countermeasures
-4	specializedFlightSystems	fishy_weapons_dev	bird strike missile	bird strike missile x	
-4	specializedFlightSystems	fishy_weapons_dev	bloody-Alpha	bloody-Alpha	
-4	specializedFlightSystems	fishy_weapons_dev	combat_cam	combat camera (low drag)	Targeting
-4	specializedFlightSystems	fishy_weapons_dev	drone_cam	combat camera (low drag)	Targeting
-4	specializedFlightSystems	fishy_weapons_dev	emp bomb	anti-hydrogen emp smart bomb	
-4	specializedFlightSystems	fishy_weapons_dev	modern emp missile	heavy modern emp missile	
-4	specializedFlightSystems	fishy_weapons_dev	explosive doom	explosive doom (X504)	
-3	efficientFlightSystems	fishy_weapons_dev	7mm_fast_gun	7mm fast gun (Hu-7k)	
-3	efficientFlightSystems	fishy_weapons_dev	7mm_fast_gun2	7mm fast gun (death-ray-edition)	
-4	specializedFlightSystems	fishy_weapons_dev	FG-400	FG-400	Missiles
-3	efficientFlightSystems	fishy_weapons_dev	FishyAmmoBox	Fishy ammo Box	Ammo
-4	specializedFlightSystems	fishy_weapons_dev	AV-R9_1	AV-R9 Winglet	
-4	specializedFlightSystems	fishy_weapons_dev	gliderWingB	Swept Wing Type B (glider-wing)	
-4	specializedFlightSystems	fishy_weapons_dev	structuralWing10	Structural Wing Type D	
-4	specializedFlightSystems	fishy_weapons_dev	kinetic_missile	kinetic missile	
-8	experimentalElectricalSystems	fishy_weapons_dev	laser1	close range laser (L-92c)	
-8	experimentalElectricalSystems	fishy_weapons_dev	laser_gun182	Radiation cannon 1.0	Guns
-4	specializedFlightSystems	fishy_weapons_dev	laserhellfireHSIV	GHSH IV	Missiles
-4	specializedFlightSystems	fishy_weapons_dev	laserhellfireHS	GHSH III	Missiles
-4	specializedFlightSystems	fishy_weapons_dev	laserhellfire2	laser guided AAM Hellfire II LR MOD	Missiles
-4	specializedFlightSystems	fishy_weapons_dev	laserhellfire	laser guided AAM Hellfire II	Missiles
-6	advEMSystems	fishy_weapons_dev	X49	X49 locking radar	Radars
-8	experimentalElectricalSystems	fishy_weapons_dev	LRABL	Long Range Airborne Laser	Laser turrets
-8	experimentalElectricalSystems	fishy_weapons_dev	LRABLOC	Long Range Airborne Laser (high power modification)	Laser turrets
-3	efficientFlightSystems	fishy_weapons_dev	m74	m74 Cannon	
-3	efficientFlightSystems	fishy_weapons_dev	matra_r530	r-530	
-6	advEMSystems	fishy_weapons_dev	modern aim-120 KN	modern aim-120 KN	
-6	advEMSystems	fishy_weapons_dev	modern aim-120 LR	modern aim-120 LR	
-6	advEMSystems	fishy_weapons_dev	modern aim-120	modern aim-120	
-4	specializedFlightSystems	fishy_weapons_dev	modern aim-9	modern aim-9	
-5	aerospaceComposites	fishy_weapons_dev	modern r-60 radar	R-60 radar missile	
-4	specializedFlightSystems	fishy_weapons_dev	multi-module-aim-9	multi-module-aim-9	
-7	highPowerElectricalSystems	fishy_weapons_dev	mini H-200 (nuclear)	H-200 (nuclear)	
-7	highPowerElectricalSystems	fishy_weapons_dev	nuclear_maverick2	atomic maverick	
-7	highPowerElectricalSystems	fishy_weapons_dev	nuclear g40	nuclear g40	
-7	highPowerElectricalSystems	fishy_weapons_dev	nuclear powered aim-120	nuclear core aim-120	
-7	highPowerElectricalSystems	fishy_weapons_dev	nuke	nuclear warhead	Warheads
-7	highPowerElectricalSystems	fishy_weapons_dev	nuke_bomb	nuke	
-7	highPowerElectricalSystems	fishy_weapons_dev	nuke_bomb2	doomsday-nuke	
-4	specializedFlightSystems	fishy_weapons_dev	Small-Bomb0000	mini bomb	
-3	efficientFlightSystems	fishy_weapons_dev	AIM-7D	AIM-7D Sparrow	
-3	efficientFlightSystems	fishy_weapons_dev	AIM-7E-2	AIM-7E-2 Sparrow	
-3	efficientFlightSystems	fishy_weapons_dev	AIM-7E	AIM-7E Sparrow	
-4	specializedFlightSystems	fishy_weapons_dev	AIM-7F	AIM-7F Sparrow	
-4	specializedFlightSystems	fishy_weapons_dev	AIM-7M	AIM-7M Sparrow	
-3	efficientFlightSystems	fishy_weapons_dev	aim-9b	AIM-9B Sidewinder	
-3	efficientFlightSystems	fishy_weapons_dev	aim-9c	AIM-9C Sidewinder	
-3	efficientFlightSystems	fishy_weapons_dev	aim-9d	AIM-9D Sidewinder	
-3	efficientFlightSystems	fishy_weapons_dev	aim-9e	AIM-9E Sidewinder	
-3	efficientFlightSystems	fishy_weapons_dev	aim-9g	AIM-9G Sidewinder	
-3	efficientFlightSystems	fishy_weapons_dev	aim-9h	AIM-9H Sidewinder	
-3	efficientFlightSystems	fishy_weapons_dev	aim-9j	AIM-9J Sidewinder	
-4	specializedFlightSystems	fishy_weapons_dev	AIM-9L	AIM-9L Sidewinder	
-4	specializedFlightSystems	fishy_weapons_dev	AIM-9M	AIM-9M Sidewinder	
-3	efficientFlightSystems	fishy_weapons_dev	R-13M1	R-13M1	
-4	specializedFlightSystems	fishy_weapons_dev	R-23T	R-23T	
-4	specializedFlightSystems	fishy_weapons_dev	R-24T	R-24T	
-6	advEMSystems	fishy_weapons_dev	R-27ET	R-27ET	
-4	specializedFlightSystems	fishy_weapons_dev	R-27T	R-27T	
-3	efficientFlightSystems	fishy_weapons_dev	R-3R	R-3R	
-3	efficientFlightSystems	fishy_weapons_dev	R-3S	R-3S	
-4	specializedFlightSystems	fishy_weapons_dev	R-60	R-60	
-4	specializedFlightSystems	fishy_weapons_dev	R-60M	R-60M	
-4	specializedFlightSystems	fishy_weapons_dev	R-60MK	R-60MK	
-6	advEMSystems	fishy_weapons_dev	R-73	R-73	
-4	specializedFlightSystems	fishy_weapons_dev	pheonix	Aim-54 Pheonix Missile	Missiles
-5	aerospaceComposites	fishy_weapons_dev	radarDataTransmitterImproved	Radar Data Transmitter Improved	Radars
-5	aerospaceComposites	fishy_weapons_dev	radome 2077	radome x27a	Radars
-5	aerospaceComposites	fishy_weapons_dev	radome 3077	radome x37a	Radars
-5	aerospaceComposites	fishy_weapons_dev	radome 3077snub	radome x37b	Radars
-5	aerospaceComposites	fishy_weapons_dev	radome 4077 Ultra	radome x47b Ultra	Radars
-5	aerospaceComposites	fishy_weapons_dev	radome 4077	radome x47a	Radars
-5	aerospaceComposites	fishy_weapons_dev	RR	advanced detection radar	Radars
-5	aerospaceComposites	fishy_weapons_dev	radome x25a 1st gen	radome x25a 1st gen	Radars
-4	specializedFlightSystems	fishy_weapons_dev	SPAMRAAM	aim-69 SPAMRAAM	
-3	efficientFlightSystems	fishy_weapons_dev	12mm_storm	12mm storm	
-5	aerospaceComposites	fishy_weapons_dev	radome 1500 1st gen	radome x15a	Radars
-5	aerospaceComposites	fishy_weapons_dev	radome x15a 1st gen	radome x15a	Radars
-4	specializedFlightSystems	fishy_weapons_dev	Longtom	longtim torpedo	
-3	efficientFlightSystems	fishy_weapons_dev	???	???	
-3	efficientFlightSystems	FoxDefenseContracts	76MMFlak	3" 50 caliber gun	
-5	aerospaceComposites	FoxDefenseContracts	HSTVAP	HSTV-L	
-5	aerospaceComposites	FoxDefenseContracts	M103	M103 120mm	
-6	advEMSystems	FoxDefenseContracts	M109A6	M109A6	
-3	efficientFlightSystems	FoxDefenseContracts	M10Wolv	M10 Wolverine	
-5	aerospaceComposites	FoxDefenseContracts	m163	M163	
-3	efficientFlightSystems	FoxDefenseContracts	M18HellcatAP	M18 Hellcat	
-5	aerospaceComposites	FoxDefenseContracts	AbramsA2	M1A2 Abrams	
-3	efficientFlightSystems	FoxDefenseContracts	M22Locust	M22 Locust	
-3	efficientFlightSystems	FoxDefenseContracts	M24ChaffeeAP	M24 Chaffee	
-5	aerospaceComposites	FoxDefenseContracts	M26Pershing	M26 Pershing	
-3	efficientFlightSystems	FoxDefenseContracts	M36Jackson	M36 Jackson	
-5	aerospaceComposites	FoxDefenseContracts	M3Bradly	M3 Bradley	
-5	aerospaceComposites	FoxDefenseContracts	M3Stuart	M3 Stuart	
-4	specializedFlightSystems	FoxDefenseContracts	M41	M41HMC Howitzer	
-4	specializedFlightSystems	FoxDefenseContracts	M42DusterAP	M42 Duster	
-5	aerospaceComposites	FoxDefenseContracts	M4Sherman	M4 Sherman 75mm	
-4	specializedFlightSystems	FoxDefenseContracts	M60A3	M60A3 105MM	
-4	specializedFlightSystems	FoxDefenseContracts	M60A3120	M60A3 120MM	
-3	efficientFlightSystems	FoxDefenseContracts	M6A1	M6A1	
-3	efficientFlightSystems	FoxDefenseContracts	M8HMC	M8 HMC	
-4	specializedFlightSystems	FoxDefenseContracts	MBT-70	MBT-70	
-5	aerospaceComposites	FoxDefenseContracts	Sherman105	M4A3 Sherman 105mm	
-5	aerospaceComposites	FoxDefenseContracts	ShermanJumbo	M4A3E2 Sherman Jumbo	
-3	efficientFlightSystems	FoxDefenseContracts	T95	T-95	
-3	efficientFlightSystems	FoxDefenseContracts	T18E2	T18E2 Boarhound	
-5	aerospaceComposites	FoxDefenseContracts	T26E4	T26E4	
-5	aerospaceComposites	FoxDefenseContracts	AMT34	T34 Heavy Tank Turret	
-3	efficientFlightSystems	FoxDefenseContracts	T3HMC	T3HMC	
-3	efficientFlightSystems	FoxDefenseContracts	T56GMC	T56GMC	
-3	efficientFlightSystems	FoxDefenseContracts	T57AP-T	T57 Heavy Tank Turret	
-3	efficientFlightSystems	FoxDefenseContracts	T92HMC	T92Hmc Howitzer	
-3	efficientFlightSystems	FoxDefenseContracts	FDC1000lb	FDC - 1000LB Bomb	
-3	efficientFlightSystems	FoxDefenseContracts	FDC100lb	FDC - 100LB Bomb	
-3	efficientFlightSystems	FoxDefenseContracts	FDC2000lb	FDC - 2000LB Bomb	
-3	efficientFlightSystems	FoxDefenseContracts	FDC250lb	FDC - 250LB Bomb	
-6	advEMSystems	FoxDefenseContracts	FDC5000lb	FDC - 5000LB Bomb	
-3	efficientFlightSystems	FoxDefenseContracts	FDC500lb	FDC - 500LB Bomb	
-5	aerospaceComposites	FoxDefenseContracts	Challenger2	Challenger 2	
-5	aerospaceComposites	FoxDefenseContracts	Chieftain	Chieftain	
-5	aerospaceComposites	FoxDefenseContracts	ChurchillAVRE	Churchill AVRE	
-5	aerospaceComposites	FoxDefenseContracts	Churchill_III	Churchill III	
-5	aerospaceComposites	FoxDefenseContracts	Churchill_VII	Churchill VII	
-5	aerospaceComposites	FoxDefenseContracts	Comet	Comet	
-5	aerospaceComposites	FoxDefenseContracts	Conqueror	Conqueror	
-5	aerospaceComposites	FoxDefenseContracts	Cromwell	Cromwell Mk.V	
-5	aerospaceComposites	FoxDefenseContracts	Crusader	Crusader Mk.III	
-3	efficientFlightSystems	FoxDefenseContracts	CrusaderAA	Crusader AA MkII	
-4	specializedFlightSystems	FoxDefenseContracts	Falcon	Falcon	
-5	aerospaceComposites	FoxDefenseContracts	FV4005	FV4005 Stage II 183MM	
-5	aerospaceComposites	FoxDefenseContracts	Marksmen	Marksman anti-aircraft system	
-3	efficientFlightSystems	FoxDefenseContracts	Sexton	Sexton HE	
-5	aerospaceComposites	FoxDefenseContracts	ShermanFF	M4A4 Sherman FireFly	
-3	efficientFlightSystems	FoxDefenseContracts	Skink	Skink	
-5	aerospaceComposites	FoxDefenseContracts	TogIIClassic	TOGII*	
-3	efficientFlightSystems	FoxDefenseContracts	TortoiseAPCBC	Tortoise Gun	
-3	efficientFlightSystems	FoxDefenseContracts	UC2pdr	UC 2pdr	
-3	efficientFlightSystems	FoxDefenseContracts	ValentineAT	Valentine AT	
-5	aerospaceComposites	FoxDefenseContracts	Za-35	Za-35	
-5	aerospaceComposites	FoxDefenseContracts	PGZ09	PGZ09	
-6	advEMSystems	FoxDefenseContracts	PTZ89	PTZ89	
-6	advEMSystems	FoxDefenseContracts	WMA301	WMA301	
-3	efficientFlightSystems	FoxDefenseContracts	ZSD63	ZSD63 - Type WZ531	
-6	advEMSystems	FoxDefenseContracts	ZTL11	ZLT11	
-6	advEMSystems	FoxDefenseContracts	ZTZ99	ZTZ99 - Type 99	
-3	efficientFlightSystems	FoxDefenseContracts	40MMFlak	Mle51 T1	
-5	aerospaceComposites	FoxDefenseContracts	Amx30_DCA	Amx30_DCA	
-3	efficientFlightSystems	FoxDefenseContracts	Amx40	Amx40	
-5	aerospaceComposites	FoxDefenseContracts	Amx50B	Amx 50B	
-5	aerospaceComposites	FoxDefenseContracts	AmxELCbis	Amx ELC Bis	
-3	efficientFlightSystems	FoxDefenseContracts	Amx_13FM_155	Amx13FM_155	
-3	efficientFlightSystems	FoxDefenseContracts	Amx_13_105	Amx_13_105mm Mk61	
-4	specializedFlightSystems	FoxDefenseContracts	ARL44	ARL 44	
-5	aerospaceComposites	FoxDefenseContracts	BatChat25	BatChat_25T	
-3	efficientFlightSystems	FoxDefenseContracts	Char2C	Char 2C	
-4	specializedFlightSystems	FoxDefenseContracts	EBR	E.B.R	
-3	efficientFlightSystems	FoxDefenseContracts	Fcm36Pak	Fcm 36 Pak 40	
-3	efficientFlightSystems	FoxDefenseContracts	FT_AC	FT_AC	
-6	advEMSystems	FoxDefenseContracts	Leclerc	Leclerc	
-3	efficientFlightSystems	FoxDefenseContracts	RenaultFT	RenaultFT 13.2mmAP	
-3	efficientFlightSystems	FoxDefenseContracts	RenaultFTAPCR	RenaultFT 37mm APCR	
-3	efficientFlightSystems	FoxDefenseContracts	5cmFlak	5 cm FlaK 41	
-3	efficientFlightSystems	FoxDefenseContracts	Brummbar	Brummbar	
-3	efficientFlightSystems	FoxDefenseContracts	DickerMax	Dicker Max	
-3	efficientFlightSystems	FoxDefenseContracts	Flak88	FlakCannon 88	
-3	efficientFlightSystems	FoxDefenseContracts	FlakPanzerI	FlakPanzer I	
-3	efficientFlightSystems	FoxDefenseContracts	Hummel	Hummel	
-3	efficientFlightSystems	FoxDefenseContracts	JadgPantherCamo	JadgPanther	
-3	efficientFlightSystems	FoxDefenseContracts	JadgTiger	JadgTiger 128mm	
-3	efficientFlightSystems	FoxDefenseContracts	KugelBlitz	Kugelblitz	
-5	aerospaceComposites	FoxDefenseContracts	Leopard1	Leopard I	
-5	aerospaceComposites	FoxDefenseContracts	Leopard2A5	Leopard 2A5	
-3	efficientFlightSystems	FoxDefenseContracts	Marder38T	Marder38T	
-3	efficientFlightSystems	FoxDefenseContracts	MAUS	Panzer VIII Maus	
-3	efficientFlightSystems	FoxDefenseContracts	Panther	Panther F Turret	
-3	efficientFlightSystems	FoxDefenseContracts	PantherA	Panther Ausführung A //Panther A	
-3	efficientFlightSystems	FoxDefenseContracts	PantherII	PantherII Turret	
-3	efficientFlightSystems	FoxDefenseContracts	PanzerIIC	PanzerII C	
-3	efficientFlightSystems	FoxDefenseContracts	PanzerIIIausfJ	PanzerIII ausf J1	
-3	efficientFlightSystems	FoxDefenseContracts	PanzerIIIausfJSB	PanzerIII ausf J	
-3	efficientFlightSystems	FoxDefenseContracts	PanzerIVAPCBC	PanzerIV Ausf J	
-3	efficientFlightSystems	FoxDefenseContracts	PanzerIVF	PanzerIV Ausf F	
-3	efficientFlightSystems	FoxDefenseContracts	Pz38T	Panzer 38-T Ausf F	
-3	efficientFlightSystems	FoxDefenseContracts	PzJagerI	Panzer Jager I	
-3	efficientFlightSystems	FoxDefenseContracts	Ru251	Spähpanzer RU-251	
-3	efficientFlightSystems	FoxDefenseContracts	SdKfz5cm	Sonderkraftfahrzeug Sd.Kfz. 234	
-3	efficientFlightSystems	FoxDefenseContracts	StugIII	StugIII G	
-3	efficientFlightSystems	FoxDefenseContracts	SturerEmil	Sturer Emil	
-3	efficientFlightSystems	FoxDefenseContracts	SturmPanzerHE	Sturm Panzer II	
-3	efficientFlightSystems	FoxDefenseContracts	SturmTiger	Sturm Tiger 380MM Cannon	
-3	efficientFlightSystems	FoxDefenseContracts	TigerI	Tiger I Turret	
-3	efficientFlightSystems	FoxDefenseContracts	TigerII	Tiger II Turret	
-3	efficientFlightSystems	FoxDefenseContracts	Waffentrager	Waffentrager	
-3	efficientFlightSystems	FoxDefenseContracts	Wespe	Wespe	
-3	efficientFlightSystems	FoxDefenseContracts	Wirbelwind	Flakpanzer IV Wirbelwind	
-3	efficientFlightSystems	FoxDefenseContracts	Ab41	Ab-41	
-6	advEMSystems	FoxDefenseContracts	Ariete	Ariete	
-6	advEMSystems	FoxDefenseContracts	Centauro	Centauro	
-3	efficientFlightSystems	FoxDefenseContracts	m14-40	m14/40	
-4	specializedFlightSystems	FoxDefenseContracts	M41M90-53	M41M 90-53	
-4	specializedFlightSystems	FoxDefenseContracts	M42Contraeteo	Semovente da 20/70 quadruplo	
-5	aerospaceComposites	FoxDefenseContracts	OTOMATIC	OTOMATIC	
-3	efficientFlightSystems	FoxDefenseContracts	P40Turret	P40	
-3	efficientFlightSystems	FoxDefenseContracts	R3T20	Fiat 6616 R3 T20	
-3	efficientFlightSystems	FoxDefenseContracts	Sa4732	Semovente da 47/32	
-3	efficientFlightSystems	FoxDefenseContracts	TuranI	Turan I	
-3	efficientFlightSystems	FoxDefenseContracts	TuranIII	Turan III	
-3	efficientFlightSystems	FoxDefenseContracts	Zrinyi_II	Zrinyi II	
-3	efficientFlightSystems	FoxDefenseContracts	ChiHa-LG	ChiHa-Long-Gun	
-3	efficientFlightSystems	FoxDefenseContracts	ChiHa-SG	ChiHa-Short-Gun	
-3	efficientFlightSystems	FoxDefenseContracts	ChiHe	Chi-He	
-5	aerospaceComposites	FoxDefenseContracts	ChiNu	Chi-Nu	
-5	aerospaceComposites	FoxDefenseContracts	ChiRi	Chi-Ri	
-3	efficientFlightSystems	FoxDefenseContracts	O-I	O-I	
-3	efficientFlightSystems	FoxDefenseContracts	So-Ki	So-Ki	
-3	efficientFlightSystems	FoxDefenseContracts	Ta-Se	Ta-Se	
-5	aerospaceComposites	FoxDefenseContracts	Type-97	Type-97	
-3	efficientFlightSystems	FoxDefenseContracts	Type10	Type-10	
-3	efficientFlightSystems	FoxDefenseContracts	Type16	Type-16	
-4	specializedFlightSystems	FoxDefenseContracts	Type74	Type-74	
-4	specializedFlightSystems	FoxDefenseContracts	Type87	Type-87	
-5	aerospaceComposites	FoxDefenseContracts	Type87AA	Type-87 Anti Air	
-3	efficientFlightSystems	FoxDefenseContracts	Type90	Type-90	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_DShk	DShk 1938	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_DShkLG	DShk 1938 Long	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_DShkSG	DShk 1938 Short	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_DShkSSG	DShk 1938 Super Short	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_M1919	M1919 Browning	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_M1919LG	M1919 Browning Long	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_M1919SG	M1919 Browning Short	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_M1919SSG	M1919 Browning Super Short	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_M2BrowningMG	M2 Browning	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_M2BrowningLong	M2 Browning Long	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_M2BrowningShort	M2 Browning Short	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_M2BrowningSuperShort	M2 Browning Super Short	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_MG34MG	MG34	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_MG34LG	MG34 Long	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_MG34SG	MG34 Short	
-3	efficientFlightSystems	FoxDefenseContracts	FoxMG_MG34SSG	MG34 Super Short	
-5	aerospaceComposites	FoxDefenseContracts	7TP	7TP	
-2	subsonicFlight	FoxDefenseContracts	FDCUniversalAmmoBox	FDC Universal Ammo Box	Ammo
-2	subsonicFlight	FoxDefenseContracts	FDC380MM	FDC 380MM Rocket AmmoBox	Ammo
-4	specializedFlightSystems	FoxDefenseContracts	ERA	E.R.A	Armor
-4	specializedFlightSystems	FoxDefenseContracts	LandMine15LB	Landmine 15LB	
-4	specializedFlightSystems	FoxDefenseContracts	LandMine8LB	Landmine 8LB	
-4	specializedFlightSystems	FoxDefenseContracts	LandMine4LB	Landmine 4LB	
-4	specializedFlightSystems	FoxDefenseContracts	LandMine1LB	Landmine 1LB	
-5	aerospaceComposites	FoxDefenseContracts	STvz39T	STvz39T	
-3	efficientFlightSystems	FoxDefenseContracts	foxAgm119	AGM-119 Penguin Anti-Ship Missile	Missiles
-3	efficientFlightSystems	FoxDefenseContracts	HmBriefcase	HM-Briefcase	Missiles
-3	efficientFlightSystems	FoxDefenseContracts	37MMAA	37 mm automatic air defense gun M1939	
-5	aerospaceComposites	FoxDefenseContracts	BMP3HE	BMP-3	
-3	efficientFlightSystems	FoxDefenseContracts	BT-7	BT-7	
-5	aerospaceComposites	FoxDefenseContracts	IS-1	IS-1	
-5	aerospaceComposites	FoxDefenseContracts	IS2	IS-2	
-5	aerospaceComposites	FoxDefenseContracts	IS7	IS-7	
-3	efficientFlightSystems	FoxDefenseContracts	ISU-152	ISU-152	
-3	efficientFlightSystems	FoxDefenseContracts	KV-1	KV-1 ZiS-5	
-3	efficientFlightSystems	FoxDefenseContracts	KV-1-L11	KV-1-L11	
-3	efficientFlightSystems	FoxDefenseContracts	KV-2He	KV-2	
-3	efficientFlightSystems	FoxDefenseContracts	Obj268	Object 268	
-5	aerospaceComposites	FoxDefenseContracts	Obj906	Object 906	
-3	efficientFlightSystems	FoxDefenseContracts	Su100Y	Su100Y	
-3	efficientFlightSystems	FoxDefenseContracts	SU-14HE	SU-14	
-3	efficientFlightSystems	FoxDefenseContracts	SU5HE	SU-5 HE	
-3	efficientFlightSystems	FoxDefenseContracts	Su85	Su-85	
-5	aerospaceComposites	FoxDefenseContracts	T-10	T-10/IS-8	
-3	efficientFlightSystems	FoxDefenseContracts	T-26	T-26	
-5	aerospaceComposites	FoxDefenseContracts	T-34	T-34-85	
-5	aerospaceComposites	FoxDefenseContracts	T-34-1940	T-34-1940	
-5	aerospaceComposites	FoxDefenseContracts	T-34-57	T-34-57	
-5	aerospaceComposites	FoxDefenseContracts	T-44	T-44-122	
-5	aerospaceComposites	FoxDefenseContracts	T-54	T-54	
-5	aerospaceComposites	FoxDefenseContracts	T-64	T-64A	
-5	aerospaceComposites	FoxDefenseContracts	T-90	T-90	
-3	efficientFlightSystems	FoxDefenseContracts	Zis-30	Zis-30	
-3	efficientFlightSystems	FoxDefenseContracts	Zis12	Zis-12	
-4	specializedFlightSystems	FoxDefenseContracts	Zsu37ST	ZSU-37	
-5	aerospaceComposites	FoxDefenseContracts	Zsu37	Zsu-37-2	
-5	aerospaceComposites	FoxDefenseContracts	Bkan	Bandkanon 1	
-5	aerospaceComposites	FoxDefenseContracts	Elden40	Vagn Eldledning AutomatKanon 40	
-4	specializedFlightSystems	FoxDefenseContracts	Luft42	Luftvärnskanonvagn 42	
-5	aerospaceComposites	FoxDefenseContracts	Luft9040c	Luftvärnskanonvagn 9040C	
-4	specializedFlightSystems	FoxDefenseContracts	Pvkv43	Pansarvärnskanonvagn m/43 (1946)	
-3	efficientFlightSystems	FoxDefenseContracts	Spjfm43	Stormpjas fm/43-44	
-5	aerospaceComposites	FoxDefenseContracts	Strids101	Stridsvagn 101	
-5	aerospaceComposites	FoxDefenseContracts	Strids42Delat	Stridsvagn m/42 Delat Torn	
-5	aerospaceComposites	FoxDefenseContracts	Strids74	Stridsvagn 74	
-5	aerospaceComposites	FoxDefenseContracts	Stridsvagn122B	Stridsvagn 122	
-3	efficientFlightSystems	BilikermanIndustry	8mmMGComtainer	8MM弹药箱	
-2	subsonicFlight	BilikermanIndustry	bomb2	大满贯燃料	Warheads
-2	subsonicFlight	BilikermanIndustry	CargoContainer	高级贮存柜	
-3	efficientFlightSystems	BilikermanIndustry	MG88	8号 8mm 重机枪 1形	Guns
-4	specializedFlightSystems	BilikermanIndustry	bomb1	小罐头炸弹	Warheads
+3	bda_w_cannons_ww2	BDArmory	bahaGatlingGun	#loc_BDArmory_part_20mmVulcan_title	Gun turrets
+2	bda_w_guns_light	BDArmory	bahaTurret	#loc_BDArmory_part_bahaTurret_title  //.50cal Turret	Gun turrets
+8	bda_w_laser	BDArmory	bahaABL	#loc_BDArmory_part_bahaABL_title  //USAF Airborne Laser	Laser turrets
+4	bda_p_launchers	BDArmory	bahaAdjustableRail	#loc_BDArmory_part_bahaAdjustableRail_title  //Adjustable Missile Rail	Missile turrets
+4	bda_w_missiles_cold	BDArmory	bahaAgm86B	#loc_BDArmory_part_bahaAgm86B_title  //AGM-86C Cruise Missile	Missiles
+4	bda_w_missiles_cold	BDArmory	AMRAAM_EMP	#loc_BDArmory_part_bahaEMP120_title  //AMRAAM EMP Missile	Missiles
+6	bda_w_missiles_advanced	BDArmory	bahaAim120	#loc_BDArmory_part_bahaAim120_title //AIM-120 AMRAAM Missile	Missiles
+6	bda_e_ai	BDArmory	bdOrbitalAI	#loc_BDArmory_part_bdOrbitalAI_title  //AI Orbital Pilot	Control
+6	bda_e_ai	BDArmory	bdPilotAI	#loc_BDArmory_part_bdPilotAI_title  //AI Pilot Flight Computer	Control
+6	bda_e_ai	BDArmory	bdShipAI	#loc_BDArmory_part_bdDriverAI_title  //AI Surface Operation Driver	Control
+6	bda_e_ai	BDArmory	bdVTOLAI	#loc_BDArmory_part_bdVTOLAI_title  //AI Vertical Takeoff and Landing Pilot	Control
+4	bda_w_missiles_cold	BDArmory	bahaAIR-2	#loc_BDArmory_part_genie_title //AIR-2 Genie Air-To-Air Rocket	Missiles
+1	bda_foundations	BDArmory	baha20mmAmmo	#loc_BDArmory_part_baha20mmAmmo_title //20mm Ammunition Box	Ammo
+1	bda_foundations	BDArmory	baha25mmAmmo	#loc_BDArmory_part_baha25mmAmmo_title //25mm Ammunition Box	Ammo
+1	bda_foundations	BDArmory	baha30mmAmmo	#loc_BDArmory_part_baha30mmAmmo_title //30mm Ammunition Box	Ammo
+1	bda_foundations	BDArmory	baha50CalAmmo	#loc_BDArmory_part_baha50CalAmmo_title //50cal Ammunition Box	Ammo
+1	bda_foundations	BDArmory	BDAcUniversalAmmoBox	#loc_BDArmory_part_BDAcUniversalAmmoBox_title //Universal Ammo Box	Ammo
+1	bda_w_guns_light	BDArmory	bahaCannonShellBox	#loc_BDArmory_part_bahaCannonShellBox_title //Cannon Ammunition Box	Ammo
+1	bda_w_missiles_early	BDArmory	bahaRocketBox	70mm 火箭弹药箱	Ammo
+1	bda_a_plates	BDArmory	BD_PanelArmorIsoTri	#loc_BDArmory_part_TriIsoPanel_title //BD Armor Panel Oblique Triangle	Armor
+1	bda_a_plates	BDArmory	BD_PanelArmor	#loc_BDArmory_part_Panel_title //BD Armor Panel	Armor
+1	bda_a_plates	BDArmory	BD_PanelArmorTri	#loc_BDArmory_part_TriPanel_title //BD Armor Panel Right Triangle	Armor
+6	bda_e_aesa	BDArmory	awacsRadar	#loc_BDArmory_part_awacsRadar_title  //AWACS Detection Radar	Radars
+4	bda_e_targeting	BDArmory	bdammGuidanceModule	#loc_BDArmory_part_bdammGuidanceModule_title  //Modular Missile Guidance (EXPERIMENTAL)	Control
+2	bda_w_guns_light	BDArmory	bahaBrowningAnm2	#loc_BDArmory_part_bahaBrowningAnm2_title  //Browning Heavy Machine Gun (AN/M3)	Guns
+4	bda_w_guided_bombs	BDArmory	bahaClusterBomb	#loc_BDArmory_part_bahaClusterBomb_title  //CBU-87 Cluster Bomb	Bombs
+3	bda_e_countermeasures	BDArmory	bahaChaffPod	#loc_BDArmory_part_bahaChaffPod_title  //Chaff Dispenser	Countermeasures
+3	bda_e_countermeasures	BDArmory	bahaCmPod	#loc_BDArmory_part_bahaCmPod_title  //Flare Dispenser	Countermeasures
+3	bda_e_countermeasures	BDArmory	bahaBubblePod	#loc_BDArmory_part_bahaSBTPod_title  //Decoy Launcher	Countermeasures
+3	bda_e_countermeasures	BDArmory	bahaDecoyPod	#loc_BDArmory_part_bahaDecoyPod_title  //Decoy Launcher	Countermeasures
+3	bda_e_ecm	BDArmory	bahaECMJammer	#loc_BDArmory_part_bahaECMJammer_title  //AN/ALQ-131 ECM Jammer	Countermeasures
+3	bda_p_jets	BDArmory	BDA_EJ200	#loc_BDArmory_part_EJ200_title //TFJ-EJ200 "Typhoon" Afterburning Turbofan
+4	bda_p_launchers	BDArmory	BahaF86Launcher	#loc_BDArmory_part_F86RL_title // FFAR Reloadable Rocket Pod	Rocket pods
+4	bda_w_autocannons	BDArmory	bahaGau-22	#loc_BDArmory_part_GAU22_title //GAU-22/A 25x137mm Cannon	Guns
+3	bda_w_cannons_ww2	BDArmory	bahaGau-8	#loc_BDArmory_part_bahaGau-8_title  //GAU-8 30x173mm Cannon	Guns
+4	bda_e_radar_basic	BDArmory	bahaGoalKeeper	#loc_BDArmory_part_bahaGoalKeeper_title  //Goalkeeper CIWS	Gun turrets
+4	bda_w_naval	BDArmory	GoalKeeperBDAcMk1	#loc_BDArmory_part_GoalKeeperBDAcMk1_title  //GoalkeeperMk1 CIWS	Gun turrets
+4	bda_e_radar_basic	BDArmory	BDAcGKmk2	#loc_BDArmory_part_BDAcGKmk2_title  //Goalkeeper MK2 CIWS	Gun turrets
+8	bda_w_exotic	BDArmory	bdImpulseGun	重力枪（零点能量场操纵器）	Lasers
+6	bda_e_aesa	BDArmory	scanLockRadar1	#loc_BDArmory_part_scanLockRadar1_title  //TWS Locking Radar	Radars
+4	bda_e_radar_basic	BDArmory	scanLargeRadar	#loc_BDArmory_part_scanLargeRadar_title  //Large Detection Radar	Radars
+4	bda_p_launchers	BDArmory	bahaH70Launcher	#loc_BDArmory_part_bahaH70Launcher_title  //Hydra-70 Rocket Pod	Rocket pods
+4	bda_w_missiles_cold	BDArmory	bahaH70Turret	#loc_BDArmory_part_bahaH70Turret_title  //Hydra-70 Rocket Turret	Rocket turrets
+6	bda_w_missiles_advanced	BDArmory	bahaHarm	#loc_BDArmory_part_bahaHarm_title  //AGM-88 HARM Missile	Missiles
+4	bda_w_missiles_cold	BDArmory	bahaHEKV1	#loc_BDArmory_part_bahaHEKV1_title  //HE-KV-1 Missile	Missiles
+4	bda_w_missiles_cold	BDArmory	HellfireEMP	#loc_BDArmory_part_bahaAGM-114_EMP_title //AGM-114R Hellfire II EMP	Missiles
+4	bda_w_missiles_cold	BDArmory	bahaAGM-114	#loc_BDArmory_part_bahaAGM-114_title  //AGM-114R Hellfire II	Missiles
+3	bda_w_cannons_ww2	BDArmory	bahaHiddenVulcan	#loc_BDArmory_part_bahaHiddenVulcan_title //Vulcan (Hidden)	Guns
+6	bda_e_aesa	BDArmory	bahaIRSTpod	#loc_BDArmory_part_bahaIRSTPod_title //AN/AAQ-42 IRST Pod	Radars
+5	bda_w_precision_bombs	BDArmory	bahaJdamMk83	#loc_BDArmory_part_bahaJdamMk83_title  //Mk83 JDAM Bomb	Bombs
+4	bda_w_missiles_cold	BDArmory	bahaKKV	#loc_BDArmory_part_bahaKKV_title  //Kinetic Kill Vehicle	Missiles
+5	bda_w_autocannons	BDArmory	bahaM102Howitzer	#loc_BDArmory_part_bahaM102Howitzer_title //M102 Howitzer (Radial)	Gun turrets
+6	bda_w_autocannons	BDArmory	bahaM1Abrams	#loc_BDArmory_part_bahaM1Abrams_title  //M1 Abrams Cannon	Gun turrets
+3	bda_w_cannons_ww2	BDArmory	bahaM230ChainGun	#loc_BDArmory_part_bahaM230ChainGun_title //M230 Chain Gun Turret	Gun turrets
+4	bda_w_missiles_cold	BDArmory	bahaAGM-65	#loc_BDArmory_part_bahaAGM-65_title //AGM-65 Maverick Missile	Missiles
+4	bda_p_launchers	BDArmory	bdMissileBay	#loc_BDArmory_part_BombBay_title //Ordnance Bay	Missile turrets
+4	bda_p_launchers	BDArmory	missileTurretTest	#loc_BDArmory_part_missileTurretTest_title //Jernas Missile Turret	Missile turrets
+2	bda_e_targeting	BDArmory	mk1opencockpit_RP_type2	Mk1 Open Cockpit Type 2	Control
+3	bda_foundations	BDArmory	seatExternalCmdweaponized	#loc_BDArmory_part_combatSeat_title //EAS-2 External Combat Seat
+4	bda_w_guided_bombs	BDArmory	bahaMk82Bomb	#loc_BDArmory_part_bahaMk82Bomb_title //Mk82 Bomb	Bombs
+4	bda_w_guided_bombs	BDArmory	bahaMk82BombBrake	#loc_BDArmory_part_bahaMk82BombBrake_title //Mk82 SnakeEye Bomb	Bombs
+4	bda_w_autocannons	BDArmory	bahaOMillennium	#loc_BDArmory_part_bahaOMillennium_title //Oerlikon Millennium Cannon	Gun turrets
+6	bda_w_missiles_advanced	BDArmory	bahaPac-3	#loc_BDArmory_part_bahaPac-3_title //MIM-104F PATRIOT PAC-3	Missiles
+6	bda_p_launchers	BDArmory	patriotLauncherTurret	#loc_BDArmory_part_patriotLauncherTurret_title //Patriot Launcher Turret	Missile turrets
+4	bda_e_radar_basic	BDArmory	radarDataReceiver	#loc_BDArmory_part_radarDataReceiver_title //Radar Data Receiver	Radars
+4	bda_e_radar_basic	BDArmory	bdRadome1	#loc_BDArmory_part_bdRadome1_title //AN/APG-63V2 Radome	Radars
+4	bda_e_radar_basic	BDArmory	bdRadome1GA	#loc_BDArmory_part_bdRadome1_ground_title //APG-77v1 air-to-ground Radar	Radars
+4	bda_e_radar_basic	BDArmory	bdRadome1inline	#loc_BDArmory_part_bdRadome1inline_title //AN/APG-63V2 Inline Radome	Radars
+4	bda_e_radar_basic	BDArmory	bdRadome1inlineGA	#loc_BDArmory_part_bdRadome1inline_ground_title  //APG-77v1 air-to-ground Radar (Inline)	Radars
+4	bda_e_radar_basic	BDArmory	bdRadome1snub	#loc_BDArmory_part_bdRadome1snub_title //AN/APG-63V1 Radome	Radars
+4	bda_e_radar_basic	BDArmory	bdRadome1snubGA	#loc_BDArmory_part_bdRadome1snub_ground_title  //APG-77v1 air-to-ground Radar (Snub)	Radars
+4	bda_w_missiles_cold	BDArmory	bahaRBS-15Cruise	#loc_BDArmory_part_bahaRBS-15Cruise_title //RBS-15 Cruise Missile	Missiles
+4	bda_w_missiles_cold	BDArmory	bahaRBS-15ALCruise	#loc_BDArmory_part_bahaRBS-15ALCruise_title //RBS-15 Air launched Cruise Missile	Missiles
+4	bda_a_reactive	BDArmory	BD1x0.5ReactiveArmor	#loc_BDArmory_part_REA_title //BD 1x0.5 Reactive Armor	Armor
+4	bda_p_launchers	BDArmory	bdRotBombBay	#loc_BDArmory_part_bdRotBombBay_title //Adjustable Rotary Bomb Rack	Missile turrets
+4	bda_p_launchers	BDArmory	bahaS-8Launcher	#loc_BDArmory_part_bahaS-8Launcher_title //S-8KOM Rocket Pod	Rocket pods
+3	bda_p_jets	BDArmory	SaturnAL31	#loc_BDArmory_part_SaturnAL31_title //Saturn AL-31FM1 Afterburning Jet Engine
+3	bda_w_cannons_ww2	BDArmory	bahaSidamTurret	#loc_BDArmory_part_sidam_title //Sidam Anti-Air gun	Gun turrets
+3	bda_w_missiles_early	BDArmory	bahaAim9	#loc_BDArmory_part_bahaAim9_title //AIM-9 Sidewinder Missile	Missiles
+3	bda_w_guided_bombs	BDArmory	bdWarheadSmall	#loc_BDArmory_part_bdWarheadSmall_title //Small High Explosive Warhead	Warheads
+3	bda_e_ecm	BDArmory	bahaSmokeCmPod	#loc_BDArmory_part_bahaSmokeCmPod_title //Smoke Countermeasure Pod	Countermeasures
+4	bda_e_radar_basic	BDArmory	BDAsonarPod1A	#loc_BDArmory_part_BDAsonarPod1A_title //BDA MK1 Sonar Pod	Radars
+4	bda_w_missiles_cold	BDArmory	StingRayBDATorpedo	#loc_BDArmory_part_StingRayBDATorpedo_title //Sting Ray BDA LightWeight Torpedo	Torpedoes
+4	bda_e_targeting	BDArmory	bahaFlirBall	#loc_BDArmory_part_bahaFlirBall_title //FLIR Targeting Ball	Targeting
+4	bda_e_targeting	BDArmory	bahaCamPod	#loc_BDArmory_part_bahaCamPod_title //AN/AAQ-28 Targeting Pod	Targeting
+4	bda_p_launchers	BDArmory	towLauncherTurret	#loc_BDArmory_part_towLauncherTurret_title //Tow Launcher	Missile turrets
+4	bda_w_missiles_cold	BDArmory	bahaTowMissile	#loc_BDArmory_part_bahaTowMissile_title //BGM-71 Tow Missile	Missiles
+2	bda_e_targeting	BDArmory	missileController	#loc_BDArmory_part_missileController_title //Weapon Manager	Control
+5	bda_w_autocannons	BDArmoryExtended	baha100mmTurret	#loc_BDArmory_part_baha100mmTurret_title //100mm Heavy Turret	Gun turrets
+5	bda_w_autocannons	BDArmoryExtended	baha130mmTurret	#loc_BDArmory_part_baha130mmTurret_title //130mm Heavy Turret	Gun turrets
+4	bda_w_autocannons	BDArmoryExtended	baha76mmTurret	#loc_BDArmory_part_baha76mmTurret_title //76mm Turret	Gun turrets
+3	bda_foundations	BDArmoryExtended	baha50CalAmmoScalable	可缩放弹药箱（.50 Cal） // Rescalable Ammo Box (.50Cal)	Ammo
+3	bda_foundations	BDArmoryExtended	baha50CalAmmoDrumScalable	可缩放弹药弹鼓（.50 Cal） // Rescalable Ammo Magazine (.50Cal)	Ammo
+3	bda_foundations	BDArmoryExtended	baha20mmAmmoScalable	可缩放弹药箱（20mm） // Rescalable Ammo Box (20mm)	Ammo
+3	bda_foundations	BDArmoryExtended	baha20mmAmmoDrumScalable	可缩放弹药弹鼓（20mm） // Rescalable Ammo Magazine (20mm)	Ammo
+3	bda_foundations	BDArmoryExtended	baha25mmAmmoScalable	可缩放弹药箱（25mm） // Rescalable Ammo Box (25mm)	Ammo
+3	bda_foundations	BDArmoryExtended	baha25mmAmmoDrumScalable	可缩放弹药弹鼓（25mm） // Rescalable Ammo Magazine (25mm)	Ammo
+3	bda_foundations	BDArmoryExtended	baha30mmAmmoScalable	可缩放弹药箱（30mm） // Rescalable Ammo Box (30mm)	Ammo
+3	bda_foundations	BDArmoryExtended	baha30mmAmmoDrumScalable	可缩放弹药弹鼓（30mm） // Rescalable Ammo Magazine (30mm)	Ammo
+3	bda_foundations	BDArmoryExtended	baha37mmAmmoScalable	可缩放弹药箱（37mm） // Rescalable Ammo Box (37mm)	Ammo
+3	bda_foundations	BDArmoryExtended	baha37mmAmmo	37mm 弹药箱 // 37mm Ammunition Box	Ammo
+3	bda_foundations	BDArmoryExtended	baha37mmAmmoDrumScalable	可缩放弹药弹鼓（37mm） // Rescalable Ammo Magazine (37mm)	Ammo
+3	bda_foundations	BDArmoryExtended	baha57mmAmmoScalable	可缩放弹药箱（57mm） // Rescalable Ammo Box (57mm)	Ammo
+3	bda_foundations	BDArmoryExtended	baha57mmAmmoDrumScalable	可缩放弹药弹鼓（57mm） // Rescalable Ammo Magazine (57mm)	Ammo
+3	bda_foundations	BDArmoryExtended	baha76mmAmmoScalable	可缩放弹药箱（76mm） // Rescalable Ammo Box (76mm)	Ammo
+3	bda_foundations	BDArmoryExtended	baha76mmShellBox	#loc_BDArmory_part_baha76mmShellBox_title //76mm Ammunition Bin	Ammo
+3	bda_foundations	BDArmoryExtended	baha76mmAmmoDrumScalable	可缩放弹药弹鼓（76mm） // Rescalable Ammo Magazine (76mm)	Ammo
+3	bda_w_cannons_ww2	BDArmoryExtended	bahaCannonAmmoDrumScalable	可缩放弹药弹鼓（火炮弹药） // Rescalable Ammo Magazine (CannonShells)	Ammo
+3	bda_w_cannons_ww2	BDArmoryExtended	bahaCannonAmmoScalable	可缩放弹药箱（火炮弹药） // Rescalable Ammo Box (CannonShells)	Ammo
+3	bda_foundations	BDArmoryExtended	bahaFlakAmmoDrumScalable	可缩放弹药弹鼓（防空炮弹药） // Rescalable Ammo Magazine (Flak Shells)	Ammo
+3	bda_foundations	BDArmoryExtended	bahaFlakAmmoScalable	可缩放弹药箱（防空炮弹药） // Rescalable Ammo Box (Flak Shells)	Ammo
+3	bda_w_missiles_early	BDArmoryExtended	bahaRocketAmmoScalable	Rescalable Ammo Box (Rockets)	Ammo
+4	bda_w_autocannons	BDArmoryExtended	baha57mmTurret	#loc_BDArmory_part_baha57mmTurret_title //57mm Turret	Gun turrets
+3	bda_e_ecm	BDArmoryExtended	bahaCloakGenerator	隐形装置 // Cloaking Device	Countermeasures
+4	bda_p_launchers	BDArmoryExtended	bahaCLS_Long	C-VLS-24 导弹荚 // C-VLS-24 MissilePod	Missiles
+4	bda_p_launchers	BDArmoryExtended	bahaCLS_Short	C-VLS-12 导弹荚 // C-VLS-12 MissilePod	Missiles
+4	bda_w_guided_bombs	BDArmoryExtended	bahaBombletDispenser	UGB-128D 炸弹投放器 // UGB-128D Bomblet Dispenser	Bombs
+4	bda_w_missiles_cold	BDArmoryExtended	bahaDroptank	可抛弃油箱 // Drop Tank
+5	bda_w_autocannons	BDArmoryExtended	baha105mmGun	105mm L/45 榴弹炮 // 105mm L/45 Howitzer	Guns
+3	bda_w_cannons_ww2	BDArmoryExtended	baha105mmRCL	105mm 无后坐力炮 // 105mm Recoilless Gun	Guns
+6	bda_w_autocannons	BDArmoryExtended	baha120mmGunLong	M2 120mm L/58 坦克炮 // M2 120mm L/58 Cannon	Guns
+6	bda_w_autocannons	BDArmoryExtended	baha120mmGun	#loc_BDArmory_part_bahaM1Abrams_title  //M1 Abrams Cannon	Guns
+5	bda_w_autocannons	BDArmoryExtended	baha155mmHowitzer	155mm L/40 榴弹炮 // 155mm L/40 Howitzer	Guns
+5	bda_w_autocannons	BDArmoryExtended	baha203mmHowitzer	203mm L/21 榴弹炮 // 203mm L/21 Howitzer	Guns
+4	bda_w_autocannons	BDArmoryExtended	bahaHephestus	赫菲斯托斯 20mm 转管机炮 // Hephestus 20mm Rotary Gun	Guns
+4	bda_w_autocannons	BDArmoryExtended	baha20mmRevolver	M20 航空转膛炮 // M20 Aircraft Revolver Cannon	Guns
+4	bda_w_autocannons	BDArmoryExtended	baha30mmGatling	#loc_BDArmory_part_bahaGAC-6_title	Guns
+4	bda_w_autocannons	BDArmoryExtended	baha76mmGun	76mm L/38 坦克炮 // 76mm L/38 Cannon
+4	bda_w_autocannons	BDArmoryExtended	bahaQF6Pounder	QF-6磅 57mm 反坦克炮 // QF-6P 57mm Anti-Tank Gun
+3	bda_foundations	BDArmoryExtended	baha57mmAmmo	57mm 弹药箱 // 57mm Ammunition Box	Ammo
+2	bda_w_guns_light	BDArmoryExtended	bahaYakB	#loc_BDArmory_part_bahaYakB_title //YakB Aircraft Heavy Machine Gun
+3	bda_w_cannons_ww2	BDArmoryExtended	bahaNudelman	N-37 航炮 // N-37 Aircraft Autocannon
+3	bda_w_cannons_ww2	BDArmoryExtended	bahaFlakcannon	F-90 航炮 // F-90 Aircraft Flak Cannon
+4	bda_w_autocannons	BDArmoryExtended	bahaHeavyAutocannon	57mm 重型机关炮 // 57mm Heavy Autocannon
+8	bda_w_railgun	BDArmoryExtended	bahaRailgun	航空轨道炮 // Aircraft Railgun	Guns
+3	bda_w_cannons_ww2	BDArmoryExtended	bahaRepeaterCannon	#loc_BDArmory_part_bahaRepeater_title //BD-2 Repeater	Guns
+3	bda_w_cannons_ww2	BDArmoryExtended	bahaRevolverCannon	#loc_BDArmory_part_bahaRevolverCannon_title //M-27 Revolver cannon	Guns
+4	bda_w_naval	BDArmoryExtended	baha37mmCIWS	#loc_BDArmory_part_baha37mmCIWS_title //37mm CIWS Turret	Gun turrets
+4	bda_w_autocannons	BDArmoryExtended	baha37mmTurret	#loc_BDArmory_part_baha37mmTurret_title //37mm Turret	Gun turrets
+8	bda_w_laser	BDArmoryExtended	bahaBeamLaser	小型连续激光器 // Small Continuous Laser	Lasers
+8	bda_w_laser	BDArmoryExtended	bahaChemLaser	航空化学激光器 // Aircraft Chemical Laser	Lasers
+8	bda_w_laser	BDArmoryExtended	bahaElectroLaser	电弧发射器 // Arc Caster
+8	bda_w_laser	BDArmoryExtended	bahaFlakLaser	爆破激光 // Flak Laser
+8	bda_w_laser	BDArmoryExtended	bahaLGL	激光炮 // Laser Cannon	Lasers
+8	bda_w_laser	BDArmoryExtended	bahaCombatLaser	重型脉冲激光器 // Heavy Pulse Laser	Lasers
+8	bda_w_exotic	BDArmoryExtended	bahaPlasmaBeam	航空等离子激光 // Aircraft Plasma Beam
+8	bda_w_laser	BDArmoryExtended	bahaPulseLaser	脉冲激光器 // Pulse Laser	Lasers
+8	bda_w_laser	BDArmoryExtended	bahaScatterLaser	#loc_BDArmory_part_bahascatterLas_title //ScatterLaser	Lasers
+8	bda_w_exotic	BDArmoryExtended	bahaLightningGun	特斯拉炮 // Tesla Cannon	Lasers
+3	bda_w_cannons_ww2	BDArmoryExtended	bahaTorsionGun	拖曳炮 // Torsion Cannon
+3	bda_p_launchers	BDArmoryExtended	bahaReloadableRailMagazine	弹药库 // Ordnance Magazine	Ammo
+3	bda_foundations	BDArmoryExtended	bahaMissileMagazine	弹药库（圆柱形） // Ordnance Magazine (Cylinder)	Ammo
+4	bda_p_launchers	BDArmoryExtended	bdMissilePod	可展开导弹吊舱 // Deployable Missile Pod	Missile turrets
+4	bda_p_launchers	BDArmoryExtended	bdReloadableMissilePod	可展开导弹吊舱（可复装） // Deployable Missile Pod (Reloading)	Missile turrets
+4	bda_p_launchers	BDArmoryExtended	bahaReloadableAdjustableRail	可调节导弹挂架（可重新装填） // Adjustable Missile Rail (reloadable)	Missile turrets
+4	bda_p_launchers	BDArmoryExtended	bahaTwinRail	双联装导弹导轨 // Twin-mount Missile Rail	Missile turrets
+4	bda_w_missiles_cold	BDArmoryExtended	BahaClusterMissile	集束导弹 // Cluster Missile	Missiles
+6	bda_w_missiles_advanced	BDArmoryExtended	bahaAAHARM	#loc_BDArmory_part_bahaAAHARM_title //AR-18	Missiles
+4	bda_w_missiles_cold	BDArmoryExtended	bahaLSAM	#loc_BDArmory_part_bahaLSAM_title //SA-10 Thrall Missile	Missiles
+4	bda_w_missiles_cold	BDArmoryExtended	bahaClusterSAM	SA-25 哈尔贝克 地对空导弹 // SA-25 Halbech Surface-to-Air Missile	Missiles
+4	bda_w_missiles_cold	BDArmoryExtended	bahaHSAM	#loc_BDArmory_part_bahaHSAM_title //SA-30 Cataphract Missile	Missiles
+4	bda_w_missiles_cold	BDArmoryExtended	bahaMRSAM	#loc_BDArmory_part_bahaMRSAM_title //SA-16 Jannisary Missile	Missiles
+4	bda_w_missiles_cold	BDArmoryExtended	bahaAIM4FalconGAR11	AIM-4 “隼” GAR-11 // AIM-4 Falcon GAR-11	Missiles
+4	bda_w_missiles_cold	BDArmoryExtended	bahaAIM4FalconGAR2	AIM-4 “隼” GAR-2 // AIM-4 Falcon GAR-2	Missiles
+4	bda_w_missiles_cold	BDArmoryExtended	bahaAIM4FalconMK1	AIM-4 “隼” GAR-1 // AIM-4 Falcon GAR-1	Missiles
+4	bda_p_launchers	BDArmoryExtended	bahaHomingH70Launcher	#loc_BDArmory_part_bahaHydraAPKWS_title  //Hydra-70 Rocket Pod	Missiles
+4	bda_p_launchers	BDArmoryExtended	bahaCIMS	Pavise 近程防御导弹系统 // Pavise CIMS	Missile turrets
+4	bda_p_launchers	BDArmoryExtended	bahaGMLR	重型导弹发射塔 // Heavy Missile Launch Rail Turret	Missile turrets
+4	bda_p_launchers	BDArmoryExtended	BahaJernasReloadable	#loc_BDArmory_part_JernasReload_title //Jernas Missile Turret (reloadable)	Missile turrets
+4	bda_p_launchers	BDArmoryExtended	bahaSingleGMLR	单联导弹发射挂架炮塔 // Single Missile Launch Rail Turret	Missile turrets
+4	bda_p_launchers	BDArmoryExtended	bahaSmallMissileTurret	#loc_BDArmory_part_missileTurretTwin_title //Jernas Missile Turret	Missile turrets
+3	bda_e_countermeasures	BDArmoryExtended	bahaAPS	#loc_BDArmory_part_bahaPalash_title //Active Protection System	Countermeasures
+3	bda_e_countermeasures	BDArmoryExtended	PointDefenseMG	气泡型.50 近防炮塔 // Point Defense Blister Turret	Countermeasures
+4	bda_foundations	BDArmoryExtended	bdRepulsorGear	X-01 径向推进器 // X-01 Radial Repulsorlift
+4	bda_w_guided_bombs	BDArmoryExtended	bdWarheadSmall_CR	#loc_BDArmory_part_CRWarheadSmall_title //Small Continuous Rod Warhead	Warheads
+4	bda_w_guided_bombs	BDArmoryExtended	bdWarheadSmall_EMP	#loc_BDArmory_part_EMPWarheadSmall_title //Small EMP Warhead	Warheads
+4	bda_w_guided_bombs	BDArmoryExtended	bdWarheadSmall_FR	#loc_BDArmory_part_FragWarheadSmall_title //Small Fragmentation Warhead	Warheads
+7	bda_w_nuclear	BDArmoryExtended	bdWarheadSmall_N	#loc_BDArmory_part_NWarheadSmall_title //Small Nuclear Warhead	Warheads
+4	bda_w_guided_bombs	BDArmoryExtended	bdWarheadSmall_SC	#loc_BDArmory_part_SCWarheadSmall_title //Small Shaped Charge Warhead	Warheads
+4	bda_e_radar_basic	BDArmoryExtended	BDAsonarPod1B	#loc_BDArmory_part_BDAsonarPod1B_title //BDA Passive Sonar Pod	Radars
+3	bda_e_countermeasures	BDArmoryExtended	bahaChaffStrip	#loc_BDArmory_part_bahaChaffPod_title  //Chaff Dispenser	Countermeasures
+3	bda_e_countermeasures	BDArmoryExtended	bahaFlareStrip	#loc_BDArmory_part_bahaCmPod_title  //Flare Dispenser	Countermeasures
+4	bda_w_missiles_cold	BDArmoryExtended	baha_SwordfishTorpedo	#loc_BDArmory_part_SwordfishTorpedo_title //Swordfish Passive Acoustic Torpedo	Torpedoes
+4	bda_w_missiles_cold	BDArmoryExtended	TigersharkBDATorpedo	#loc_BDArmory_part_TigersharkTorpedo_title //Tigershark Active Sonar Torpedo	Torpedoes
+4	bda_p_launchers	BDArmoryExtended	baha_Torplauncher	三联鱼雷发射器 // Triple Torpedo Launcher	Missile turrets
+4	bda_p_launchers	BDArmoryExtended	bahaTowLauncherSingle	陶式导弹发射器（单联） // TOW Missile Pod	Missile turrets
+4	bda_p_launchers	BDArmoryExtended	bahaTowLauncherDouble	陶式导弹发射器（双联） // TOW Missile Twin Pod	Missile turrets
+4	bda_p_launchers	BDArmoryExtended	bahaTowLauncherTriple	陶式导弹发射器（三联） // TOW Missile Triple Pod	Missile turrets
+4	bda_p_launchers	BDArmoryExtended	bahaVLSQuad	四坑垂直发射（VLS）系统 // Quad VLS Cell	Missile turrets
+4	bda_p_launchers	BDArmoryExtended	bahaVLSSingle	VLS 发射单元 // VLS Cell	Missile turrets
+4	bda_w_missiles_cold	BDArmoryExtended	bahaRIM-66	RIM-66D “标准”II型导弹 // RIM-66D Standard Missile 2	Missiles
+4	bda_w_guided_bombs	BDArmoryRefurbished	bahaMk83Bomb	Mk83 Bomb	Bombs
+4	bda_w_guided_bombs	BDArmoryRefurbished	bahaMk84Bomb	Mk84 Bomb	Bombs
+4	bda_w_guided_bombs	BDArmoryRefurbished	bahaMk83BombBrake	Mk83 SnakeEye Bomb	Bombs
+4	bda_w_guided_bombs	BDArmoryRefurbished	bahaMk84BombBrake	Mk84 SnakeEye Bomb	Bombs
+5	bda_w_precision_bombs	BDArmoryRefurbished	bahaJdamMk82	Mk82 JDAM Bomb	Bombs
+5	bda_w_precision_bombs	BDArmoryRefurbished	bahaJdamMk84	Mk84 JDAM Bomb	Bombs
+4	bda_w_missiles_cold	BDArmoryRefurbished	kpaHellfireKinetic	AGM-114R-9X Hellfire "Slapchop" Missile	Missiles
+4	bda_a_reactive	BDArmoryRefurbished	SingleReactiveArmor	BD 0.3x0.25 Light Reactive Armor	Armor
+3	bda_e_ecm	BDArmoryRefurbished	bahaSmallSmokeCmPod	#LOC_BDRefurb_SmokeCmPod_title //Smoke Countermeasure Pod	Countermeasures
+6	bda_e_aesa	BDArmoryRefurbished	APARradar	Advanced Phased Array Radar	Radars
+4	bda_p_launchers	BDArmoryRefurbished	RAMLauncherTurret	MK-49 RAM Launcher	Missile turrets
+4	bda_w_naval	BDArmoryRefurbished	thephalanx	Phalanx CIWS	Gun turrets
+5	bda_p_launchers	BDArmoryRefurbished	SEARAMLauncherTurret	SeaRAM Launcher	Missile turrets
+5	bda_w_missiles_modern	BDArmoryRefurbished	THERIM-116	RIM-116 Rolling Airframe Missile	Missiles
+6	bda_e_aesa	BDArmoryRefurbished	smartsradar	SMART-S Radar	Radars
+6	bda_e_aesa	BDArmoryRefurbished	STIRradar	STIR Locking Radar	Radars
+6	bda_w_missiles_advanced	BDArmoryRefurbished	PEW9M96E2	9M96E2 Intercept Missile	Missiles
+7	bda_w_heavy_bombs	BDArmoryRefurbished	PEW-BLU-82	BLU-82 "Daisy Cutter" Bomb	Bombs
+7	bda_w_heavy_bombs	BDArmoryRefurbished	PEW-GBU-43/B	GBU-43/B MOAB	Bombs
+5	bda_w_precision_bombs	BDArmoryRefurbished	PEWGBU53A	GBU-53/B "Stormbreaker" Small Diameter Bomb	Bombs
+7	bda_w_heavy_bombs	BDArmoryRefurbished	PEW-GBU-57/A	GBU-57A/B Kerbin Penetrating Bomb	Bombs
+4	bda_w_missiles_cold	BDArmoryRefurbished	PEWR-77	R-77 "Adder" Missile	Missiles
+6	bda_w_missiles_advanced	BDArmoryRefurbished	THERIM-162	RIM-162 Evolved Sea Sparrow Missile	Missiles
+3	bda_a_ww2_tanks	BDArmoryRefurbished	PEW-BMP2	BMP2 Turret	Gun turrets
+4	bda_a_modern_tanks	BDArmoryRefurbished	PEW-Bradley-TOW	M2 Bradley Turret (TOW)	Gun turrets
+3	bda_a_modern_tanks	BDArmoryRefurbished	PEW-Bradley	M2 Bradley Turret	Gun turrets
+3	bda_a_ww2_tanks	BDArmoryRefurbished	Challenger299Turret	Challenger II Turret	Gun turrets
+3	bda_w_cannons_ww2	BDArmoryRefurbished	Eland90BTurret	Eland 90B Turret	Gun turrets
+3	bda_p_launchers	BDArmoryRefurbished	PEW-mk19	Mk.19 Grenade Launcher	Gun turrets
+3	bda_a_modern_tanks	BDArmoryRefurbished	T90MS	T-90MS Turret	Gun turrets
+5	bda_p_modular	BDModularMissileParts	proceduralHighExplosive	Procedural High Explosive	Warheads
+4	bda_a_reactive	BDModularMissileParts	proceduralMissileCore	Procedural Missile Core for BDArmory	Control
+4	bda_a_reactive	BDModularMissileParts	proceduralMissileSRB	Procedural SRB customized for BDArmory	Missiles
+4	bda_p_modular	BDModularMissileParts	MMmk1Tube	MK1 ModularMissile Tube Launcher
+2	bda_foundations	AviatorArsenal	50calBox	#LOC_AA_12.7mmBox_title //WW2 12.7mm Ammo Box
+2	bda_foundations	AviatorArsenal	13mmBox	#LOC_AA_13mmBox_title //WW2 13mm Ammo Box
+2	bda_foundations	AviatorArsenal	15mmBox	#LOC_AA_15mmBox_title //WW2 15mm Ammo Box
+2	bda_foundations	AviatorArsenal	20mmBox	#LOC_AA_20mmBox_title //WW2 20mm Ammo Box
+2	bda_foundations	AviatorArsenal	23mmBox	#LOC_AA_23mmBox_title //WW2 23mm Ammo Box
+2	bda_foundations	AviatorArsenal	30mmBox	#LOC_AA_30mmBox_title //WW2 30mm Ammo Box
+2	bda_foundations	AviatorArsenal	40mmBox	#LOC_AA_40mmBox_title //WW2 40mm Ammo Box
+2	bda_foundations	AviatorArsenal	75mmBox	#LOC_AA_75mmBox_title //WW2 75mm Ammo Box
+2	bda_foundations	AviatorArsenal	7mmBox	#LOC_AA_7mmBox_title //WW2 7mm Ammo Box
+3	bda_foundations	AviatorArsenal	AIantenna	#LOC_AA_CommAntenna_title //WW2 Communications Antenna
+2	bda_e_radar_basic	AviatorArsenal	AeroAntenna	#LOC_AA_BallAntenna_title //WW2 Ball Antenna
+2	bda_e_radar_basic	AviatorArsenal	ringantenna	#LOC_AA_RingAntenna_title //WW2 Ring Antenna
+2	bda_w_rockets	AviatorArsenal	ANM30	#LOC_AA_100lb_title //WW2 AN-M64 100lb Bomb
+2	bda_w_rockets	AviatorArsenal	ANM57	#LOC_AA_250lb_title // WW2 AN-M64 250lb Bomb
+2	bda_w_rockets	AviatorArsenal	ANM64	#LOC_AA_500lb_title //WW2 AN-M64 500lb Bomb
+2	bda_w_rockets	AviatorArsenal	ANM65	#LOC_AA_1000lb_title //WW2 AN-M65 1000lb Bomb
+3	bda_w_cannons_ww2	AviatorArsenal	hispanoEnclosed	#LOC_AA_HispanoShroud_title //WW2 Hispano MK2 20mm Cannon (Enclosed)
+3	bda_w_cannons_ww2	AviatorArsenal	hispanoExposed	#LOC_AA_Hispano_title //WW2 Hispano MK2 20mm Cannon
+3	bda_p_launchers	AviatorArsenal	WW2Ho5WingMount	#LOC_AA_Ho5_title //WW2 Ho-5 20mm Cannon
+3	bda_w_cannons_ww2	AviatorArsenal	Mg151Long	#LOC_AA_151LB_title//WW2 MG 151 15mm Long Barrel
+3	bda_w_cannons_ww2	AviatorArsenal	Mg151Short	#LOC_AA_151SB_title // WW2 MG 151 15mm Short Barrel
+3	bda_p_launchers	AviatorArsenal	MG151WingPod	#LOC_AA_15120_title //WW2 MG 151 20mm Surface Mounted
+3	bda_p_launchers	AviatorArsenal	ShVAKWing	#LOC_AA_shVAKWing_title //WW2 ShVAK 20mm Wing Mounted Cannon
+3	bda_w_cannons_ww2	AviatorArsenal	ShVAKBody	#LOC_AA_shVAK_title //WW2 ShVAK 20mm Body Port Cannon
+3	bda_w_cannons_ww2	AviatorArsenal	Bk75	#LOC_AA_bk75_title //WW2 Bk 7.5 75mm Cannon
+3	bda_w_cannons_ww2	AviatorArsenal	WW2Ho155	#LOC_AA_Ho155_title //WW2 Ho-155 30mm Cannon
+3	bda_w_cannons_ww2	AviatorArsenal	Mk108	#LOC_AA_mk108_title //WW2 MK 108 30mm Cannon
+3	bda_p_launchers	AviatorArsenal	VickersShortPod	#LOC_AA_Vickers_title //WW2 Vickers S 40mm Cannon
+3	bda_w_cannons_ww2	AviatorArsenal	VYa23	#LOC_AA_VYA_title //WW2 VYa-23 23mm Cannon
+3	bda_w_cannons_ww2	AviatorArsenal	BerezinUBK	#LOC_AA_UBK_title//WW2 Berezin UBK 12.7mm Long Barrel
+3	bda_w_cannons_ww2	AviatorArsenal	BredaSAFATLong	#LOC_AA_SAFATLB_title //WW2 Breda-SAFAT 7.7mm MG Long Barrel
+3	bda_w_cannons_ww2	AviatorArsenal	BredaSAFATPort	#LOC_AA_SAFATS_title //WW2 Breda-SAFAT 7.7mm MG Port
+3	bda_w_cannons_ww2	AviatorArsenal	WW2Ho3ExposedBarrel	#LOC_AA_HO3_title //WW2 Ho-103 .50 Long Barrel
+3	bda_p_launchers	AviatorArsenal	M2Blister	#LOC_AA_M2Pod_title //WW2 Browning M2 .50 Blister Pod
+3	bda_w_cannons_ww2	AviatorArsenal	M2ExposedBarrel	#LOC_AA_M2LB_title //WW2 Browning M2 .50 Long Barrel
+3	bda_w_cannons_ww2	AviatorArsenal	M2GunPort	#LOC_AA_M2Port_title //WW2 Browning M2 .50 Port
+3	bda_p_launchers	AviatorArsenal	M2Pod	#LOC_AA_M2S_title //WW2 Browning M2 .50 Surface Mounted
+3	bda_p_launchers	AviatorArsenal	MG131	#LOC_AA_131_title //WW2 MG 131 13mm Surface Mounted
+3	bda_w_cannons_ww2	AviatorArsenal	shKAS	#LOC_AA_shKAS_title //WW2 ShKAS 7.62mm
+2	bda_w_missiles_early	AviatorArsenal	WW2HVARRocket	#LOC_AA_HVAR_title //WW2 Rocket HVAR
+2	bda_p_launchers	AviatorArsenal	WW2R4MRocket	#LOC_AA_R4M_title //WW2 R4M Rocket Rack
+2	bda_p_launchers	AviatorArsenal	WW2RocketPod	#LOC_AA_158_title //WW2 Rocket Pod XM158
+2	bda_w_missiles_early	AviatorArsenal	WW2RP3Rocket	#LOC_AA_RP3_title //WW2 Rocket RP-3
+3	bda_w_cannons_ww2	AviatorArsenal	BallTurret	#LOC_AA_BallTurret_title//WW2 Ball Turret .50 Cal
+3	bda_w_cannons_ww2	AviatorArsenal	MG131zTurret	#LOC_AA_131zFLD_title //WW2 MG 131z 13mm Turret
+3	bda_foundations	AviatorArsenal	smallDropTank	#LOC_AA_droptank_title //WW2 Small Drop Tank
+3	bda_p_launchers	AviatorArsenal	HeavyMount	#LOC_AA_Heavymount_title //WW2 Heavy Ordnance Mount
+3	bda_foundations	AviatorArsenal	JerichoTrumpet	#LOC_AA_Trumpet_title //WW2 Jericho Trumpet
+2	bda_p_launchers	AviatorArsenal	StructBomb	#LOC_AA_mount_title //WW2 Structural Bomb Mount
+6	bda_w_missiles_advanced	KerbalAdvancedDefenseReborn	KAD_PL15_AAM	PL-15 远程空空导弹	Missiles
+5	bda_w_missiles_modern	KerbalAdvancedDefenseReborn	KAD_PL5EII_AAM	PL-5EII 近程空空导弹	Missiles
+3	bda_w_missiles_early	KerbalAdvancedDefenseReborn	KAD_R3R_AAM	R-3R “环礁” 近程SARH空空导弹	Missiles
+3	bda_w_missiles_early	KerbalAdvancedDefenseReborn	KAD_R3S_AAM	R-3S “环礁” 近程IR空空导弹	Missiles
+6	bda_w_missiles_advanced	KerbalAdvancedDefenseReborn	KAD_R40R_AAM	R-40R “尖顶” 中程SARH空空导弹	Missiles
+6	bda_w_missiles_advanced	KerbalAdvancedDefenseReborn	KAD_R40RD_AAM	R-40RD “尖顶” 中程SARH空空导弹	Missiles
+6	bda_w_missiles_advanced	KerbalAdvancedDefenseReborn	KAD_R40T_AAM	R-40T “尖顶” 中程IR空空导弹	Missiles
+6	bda_w_missiles_advanced	KerbalAdvancedDefenseReborn	KAD_R40TD_AAM	R-40TD “尖顶” 中程IR空空导弹	Missiles
+4	bda_w_missiles_cold	KerbalAdvancedDefenseReborn	KAD_R60K_AAM	R-60K “蚜虫” 近程IR空空导弹	Missiles
+4	bda_w_missiles_cold	KerbalAdvancedDefenseReborn	KAD_R60MK_AAM	R-60MK “蚜虫” 近程IR空空导弹	Missiles
+5	bda_w_missiles_modern	KerbalAdvancedDefenseReborn	KAD_RedTop_AAM	“红头” 近程空空导弹	Missiles
+6	bda_w_missiles_advanced	KerbalAdvancedDefenseReborn	KAD_Super530D_AAM	Super 530D 中程空空导弹	Missiles
+6	bda_w_missiles_advanced	KerbalAdvancedDefenseReborn	KAD_CM102_ARM	CM-102 反辐射导弹	Missiles
+6	bda_w_missiles_advanced	KerbalAdvancedDefenseReborn	KAD_Kh58U_ARM	Kh-58U 反辐射导弹	Missiles
+7	bda_w_nuclear	KerbalAdvancedDefenseReborn	KAD_B28FI_NucBomb	B-28FI 1.45兆吨级核武器	Bombs
+7	bda_w_nuclear	KerbalAdvancedDefenseReborn	KAD_B61_NucBomb	B-61 10千吨级战术核弹	Bombs
+7	bda_w_nuclear	KerbalAdvancedDefenseReborn	KAD_MK41_NucBomb	MK-41 25兆吨级核武器	Bombs
+7	bda_w_nuclear	KerbalAdvancedDefenseReborn	KAD_MK8_NucBomb	MK-8 30千吨级核弹	Bombs
+7	bda_w_nuclear	KerbalAdvancedDefenseReborn	KAD_RN28_NucBomb	RN-28 5千吨级战术核弹	Bombs
+7	bda_w_nuclear	KerbalAdvancedDefenseReborn	KAD_Tsar_NucBomb	沙皇炸弹|AN602（5000万吨）	Bombs
+7	bda_w_nuclear	KerbalAdvancedDefenseReborn	KAD_Tsar100_NucBomb	沙皇炸弹|AN602（1亿吨）	Bombs
+7	bda_w_nuclear	KerbalAdvancedDefenseReborn	KAD_W88	W88 热核弹头	Warheads
+6	bda_e_aesa	KerbalAdvancedDefenseReborn	KAD_8TK_IRST	8TK/8TP 红外搜索与跟踪系统(IRST)	Radars
+6	bda_e_aesa	KerbalAdvancedDefenseReborn	KAD_TP23_IRST	TP-23 红外搜索与跟踪系统(IRST)	Radars
+6	bda_e_aesa	KerbalAdvancedDefenseReborn	KAD_TP26_IRST	TP-26 红外搜索与跟踪系统(IRST)	Radars
+6	bda_e_aesa	KerbalAdvancedDefenseReborn	KAD_TP26Sh1_IRST	TP-26Sh-1 红外搜索与跟踪系统(IRST)	Radars
+5	bda_e_radar_advanced	KerbalAdvancedDefenseReborn	KAD_RP21M_Radar	RP-21M “旋扫-B” 火控雷达	Radars
+5	bda_e_radar_advanced	KerbalAdvancedDefenseReborn	KAD_RP22SM_Radar	RP-22SM “松鸦鸟” 火控雷达	Radars
+5	bda_e_radar_advanced	KerbalAdvancedDefenseReborn	KAD_RP25M_Radar	RP-25M “高云雀” 火控雷达	Radars
+5	bda_e_radar_advanced	KerbalAdvancedDefenseReborn	KAD_RP25_Radar	RP-25 “狐火” 火控雷达	Radars
+5	bda_e_radar_advanced	KerbalAdvancedDefenseReborn	KAD_RP31M_Radar	RP-31M“高云雀”火控雷达	Radars
+5	bda_e_radar_advanced	KerbalAdvancedDefenseReborn	KAD_RP31_Radar	RP-31“闪舞”火控雷达	Radars
+5	bda_w_missiles_modern	KerbalAdvancedDefenseReborn	KAD_9M33M3_Osa	9M33 “黄蜂-AKM” 地空导弹	Missiles
+5	bda_w_missiles_modern	KerbalAdvancedDefenseReborn	KAD_9M38M1_Buk_SAM	9M38M1 “山毛榉” 中程地空导弹	Missiles
+5	bda_w_missiles_modern	KerbalAdvancedDefenseReborn	KAD_FIM92K_Stinger	FIM-92K “毒刺” 单兵便携式防空导弹	Missiles
+6	bda_w_missiles_advanced	KerbalAdvancedDefenseReborn	KAD_IRIS-T_SLM	IRIS-T SLM 中程地空导弹	Missiles
+6	bda_w_missiles_advanced	KerbalAdvancedDefenseReborn	KAD_RBS98	IRIS-T SLS 近程地空导弹	Missiles
+6	bda_w_missiles_advanced	KerbalAdvancedDefenseReborn	KAD_MIM-104E_Patriot	MIM-104E “爱国者” 远程地空导弹	Missiles
+5	bda_w_missiles_modern	KerbalAdvancedDefenseReborn	KAD_RapierMk1	“轻剑MK1” 近程地空导弹	Missiles
+5	bda_w_missiles_modern	KerbalAdvancedDefenseReborn	KAD_RapierMk1E	“轻剑MK1E” 近程地空导弹	Missiles
+5	bda_w_missiles_modern	KerbalAdvancedDefenseReborn	KAD_RapierMk2	“轻剑MK2” 近程地空导弹	Missiles
+6	bda_w_missiles_advanced	KerbalAdvancedDefenseReborn	KAD_S-300PS_5V55R	S300-5V55R 远程地空导弹	Missiles
+5	bda_w_missiles_modern	KerbalAdvancedDefenseReborn	KAD_9M37M_SAM	9M37M “箭-10” 近程地空导弹	Missiles
+5	bda_w_missiles_modern	KerbalAdvancedDefenseReborn	KAD_Type81_C	81式 “短SAM”(C标准型)	Missiles
+4	bda_w_guided_bombs	NKDR	harp12kBomb	12,000lb Conventional Bomb
+7	bda_w_nuclear	NKDR	b83Nuke	B-83 Nuclear Bomb
+7	bda_w_nuclear	NKDR	harpCastleBravo	Castle Bravo
+4	bda_w_guided_bombs	NKDR	FAB-100Bomb	FAB-100 Bomb
+4	bda_w_guided_bombs	NKDR	FAB-250Bomb	FAB-250 Bomb
+7	bda_w_heavy_bombs	NKDR	FAB-5000Bomb	FAB-5000 Bomb
+7	bda_w_missiles_advanced	NKDR	foabBomb	FOAB
+5	bda_w_precision_bombs	NKDR	GBU39	GBU-39 Small Diameter Bomb
+5	bda_w_missiles_modern	NKDR	GBU44	GBU-44 VIPER SDB
+7	bda_w_missiles_advanced	NKDR	k12Cloudmaker	K-12 Cloudmaker
+4	bda_w_guided_bombs	NKDR	harpKineticBombarder	Kinetic Bombardment Weapon
+5	bda_w_precision_bombs	NKDR	paveWayIV	Paveway IV Guided Bomb
+7	bda_w_missiles_advanced	NKDR	moabBomb	Massive Ordinance Air Burst (MOAB)
+7	bda_w_nuclear	NKDR	thermoMIRV	W88 ThermoNuclear MIRV
+7	bda_w_nuclear	NKDR	tsarBomba	Tsar Bob-a
+3	bda_e_countermeasures	NKDR	harpBahaCmPod	Slim Flare Dispenser	Countermeasures
+5	bda_p_launchers	NKDR	harpGSH301Pod	Gryazev-Shipunov GSh-301
+5	bda_p_launchers	NKDR	harpGSHPod	Gryazev-Shipunov GSh-23
+5	bda_p_launchers	NKDR	harpM129Pod	M129 Grenade Launcher
+5	bda_p_launchers	NKDR	harpVulcanPod	M61 Vulcan Cannon
+7	bda_w_nuclear	NKDR	harpAtomAnnieR	M65 'Nuclear Valentina' Radial
+8	bda_w_railgun	NKDR	harpRailgunR	Prototype Railgun Radial
+4	bda_w_naval	NKDR	harpAK230	AK-230 CIWS
+5	bda_w_autocannons	NKDR	harpGSHTurret	Gryazev-Shipunov GSh-23 Helicopter Turret
+5	bda_w_autocannons	NKDR	harpKarl	Karl Gerat 041
+5	bda_w_autocannons	NKDR	harpKompensator	2A3 Kompensator 2P
+5	bda_w_autocannons	NKDR	harpKV2	Old KV-2 Turret
+5	bda_w_autocannons	NKDR	harpLAVADTurret	LAV AD Turret
+5	bda_w_autocannons	NKDR	harpLAV25	LAV-25 Turret
+5	bda_w_autocannons	NKDR	harpM1Howitzer	M1 8-inch Howitzer
+5	bda_w_autocannons	NKDR	harpM198Howitzer	M198 155mm Howitzer
+5	bda_w_naval	NKDR	harpMk45	Mk45 Naval Gun Turret
+7	bda_w_nuclear	NKDR	harpAtomAnnie	M65 'Nuclear Valentina'
+5	bda_w_autocannons	NKDR	harpPaladinTurret	M109 Paladin Turret
+8	bda_w_railgun	NKDR	harpRailgun	Prototype Railgun
+5	bda_w_missiles_modern	NKDR	harpAAD	AAD Anti Ballistic Missile
+5	bda_w_missiles_modern	NKDR	agm158	AGM-158B Cruise missile
+5	bda_w_missiles_modern	NKDR	harpDavyCrockett	W54 Davy Crockett Warhead
+5	bda_w_missiles_modern	NKDR	harpExocet	MM-40 Exocet Anti-Ship Missile
+5	bda_w_missiles_modern	NKDR	harpM26	M-26 Artillery Missile
+5	bda_w_missiles_modern	NKDR	harpM30	M-30 Artillery Missile
+5	bda_w_missiles_modern	NKDR	harpMGM	MGM-140 ATACMS
+5	bda_w_missiles_modern	NKDR	harpOhka	Yokosuka MXY7 Ohka
+5	bda_w_missiles_modern	NKDR	harpScud	Scud Missile (Conventional)
+7	bda_w_nuclear	NKDR	harpScudNuclear	Scud Missile (Nuclear)
+5	bda_w_missiles_modern	NKDR	harpStinger	Stinger Missile
+5	bda_w_missiles_modern	NKDR	harpTomahawkConv	Tomahawk Cruise Missile (Conventional)
+4	bda_w_guided_bombs	NKDR	harpV1	V-1 Flying Bomb
+5	bda_w_missiles_modern	NKDR	chaparralTurret	Chaparral Missile Turret
+5	bda_p_launchers	NKDR	davyCrockettLauncher	Davy Crockett Turret
+5	bda_p_launchers	NKDR	launcherMLRSTurret	MLRS Turret
+5	bda_p_launchers	NKDR	scudLauncher	Scud Launcher
+5	bda_foundations	NKDR	Slow Parachute	Kerbalie parachute
+5	bda_p_launchers	NKDR	harpMGMCap	MGM Tube Cap
+5	bda_p_launchers	NKDR	harpMGMTube	MGM Tube
+5	bda_p_launchers	NKDR	harpPod	Modular Gunpod	Misc
+5	bda_p_launchers	NKDR	harpRocketTube	Rocket Tube
+3	bda_w_missiles_early	KerbalPowers	kpaATACMS	MGM-140 集束弹药火箭系统	Missiles
+5	bda_w_missiles_modern	KerbalPowers	kpaGMLRS	MGM-30 制导火箭发射系统	Missiles
+5	bda_w_missiles_modern	KerbalPowers	kpaPRSM	MGM-250 精确打击火箭	Missiles
+5	bda_w_precision_bombs	KerbalPowers	bahaJdamerMk82	Mk82 JDAM-ER 滑翔制导炸弹	Bombs
+5	bda_w_precision_bombs	KerbalPowers	bahaJdamerMk83	Mk83 JDAM-ER 滑翔制导炸弹	Bombs
+5	bda_w_precision_bombs	KerbalPowers	bahaJdamerMk84	Mk84 JDAM-ER 滑翔制导炸弹	Bombs
+3	bda_w_rockets	KerbalPowers	kpaSUU	SUU-14/A 伞降子弹药布撒器	Bombs
+6	bda_w_missiles_advanced	KerbalPowers	kpaAim160	AIM-160“CUDA”空空导弹	Missiles
+5	bda_w_missiles_modern	KerbalPowers	kpaComet	SRA-132“彗星”导弹	Missiles
+6	bda_w_missiles_advanced	KerbalPowers	kpaMeteor	SRA-1239“流星”导弹	Missiles
+5	bda_w_missiles_modern	KerbalPowers	kpaAST3	SRS-1238“硫磺石”导弹	Missiles
+6	bda_w_missiles_advanced	KerbalPowers	kpaSiAW	AGM-88H“SiAW”导弹	Missiles
+6	bda_w_missiles_advanced	KerbalPowers	kpaASN4G	ASN4G 高超音速巡航导弹	Missiles
+6	bda_w_missiles_advanced	KerbalPowers	kpaMdCN	SRS-2004“深渊区”导弹	Missiles
+6	bda_w_missiles_advanced	KerbalPowers	kpaSCALP	SRS-2003“暗影领域”巡航导弹	Missiles
+5	bda_w_missiles_modern	KerbalPowers	kpaSphereEW	SRA-404“硫磺-EW”电子战系统	Missiles
+5	bda_w_precision_bombs	KerbalPowers	kpaSphereGlide	GBU-30“硫磺”小直径滑翔炸弹	Bombs
+5	bda_w_missiles_modern	KerbalPowers	kpaSphere	SRS-30“硫磺”小直径巡航导弹	Missiles
+5	bda_p_launchers	KerbalPowers	kpaMk141Launcher	Mk141“钩”发射管	Missile turrets
+5	bda_e_radar_advanced	KerbalPowers	kpaEsperieye	“鹰眼”预警雷达	Radars
+6	bda_e_aesa	KerbalPowers	kpaSimpson	“辛普森”多功能雷达	Radars
+6	bda_e_aesa	KerbalPowers	kpaSNOOP7Large	SNOOP-7(V)3 大型相控阵雷达	Radars
+6	bda_e_aesa	KerbalPowers	kpaSNOOP7Small	SNOOP-7(V)1 小型相控阵雷达	Radars
+6	bda_e_aesa	KerbalPowers	kpaSNOOPR	SNOOP-R(V)4 机动相控阵雷达	Radars
+5	bda_w_naval	KerbalPowers	kpa127Mod4	127 毫米 Mk4 舰炮	Gun turrets
+5	bda_w_autocannons	KerbalPowers	kpa155Mk51	155 毫米 Mk51 简易炮系统	Gun turrets
+5	bda_w_naval	KerbalPowers	kpa40Mk4	40 毫米 Mk4 舰炮	Gun turrets
+5	bda_w_naval	KerbalPowers	kpa57Mk3	57 毫米 Mk3 舰炮	Gun turrets
+5	bda_w_autocannons	KerbalPowers	kpaLynx	KP41“斧”步战车炮塔	Gun turrets
+8	bda_w_laser	KerbalPowers	kpaNeolidas	“尼奥利达斯”高功率微波炮塔	Laser turrets
+5	bda_w_naval	KerbalPowers	kpaOTO76	76 毫米 Mk62 舰炮	Gun turrets
+3	bda_w_cannons_ww2	fishy_weapons_dev	102XE	102mm XE (hidden)
+3	bda_p_launchers	fishy_weapons_dev	12mmm_gun_pod	12mm gun pod
+4	bda_w_guided_bombs	fishy_weapons_dev	1kg_bomb	1kg bomb
+3	bda_w_cannons_ww2	fishy_weapons_dev	1M cal turret	1M cal
+4	bda_w_missiles_cold	fishy_weapons_dev	1shot	1shot
+3	bda_w_cannons_ww2	fishy_weapons_dev	2mm	2.5mm AP (hidden)
+3	bda_w_cannons_ww2	fishy_weapons_dev	322mm	322mm cannon
+3	bda_w_cannons_ww2	fishy_weapons_dev	3mmXE	3mmXE gun
+3	bda_w_cannons_ww2	fishy_weapons_dev	47HE gun	47mm XE (hidden)
+3	bda_w_cannons_ww2	fishy_weapons_dev	6mm shotgun (fully working in the future)	6mm shotgun
+4	bda_w_missiles_cold	fishy_weapons_dev	A-90GX	A-90GX
+4	bda_w_missiles_cold	fishy_weapons_dev	advanced_AL37	AL-37 (advanced)
+4	bda_e_targeting	fishy_weapons_dev	Advanced_cam	128k Advanced camera	Targeting
+6	bda_w_missiles_advanced	fishy_weapons_dev	modern aim-132	aim-132 ASRAAM
+4	bda_w_missiles_cold	fishy_weapons_dev	AL37	AL-37a
+3	bda_w_cannons_ww2	fishy_weapons_dev	active_protection_sys	active protection system
+4	bda_w_missiles_cold	fishy_weapons_dev	anti missile system	anti missile system
+6	bda_w_missiles_advanced	fishy_weapons_dev	anti_rad	air to air harm missile
+4	bda_w_missiles_cold	fishy_weapons_dev	guided_rocket_ax2	AX2 guided rocket
+3	bda_e_countermeasures	fishy_weapons_dev	chaffBIG	BIG Chaff Dispenser	Countermeasures
+3	bda_e_countermeasures	fishy_weapons_dev	FlareBIG	BIG Flare Dispenser	Countermeasures
+3	bda_e_countermeasures	fishy_weapons_dev	FlareFASTER	FASTER-Flares	Countermeasures
+3	bda_e_countermeasures	fishy_weapons_dev	FlareFAST	FAST-Flares	Countermeasures
+3	bda_e_countermeasures	fishy_weapons_dev	FlareBomb	FlareBomb	Countermeasures
+4	bda_w_missiles_cold	fishy_weapons_dev	bird strike missile	bird strike missile x
+4	bda_w_missiles_cold	fishy_weapons_dev	bloody-Alpha	bloody-Alpha
+4	bda_e_targeting	fishy_weapons_dev	combat_cam	combat camera (low drag)	Targeting
+4	bda_e_targeting	fishy_weapons_dev	drone_cam	combat camera (low drag)	Targeting
+4	bda_w_guided_bombs	fishy_weapons_dev	emp bomb	anti-hydrogen emp smart bomb
+4	bda_w_missiles_cold	fishy_weapons_dev	modern emp missile	heavy modern emp missile
+4	bda_w_missiles_cold	fishy_weapons_dev	explosive doom	explosive doom (X504)
+3	bda_w_cannons_ww2	fishy_weapons_dev	7mm_fast_gun	7mm fast gun (Hu-7k)
+3	bda_w_cannons_ww2	fishy_weapons_dev	7mm_fast_gun2	7mm fast gun (death-ray-edition)
+4	bda_w_missiles_cold	fishy_weapons_dev	FG-400	FG-400	Missiles
+3	bda_foundations	fishy_weapons_dev	FishyAmmoBox	Fishy ammo Box	Ammo
+4	bda_foundations	fishy_weapons_dev	AV-R9_1	AV-R9 Winglet
+4	bda_foundations	fishy_weapons_dev	gliderWingB	Swept Wing Type B (glider-wing)
+4	bda_foundations	fishy_weapons_dev	structuralWing10	Structural Wing Type D
+4	bda_w_missiles_cold	fishy_weapons_dev	kinetic_missile	kinetic missile
+8	bda_w_laser	fishy_weapons_dev	laser1	close range laser (L-92c)
+8	bda_w_laser	fishy_weapons_dev	laser_gun182	Radiation cannon 1.0	Guns
+4	bda_w_missiles_cold	fishy_weapons_dev	laserhellfireHSIV	GHSH IV	Missiles
+4	bda_w_missiles_cold	fishy_weapons_dev	laserhellfireHS	GHSH III	Missiles
+4	bda_w_missiles_cold	fishy_weapons_dev	laserhellfire2	laser guided AAM Hellfire II LR MOD	Missiles
+4	bda_w_missiles_cold	fishy_weapons_dev	laserhellfire	laser guided AAM Hellfire II	Missiles
+6	bda_e_aesa	fishy_weapons_dev	X49	X49 locking radar	Radars
+8	bda_w_laser	fishy_weapons_dev	LRABL	Long Range Airborne Laser	Laser turrets
+8	bda_w_laser	fishy_weapons_dev	LRABLOC	Long Range Airborne Laser (high power modification)	Laser turrets
+3	bda_w_cannons_ww2	fishy_weapons_dev	m74	m74 Cannon
+3	bda_w_missiles_early	fishy_weapons_dev	matra_r530	r-530
+6	bda_w_missiles_advanced	fishy_weapons_dev	modern aim-120 KN	modern aim-120 KN
+6	bda_w_missiles_advanced	fishy_weapons_dev	modern aim-120 LR	modern aim-120 LR
+6	bda_w_missiles_advanced	fishy_weapons_dev	modern aim-120	modern aim-120
+4	bda_w_missiles_cold	fishy_weapons_dev	modern aim-9	modern aim-9
+5	bda_e_radar_advanced	fishy_weapons_dev	modern r-60 radar	R-60 radar missile
+4	bda_w_missiles_cold	fishy_weapons_dev	multi-module-aim-9	multi-module-aim-9
+7	bda_w_nuclear	fishy_weapons_dev	mini H-200 (nuclear)	H-200 (nuclear)
+7	bda_w_nuclear	fishy_weapons_dev	nuclear_maverick2	atomic maverick
+7	bda_w_nuclear	fishy_weapons_dev	nuclear g40	nuclear g40
+7	bda_w_nuclear	fishy_weapons_dev	nuclear powered aim-120	nuclear core aim-120
+7	bda_w_nuclear	fishy_weapons_dev	nuke	nuclear warhead	Warheads
+7	bda_w_nuclear	fishy_weapons_dev	nuke_bomb	nuke
+7	bda_w_nuclear	fishy_weapons_dev	nuke_bomb2	doomsday-nuke
+4	bda_w_guided_bombs	fishy_weapons_dev	Small-Bomb0000	mini bomb
+3	bda_w_missiles_early	fishy_weapons_dev	AIM-7D	AIM-7D Sparrow
+3	bda_w_missiles_early	fishy_weapons_dev	AIM-7E-2	AIM-7E-2 Sparrow
+3	bda_w_missiles_early	fishy_weapons_dev	AIM-7E	AIM-7E Sparrow
+4	bda_w_missiles_cold	fishy_weapons_dev	AIM-7F	AIM-7F Sparrow
+4	bda_w_missiles_cold	fishy_weapons_dev	AIM-7M	AIM-7M Sparrow
+3	bda_w_missiles_early	fishy_weapons_dev	aim-9b	AIM-9B Sidewinder
+3	bda_w_missiles_early	fishy_weapons_dev	aim-9c	AIM-9C Sidewinder
+3	bda_w_missiles_early	fishy_weapons_dev	aim-9d	AIM-9D Sidewinder
+3	bda_w_missiles_early	fishy_weapons_dev	aim-9e	AIM-9E Sidewinder
+3	bda_w_missiles_early	fishy_weapons_dev	aim-9g	AIM-9G Sidewinder
+3	bda_w_missiles_early	fishy_weapons_dev	aim-9h	AIM-9H Sidewinder
+3	bda_w_missiles_early	fishy_weapons_dev	aim-9j	AIM-9J Sidewinder
+4	bda_w_missiles_cold	fishy_weapons_dev	AIM-9L	AIM-9L Sidewinder
+4	bda_w_missiles_cold	fishy_weapons_dev	AIM-9M	AIM-9M Sidewinder
+3	bda_w_missiles_early	fishy_weapons_dev	R-13M1	R-13M1
+4	bda_w_missiles_cold	fishy_weapons_dev	R-23T	R-23T
+4	bda_w_missiles_cold	fishy_weapons_dev	R-24T	R-24T
+6	bda_w_missiles_advanced	fishy_weapons_dev	R-27ET	R-27ET
+4	bda_w_missiles_cold	fishy_weapons_dev	R-27T	R-27T
+3	bda_w_missiles_early	fishy_weapons_dev	R-3R	R-3R
+3	bda_w_missiles_early	fishy_weapons_dev	R-3S	R-3S
+4	bda_w_missiles_cold	fishy_weapons_dev	R-60	R-60
+4	bda_w_missiles_cold	fishy_weapons_dev	R-60M	R-60M
+4	bda_w_missiles_cold	fishy_weapons_dev	R-60MK	R-60MK
+6	bda_w_missiles_advanced	fishy_weapons_dev	R-73	R-73
+4	bda_w_missiles_cold	fishy_weapons_dev	pheonix	Aim-54 Pheonix Missile	Missiles
+5	bda_e_radar_advanced	fishy_weapons_dev	radarDataTransmitterImproved	Radar Data Transmitter Improved	Radars
+5	bda_e_radar_advanced	fishy_weapons_dev	radome 2077	radome x27a	Radars
+5	bda_e_radar_advanced	fishy_weapons_dev	radome 3077	radome x37a	Radars
+5	bda_e_radar_advanced	fishy_weapons_dev	radome 3077snub	radome x37b	Radars
+5	bda_e_radar_advanced	fishy_weapons_dev	radome 4077 Ultra	radome x47b Ultra	Radars
+5	bda_e_radar_advanced	fishy_weapons_dev	radome 4077	radome x47a	Radars
+5	bda_e_radar_advanced	fishy_weapons_dev	RR	advanced detection radar	Radars
+5	bda_e_radar_advanced	fishy_weapons_dev	radome x25a 1st gen	radome x25a 1st gen	Radars
+4	bda_w_missiles_cold	fishy_weapons_dev	SPAMRAAM	aim-69 SPAMRAAM
+3	bda_w_cannons_ww2	fishy_weapons_dev	12mm_storm	12mm storm
+5	bda_e_radar_advanced	fishy_weapons_dev	radome 1500 1st gen	radome x15a	Radars
+5	bda_e_radar_advanced	fishy_weapons_dev	radome x15a 1st gen	radome x15a	Radars
+4	bda_w_missiles_cold	fishy_weapons_dev	Longtom	longtim torpedo
+3	bda_w_cannons_ww2	fishy_weapons_dev	???	???
+3	bda_a_ww2_tanks	FoxDefenseContracts	76MMFlak	3" 50 caliber gun
+5	bda_a_cold_tanks	FoxDefenseContracts	HSTVAP	HSTV-L
+5	bda_a_cold_tanks	FoxDefenseContracts	M103	M103 120mm
+6	bda_a_modern_tanks	FoxDefenseContracts	M109A6	M109A6
+3	bda_a_ww2_tanks	FoxDefenseContracts	M10Wolv	M10 Wolverine
+5	bda_a_cold_tanks	FoxDefenseContracts	m163	M163
+3	bda_a_ww2_tanks	FoxDefenseContracts	M18HellcatAP	M18 Hellcat
+5	bda_a_modern_tanks	FoxDefenseContracts	AbramsA2	M1A2 Abrams
+3	bda_a_ww2_tanks	FoxDefenseContracts	M22Locust	M22 Locust
+3	bda_a_ww2_tanks	FoxDefenseContracts	M24ChaffeeAP	M24 Chaffee
+5	bda_a_cold_tanks	FoxDefenseContracts	M26Pershing	M26 Pershing
+3	bda_a_ww2_tanks	FoxDefenseContracts	M36Jackson	M36 Jackson
+5	bda_a_modern_tanks	FoxDefenseContracts	M3Bradly	M3 Bradley
+5	bda_a_cold_tanks	FoxDefenseContracts	M3Stuart	M3 Stuart
+4	bda_a_cold_tanks	FoxDefenseContracts	M41	M41HMC Howitzer
+4	bda_a_cold_tanks	FoxDefenseContracts	M42DusterAP	M42 Duster
+5	bda_a_cold_tanks	FoxDefenseContracts	M4Sherman	M4 Sherman 75mm
+4	bda_a_cold_tanks	FoxDefenseContracts	M60A3	M60A3 105MM
+4	bda_a_cold_tanks	FoxDefenseContracts	M60A3120	M60A3 120MM
+3	bda_a_ww2_tanks	FoxDefenseContracts	M6A1	M6A1
+3	bda_a_ww2_tanks	FoxDefenseContracts	M8HMC	M8 HMC
+4	bda_a_cold_tanks	FoxDefenseContracts	MBT-70	MBT-70
+5	bda_a_cold_tanks	FoxDefenseContracts	Sherman105	M4A3 Sherman 105mm
+5	bda_a_cold_tanks	FoxDefenseContracts	ShermanJumbo	M4A3E2 Sherman Jumbo
+3	bda_a_ww2_tanks	FoxDefenseContracts	T95	T-95
+3	bda_a_ww2_tanks	FoxDefenseContracts	T18E2	T18E2 Boarhound
+5	bda_a_cold_tanks	FoxDefenseContracts	T26E4	T26E4
+5	bda_a_cold_tanks	FoxDefenseContracts	AMT34	T34 Heavy Tank Turret
+3	bda_a_ww2_tanks	FoxDefenseContracts	T3HMC	T3HMC
+3	bda_a_ww2_tanks	FoxDefenseContracts	T56GMC	T56GMC
+3	bda_a_ww2_tanks	FoxDefenseContracts	T57AP-T	T57 Heavy Tank Turret
+3	bda_a_ww2_tanks	FoxDefenseContracts	T92HMC	T92Hmc Howitzer
+3	bda_w_rockets	FoxDefenseContracts	FDC1000lb	FDC - 1000LB Bomb
+3	bda_w_rockets	FoxDefenseContracts	FDC100lb	FDC - 100LB Bomb
+3	bda_w_rockets	FoxDefenseContracts	FDC2000lb	FDC - 2000LB Bomb
+3	bda_w_rockets	FoxDefenseContracts	FDC250lb	FDC - 250LB Bomb
+7	bda_w_heavy_bombs	FoxDefenseContracts	FDC5000lb	FDC - 5000LB Bomb
+3	bda_w_rockets	FoxDefenseContracts	FDC500lb	FDC - 500LB Bomb
+5	bda_a_modern_tanks	FoxDefenseContracts	Challenger2	Challenger 2
+5	bda_a_cold_tanks	FoxDefenseContracts	Chieftain	Chieftain
+5	bda_a_cold_tanks	FoxDefenseContracts	ChurchillAVRE	Churchill AVRE
+5	bda_a_cold_tanks	FoxDefenseContracts	Churchill_III	Churchill III
+5	bda_a_cold_tanks	FoxDefenseContracts	Churchill_VII	Churchill VII
+5	bda_a_cold_tanks	FoxDefenseContracts	Comet	Comet
+5	bda_a_cold_tanks	FoxDefenseContracts	Conqueror	Conqueror
+5	bda_a_cold_tanks	FoxDefenseContracts	Cromwell	Cromwell Mk.V
+5	bda_a_cold_tanks	FoxDefenseContracts	Crusader	Crusader Mk.III
+3	bda_a_ww2_tanks	FoxDefenseContracts	CrusaderAA	Crusader AA MkII
+4	bda_a_cold_tanks	FoxDefenseContracts	Falcon	Falcon
+5	bda_a_cold_tanks	FoxDefenseContracts	FV4005	FV4005 Stage II 183MM
+5	bda_a_cold_tanks	FoxDefenseContracts	Marksmen	Marksman anti-aircraft system
+3	bda_a_ww2_tanks	FoxDefenseContracts	Sexton	Sexton HE
+5	bda_a_cold_tanks	FoxDefenseContracts	ShermanFF	M4A4 Sherman FireFly
+3	bda_a_ww2_tanks	FoxDefenseContracts	Skink	Skink
+5	bda_a_cold_tanks	FoxDefenseContracts	TogIIClassic	TOGII*
+3	bda_a_ww2_tanks	FoxDefenseContracts	TortoiseAPCBC	Tortoise Gun
+3	bda_a_ww2_tanks	FoxDefenseContracts	UC2pdr	UC 2pdr
+3	bda_a_ww2_tanks	FoxDefenseContracts	ValentineAT	Valentine AT
+5	bda_a_cold_tanks	FoxDefenseContracts	Za-35	Za-35
+5	bda_a_modern_tanks	FoxDefenseContracts	PGZ09	PGZ09
+6	bda_a_modern_tanks	FoxDefenseContracts	PTZ89	PTZ89
+6	bda_a_modern_tanks	FoxDefenseContracts	WMA301	WMA301
+3	bda_a_ww2_tanks	FoxDefenseContracts	ZSD63	ZSD63 - Type WZ531
+6	bda_a_modern_tanks	FoxDefenseContracts	ZTL11	ZLT11
+6	bda_a_modern_tanks	FoxDefenseContracts	ZTZ99	ZTZ99 - Type 99
+3	bda_a_ww2_tanks	FoxDefenseContracts	40MMFlak	Mle51 T1
+5	bda_a_cold_tanks	FoxDefenseContracts	Amx30_DCA	Amx30_DCA
+3	bda_a_ww2_tanks	FoxDefenseContracts	Amx40	Amx40
+5	bda_a_cold_tanks	FoxDefenseContracts	Amx50B	Amx 50B
+5	bda_a_cold_tanks	FoxDefenseContracts	AmxELCbis	Amx ELC Bis
+3	bda_a_ww2_tanks	FoxDefenseContracts	Amx_13FM_155	Amx13FM_155
+3	bda_a_ww2_tanks	FoxDefenseContracts	Amx_13_105	Amx_13_105mm Mk61
+4	bda_a_cold_tanks	FoxDefenseContracts	ARL44	ARL 44
+5	bda_a_cold_tanks	FoxDefenseContracts	BatChat25	BatChat_25T
+3	bda_a_ww2_tanks	FoxDefenseContracts	Char2C	Char 2C
+4	bda_a_cold_tanks	FoxDefenseContracts	EBR	E.B.R
+3	bda_a_ww2_tanks	FoxDefenseContracts	Fcm36Pak	Fcm 36 Pak 40
+3	bda_a_ww2_tanks	FoxDefenseContracts	FT_AC	FT_AC
+6	bda_a_modern_tanks	FoxDefenseContracts	Leclerc	Leclerc
+3	bda_a_ww2_tanks	FoxDefenseContracts	RenaultFT	RenaultFT 13.2mmAP
+3	bda_a_ww2_tanks	FoxDefenseContracts	RenaultFTAPCR	RenaultFT 37mm APCR
+3	bda_a_ww2_tanks	FoxDefenseContracts	5cmFlak	5 cm FlaK 41
+3	bda_a_ww2_tanks	FoxDefenseContracts	Brummbar	Brummbar
+3	bda_a_ww2_tanks	FoxDefenseContracts	DickerMax	Dicker Max
+3	bda_a_ww2_tanks	FoxDefenseContracts	Flak88	FlakCannon 88
+3	bda_a_ww2_tanks	FoxDefenseContracts	FlakPanzerI	FlakPanzer I
+3	bda_a_ww2_tanks	FoxDefenseContracts	Hummel	Hummel
+3	bda_a_ww2_tanks	FoxDefenseContracts	JadgPantherCamo	JadgPanther
+3	bda_a_ww2_tanks	FoxDefenseContracts	JadgTiger	JadgTiger 128mm
+3	bda_a_ww2_tanks	FoxDefenseContracts	KugelBlitz	Kugelblitz
+5	bda_a_cold_tanks	FoxDefenseContracts	Leopard1	Leopard I
+5	bda_a_modern_tanks	FoxDefenseContracts	Leopard2A5	Leopard 2A5
+3	bda_a_ww2_tanks	FoxDefenseContracts	Marder38T	Marder38T
+3	bda_a_ww2_tanks	FoxDefenseContracts	MAUS	Panzer VIII Maus
+3	bda_a_ww2_tanks	FoxDefenseContracts	Panther	Panther F Turret
+3	bda_a_ww2_tanks	FoxDefenseContracts	PantherA	Panther Ausführung A //Panther A
+3	bda_a_ww2_tanks	FoxDefenseContracts	PantherII	PantherII Turret
+3	bda_a_ww2_tanks	FoxDefenseContracts	PanzerIIC	PanzerII C
+3	bda_a_ww2_tanks	FoxDefenseContracts	PanzerIIIausfJ	PanzerIII ausf J1
+3	bda_a_ww2_tanks	FoxDefenseContracts	PanzerIIIausfJSB	PanzerIII ausf J
+3	bda_a_ww2_tanks	FoxDefenseContracts	PanzerIVAPCBC	PanzerIV Ausf J
+3	bda_a_ww2_tanks	FoxDefenseContracts	PanzerIVF	PanzerIV Ausf F
+3	bda_a_ww2_tanks	FoxDefenseContracts	Pz38T	Panzer 38-T Ausf F
+3	bda_a_ww2_tanks	FoxDefenseContracts	PzJagerI	Panzer Jager I
+3	bda_a_ww2_tanks	FoxDefenseContracts	Ru251	Spähpanzer RU-251
+3	bda_a_ww2_tanks	FoxDefenseContracts	SdKfz5cm	Sonderkraftfahrzeug Sd.Kfz. 234
+3	bda_a_ww2_tanks	FoxDefenseContracts	StugIII	StugIII G
+3	bda_a_ww2_tanks	FoxDefenseContracts	SturerEmil	Sturer Emil
+3	bda_a_ww2_tanks	FoxDefenseContracts	SturmPanzerHE	Sturm Panzer II
+3	bda_a_ww2_tanks	FoxDefenseContracts	SturmTiger	Sturm Tiger 380MM Cannon
+3	bda_a_ww2_tanks	FoxDefenseContracts	TigerI	Tiger I Turret
+3	bda_a_ww2_tanks	FoxDefenseContracts	TigerII	Tiger II Turret
+3	bda_a_ww2_tanks	FoxDefenseContracts	Waffentrager	Waffentrager
+3	bda_a_ww2_tanks	FoxDefenseContracts	Wespe	Wespe
+3	bda_a_ww2_tanks	FoxDefenseContracts	Wirbelwind	Flakpanzer IV Wirbelwind
+3	bda_a_ww2_tanks	FoxDefenseContracts	Ab41	Ab-41
+6	bda_a_modern_tanks	FoxDefenseContracts	Ariete	Ariete
+6	bda_a_modern_tanks	FoxDefenseContracts	Centauro	Centauro
+3	bda_a_ww2_tanks	FoxDefenseContracts	m14-40	m14/40
+4	bda_a_cold_tanks	FoxDefenseContracts	M41M90-53	M41M 90-53
+4	bda_a_cold_tanks	FoxDefenseContracts	M42Contraeteo	Semovente da 20/70 quadruplo
+5	bda_a_modern_tanks	FoxDefenseContracts	OTOMATIC	OTOMATIC
+3	bda_a_ww2_tanks	FoxDefenseContracts	P40Turret	P40
+3	bda_a_ww2_tanks	FoxDefenseContracts	R3T20	Fiat 6616 R3 T20
+3	bda_a_ww2_tanks	FoxDefenseContracts	Sa4732	Semovente da 47/32
+3	bda_a_ww2_tanks	FoxDefenseContracts	TuranI	Turan I
+3	bda_a_ww2_tanks	FoxDefenseContracts	TuranIII	Turan III
+3	bda_a_ww2_tanks	FoxDefenseContracts	Zrinyi_II	Zrinyi II
+3	bda_a_ww2_tanks	FoxDefenseContracts	ChiHa-LG	ChiHa-Long-Gun
+3	bda_a_ww2_tanks	FoxDefenseContracts	ChiHa-SG	ChiHa-Short-Gun
+3	bda_a_ww2_tanks	FoxDefenseContracts	ChiHe	Chi-He
+5	bda_a_cold_tanks	FoxDefenseContracts	ChiNu	Chi-Nu
+5	bda_a_cold_tanks	FoxDefenseContracts	ChiRi	Chi-Ri
+3	bda_a_ww2_tanks	FoxDefenseContracts	O-I	O-I
+3	bda_a_ww2_tanks	FoxDefenseContracts	So-Ki	So-Ki
+3	bda_a_ww2_tanks	FoxDefenseContracts	Ta-Se	Ta-Se
+5	bda_a_cold_tanks	FoxDefenseContracts	Type-97	Type-97
+3	bda_a_ww2_tanks	FoxDefenseContracts	Type10	Type-10
+3	bda_a_ww2_tanks	FoxDefenseContracts	Type16	Type-16
+4	bda_a_cold_tanks	FoxDefenseContracts	Type74	Type-74
+4	bda_a_cold_tanks	FoxDefenseContracts	Type87	Type-87
+5	bda_a_cold_tanks	FoxDefenseContracts	Type87AA	Type-87 Anti Air
+3	bda_a_ww2_tanks	FoxDefenseContracts	Type90	Type-90
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_DShk	DShk 1938
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_DShkLG	DShk 1938 Long
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_DShkSG	DShk 1938 Short
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_DShkSSG	DShk 1938 Super Short
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_M1919	M1919 Browning
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_M1919LG	M1919 Browning Long
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_M1919SG	M1919 Browning Short
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_M1919SSG	M1919 Browning Super Short
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_M2BrowningMG	M2 Browning
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_M2BrowningLong	M2 Browning Long
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_M2BrowningShort	M2 Browning Short
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_M2BrowningSuperShort	M2 Browning Super Short
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_MG34MG	MG34
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_MG34LG	MG34 Long
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_MG34SG	MG34 Short
+3	bda_a_ww2_tanks	FoxDefenseContracts	FoxMG_MG34SSG	MG34 Super Short
+5	bda_a_cold_tanks	FoxDefenseContracts	7TP	7TP
+2	bda_foundations	FoxDefenseContracts	FDCUniversalAmmoBox	FDC Universal Ammo Box	Ammo
+2	bda_w_missiles_early	FoxDefenseContracts	FDC380MM	FDC 380MM Rocket AmmoBox	Ammo
+4	bda_a_reactive	FoxDefenseContracts	ERA	E.R.A	Armor
+4	bda_foundations	FoxDefenseContracts	LandMine15LB	Landmine 15LB
+4	bda_foundations	FoxDefenseContracts	LandMine8LB	Landmine 8LB
+4	bda_foundations	FoxDefenseContracts	LandMine4LB	Landmine 4LB
+4	bda_foundations	FoxDefenseContracts	LandMine1LB	Landmine 1LB
+5	bda_a_cold_tanks	FoxDefenseContracts	STvz39T	STvz39T
+3	bda_w_missiles_early	FoxDefenseContracts	foxAgm119	AGM-119 Penguin Anti-Ship Missile	Missiles
+3	bda_w_missiles_early	FoxDefenseContracts	HmBriefcase	HM-Briefcase	Missiles
+3	bda_a_ww2_tanks	FoxDefenseContracts	37MMAA	37 mm automatic air defense gun M1939
+5	bda_a_modern_tanks	FoxDefenseContracts	BMP3HE	BMP-3
+3	bda_a_ww2_tanks	FoxDefenseContracts	BT-7	BT-7
+5	bda_a_cold_tanks	FoxDefenseContracts	IS-1	IS-1
+5	bda_a_cold_tanks	FoxDefenseContracts	IS2	IS-2
+5	bda_a_cold_tanks	FoxDefenseContracts	IS7	IS-7
+3	bda_a_ww2_tanks	FoxDefenseContracts	ISU-152	ISU-152
+3	bda_a_ww2_tanks	FoxDefenseContracts	KV-1	KV-1 ZiS-5
+3	bda_a_ww2_tanks	FoxDefenseContracts	KV-1-L11	KV-1-L11
+3	bda_a_ww2_tanks	FoxDefenseContracts	KV-2He	KV-2
+3	bda_a_ww2_tanks	FoxDefenseContracts	Obj268	Object 268
+5	bda_a_cold_tanks	FoxDefenseContracts	Obj906	Object 906
+3	bda_a_ww2_tanks	FoxDefenseContracts	Su100Y	Su100Y
+3	bda_a_ww2_tanks	FoxDefenseContracts	SU-14HE	SU-14
+3	bda_a_ww2_tanks	FoxDefenseContracts	SU5HE	SU-5 HE
+3	bda_a_ww2_tanks	FoxDefenseContracts	Su85	Su-85
+5	bda_a_cold_tanks	FoxDefenseContracts	T-10	T-10/IS-8
+3	bda_a_ww2_tanks	FoxDefenseContracts	T-26	T-26
+5	bda_a_cold_tanks	FoxDefenseContracts	T-34	T-34-85
+5	bda_a_cold_tanks	FoxDefenseContracts	T-34-1940	T-34-1940
+5	bda_a_cold_tanks	FoxDefenseContracts	T-34-57	T-34-57
+5	bda_a_cold_tanks	FoxDefenseContracts	T-44	T-44-122
+5	bda_a_cold_tanks	FoxDefenseContracts	T-54	T-54
+5	bda_a_cold_tanks	FoxDefenseContracts	T-64	T-64A
+5	bda_a_modern_tanks	FoxDefenseContracts	T-90	T-90
+3	bda_a_ww2_tanks	FoxDefenseContracts	Zis-30	Zis-30
+3	bda_a_ww2_tanks	FoxDefenseContracts	Zis12	Zis-12
+4	bda_a_cold_tanks	FoxDefenseContracts	Zsu37ST	ZSU-37
+5	bda_a_cold_tanks	FoxDefenseContracts	Zsu37	Zsu-37-2
+5	bda_a_cold_tanks	FoxDefenseContracts	Bkan	Bandkanon 1
+5	bda_a_cold_tanks	FoxDefenseContracts	Elden40	Vagn Eldledning AutomatKanon 40
+4	bda_a_cold_tanks	FoxDefenseContracts	Luft42	Luftvärnskanonvagn 42
+5	bda_a_cold_tanks	FoxDefenseContracts	Luft9040c	Luftvärnskanonvagn 9040C
+4	bda_a_cold_tanks	FoxDefenseContracts	Pvkv43	Pansarvärnskanonvagn m/43 (1946)
+3	bda_a_ww2_tanks	FoxDefenseContracts	Spjfm43	Stormpjas fm/43-44
+5	bda_a_cold_tanks	FoxDefenseContracts	Strids101	Stridsvagn 101
+5	bda_a_cold_tanks	FoxDefenseContracts	Strids42Delat	Stridsvagn m/42 Delat Torn
+5	bda_a_cold_tanks	FoxDefenseContracts	Strids74	Stridsvagn 74
+5	bda_a_modern_tanks	FoxDefenseContracts	Stridsvagn122B	Stridsvagn 122
+3	bda_foundations	BilikermanIndustry	8mmMGComtainer	8MM弹药箱
+2	bda_w_guided_bombs	BilikermanIndustry	bomb2	大满贯燃料	Warheads
+2	bda_foundations	BilikermanIndustry	CargoContainer	高级贮存柜
+3	bda_w_cannons_ww2	BilikermanIndustry	MG88	8号 8mm 重机枪 1形	Guns
+4	bda_w_guided_bombs	BilikermanIndustry	bomb1	小罐头炸弹	Warheads

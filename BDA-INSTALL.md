@@ -32,7 +32,7 @@ BDA+ 依赖 `ModuleManager` 和 `PhysicsRangeExtender`；标准单机版不再�
 
 FAR 自带 `zh-cn`，残留的 25 个英文 UI 字符串也已补译。
 
-ModuleManager 最近一次完整启动：**34242 个补丁、0 错误、1 个 TURD 换色警告**；
+ModuleManager 最近一次完整启动：**38276 个补丁、0 错误、1 个 TURD 换色警告**；
 `BDA_CN_Info` 成功替换 23 个武器/导弹信息方法。
 
 ## 已安装的 BDA 部件包
@@ -84,24 +84,25 @@ rewardScience = 原科研 + 合同资金 / 300 + 5
 测试合同会在此之上再加原本的 0.5–2.5。想更快把 `300` 改成 `200`，
 想更慢改成 `500`。
 
-## BDA 科技树分布
+## BDA 科技树：四条大方向 + 36 个节点
 
-`ZZZ_BDA_CN/Patches/BDA_TechTree.cfg` 把 724 个 BDA/扩展部件从原来几乎全部
-堆在 `precisionEngineering` 改成按代际分布：
+`ZZZ_BDA_CN/Patches/BDA_TechTreeNodes.cfg` 在科技树右侧新建了一条 BDA
+专属支线；`BDA_TechTree.cfg` 把 724 个 BDA/扩展部件分配到 36 个节点。
+不再借用 Community Tech Tree 的少数大节点：
 
-| 节点 | 成本 | 内容 | 部件数 |
-|---|---:|---|---:|
-| `enhancedSurvivability` | 45 | 基础装甲、弹药箱 | 10 |
-| `subsonicFlight` | 90 | 二战航空武器、早期机枪/炸弹 | 29 |
-| `efficientFlightSystems` | 160 | 早期喷气、早期导弹、二战坦克 | 245 |
-| `specializedFlightSystems` | 550 | 冷战导弹、雷达、冷战坦克 | 171 |
-| `aerospaceComposites` | 1000 | 现代精确制导、现代装甲 | 159 |
-| `advEMSystems` | 2250 | AESA、先进电子战、四代坦克/顶级导弹 | 67 |
-| `highPowerElectricalSystems` | 2250 | 核武器、重型战略武器 | 23 |
-| `experimentalElectricalSystems` | 4000 | 激光、轨道炮、实验性武器 | 20 |
+| 大方向 | 子节点 | 部件数 |
+|---|---|---:|
+| 军械基础 | 基础弹药、挂架与工程部件 | 51 |
+| 武器 | 早期枪炮 40、二战机炮 90、现代机炮 200、舰炮/近防 400、火箭/无制导炸弹 60、早期制导炸弹 200、现代精确炸弹 500、战略常规炸弹 1200、早期导弹 150、冷战导弹 350、现代导弹 600、先进导弹 1000、核武 1500、轨道炮 1500、定向能 1800、实验武器 2000 | 330 |
+| 装甲与载具 | 基础装甲 45、反应/复合装甲 200、二战坦克 120、冷战坦克 300、现代坦克 600 | 207 |
+| 电子系统 | 基础雷达 150、高级雷达 400、AESA 1000、瞄准与数据链 200、对抗措施 120、电子战 600、AI 与飞控 1000 | 77 |
+| 平台与发射 | 喷气动力 120、挂架/发射器 60、模块化导弹 400 | 59 |
 
 44 个原本标记为 `Unresearcheable` 的隐藏/遗留部件保持原样。
 这次调整会改变已有存档的解锁状态；建议开新档，或先备份存档再进 R&D 查看。
+完整的 724 条部件分档记录见
+`data/bda-tech-assignment.tsv`，生成脚本为
+`tools/build_bda_branch_techtree.py`。
 
 旧的 **Defense Combat Advisors (DCA)** 依赖 `BDArmoryContinued`，与 BDA+ 冲突，
 因此没有安装。

@@ -139,10 +139,10 @@ Parallax 与三套纹理已在第二轮按要求删除。
   它明确依赖 BDA+；自带中文残留的 99 个对地、反舰、太空与测试合同键已补全。
 - 追加 `KUM_MilitaryScience.cfg`：原包战斗合同 `science = 0`，现按
   `原科研 + 合同资金 / 300 + 5` 给全部 60 个合同追加科研点。
-- 追加 `BDA_TechTree.cfg`：724 个 BDA/扩展部件从集中在
-  `precisionEngineering` 改为分布到 8 个科技节点，覆盖 45–4000 科研成本。
+- 追加 `BDA_TechTreeNodes.cfg` + `BDA_TechTree.cfg`：新建 BDA 专属支线，
+  按武器/装甲/电子/平台四个方向细分 36 个节点，724 个部件全部重新归档。
 - `KISA_Fixes\VABOrganizer_SubcategoryFix.cfg` 中两个部件名列表含制表符，
-  已清除；ModuleManager 最近一次完整启动为 **34242 个补丁、0 错误、1 个警告**。
+  已清除；ModuleManager 最近一次完整启动为 **38276 个补丁、0 错误、1 个警告**。
 
 当前 GameData：**155 个顶层目录、165 个 CKAN 模块、8.97 GB**。
 
