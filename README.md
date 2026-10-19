@@ -6,8 +6,8 @@
 2. 按“BDA 空战”主题给出保留/删除名单；
 3. 收纳我们自己写的补丁与插件，方便恢复或迁移到另一台机器。
 
-> 当前状态：**BDArmory Continued 还没有安装**。本仓库是安装前的清理档案，
-> 不是已经装好 BDA 的成品整合包。
+> 当前状态：**主题包清理已经执行，BDArmory Continued 还没有安装**。
+> 本仓库同时保留了“清理前”和“清理后”两份清单，方便回滚与继续安装 BDA。
 
 ## 环境
 
@@ -16,19 +16,24 @@
 | 游戏 | Kerbal Space Program 1.12.5（Steam） |
 | 语言 | zh-cn |
 | 路径 | `C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program` |
-| GameData 顶层目录 | 222 个 |
-| CKAN 已记录模块 | 251 个 |
-| GameData 体积 | 约 16.82 GB |
-| 建议删除 | 53 个顶层目录，约 6.00 GB |
+| GameData 顶层目录 | 清理前 222 → 清理后 168 |
+| CKAN 已记录模块 | 清理前 251 → 清理后 195 |
+| GameData 体积 | 清理前 16.82 GB → 清理后 10.83 GB |
+| 已释放 | **约 5.99 GB** |
 
 ## 文件
 
 | 路径 | 内容 |
 |---|---|
-| [`MODLIST.md`](MODLIST.md) | 全量清单：名称、用途、版本、BDA 取舍、体积 |
+| [`MODLIST.md`](MODLIST.md) | **清理前**全量清单：名称、用途、版本、BDA 取舍、体积 |
+| [`MODLIST-AFTER.md`](MODLIST-AFTER.md) | **清理后**当前清单（168 个目录） |
 | [`DELETION-PLAN.md`](DELETION-PLAN.md) | 删除名单、保留名单、可选项与回滚说明 |
-| [`mods/installed-modules.csv`](mods/installed-modules.csv) | CKAN 的 251 个模块（标识/名称/版本/作者/摘要） |
-| [`mods/gamedata-inventory.csv`](mods/gamedata-inventory.csv) | 222 个顶层目录的机器可读盘点 |
+| [`DELETION-LOG.md`](DELETION-LOG.md) | 实际执行记录、CKAN 连带删除与恢复情况 |
+| [`BDA-INSTALL.md`](BDA-INSTALL.md) | BDA 1.12.5 的版本选择、安装命令与扩展建议 |
+| [`mods/installed-modules-before.csv`](mods/installed-modules-before.csv) | 清理前 CKAN 的 251 个模块 |
+| [`mods/installed-modules.csv`](mods/installed-modules.csv) | 清理后 CKAN 的 195 个模块 |
+| [`mods/gamedata-inventory-before.csv`](mods/gamedata-inventory-before.csv) | 清理前 222 个顶层目录 |
+| [`mods/gamedata-inventory.csv`](mods/gamedata-inventory.csv) | 清理后 168 个顶层目录 |
 | [`patches/README.md`](patches/README.md) | 我们自己的补丁一览、依赖与安装方法 |
 | [`patches/`](patches/) | 可直接放进 `GameData\` 的补丁目录 |
 | [`tools/build_inventory.py`](tools/build_inventory.py) | 重新生成清单的脚本（只读 GameData，不改游戏文件） |
@@ -57,9 +62,10 @@ CKAN 当前稳定通道里的 **BDArmory Continued 1:v1.3.5_beta**：
   CommNet Antennas、RemoteTech Redev。
 - **视觉基础**：ReStock/ReStock+、Waterfall、Scatterer、EVE、Spectra、TUFX。
 
-## 建议删除的主题
+## 已经删除的主题
 
-完整表格见 [`DELETION-PLAN.md`](DELETION-PLAN.md)，这里只列大类：
+完整表格见 [`DELETION-PLAN.md`](DELETION-PLAN.md)，执行结果见
+[`DELETION-LOG.md`](DELETION-LOG.md)。这里只列大类：
 
 - 远未来：Far Future Technologies、Future Technologies Expansion
 - 行星包：Kcalbeloh（含 4K 纹理）、OPM、Outer Parallax、Scatterer OPM、Kopernicus 及其工具
@@ -70,7 +76,8 @@ CKAN 当前稳定通道里的 **BDArmory Continued 1:v1.3.5_beta**：
 - 发射场：Modular Launch Pads、Tundra、KSC Extended、Kerbal Konstructs
 - 探索合同包：11 个 Contract Packs
 
-删除后仍可随时从 CKAN 或原发布页装回；清单里保留了每个包的标识与版本。
+这些目录已经移出 `GameData`，原件在 `_disabled_mods\BDA_20261019\`；仍可随时搬回。
+清单里保留了每个包的标识与版本。
 
 ## 我们自己的补丁
 

@@ -146,6 +146,12 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--ksp", required=True, help="KSP install directory")
     parser.add_argument("--repo", required=True, help="repository root")
+    parser.add_argument(
+        "--phase",
+        choices=("before", "after"),
+        default="before",
+        help="before: write MODLIST.md + DELETION-PLAN.md; after: write MODLIST-AFTER.md and current CSVs",
+    )
     args = parser.parse_args()
 
     ksp = Path(args.ksp)
@@ -238,16 +244,25 @@ def main() -> None:
         row["bytes"] for row in inventory if row["action"] == "optional"
     )
 
-    # MODLIST.md
+    # MODLIST.md / MODLIST-AFTER.md
+    title = (
+        "# KSP 现有模组清单（BDA 取舍版）"
+        if args.phase == "before"
+        else "# KSP 删除后模组清单（BDA 当前状态）"
+    )
     lines = [
-        "# KSP 现有模组清单（BDA 取舍版）",
+        title,
         "",
         f"- 快照时间：2026-10-19",
         f"- KSP：1.12.5（zh-cn，Steam）",
         f"- GameData 顶层目录：**{len(inventory)}** 个",
         f"- CKAN 已记录模块：**{len(modules)}** 个",
         f"- GameData 总体积：**{total_bytes / (1024 ** 3):.2f} GB**",
-        f"- 建议删除（含随上级删除项）：**{len(delete_rows)}** 个顶层目录，约 **{fmt_mb(delete_bytes)}**",
+        (
+            f"- 建议删除（含随上级删除项）：**{len(delete_rows)}** 个顶层目录，约 **{fmt_mb(delete_bytes)}**"
+            if args.phase == "before"
+            else f"- 删除后仍存在的顶层目录：**{len(inventory)}** 个"
+        ),
         f"- 可选项（IVA/视觉/科学等，按需保留）：约 **{fmt_mb(optional_bytes)}**",
         "",
         "> 这是“当前安装”的盘点，不是推荐安装顺序。BDArmory Continued 本体只依赖",
@@ -316,7 +331,8 @@ def main() -> None:
             "  [`mods/gamedata-inventory.csv`](mods/gamedata-inventory.csv)。",
         ]
     )
-    (repo / "MODLIST.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    list_name = "MODLIST.md" if args.phase == "before" else "MODLIST-AFTER.md"
+    (repo / list_name).write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     # DELETION-PLAN.md
     plan = [
@@ -413,7 +429,8 @@ def main() -> None:
             "- 不建议直接删除 `Squad`、`SquadExpansion`、`ModuleManager`、`KSPCommunityFixes`。",
         ]
     )
-    (repo / "DELETION-PLAN.md").write_text("\n".join(plan) + "\n", encoding="utf-8")
+    if args.phase == "before":
+        (repo / "DELETION-PLAN.md").write_text("\n".join(plan) + "\n", encoding="utf-8")
 
     print(f"Wrote {len(inventory)} GameData folders and {len(modules)} CKAN modules.")
     print(f"Delete tier size: {fmt_mb(delete_bytes)}")

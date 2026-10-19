@@ -1,0 +1,501 @@
+{
+    "spec_version": "v1.6",
+    "identifier": "",
+    "name": "已安装-自定义",
+    "abstract": "已安装在 KSP 实例 自定义 的模组列表",
+    "author": "STARM",
+    "version": "2026.10.19.09.04.16",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.12",
+    "license": "unknown",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Harmony2"
+        },
+        {
+            "name": "ASETAgency"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "SystemHeat"
+        },
+        {
+            "name": "ASETAvionics"
+        },
+        {
+            "name": "KSPBurst-Lite"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "KSPBurst"
+        },
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "NearFutureProps"
+        },
+        {
+            "name": "ParallaxContinued"
+        },
+        {
+            "name": "ParallaxContinued-Planet-Textures"
+        },
+        {
+            "name": "ParallaxContinued-Scatter-Textures"
+        },
+        {
+            "name": "ParallaxContinued-Terrain-Textures"
+        },
+        {
+            "name": "FilterExtensions"
+        },
+        {
+            "name": "NearFutureElectrical-Core"
+        },
+        {
+            "name": "NearFuturePropulsion"
+        },
+        {
+            "name": "NearFutureSpacecraft"
+        },
+        {
+            "name": "ReStock"
+        },
+        {
+            "name": "Spectra"
+        },
+        {
+            "name": "VesselView"
+        },
+        {
+            "name": "VesselView-UI-RasterPropMonitor"
+        },
+        {
+            "name": "AvionicsSystems"
+        },
+        {
+            "name": "Chatterer"
+        },
+        {
+            "name": "CommunityCategoryKit"
+        },
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "IndicatorLights"
+        },
+        {
+            "name": "NearFutureElectrical"
+        },
+        {
+            "name": "NearFutureSolar"
+        },
+        {
+            "name": "NearFutureSolar-Core"
+        },
+        {
+            "name": "Scatterer-config"
+        },
+        {
+            "name": "Scatterer-sunflare"
+        },
+        {
+            "name": "TUFX"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "ALCOR"
+        },
+        {
+            "name": "ASET-PRC"
+        },
+        {
+            "name": "Astrogator"
+        },
+        {
+            "name": "AtmosphereAutopilot"
+        },
+        {
+            "name": "B9-PWings-Fork"
+        },
+        {
+            "name": "Benjee10Suits"
+        },
+        {
+            "name": "BetterBurnTime"
+        },
+        {
+            "name": "BetterTimeWarpCont"
+        },
+        {
+            "name": "CapCom"
+        },
+        {
+            "name": "ChattererExtended"
+        },
+        {
+            "name": "ChineseModPatches"
+        },
+        {
+            "name": "CommNetAntennasConsumptor"
+        },
+        {
+            "name": "CommNetAntennasExtension"
+        },
+        {
+            "name": "CommNetAntennasInfo"
+        },
+        {
+            "name": "CommunityTechTree"
+        },
+        {
+            "name": "ConfigurableContainers"
+        },
+        {
+            "name": "ConformalDecals"
+        },
+        {
+            "name": "ContractsWindowPlus"
+        },
+        {
+            "name": "CorrectCoL"
+        },
+        {
+            "name": "CrewLight"
+        },
+        {
+            "name": "CryoEngines-NFAero"
+        },
+        {
+            "name": "CustomPreLaunchChecks"
+        },
+        {
+            "name": "DE-IVAExtension"
+        },
+        {
+            "name": "DeepFreeze"
+        },
+        {
+            "name": "Deferred"
+        },
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "DMagicOrbitalScience"
+        },
+        {
+            "name": "DockRotate"
+        },
+        {
+            "name": "DockingCamKURS"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "EasyVesselSwitch"
+        },
+        {
+            "name": "EditorExtensionsRedux"
+        },
+        {
+            "name": "STMsFFRibbonPackEngineeringRoles"
+        },
+        {
+            "name": "FilterExtensionsDefaultConfig"
+        },
+        {
+            "name": "Firefly"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "FirespitterResourcesConfig"
+        },
+        {
+            "name": "FreeIva"
+        },
+        {
+            "name": "HangerExtenderExtended"
+        },
+        {
+            "name": "HeatControl"
+        },
+        {
+            "name": "HideEmptyTechNodes"
+        },
+        {
+            "name": "IndicatorLightsCommunityExtensions"
+        },
+        {
+            "name": "JSIAdvancedTransparentPods"
+        },
+        {
+            "name": "KerbalAlarmClock"
+        },
+        {
+            "name": "KerbalAtomics"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "KerbalFlightIndicators"
+        },
+        {
+            "name": "KerbalFoundriesContinued"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KerbalJointReinforcementNext"
+        },
+        {
+            "name": "KerbalPlanetEmblems"
+        },
+        {
+            "name": "KerbalShipEmblems2D"
+        },
+        {
+            "name": "WindTunnel"
+        },
+        {
+            "name": "KeremsTUFXProfile"
+        },
+        {
+            "name": "KSAIVAUpgrade"
+        },
+        {
+            "name": "KSPCommunityFixes"
+        },
+        {
+            "name": "KSPTextureLoader"
+        },
+        {
+            "name": "KSP2PreAlphaStyleNavBall"
+        },
+        {
+            "name": "KSPRC-CityLights"
+        },
+        {
+            "name": "LithobrakeExplorationTechnologies"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "Mk1LanderCanIVAReplbyASET"
+        },
+        {
+            "name": "MK12PodIVAReplacementbyASET"
+        },
+        {
+            "name": "MoarFEConfigs"
+        },
+        {
+            "name": "ModularFlightIntegrator"
+        },
+        {
+            "name": "NavHudRenewed"
+        },
+        {
+            "name": "NavUtilitiesUpdated"
+        },
+        {
+            "name": "NearFutureAeronautics"
+        },
+        {
+            "name": "NearFutureConstruction"
+        },
+        {
+            "name": "NearFutureElectrical-DecayingRTGs"
+        },
+        {
+            "name": "NearFutureExploration"
+        },
+        {
+            "name": "NearFutureLaunchVehicles"
+        },
+        {
+            "name": "NearFuturePropulsion-XenonHETs"
+        },
+        {
+            "name": "NearFutureSpacecraft-OrbitalLFOEngines"
+        },
+        {
+            "name": "STMsFFRibbonPackOperationsRoles"
+        },
+        {
+            "name": "PatchManager"
+        },
+        {
+            "name": "PersistentRotationUpgraded"
+        },
+        {
+            "name": "PlanetInfoPlus"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "ProbeControlRoomRecontrolled"
+        },
+        {
+            "name": "QuickExit"
+        },
+        {
+            "name": "QuickGoTo"
+        },
+        {
+            "name": "QuickHide"
+        },
+        {
+            "name": "QuickIVA"
+        },
+        {
+            "name": "QuickSearch"
+        },
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "RCSBuildAidCont"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "RecolorCollection-NearFuturePropulsion"
+        },
+        {
+            "name": "RecolorCollection-NearFutureSpacecraft"
+        },
+        {
+            "name": "RestockWaterfallExpansion"
+        },
+        {
+            "name": "ReStockPlus"
+        },
+        {
+            "name": "ReStrategia"
+        },
+        {
+            "name": "RetractableLiftingSurface"
+        },
+        {
+            "name": "Reviva"
+        },
+        {
+            "name": "RocketSoundEnhancement"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "ScienceRolesFinalFrontierRibbonPack"
+        },
+        {
+            "name": "ShipManifest"
+        },
+        {
+            "name": "SpaceDustNext"
+        },
+        {
+            "name": "SpacetuxSA"
+        },
+        {
+            "name": "Spectra-EVEKerbinLaytheSnow"
+        },
+        {
+            "name": "Spectra-EVEMinmusGeysers"
+        },
+        {
+            "name": "SpeedUnitAnnex"
+        },
+        {
+            "name": "StagedAnimation"
+        },
+        {
+            "name": "SystemHeat-CryoTanks"
+        },
+        {
+            "name": "SystemHeat-IonEngines"
+        },
+        {
+            "name": "SystemHeat-FissionEngines"
+        },
+        {
+            "name": "SystemHeat-FissionReactors"
+        },
+        {
+            "name": "SystemHeat-Converters"
+        },
+        {
+            "name": "SystemHeat-Harvesters"
+        },
+        {
+            "name": "TarsierSpaceTechnologyWithGalaxies"
+        },
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "JanitorsCloset"
+        },
+        {
+            "name": "ThrottleControlledAvionics"
+        },
+        {
+            "name": "TrackingStationEvolved"
+        },
+        {
+            "name": "Trajectories"
+        },
+        {
+            "name": "TransferWindowPlannerFork"
+        },
+        {
+            "name": "TweakScaleRescaled"
+        },
+        {
+            "name": "SlimNavballMarkers"
+        },
+        {
+            "name": "VABOrganizer"
+        },
+        {
+            "name": "VABReorienter"
+        },
+        {
+            "name": "VertikalSpeedIndicator"
+        },
+        {
+            "name": "VesselView-UI-Toolbar"
+        },
+        {
+            "name": "WaypointManager"
+        },
+        {
+            "name": "ZTheme"
+        }
+    ],
+    "release_date": "2026-10-19T17:04:16.9247448+08:00",
+    "kind": "metapackage"
+}
