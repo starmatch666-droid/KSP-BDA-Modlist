@@ -4,7 +4,7 @@
     "name": "已安装-自定义",
     "abstract": "已安装在 KSP 实例 自定义 的模组列表",
     "author": "STARM",
-    "version": "2026.10.19.09.12.47",
+    "version": "2026.10.19.09.15.47",
     "ksp_version_min": "1.8",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -265,6 +265,9 @@
             "name": "LithobrakeExplorationTechnologies"
         },
         {
+            "name": "LowEndVolumetricCloudsMod"
+        },
+        {
             "name": "MechJeb2"
         },
         {
@@ -460,6 +463,6 @@
             "name": "ZTheme"
         }
     ],
-    "release_date": "2026-10-19T17:12:47.5477783+08:00",
+    "release_date": "2026-10-19T17:15:47.0645753+08:00",
     "kind": "metapackage"
 }

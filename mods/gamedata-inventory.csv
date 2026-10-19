@@ -76,6 +76,7 @@ KSPCommunityFixes,KSP Community Fixes,core,keep,1:1.41.1,KSPCommunityFixes,4713,
 KSPTextureLoader,KSP Texture Loader,core,keep,1.0.36,KSPTextureLoader,11,2232877,运行时纹理加载库。,
 KSPWheel,KSPWheel,core,keep,1:0.16.14.33,KSPWheel,6,233823,轮子/悬挂物理库，Kerbal Foundries 等使用。,
 LithobrakeExplorationTechnologies,Lithobrake Exploration Technologies,parts,optional,0.6.2,LithobrakeExplorationTechnologies,71,8914204,原版风格着陆腿、梯子、居住舱等探索部件。,
+LowEndVolumetricCloudsMod,Low End Volumetric Clouds,visual,keep,v1.0.3,LowEndVolumetricCloudsMod,3,14489,低配体积云插件/着色器；按用户要求恢复。,用 CKAN 1.0.3 重新安装，包含 Plugins 与 Shaders，不是旧的手工纹理目录。
 MechJeb2,MechJeb2,flight,keep,2.15.3.1,MechJeb2,231,9099568,自动驾驶、轨道信息、交会/着陆辅助。,
 Mk2Expansion,Mk2 Expansion,parts,keep,2:1.9.1.4,Mk2Expansion,548,43961656,Mk2 机身扩展部件包。,
 Mk3Expansion,Mk3 Expansion,parts,keep,1.6.1.4,Mk3Expansion,471,37558847,Mk3 机身扩展部件包。,

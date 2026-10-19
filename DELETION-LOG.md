@@ -4,13 +4,13 @@
 
 | 项 | 删除前 | 删除后 |
 |---|---:|---:|
-| GameData 顶层目录 | 222 | 164 |
-| CKAN 记录模块 | 251 | 184 |
+| GameData 顶层目录 | 222 | 165 |
+| CKAN 记录模块 | 251 | 185 |
 | GameData 体积 | 16.82 GB | 7.16 GB |
 | 释放空间 | — | **约 9.66 GB** |
 
-最初名单 54 个顶层目录。经过两轮调整，相对原始 222 个目录实际移除了 59 个，
-并新增了 Final Frontier 的 `STMRibbons`，当前 164 个。`Kopernicus`、
+最初名单 54 个顶层目录。经过两轮调整，相对原始 222 个目录实际移除了 58 个，
+并新增了 Final Frontier 的 `STMRibbons`，当前 165 个。`Kopernicus`、
 `WildBlueIndustries\001KerbalActuators` 以及后来恢复的 Mk2/Mk3/SXT/KSCExtended
 及其配套建筑都在。CKAN 管理的部分已用 `ckan remove` 注销，手工安装的部分已移出
 `GameData`。目录没有直接永久删除：原件都在
@@ -46,10 +46,12 @@
 - Parallax Continued + Planet/Scatter/Terrain 三套纹理
 - Scatterer + 默认配置/太阳耀斑 + 大气缓存
 - EVE、Spectra、KSPRC 城市灯光、TUFX 及其配置、PlanetShine
-- Low End Volumetric Clouds
 
 这些环境包已移到 `_disabled_mods\BDA_20261019\env_beautify_20261019\`。
 ReStock、Waterfall、Rocket Sound Enhancement、Firefly 等部件/引擎外观或音效保留。
+
+**体积云恢复：** `LowEndVolumetricCloudsMod` 已用 CKAN 1.0.3 重新安装，
+包含 `Plugins`、`Shaders` 与版本文件；旧的手工目录只有一张纹理，已在备份里保留。
 
 ## 保留但原本在“随上级删除”里的东西
 

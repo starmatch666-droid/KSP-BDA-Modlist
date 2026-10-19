@@ -2,10 +2,10 @@
 
 - 快照时间：2026-10-19
 - KSP：1.12.5（zh-cn，Steam）
-- GameData 顶层目录：**164** 个
-- CKAN 已记录模块：**184** 个
+- GameData 顶层目录：**165** 个
+- CKAN 已记录模块：**185** 个
 - GameData 总体积：**7.16 GB**
-- 删除后仍存在的顶层目录：**164** 个
+- 删除后仍存在的顶层目录：**165** 个
 - 可选项（IVA/视觉/科学等，按需保留）：约 **314 MB**
 
 > 这是“当前安装”的盘点，不是推荐安装顺序。BDArmory Continued 本体只依赖
@@ -203,6 +203,7 @@
 | `StockWaterfallEffects` | Stock Waterfall Effects | 原版发动机的 Waterfall 尾焰配置。 | 3.1.1 | ✅ 必留 | 1.7 MB |
 | `RocketSoundEnhancement` | Rocket Sound Enhancement | 分层发动机音效框架。 | 0.9.13 | ✅ 必留 | <1 MB |
 | `WaterfallRestock` | Waterfall Restock | ReStock 发动机的 Waterfall 配置。 | 3.1.1 | ✅ 必留 | <1 MB |
+| `LowEndVolumetricCloudsMod` | Low End Volumetric Clouds | 低配体积云插件/着色器；按用户要求恢复。<br>注：用 CKAN 1.0.3 重新安装，包含 Plugins 与 Shaders，不是旧的手工纹理目录。 | v1.0.3 | ✅ 必留 | <1 MB |
 | `Benjee10_Suits` | Benjee10 Suits | 历史宇航服与可穿戴道具，纯外观。 | v1.1.0 | ◻️ 可选 | 99 MB |
 | `Chatterer` | Chatterer | 乘员无线电闲聊、SSTV 与提示音。 | 0.9.99 / 0.6.2 | ◻️ 可选 | 45 MB |
 | `TextureReplacer` | TextureReplacer | 乘员/宇航服纹理替换。 | v4.5.3 | ◻️ 可选 | 30 MB |

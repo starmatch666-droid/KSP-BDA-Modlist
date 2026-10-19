@@ -98,7 +98,7 @@
   "KSPTextureLoader": {"title": "KSP Texture Loader", "purpose": "运行时纹理加载库。", "category": "core", "action": "keep"},
   "KSPWheel": {"title": "KSPWheel", "purpose": "轮子/悬挂物理库，Kerbal Foundries 等使用。", "category": "core", "action": "keep"},
   "LithobrakeExplorationTechnologies": {"title": "Lithobrake Exploration Technologies", "purpose": "原版风格着陆腿、梯子、居住舱等探索部件。", "category": "parts", "action": "optional"},
-  "LowEndVolumetricCloudsMod": {"title": "Low End Volumetric Clouds", "purpose": "低配体积云纹理/配置。", "category": "visual", "action": "delete"},
+  "LowEndVolumetricCloudsMod": {"title": "Low End Volumetric Clouds", "purpose": "低配体积云插件/着色器；按用户要求恢复。", "category": "visual", "action": "keep", "note": "用 CKAN 1.0.3 重新安装，包含 Plugins 与 Shaders，不是旧的手工纹理目录。"},
   "MarkIVSystem": {"title": "Mark IV Spaceplane System", "purpose": "Mk4 大型太空飞机部件。", "category": "parts", "action": "delete"},
   "MechJeb2": {"title": "MechJeb2", "purpose": "自动驾驶、轨道信息、交会/着陆辅助。", "category": "flight", "action": "keep"},
   "Mk2Expansion": {"title": "Mk2 Expansion", "purpose": "Mk2 机身扩展部件包。", "category": "parts", "action": "keep"},
