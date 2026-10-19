@@ -1,6 +1,6 @@
 # 补丁文件清单与校验和
 
-共 114 个文件。SHA256 以 `patches/SHA256SUMS.txt` 为准。
+共 115 个文件。SHA256 以 `patches/SHA256SUMS.txt` 为准。
 
 | 文件 | 大小 | SHA256（前 16 位） |
 |---|---:|---|
@@ -82,12 +82,13 @@
 | `ZZZ_BDA_CN/Localization/UI/KerbalPowers_zh.cfg` | 14.5 KB | `bacc756d6219e2f3` |
 | `ZZZ_BDA_CN/Localization/UI/KomUniMun_zh.cfg` | 10.6 KB | `326546e8fe3dadd6` |
 | `ZZZ_BDA_CN/Localization/UI/zh-cn-extra.cfg` | 14.4 KB | `3d9cb4287d8e3d2d` |
+| `ZZZ_BDA_CN/Patches/BDA_TechTree.cfg` | 121.7 KB | `fa66614fcf0b938b` |
 | `ZZZ_BDA_CN/Patches/BDModular_zh.cfg` | 785 B | `0d057cbc702aa1cd` |
 | `ZZZ_BDA_CN/Patches/Bullets_zh.cfg` | 7.1 KB | `171e1753e6af93b1` |
 | `ZZZ_BDA_CN/Patches/Fishy_zh.cfg` | 18.4 KB | `47cf9ce71c83efc3` |
 | `ZZZ_BDA_CN/Patches/FoxAmmo_zh.cfg` | 397 B | `81ab2fbfe2aaad2e` |
 | `ZZZ_BDA_CN/Patches/FoxDefense_zh.cfg` | 37.9 KB | `e35d73e7a627d9cc` |
-| `ZZZ_BDA_CN/Patches/KUM_MilitaryScience.cfg` | 403 B | `1d313887a24ecfd6` |
+| `ZZZ_BDA_CN/Patches/KUM_MilitaryScience.cfg` | 430 B | `e20c7ebd80980d87` |
 | `ZZZ_BDA_CN/Patches/NKDR_zh.cfg` | 9.6 KB | `fbccdc5a242f0e63` |
 | `ZZZ_BDA_CN/Patches/PartText_zh.cfg` | 4.6 KB | `513e5180d75ab53e` |
 | `ZZZ_BDA_CN/Patches/VABOrganizer_zh.cfg` | 3.5 KB | `15990400c90317ed` |
@@ -95,7 +96,7 @@
 | `ZZZ_BDA_CN/Plugins/BDA_CN_Categories.dll` | 6.0 KB | `6d8f05b99c6d064e` |
 | `ZZZ_BDA_CN/Plugins/BDA_CN_Info.cs` | 3.9 KB | `de6e24d38dc4446e` |
 | `ZZZ_BDA_CN/Plugins/BDA_CN_Info.dll` | 8.0 KB | `9c925a3dae4ec4b2` |
-| `ZZZ_BDA_CN/README.md` | 2.1 KB | `6dee643ef8b7b03a` |
+| `ZZZ_BDA_CN/README.md` | 2.2 KB | `02547b3f874eb86d` |
 | `ZZZ_FAR_CN/Localization_zh-cn.cfg` | 16.6 KB | `1b3c3ef593dece40` |
 | `ZZZ_FAR_CN/README.md` | 691 B | `189ddde461fd7eee` |
 | `ZZZ_GC_CN/Localization/GroundConstruction_en-us.cfg` | 2.8 KB | `d78ce6ce70a65bb8` |

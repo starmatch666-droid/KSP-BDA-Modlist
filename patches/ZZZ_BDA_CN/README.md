@@ -14,6 +14,7 @@ BDA+ 1.13.x 自带 `zh-cn` 词条，但新增的 AI 设置、轰炸、装甲工�
 - `Patches/Bullets_zh.cfg`：Fox / Kerbal Powers 的 65 种弹药类型显示名
 - `Patches/FoxAmmo_zh.cfg`：Fox 的五种弹药资源名
 - `Patches/KUM_MilitaryScience.cfg`：给 KomUniMun 的 60 个军事合同追加科研奖励
+- `Patches/BDA_TechTree.cfg`：把 724 个 BDA/扩展部件分布到 8 个科技树节点
 - `Localization/UI/Addons_zh.cfg`：Refurbished Armory / BDArmoryExtended 缺失词条
 - `Localization/UI/KerbalPowers_zh.cfg`：Kerbal Powers Armory 的 146 个词条
 - `Localization/UI/KerbalPowers_Agencies_zh.cfg`：Kerbal Powers 机构与制造商名称

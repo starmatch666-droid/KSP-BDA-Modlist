@@ -67,8 +67,9 @@ Fishy Weapons Pack、Fox Defense Contracts。旧 BDAc 分支、联机包与不�
 BDA UI Team Icons 未安装。
 
 军事合同包使用 KomUniMun Contractual Warfare；原包战斗合同不给科研点，
-已由 `ZZZ_BDA_CN/Patches/KUM_MilitaryScience.cfg` 按合同资金追加科研奖励，
-使其可以支撑“军事承包商”生涯的科技树。
+已由 `ZZZ_BDA_CN/Patches/KUM_MilitaryScience.cfg` 按合同资金追加科研奖励；
+`BDA_TechTree.cfg` 又把 BDA/扩展部件从单节点拆成 8 个代际节点，形成完整的
+“军事承包商”科技树路线。
 
 ## 保留的核心
 

@@ -32,7 +32,7 @@ BDA+ 依赖 `ModuleManager` 和 `PhysicsRangeExtender`；标准单机版不再�
 
 FAR 自带 `zh-cn`，残留的 25 个英文 UI 字符串也已补译。
 
-ModuleManager 最近一次完整启动：**33500 个补丁、0 错误、1 个 TURD 换色警告**；
+ModuleManager 最近一次完整启动：**34242 个补丁、0 错误、1 个 TURD 换色警告**；
 `BDA_CN_Info` 成功替换 23 个武器/导弹信息方法。
 
 ## 已安装的 BDA 部件包
@@ -77,12 +77,31 @@ PartModule（`BDACategoryModule`、`BDALookConstraintUp`、`AnimatedIntake`）
 `ZZZ_BDA_CN/Patches/KUM_MilitaryScience.cfg` 已给全部 60 个合同追加：
 
 ```text
-rewardScience = 原科研 + 合同资金 / 1500
+rewardScience = 原科研 + 合同资金 / 700 + 2
 ```
 
-例如 9000 资金合同约给 6 科研点，14000 资金合同约给 9.3 科研点；
-测试合同会在此之上再加原本的 0.5–2.5。想更快把 `1500` 改成 `1000`，
-想更慢改成 `2500`。
+例如 5500 资金合同约给 9.9 科研点，9000 资金约给 14.9，14000 资金约给 22；
+测试合同会在此之上再加原本的 0.5–2.5。想更快把 `700` 改成 `500`，
+想更慢改成 `1000`。
+
+## BDA 科技树分布
+
+`ZZZ_BDA_CN/Patches/BDA_TechTree.cfg` 把 724 个 BDA/扩展部件从原来几乎全部
+堆在 `precisionEngineering` 改成按代际分布：
+
+| 节点 | 成本 | 内容 | 部件数 |
+|---|---:|---|---:|
+| `enhancedSurvivability` | 45 | 基础装甲、弹药箱 | 10 |
+| `subsonicFlight` | 90 | 二战航空武器、早期机枪/炸弹 | 29 |
+| `efficientFlightSystems` | 160 | 早期喷气、早期导弹、二战坦克 | 245 |
+| `specializedFlightSystems` | 550 | 冷战导弹、雷达、冷战坦克 | 171 |
+| `aerospaceComposites` | 1000 | 现代精确制导、现代装甲 | 159 |
+| `advEMSystems` | 2250 | AESA、先进电子战、四代坦克/顶级导弹 | 67 |
+| `highPowerElectricalSystems` | 2250 | 核武器、重型战略武器 | 23 |
+| `experimentalElectricalSystems` | 4000 | 激光、轨道炮、实验性武器 | 20 |
+
+44 个原本标记为 `Unresearcheable` 的隐藏/遗留部件保持原样。
+这次调整会改变已有存档的解锁状态；建议开新档，或先备份存档再进 R&D 查看。
 
 旧的 **Defense Combat Advisors (DCA)** 依赖 `BDArmoryContinued`，与 BDA+ 冲突，
 因此没有安装。

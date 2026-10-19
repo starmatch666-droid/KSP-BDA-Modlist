@@ -1,0 +1,770 @@
+BDArmory	bahaGatlingGun	#loc_BDArmory_part_20mmVulcan_title	Gun turrets	precisionEngineering	0.2	1900	ModuleTurret,ModuleWeapon
+BDArmory	bahaTurret	#loc_BDArmory_part_bahaTurret_title  //.50cal Turret	Gun turrets	precisionEngineering	0.15	400	ModuleTurret,ModuleWeapon
+BDArmory	bahaABL	#loc_BDArmory_part_bahaABL_title  //USAF Airborne Laser	Laser turrets	precisionEngineering	0.8	10000	ModuleTurret,ModuleWeapon
+BDArmory	bahaAdjustableRail	#loc_BDArmory_part_bahaAdjustableRail_title  //Adjustable Missile Rail	Missile turrets	precisionEngineering	0.01	50	
+BDArmory	bahaAgm86B	#loc_BDArmory_part_bahaAgm86B_title  //AGM-86C Cruise Missile	Missiles	precisionEngineering	1.15	5000	BDExplosivePart,MissileLauncher
+BDArmory	AMRAAM_EMP	#loc_BDArmory_part_bahaEMP120_title  //AMRAAM EMP Missile	Missiles	precisionEngineering	0.152	8000	BDExplosivePart,MissileLauncher
+BDArmory	bahaAim120	#loc_BDArmory_part_bahaAim120_title //AIM-120 AMRAAM Missile	Missiles	precisionEngineering	0.152	2500	BDExplosivePart,MissileLauncher
+BDArmory	bdOrbitalAI	#loc_BDArmory_part_bdOrbitalAI_title  //AI Orbital Pilot	Control	precisionEngineering	0	0	
+BDArmory	bdPilotAI	#loc_BDArmory_part_bdPilotAI_title  //AI Pilot Flight Computer	Control	precisionEngineering	0	0	
+BDArmory	bdShipAI	#loc_BDArmory_part_bdDriverAI_title  //AI Surface Operation Driver	Control	precisionEngineering	0	0	
+BDArmory	bdVTOLAI	#loc_BDArmory_part_bdVTOLAI_title  //AI Vertical Takeoff and Landing Pilot	Control	precisionEngineering	0	0	
+BDArmory	bahaAIR-2	#loc_BDArmory_part_genie_title //AIR-2 Genie Air-To-Air Rocket	Missiles	precisionEngineering	0.3729	4000	MissileLauncher
+BDArmory	baha20mmAmmo	#loc_BDArmory_part_baha20mmAmmo_title //20mm Ammunition Box	Ammo	precisionEngineering	0.01	600	
+BDArmory	baha25mmAmmo	#loc_BDArmory_part_baha25mmAmmo_title //25mm Ammunition Box	Ammo	precisionEngineering	0.01	850	
+BDArmory	baha30mmAmmo	#loc_BDArmory_part_baha30mmAmmo_title //30mm Ammunition Box	Ammo	precisionEngineering	0.01	1000	
+BDArmory	baha50CalAmmo	#loc_BDArmory_part_baha50CalAmmo_title //50cal Ammunition Box	Ammo	precisionEngineering	0.01	400	
+BDArmory	BDAcUniversalAmmoBox	#loc_BDArmory_part_BDAcUniversalAmmoBox_title //Universal Ammo Box	Ammo	precisionEngineering	0.1	2000	
+BDArmory	bahaCannonShellBox	#loc_BDArmory_part_bahaCannonShellBox_title //Cannon Ammunition Box	Ammo	precisionEngineering	0.015	1000	
+BDArmory	bahaRocketBox	70mm 火箭弹药箱	Ammo	precisionEngineering	0.015	1500	
+BDArmory	UniversalAmmoBoxBDA	#loc_BDArmory_part_UniversalAmmoBoxBDA_title //Universal Ammo Box (Legacy)	Ammo	Unresearcheable //precisionEngineering	0.1	2000	
+BDArmory	BD_PanelArmorIsoTri	#loc_BDArmory_part_TriIsoPanel_title //BD Armor Panel Oblique Triangle	Armor	composites	0.005	5	HitpointTracker
+BDArmory	BD_PanelArmor	#loc_BDArmory_part_Panel_title //BD Armor Panel	Armor	composites	0.01	5	HitpointTracker
+BDArmory	BD_PanelArmorTri	#loc_BDArmory_part_TriPanel_title //BD Armor Panel Right Triangle	Armor	composites	0.005	5	HitpointTracker
+BDArmory	BD0.5x0.5panelArmor	BD 0.5x0.5 panel Armor		Unresearcheable	0.01875	5	HitpointTracker
+BDArmory	BD0.5x0.5slopeArmor	BD 0.5x0.5 slope Armor		Unresearcheable	0.009375	2.5	HitpointTracker
+BDArmory	BD1.5x0.5panelArmor	BD 1.5x0.5 panel Armor		Unresearcheable	0.05625	15	HitpointTracker
+BDArmory	BD12x4panelArmor	BD 12x4 plate		Unresearcheable	3.6	960	HitpointTracker
+BDArmory	BD16x4panelArmor	BD 16x4 plate		Unresearcheable	4.8	1280	HitpointTracker
+BDArmory	BD1x0.5panelArmor	BD 1x0.5 panel Armor		Unresearcheable	0.0375	10	HitpointTracker
+BDArmory	BD1x0.5slopeArmor	BD 1x0.5 slope Armor		Unresearcheable	0.01875	5	HitpointTracker
+BDArmory	BD1x1panelArmor	BD 1x1 panel Armor		Unresearcheable	0.075	20	HitpointTracker
+BDArmory	BD1x1slopeArmor	BD 1x1 slope Armor		Unresearcheable	0.0375	10	HitpointTracker
+BDArmory	BD2x0.5panelArmor	BD 2x0.5 panel Armor		Unresearcheable	0.075	20	HitpointTracker
+BDArmory	BD2x1panelArmor	BD 2x1 panel Armor		Unresearcheable	0.15	40	HitpointTracker
+BDArmory	BD2x1slopeArmor	BD 2x1 slope Armor		Unresearcheable	0.075	20	HitpointTracker
+BDArmory	BD2x2panelArmor	BD 2x2 plate		Unresearcheable	0.3	80	HitpointTracker
+BDArmory	BD2x2slopeArmor	BD 2x2 sloped plate		Unresearcheable	0.15	40	HitpointTracker
+BDArmory	BD3x1panelArmor	BD 3x1 panel Armor		Unresearcheable	0.225	60	HitpointTracker
+BDArmory	BD4x1panelArmor	BD 4x1 panel Armor		Unresearcheable	0.3	80	HitpointTracker
+BDArmory	BD4x2panelArmor	BD 4x2 plate		Unresearcheable	0.6	160	HitpointTracker
+BDArmory	BD4x2slopeArmor	BD 4x2 sloped plate		Unresearcheable	0.3	80	HitpointTracker
+BDArmory	BD4x4panelArmor	BD 4x4 plate		Unresearcheable	1.2	320	HitpointTracker
+BDArmory	BD4x4slopeArmor	BD 4x4 sloped plate		Unresearcheable	0.6	160	HitpointTracker
+BDArmory	BD6x2panelArmor	BD 6x2 plate		Unresearcheable	0.9	240	HitpointTracker
+BDArmory	BD8x2panelArmor	BD 8x2 plate		Unresearcheable	1.2	320	HitpointTracker
+BDArmory	BD8x4panelArmor	BD 8x4 plate		Unresearcheable	2.4	640	HitpointTracker
+BDArmory	BD8x4slopeArmor	BD 8x4 sloped plate		Unresearcheable	1.2	320	HitpointTracker
+BDArmory	awacsRadar	#loc_BDArmory_part_awacsRadar_title  //AWACS Detection Radar	Radars	precisionEngineering	1.45	10000	ModuleRadar
+BDArmory	bdammGuidanceModule	#loc_BDArmory_part_bdammGuidanceModule_title  //Modular Missile Guidance (EXPERIMENTAL)	Control	advAerodynamics	0	0	
+BDArmory	bahaBrowningAnm2	#loc_BDArmory_part_bahaBrowningAnm2_title  //Browning Heavy Machine Gun (AN/M3)	Guns	precisionEngineering	0.04	200	ModuleWeapon
+BDArmory	bahaClusterBomb	#loc_BDArmory_part_bahaClusterBomb_title  //CBU-87 Cluster Bomb	Bombs	precisionEngineering	0.467	200	BDExplosivePart,MissileLauncher
+BDArmory	bahaChaffPod	#loc_BDArmory_part_bahaChaffPod_title  //Chaff Dispenser	Countermeasures	precisionEngineering	0.001	600	CMDropper
+BDArmory	bahaCmPod	#loc_BDArmory_part_bahaCmPod_title  //Flare Dispenser	Countermeasures	precisionEngineering	0.001	600	CMDropper
+BDArmory	bahaBubblePod	#loc_BDArmory_part_bahaSBTPod_title  //Decoy Launcher	Countermeasures	precisionEngineering	0.001	600	CMDropper
+BDArmory	bahaDecoyPod	#loc_BDArmory_part_bahaDecoyPod_title  //Decoy Launcher	Countermeasures	precisionEngineering	0.001	600	CMDropper
+BDArmory	bahaECMJammer	#loc_BDArmory_part_bahaECMJammer_title  //AN/ALQ-131 ECM Jammer	Countermeasures	precisionEngineering	0.3	1800	ModuleECMJammer
+BDArmory	BDA_EJ200	#loc_BDArmory_part_EJ200_title //TFJ-EJ200 "Typhoon" Afterburning Turbofan		supersonicFlight	0.65	2000	
+BDArmory	BahaF86Launcher	#loc_BDArmory_part_F86RL_title // FFAR Reloadable Rocket Pod	Rocket pods	precisionEngineering	0.1	400	ModuleWeapon
+BDArmory	bahaGau-22	#loc_BDArmory_part_GAU22_title //GAU-22/A 25x137mm Cannon	Guns	precisionEngineering	0.3	2100	ModuleWeapon
+BDArmory	bahaGau-8	#loc_BDArmory_part_bahaGau-8_title  //GAU-8 30x173mm Cannon	Guns	precisionEngineering	0.55	4000	ModuleWeapon
+BDArmory	bahaGoalKeeper	#loc_BDArmory_part_bahaGoalKeeper_title  //Goalkeeper CIWS	Gun turrets	precisionEngineering	4	9000	ModuleRadar,ModuleTurret,ModuleWeapon
+BDArmory	GoalKeeperBDAcMk1	#loc_BDArmory_part_GoalKeeperBDAcMk1_title  //GoalkeeperMk1 CIWS	Gun turrets	precisionEngineering	4	7500	ModuleTurret,ModuleWeapon
+BDArmory	BDAcGKmk2	#loc_BDArmory_part_BDAcGKmk2_title  //Goalkeeper MK2 CIWS	Gun turrets	precisionEngineering	4.4	8000	ModuleRadar,ModuleTurret,ModuleWeapon
+BDArmory	bdImpulseGun	重力枪（零点能量场操纵器）	Lasers	precisionEngineering	0.1	10000	ModuleWeapon
+BDArmory	scanLockRadar1	#loc_BDArmory_part_scanLockRadar1_title  //TWS Locking Radar	Radars	precisionEngineering	1	4000	ModuleRadar,ModuleTurret
+BDArmory	scanLargeRadar	#loc_BDArmory_part_scanLargeRadar_title  //Large Detection Radar	Radars	precisionEngineering	1.45	5000	ModuleRadar
+BDArmory	bahaH70Launcher	#loc_BDArmory_part_bahaH70Launcher_title  //Hydra-70 Rocket Pod	Rocket pods	precisionEngineering	0.036	300	ModuleWeapon
+BDArmory	bahaH70Turret	#loc_BDArmory_part_bahaH70Turret_title  //Hydra-70 Rocket Turret	Rocket turrets	precisionEngineering	0.416	600	ModuleTurret,ModuleWeapon
+BDArmory	bahaHarm	#loc_BDArmory_part_bahaHarm_title  //AGM-88 HARM Missile	Missiles	precisionEngineering	0.355	2500	BDExplosivePart,MissileLauncher
+BDArmory	bahaHEKV1	#loc_BDArmory_part_bahaHEKV1_title  //HE-KV-1 Missile	Missiles	precisionEngineering	0.14	4000	BDExplosivePart,MissileLauncher
+BDArmory	HellfireEMP	#loc_BDArmory_part_bahaAGM-114_EMP_title //AGM-114R Hellfire II EMP	Missiles	precisionEngineering	0.050	6000	BDExplosivePart,MissileLauncher
+BDArmory	bahaAGM-114	#loc_BDArmory_part_bahaAGM-114_title  //AGM-114R Hellfire II	Missiles	precisionEngineering	0.050	1200	BDExplosivePart,MissileLauncher
+BDArmory	bahaHiddenVulcan	#loc_BDArmory_part_bahaHiddenVulcan_title //Vulcan (Hidden)	Guns	precisionEngineering	0.1	950	ModuleWeapon
+BDArmory	bahaIRSTpod	#loc_BDArmory_part_bahaIRSTPod_title //AN/AAQ-42 IRST Pod	Radars	precisionEngineering	0.2	2000	
+BDArmory	bahaJdamMk83	#loc_BDArmory_part_bahaJdamMk83_title  //Mk83 JDAM Bomb	Bombs	precisionEngineering	0.460	600	BDExplosivePart,MissileLauncher
+BDArmory	bahaKKV	#loc_BDArmory_part_bahaKKV_title  //Kinetic Kill Vehicle	Missiles	precisionEngineering	0.045	2000	MissileLauncher
+BDArmory	bahaM102Howitzer	#loc_BDArmory_part_bahaM102Howitzer_title //M102 Howitzer (Radial)	Gun turrets	precisionEngineering	1	2500	ModuleTurret,ModuleWeapon
+BDArmory	bahaM1Abrams	#loc_BDArmory_part_bahaM1Abrams_title  //M1 Abrams Cannon	Gun turrets	precisionEngineering	2	4000	ModuleTurret,ModuleWeapon
+BDArmory	bahaM230ChainGun	#loc_BDArmory_part_bahaM230ChainGun_title //M230 Chain Gun Turret	Gun turrets	precisionEngineering	0.1	1500	ModuleTurret,ModuleWeapon
+BDArmory	bahaAGM-65	#loc_BDArmory_part_bahaAGM-65_title //AGM-65 Maverick Missile	Missiles	precisionEngineering	0.27	2500	BDExplosivePart,MissileLauncher
+BDArmory	bdMissileBay	#loc_BDArmory_part_BombBay_title //Ordnance Bay	Missile turrets	precisionEngineering	0.2	500	
+BDArmory	missileTurretTest	#loc_BDArmory_part_missileTurretTest_title //Jernas Missile Turret	Missile turrets	precisionEngineering	0.75	1000	ModuleRadar,ModuleTurret
+BDArmory	mk1opencockpit_RP_type2	Mk1 Open Cockpit Type 2	Control	generalConstruction	0.360	430	
+BDArmory	seatExternalCmdweaponized	#loc_BDArmory_part_combatSeat_title //EAS-2 External Combat Seat		fieldScience	0.05	0	
+BDArmory	bahaMk82Bomb	#loc_BDArmory_part_bahaMk82Bomb_title //Mk82 Bomb	Bombs	precisionEngineering	0.227	100	BDExplosivePart,MissileLauncher
+BDArmory	bahaMk82BombBrake	#loc_BDArmory_part_bahaMk82BombBrake_title //Mk82 SnakeEye Bomb	Bombs	precisionEngineering	0.227	125	BDExplosivePart,MissileLauncher
+BDArmory	bahaOMillennium	#loc_BDArmory_part_bahaOMillennium_title //Oerlikon Millennium Cannon	Gun turrets	precisionEngineering	1	3500	ModuleTurret,ModuleWeapon
+BDArmory	bahaPac-3	#loc_BDArmory_part_bahaPac-3_title //MIM-104F PATRIOT PAC-3	Missiles	precisionEngineering	0.312	4000	BDExplosivePart,MissileLauncher
+BDArmory	patriotLauncherTurret	#loc_BDArmory_part_patriotLauncherTurret_title //Patriot Launcher Turret	Missile turrets	precisionEngineering	1.75	2500	ModuleTurret
+BDArmory	radarDataReceiver	#loc_BDArmory_part_radarDataReceiver_title //Radar Data Receiver	Radars	precisionEngineering	0.05	500	ModuleRadar
+BDArmory	bdRadome1	#loc_BDArmory_part_bdRadome1_title //AN/APG-63V2 Radome	Radars	precisionEngineering	0.375	2000	ModuleRadar
+BDArmory	bdRadome1GA	#loc_BDArmory_part_bdRadome1_ground_title //APG-77v1 air-to-ground Radar	Radars	precisionEngineering	0.375	2000	ModuleRadar
+BDArmory	bdRadome1inline	#loc_BDArmory_part_bdRadome1inline_title //AN/APG-63V2 Inline Radome	Radars	precisionEngineering	0.375	2000	ModuleRadar
+BDArmory	bdRadome1inlineGA	#loc_BDArmory_part_bdRadome1inline_ground_title  //APG-77v1 air-to-ground Radar (Inline)	Radars	precisionEngineering	0.375	2000	ModuleRadar
+BDArmory	bdRadome1snub	#loc_BDArmory_part_bdRadome1snub_title //AN/APG-63V1 Radome	Radars	precisionEngineering	0.375	2250	ModuleRadar
+BDArmory	bdRadome1snubGA	#loc_BDArmory_part_bdRadome1snub_ground_title  //APG-77v1 air-to-ground Radar (Snub)	Radars	precisionEngineering	0.375	2250	ModuleRadar
+BDArmory	bahaRBS-15Cruise	#loc_BDArmory_part_bahaRBS-15Cruise_title //RBS-15 Cruise Missile	Missiles	precisionEngineering	1.15	3000	BDExplosivePart,MissileLauncher
+BDArmory	bahaRBS-15ALCruise	#loc_BDArmory_part_bahaRBS-15ALCruise_title //RBS-15 Air launched Cruise Missile	Missiles	precisionEngineering	1.15	3500	BDExplosivePart,MissileLauncher
+BDArmory	BD1x0.5ReactiveArmor	#loc_BDArmory_part_REA_title //BD 1x0.5 Reactive Armor	Armor	composites	0.01	400	HitpointTracker
+BDArmory	bdRotBombBay	#loc_BDArmory_part_bdRotBombBay_title //Adjustable Rotary Bomb Rack	Missile turrets	precisionEngineering	0.375	500	
+BDArmory	bahaS-8Launcher	#loc_BDArmory_part_bahaS-8Launcher_title //S-8KOM Rocket Pod	Rocket pods	precisionEngineering	0.04	3500	ModuleWeapon
+BDArmory	SaturnAL31	#loc_BDArmory_part_SaturnAL31_title //Saturn AL-31FM1 Afterburning Jet Engine		supersonicFlight	1.05	3000	
+BDArmory	bahaSidamTurret	#loc_BDArmory_part_sidam_title //Sidam Anti-Air gun	Gun turrets	precisionEngineering	1	4000	ModuleTurret,ModuleWeapon
+BDArmory	bahaAim9	#loc_BDArmory_part_bahaAim9_title //AIM-9 Sidewinder Missile	Missiles	precisionEngineering	0.085	1200	BDExplosivePart,MissileLauncher
+BDArmory	bdWarheadSmall	#loc_BDArmory_part_bdWarheadSmall_title //Small High Explosive Warhead	Warheads	advAerodynamics	0.15	180	BDExplosivePart
+BDArmory	bahaSmokeCmPod	#loc_BDArmory_part_bahaSmokeCmPod_title //Smoke Countermeasure Pod	Countermeasures	precisionEngineering	0.003	600	CMDropper
+BDArmory	BDAsonarPod1A	#loc_BDArmory_part_BDAsonarPod1A_title //BDA MK1 Sonar Pod	Radars	precisionEngineering	0.001	1000	ModuleRadar
+BDArmory	StingRayBDATorpedo	#loc_BDArmory_part_StingRayBDATorpedo_title //Sting Ray BDA LightWeight Torpedo	Torpedoes	precisionEngineering	0.2655	2000	BDExplosivePart,MissileLauncher
+BDArmory	bahaFlirBall	#loc_BDArmory_part_bahaFlirBall_title //FLIR Targeting Ball	Targeting	precisionEngineering	0.08	1200	
+BDArmory	bahaCamPod	#loc_BDArmory_part_bahaCamPod_title //AN/AAQ-28 Targeting Pod	Targeting	precisionEngineering	0.2	600	
+BDArmory	towLauncherTurret	#loc_BDArmory_part_towLauncherTurret_title //Tow Launcher	Missile turrets	precisionEngineering	0.25	600	ModuleTurret
+BDArmory	bahaTowMissile	#loc_BDArmory_part_bahaTowMissile_title //BGM-71 Tow Missile	Missiles	precisionEngineering	0.021	600	BDExplosivePart,MissileLauncher
+BDArmory	missileController	#loc_BDArmory_part_missileController_title //Weapon Manager	Control	precisionEngineering	0	0	
+BDArmoryExtended	baha100mmTurret	#loc_BDArmory_part_baha100mmTurret_title //100mm Heavy Turret	Gun turrets	precisionEngineering	3	4000	ModuleTurret,ModuleWeapon
+BDArmoryExtended	baha130mmTurret	#loc_BDArmory_part_baha130mmTurret_title //130mm Heavy Turret	Gun turrets	precisionEngineering	4	4000	ModuleTurret,ModuleWeapon
+BDArmoryExtended	baha76mmTurret	#loc_BDArmory_part_baha76mmTurret_title //76mm Turret	Gun turrets	precisionEngineering	2	4000	ModuleTurret,ModuleWeapon
+BDArmoryExtended	baha50CalAmmoScalable	可缩放弹药箱（.50 Cal） // Rescalable Ammo Box (.50Cal)	Ammo	precisionEngineering	0.01	1000	
+BDArmoryExtended	baha50CalAmmoDrumScalable	可缩放弹药弹鼓（.50 Cal） // Rescalable Ammo Magazine (.50Cal)	Ammo	precisionEngineering	0.05	1000	
+BDArmoryExtended	baha20mmAmmoScalable	可缩放弹药箱（20mm） // Rescalable Ammo Box (20mm)	Ammo	precisionEngineering	0.01	1000	
+BDArmoryExtended	baha20mmAmmoDrumScalable	可缩放弹药弹鼓（20mm） // Rescalable Ammo Magazine (20mm)	Ammo	precisionEngineering	0.05	1000	
+BDArmoryExtended	baha25mmAmmoScalable	可缩放弹药箱（25mm） // Rescalable Ammo Box (25mm)	Ammo	precisionEngineering	0.01	1000	
+BDArmoryExtended	baha25mmAmmoDrumScalable	可缩放弹药弹鼓（25mm） // Rescalable Ammo Magazine (25mm)	Ammo	precisionEngineering	0.05	1000	
+BDArmoryExtended	baha30mmAmmoScalable	可缩放弹药箱（30mm） // Rescalable Ammo Box (30mm)	Ammo	precisionEngineering	0.01	1000	
+BDArmoryExtended	baha30mmAmmoDrumScalable	可缩放弹药弹鼓（30mm） // Rescalable Ammo Magazine (30mm)	Ammo	precisionEngineering	0.05	1000	
+BDArmoryExtended	baha37mmAmmoScalable	可缩放弹药箱（37mm） // Rescalable Ammo Box (37mm)	Ammo	precisionEngineering	0.01	1000	
+BDArmoryExtended	baha37mmAmmo	37mm 弹药箱 // 37mm Ammunition Box	Ammo	precisionEngineering	0.01	1000	
+BDArmoryExtended	baha37mmAmmoDrumScalable	可缩放弹药弹鼓（37mm） // Rescalable Ammo Magazine (37mm)	Ammo	precisionEngineering	0.05	1000	
+BDArmoryExtended	baha57mmAmmoScalable	可缩放弹药箱（57mm） // Rescalable Ammo Box (57mm)	Ammo	precisionEngineering	0.01	1000	
+BDArmoryExtended	baha57mmAmmoDrumScalable	可缩放弹药弹鼓（57mm） // Rescalable Ammo Magazine (57mm)	Ammo	precisionEngineering	0.05	1000	
+BDArmoryExtended	baha76mmAmmoScalable	可缩放弹药箱（76mm） // Rescalable Ammo Box (76mm)	Ammo	precisionEngineering	0.01	1000	
+BDArmoryExtended	baha76mmShellBox	#loc_BDArmory_part_baha76mmShellBox_title //76mm Ammunition Bin	Ammo	precisionEngineering	0.040	3500	
+BDArmoryExtended	baha76mmAmmoDrumScalable	可缩放弹药弹鼓（76mm） // Rescalable Ammo Magazine (76mm)	Ammo	precisionEngineering	0.05	1000	
+BDArmoryExtended	bahaCannonAmmoDrumScalable	可缩放弹药弹鼓（火炮弹药） // Rescalable Ammo Magazine (CannonShells)	Ammo	precisionEngineering	0.05	1000	
+BDArmoryExtended	bahaCannonAmmoScalable	可缩放弹药箱（火炮弹药） // Rescalable Ammo Box (CannonShells)	Ammo	precisionEngineering	0.01	1000	
+BDArmoryExtended	bahaFlakAmmoDrumScalable	可缩放弹药弹鼓（防空炮弹药） // Rescalable Ammo Magazine (Flak Shells)	Ammo	precisionEngineering	0.05	1000	
+BDArmoryExtended	bahaFlakAmmoScalable	可缩放弹药箱（防空炮弹药） // Rescalable Ammo Box (Flak Shells)	Ammo	precisionEngineering	0.01	1000	
+BDArmoryExtended	bahaRocketAmmoScalable	Rescalable Ammo Box (Rockets)	Ammo	precisionEngineering	0.01	1000	
+BDArmoryExtended	baha20mmAmmoDrum	#loc_BDArmory_part_baha20mmAmmoDrum_title //Cannon Ammunition Magazine	Ammo	Unresearcheable	0.040	2000	
+BDArmoryExtended	baha25mmAmmoDrum	#loc_BDArmory_part_baha25mmAmmoDrum_title //Cannon Ammunition Magazine	Ammo	Unresearcheable	0.040	2000	
+BDArmoryExtended	baha30mmAmmoDrum	#loc_BDArmory_part_baha30mmShellDrum_title //Cannon Ammunition Magazine	Ammo	Unresearcheable	0.040	2000	
+BDArmoryExtended	baha37mmShellDrum	#loc_BDArmory_part_baha37mmShellDrum_title //Cannon Ammunition Magazine	Ammo	Unresearcheable	0.040	2000	
+BDArmoryExtended	baha50CalAmmoDrum	#loc_BDArmory_part_baha50CalAmmoDrum_title //Cannon Ammunition Magazine	Ammo	Unresearcheable	0.040	2000	
+BDArmoryExtended	baha57mmShellDrum	#loc_BDArmory_part_baha57mmShellDrum_title //57mm Ammunition Magazine	Ammo	Unresearcheable	0.025	3000	
+BDArmoryExtended	baha76mmShellDrum	#loc_BDArmory_part_baha76mmShellDrum_title //Cannon Ammunition Magazine	Ammo	Unresearcheable	0.040	3500	
+BDArmoryExtended	bahaCannonShellDrum	#loc_BDArmory_part_bahaCannonShellDrum_title //Cannon Ammunition Magazine	Ammo	Unresearcheable	0.060	4000	
+BDArmoryExtended	bahaFlakShellDrum	#loc_BDArmory_part_bahaFlakShellDrum_title //Flak Ammunition Magazine	Ammo	Unresearcheable	0.025	2000	
+BDArmoryExtended	baha57mmTurret	#loc_BDArmory_part_baha57mmTurret_title //57mm Turret	Gun turrets	precisionEngineering	0.9	3500	ModuleTurret,ModuleWeapon
+BDArmoryExtended	bahaCloakGenerator	隐形装置 // Cloaking Device	Countermeasures	precisionEngineering	0.5	20000	ModuleCloakingDevice
+BDArmoryExtended	bahaCLS_Long	C-VLS-24 导弹荚 // C-VLS-24 MissilePod	Missiles	precisionEngineering	0.36	2000	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+BDArmoryExtended	bahaCLS_Short	C-VLS-12 导弹荚 // C-VLS-12 MissilePod	Missiles	precisionEngineering	0.18	1000	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+BDArmoryExtended	bahaCLSMissileIR	CLS Rocket		Unresearcheable	0.012	0	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaCLSMissileRD	CLS Rocket		Unresearcheable	0.012	0	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaBombletDispenser	UGB-128D 炸弹投放器 // UGB-128D Bomblet Dispenser	Bombs	precisionEngineering	0.1	2000	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+BDArmoryExtended	bahaBomblet	UGB-128D 炸弹 // UGB-128D Bomb		Unresearcheable	0.015625	0	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaDroptank	可抛弃油箱 // Drop Tank		precisionEngineering	0.05	400	MissileLauncher
+BDArmoryExtended	baha105mmGun	105mm L/45 榴弹炮 // 105mm L/45 Howitzer	Guns	precisionEngineering	0.95	4000	ModuleWeapon
+BDArmoryExtended	baha105mmRCL	105mm 无后坐力炮 // 105mm Recoilless Gun	Guns	precisionEngineering	0.2	4000	ModuleWeapon
+BDArmoryExtended	baha120mmGunLong	M2 120mm L/58 坦克炮 // M2 120mm L/58 Cannon	Guns	precisionEngineering	1.3	4000	ModuleWeapon
+BDArmoryExtended	baha120mmGun	#loc_BDArmory_part_bahaM1Abrams_title  //M1 Abrams Cannon	Guns	precisionEngineering	1.1	4000	ModuleWeapon
+BDArmoryExtended	baha155mmHowitzer	155mm L/40 榴弹炮 // 155mm L/40 Howitzer	Guns	precisionEngineering	4	4000	ModuleWeapon
+BDArmoryExtended	baha203mmHowitzer	203mm L/21 榴弹炮 // 203mm L/21 Howitzer	Guns	precisionEngineering	6	4000	ModuleWeapon
+BDArmoryExtended	bahaHephestus	赫菲斯托斯 20mm 转管机炮 // Hephestus 20mm Rotary Gun	Guns	precisionEngineering	0.090	950	ModuleWeapon
+BDArmoryExtended	baha20mmRevolver	M20 航空转膛炮 // M20 Aircraft Revolver Cannon	Guns	precisionEngineering	0.06	950	ModuleWeapon
+BDArmoryExtended	baha30mmGatling	#loc_BDArmory_part_bahaGAC-6_title	Guns	precisionEngineering	0.51	4000	ModuleWeapon
+BDArmoryExtended	baha76mmGun	76mm L/38 坦克炮 // 76mm L/38 Cannon		precisionEngineering	0.800	950	ModuleWeapon
+BDArmoryExtended	bahaQF6Pounder	QF-6磅 57mm 反坦克炮 // QF-6P 57mm Anti-Tank Gun		precisionEngineering	0.39	1250	ModuleWeapon
+BDArmoryExtended	baha57mmAmmo	57mm 弹药箱 // 57mm Ammunition Box	Ammo	precisionEngineering	0.01	1500	
+BDArmoryExtended	bahaYakB	#loc_BDArmory_part_bahaYakB_title //YakB Aircraft Heavy Machine Gun		precisionEngineering	0.05	800	ModuleWeapon
+BDArmoryExtended	bahaNudelman	N-37 航炮 // N-37 Aircraft Autocannon		precisionEngineering	0.29	950	ModuleWeapon
+BDArmoryExtended	bahaFlakcannon	F-90 航炮 // F-90 Aircraft Flak Cannon		precisionEngineering	0.65	800	ModuleWeapon
+BDArmoryExtended	bahaHeavyAutocannon	57mm 重型机关炮 // 57mm Heavy Autocannon		precisionEngineering	0.55	950	ModuleWeapon
+BDArmoryExtended	bahaRailgun	航空轨道炮 // Aircraft Railgun	Guns	precisionEngineering	0.5	2100	ModuleWeapon
+BDArmoryExtended	bahaRepeaterCannon	#loc_BDArmory_part_bahaRepeater_title //BD-2 Repeater	Guns	precisionEngineering	0.19	2250	ModuleWeapon
+BDArmoryExtended	bahaRevolverCannon	#loc_BDArmory_part_bahaRevolverCannon_title //M-27 Revolver cannon	Guns	precisionEngineering	0.12	950	ModuleWeapon
+BDArmoryExtended	baha37mmCIWS	#loc_BDArmory_part_baha37mmCIWS_title //37mm CIWS Turret	Gun turrets	precisionEngineering	4	4000	ModuleTurret,ModuleWeapon
+BDArmoryExtended	baha37mmTurret	#loc_BDArmory_part_baha37mmTurret_title //37mm Turret	Gun turrets	precisionEngineering	0.7	3000	ModuleTurret,ModuleWeapon
+BDArmoryExtended	bahaBeamLaser	小型连续激光器 // Small Continuous Laser	Lasers	precisionEngineering	0.3	10000	ModuleWeapon
+BDArmoryExtended	bahaChemLaser	航空化学激光器 // Aircraft Chemical Laser	Lasers	precisionEngineering	0.5	7600	ModuleWeapon
+BDArmoryExtended	bahaElectroLaser	电弧发射器 // Arc Caster		precisionEngineering	0.4	2500	ModuleWeapon
+BDArmoryExtended	bahaFlakLaser	爆破激光 // Flak Laser		precisionEngineering	0.4	8400	ModuleWeapon
+BDArmoryExtended	bahaLGL	激光炮 // Laser Cannon	Lasers	precisionEngineering	0.32	7600	ModuleWeapon
+BDArmoryExtended	bahaCombatLaser	重型脉冲激光器 // Heavy Pulse Laser	Lasers	precisionEngineering	0.16	950	ModuleWeapon
+BDArmoryExtended	bahaPlasmaBeam	航空等离子激光 // Aircraft Plasma Beam		precisionEngineering	0.4	2100	ModuleWeapon
+BDArmoryExtended	bahaPulseLaser	脉冲激光器 // Pulse Laser	Lasers	precisionEngineering	0.08	7600	ModuleWeapon
+BDArmoryExtended	bahaScatterLaser	#loc_BDArmory_part_bahascatterLas_title //ScatterLaser	Lasers	precisionEngineering	0.32	7600	ModuleWeapon
+BDArmoryExtended	bahaLightningGun	特斯拉炮 // Tesla Cannon	Lasers	precisionEngineering	0.4	2500	ModuleWeapon
+BDArmoryExtended	bahaTorsionGun	拖曳炮 // Torsion Cannon		precisionEngineering	0.35	7500	ModuleWeapon
+BDArmoryExtended	bahaReloadableRailMagazine	弹药库 // Ordnance Magazine	Ammo	precisionEngineering	0.05	1000	
+BDArmoryExtended	bahaMissileMagazine	弹药库（圆柱形） // Ordnance Magazine (Cylinder)	Ammo	precisionEngineering	0.05	1000	
+BDArmoryExtended	bdMissilePod	可展开导弹吊舱 // Deployable Missile Pod	Missile turrets	precisionEngineering	0.05	250	
+BDArmoryExtended	bdReloadableMissilePod	可展开导弹吊舱（可复装） // Deployable Missile Pod (Reloading)	Missile turrets	precisionEngineering	0.05	1000	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+BDArmoryExtended	bahaReloadableAdjustableRail	可调节导弹挂架（可重新装填） // Adjustable Missile Rail (reloadable)	Missile turrets	precisionEngineering	0.01	50	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+BDArmoryExtended	bahaTwinRail	双联装导弹导轨 // Twin-mount Missile Rail	Missile turrets	precisionEngineering	0.02	100	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+BDArmoryExtended	bahaHarmAA	AAM-188 HARM Missile		Unresearcheable	0.140	2000	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaHCAA	IR-4 Firelance Missile		Unresearcheable	0.02	800	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+BDArmoryExtended	BahaClusterMissile	集束导弹 // Cluster Missile	Missiles	precisionEngineering	0.198	3000	MissileLauncher,MultiMissileLauncher
+BDArmoryExtended	bahaClusterMissileSubmunition	CLM Rocket		Unresearcheable	0.01	0	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaAAHARM	#loc_BDArmory_part_bahaAAHARM_title //AR-18	Missiles	precisionEngineering	0.181	2000	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaLSAM	#loc_BDArmory_part_bahaLSAM_title //SA-10 Thrall Missile	Missiles	precisionEngineering	0.064	3000	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaClusterSAM	SA-25 哈尔贝克 地对空导弹 // SA-25 Halbech Surface-to-Air Missile	Missiles	precisionEngineering	0.440	3000	MissileLauncher,MultiMissileLauncher
+BDArmoryExtended	bahaCSAMSubmunition	CLM Rocket		Unresearcheable	0.05	0	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaHSAM	#loc_BDArmory_part_bahaHSAM_title //SA-30 Cataphract Missile	Missiles	precisionEngineering	0.625	3600	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaMRSAM	#loc_BDArmory_part_bahaMRSAM_title //SA-16 Jannisary Missile	Missiles	precisionEngineering	0.134	2000	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaAIM4FalconGAR11	AIM-4 “隼” GAR-11 // AIM-4 Falcon GAR-11	Missiles	precisionEngineering	0.092	5000	MissileLauncher
+BDArmoryExtended	bahaAIM4FalconGAR2	AIM-4 “隼” GAR-2 // AIM-4 Falcon GAR-2	Missiles	precisionEngineering	0.061	400	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaAIM4FalconMK1	AIM-4 “隼” GAR-1 // AIM-4 Falcon GAR-1	Missiles	precisionEngineering	0.061	400	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaHomingH70Launcher	#loc_BDArmory_part_bahaHydraAPKWS_title  //Hydra-70 Rocket Pod	Missiles	precisionEngineering	0.016	800	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+BDArmoryExtended	bahaH70APKWS	Hydra APKWS		Unresearcheable	0.014	0	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaCIMS	Pavise 近程防御导弹系统 // Pavise CIMS	Missile turrets	precisionEngineering	3	4000	MissileLauncher,ModuleMissileRearm,ModuleRadar,ModuleTurret,MultiMissileLauncher
+BDArmoryExtended	bahaRAM	#loc_BDArmory_part_bahaRAM_title //Rolling Airframe Missile		Unresearcheable	0.085	1200	BDExplosivePart,MissileLauncher
+BDArmoryExtended	bahaGMLR	重型导弹发射塔 // Heavy Missile Launch Rail Turret	Missile turrets	precisionEngineering	3	4000	MissileLauncher,ModuleMissileRearm,ModuleRadar,ModuleTurret,MultiMissileLauncher
+BDArmoryExtended	BahaJernasReloadable	#loc_BDArmory_part_JernasReload_title //Jernas Missile Turret (reloadable)	Missile turrets	precisionEngineering	0.75	1000	MissileLauncher,ModuleMissileRearm,ModuleRadar,ModuleTurret,MultiMissileLauncher
+BDArmoryExtended	bahaSingleGMLR	单联导弹发射挂架炮塔 // Single Missile Launch Rail Turret	Missile turrets	precisionEngineering	0.35	4000	MissileLauncher,ModuleMissileRearm,ModuleRadar,ModuleTurret,MultiMissileLauncher
+BDArmoryExtended	bahaSmallMissileTurret	#loc_BDArmory_part_missileTurretTwin_title //Jernas Missile Turret	Missile turrets	precisionEngineering	0.4	1000	ModuleTurret
+BDArmoryExtended	bahaAPS	#loc_BDArmory_part_bahaPalash_title //Active Protection System	Countermeasures	precisionEngineering	0.2	4000	ModuleTurret,ModuleWeapon
+BDArmoryExtended	PointDefenseMG	气泡型.50 近防炮塔 // Point Defense Blister Turret	Countermeasures	precisionEngineering	0.15	2500	ModuleTurret,ModuleWeapon
+BDArmoryExtended	bdRepulsorGear	X-01 径向推进器 // X-01 Radial Repulsorlift		heavyLanding	0.25	5000	
+BDArmoryExtended	bdWarheadSmall_CR	#loc_BDArmory_part_CRWarheadSmall_title //Small Continuous Rod Warhead	Warheads	advAerodynamics	0.15	180	BDExplosivePart
+BDArmoryExtended	bdWarheadSmall_EMP	#loc_BDArmory_part_EMPWarheadSmall_title //Small EMP Warhead	Warheads	advAerodynamics	0.15	180	BDExplosivePart
+BDArmoryExtended	bdWarheadSmall_FR	#loc_BDArmory_part_FragWarheadSmall_title //Small Fragmentation Warhead	Warheads	advAerodynamics	0.075	180	
+BDArmoryExtended	bdWarheadSmall_N	#loc_BDArmory_part_NWarheadSmall_title //Small Nuclear Warhead	Warheads	advAerodynamics	0.5	180	
+BDArmoryExtended	bdWarheadSmall_SC	#loc_BDArmory_part_SCWarheadSmall_title //Small Shaped Charge Warhead	Warheads	advAerodynamics	0.15	180	BDExplosivePart
+BDArmoryExtended	BDAsonarPod1B	#loc_BDArmory_part_BDAsonarPod1B_title //BDA Passive Sonar Pod	Radars	precisionEngineering	0.5	1000	ModuleRadar
+BDArmoryExtended	bahaChaffStrip	#loc_BDArmory_part_bahaChaffPod_title  //Chaff Dispenser	Countermeasures	precisionEngineering	0.001	600	CMDropper
+BDArmoryExtended	bahaFlareStrip	#loc_BDArmory_part_bahaCmPod_title  //Flare Dispenser	Countermeasures	precisionEngineering	0.001	600	CMDropper
+BDArmoryExtended	baha_SwordfishTorpedo	#loc_BDArmory_part_SwordfishTorpedo_title //Swordfish Passive Acoustic Torpedo	Torpedoes	precisionEngineering	0.75	3000	BDExplosivePart,MissileLauncher
+BDArmoryExtended	TigersharkBDATorpedo	#loc_BDArmory_part_TigersharkTorpedo_title //Tigershark Active Sonar Torpedo	Torpedoes	precisionEngineering	1.55	4000	BDExplosivePart,MissileLauncher
+BDArmoryExtended	baha_Torplauncher	三联鱼雷发射器 // Triple Torpedo Launcher	Missile turrets	precisionEngineering	1	1000	MissileLauncher,ModuleMissileRearm,ModuleTurret,MultiMissileLauncher
+BDArmoryExtended	bahaTowLauncherSingle	陶式导弹发射器（单联） // TOW Missile Pod	Missile turrets	precisionEngineering	0.04	100	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+BDArmoryExtended	bahaTowLauncherDouble	陶式导弹发射器（双联） // TOW Missile Twin Pod	Missile turrets	precisionEngineering	0.08	200	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+BDArmoryExtended	bahaTowLauncherTriple	陶式导弹发射器（三联） // TOW Missile Triple Pod	Missile turrets	precisionEngineering	0.12	300	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+BDArmoryExtended	bahaVLSQuad	四坑垂直发射（VLS）系统 // Quad VLS Cell	Missile turrets	precisionEngineering	1	2000	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+BDArmoryExtended	bahaVLSSingle	VLS 发射单元 // VLS Cell	Missile turrets	precisionEngineering	0.25	500	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+BDArmoryExtended	bahaRIM-66	RIM-66D “标准”II型导弹 // RIM-66D Standard Missile 2	Missiles	precisionEngineering	0.7044	4000	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	bahaMk83Bomb	Mk83 Bomb	Bombs	precisionEngineering	0.46	175	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	bahaMk84Bomb	Mk84 Bomb	Bombs	precisionEngineering	0.92	300	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	bahaMk83BombBrake	Mk83 SnakeEye Bomb	Bombs	precisionEngineering	0.46	200	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	bahaMk84BombBrake	Mk84 SnakeEye Bomb	Bombs	precisionEngineering	0.92	320	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	bahaJdamMk82	Mk82 JDAM Bomb	Bombs	precisionEngineering	0.227	375	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	bahaJdamMk84	Mk84 JDAM Bomb	Bombs	precisionEngineering	0.92	950	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	kpaHellfireKinetic	AGM-114R-9X Hellfire "Slapchop" Missile	Missiles	precisionEngineering	0.050	1000	MissileLauncher
+BDArmoryRefurbished	SingleReactiveArmor	BD 0.3x0.25 Light Reactive Armor	Armor	composites	0.002	75	HitpointTracker
+BDArmoryRefurbished	bahaSmallSmokeCmPod	#LOC_BDRefurb_SmokeCmPod_title //Smoke Countermeasure Pod	Countermeasures	precisionEngineering	0.003	200	CMDropper
+BDArmoryRefurbished	APARradar	Advanced Phased Array Radar	Radars	precisionEngineering	0.2	1000	ModuleRadar
+BDArmoryRefurbished	RAMLauncherTurret	MK-49 RAM Launcher	Missile turrets	precisionEngineering	1.75	950	MissileLauncher,ModuleMissileRearm,ModuleTurret,MultiMissileLauncher
+BDArmoryRefurbished	thephalanx	Phalanx CIWS	Gun turrets	precisionEngineering	3.5	6000	ModuleTurret,ModuleWeapon
+BDArmoryRefurbished	SEARAMLauncherTurret	SeaRAM Launcher	Missile turrets	precisionEngineering	1.75	950	MissileLauncher,ModuleMissileRearm,ModuleRadar,ModuleTurret,MultiMissileLauncher
+BDArmoryRefurbished	THERIM-116	RIM-116 Rolling Airframe Missile	Missiles	precisionEngineering	0.0735	700	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	smartsradar	SMART-S Radar	Radars	precisionEngineering	0.5	2000	ModuleRadar
+BDArmoryRefurbished	STIRradar	STIR Locking Radar	Radars	precisionEngineering	0.25	1250	ModuleRadar,ModuleTurret
+BDArmoryRefurbished	PEW9M96E2	9M96E2 Intercept Missile	Missiles	precisionEngineering	0.420	3500	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	PEW-BLU-82	BLU-82 "Daisy Cutter" Bomb	Bombs	precisionEngineering	6.80	800	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	PEW-GBU-43/B	GBU-43/B MOAB	Bombs	precisionEngineering	9.85	1100	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	PEWGBU53A	GBU-53/B "Stormbreaker" Small Diameter Bomb	Bombs	precisionEngineering	0.08	325	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	PEW-GBU-57/A	GBU-57A/B Kerbin Penetrating Bomb	Bombs	precisionEngineering	13.60	1200	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	PEWR-77	R-77 "Adder" Missile	Missiles	precisionEngineering	0.19	2500	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	THERIM-162	RIM-162 Evolved Sea Sparrow Missile	Missiles	precisionEngineering	0.281	700	BDExplosivePart,MissileLauncher
+BDArmoryRefurbished	PEW-BMP2	BMP2 Turret	Gun turrets	precisionEngineering	0.65	1200	CMDropper,ModuleTurret,ModuleWeapon
+BDArmoryRefurbished	PEW-Bradley-TOW	M2 Bradley Turret (TOW)	Gun turrets	precisionEngineering	0.95	1500	MissileLauncher,ModuleMissileRearm,ModuleTurret,ModuleWeapon,MultiMissileLauncher
+BDArmoryRefurbished	PEW-Bradley	M2 Bradley Turret	Gun turrets	precisionEngineering	0.9	1500	ModuleTurret,ModuleWeapon
+BDArmoryRefurbished	Challenger299Turret	Challenger II Turret	Gun turrets	precisionEngineering	2.4	4200	HitpointTracker,ModuleTurret,ModuleWeapon
+BDArmoryRefurbished	Eland90BTurret	Eland 90B Turret	Gun turrets	precisionEngineering	1.1	1600	CMDropper,HitpointTracker,ModuleTurret,ModuleWeapon
+BDArmoryRefurbished	PEW-mk19	Mk.19 Grenade Launcher	Gun turrets	precisionEngineering	0.4	800	ModuleTurret,ModuleWeapon
+BDArmoryRefurbished	T90MS	T-90MS Turret	Gun turrets	precisionEngineering	1.8	3700	HitpointTracker,ModuleTurret,ModuleWeapon
+BDModularMissileParts	proceduralHighExplosive	Procedural High Explosive	Warheads	basicScience	1	0	BDExplosivePart
+BDModularMissileParts	proceduralMissileCore	Procedural Missile Core for BDArmory	Control	advConstruction	1	0	
+BDModularMissileParts	proceduralMissileSRB	Procedural SRB customized for BDArmory	Missiles	start	1	0	
+BDModularMissileParts	MMmk1Tube	MK1 ModularMissile Tube Launcher		advConstruction	0.500	6770	
+AviatorArsenal	50calBox	#LOC_AA_12.7mmBox_title //WW2 12.7mm Ammo Box		start	18	800	
+AviatorArsenal	13mmBox	#LOC_AA_13mmBox_title //WW2 13mm Ammo Box		start	18	800	
+AviatorArsenal	15mmBox	#LOC_AA_15mmBox_title //WW2 15mm Ammo Box		start	18	800	
+AviatorArsenal	20mmBox	#LOC_AA_20mmBox_title //WW2 20mm Ammo Box		start	18	800	
+AviatorArsenal	23mmBox	#LOC_AA_23mmBox_title //WW2 23mm Ammo Box		start	18	800	
+AviatorArsenal	30mmBox	#LOC_AA_30mmBox_title //WW2 30mm Ammo Box		start	18	800	
+AviatorArsenal	40mmBox	#LOC_AA_40mmBox_title //WW2 40mm Ammo Box		start	18	800	
+AviatorArsenal	75mmBox	#LOC_AA_75mmBox_title //WW2 75mm Ammo Box		start	18	800	
+AviatorArsenal	7mmBox	#LOC_AA_7mmBox_title //WW2 7mm Ammo Box		start	18	800	
+AviatorArsenal	AIantenna	#LOC_AA_CommAntenna_title //WW2 Communications Antenna		start	6	800	
+AviatorArsenal	AeroAntenna	#LOC_AA_BallAntenna_title //WW2 Ball Antenna		start	54	800	ModuleRadar
+AviatorArsenal	ringantenna	#LOC_AA_RingAntenna_title //WW2 Ring Antenna		start	6	800	ModuleRadar
+AviatorArsenal	ANM30	#LOC_AA_100lb_title //WW2 AN-M64 100lb Bomb		start	0.041	800	BDExplosivePart,MissileLauncher
+AviatorArsenal	ANM57	#LOC_AA_250lb_title // WW2 AN-M64 250lb Bomb		start	0.112	800	BDExplosivePart,MissileLauncher
+AviatorArsenal	ANM64	#LOC_AA_500lb_title //WW2 AN-M64 500lb Bomb		start	0.213	800	BDExplosivePart,MissileLauncher
+AviatorArsenal	ANM65	#LOC_AA_1000lb_title //WW2 AN-M65 1000lb Bomb		start	0.445	800	BDExplosivePart,MissileLauncher
+AviatorArsenal	hispanoEnclosed	#LOC_AA_HispanoShroud_title //WW2 Hispano MK2 20mm Cannon (Enclosed)		start	54	800	ModuleWeapon
+AviatorArsenal	hispanoExposed	#LOC_AA_Hispano_title //WW2 Hispano MK2 20mm Cannon		start	48	800	ModuleWeapon
+AviatorArsenal	WW2Ho5WingMount	#LOC_AA_Ho5_title //WW2 Ho-5 20mm Cannon		start	37	800	ModuleWeapon
+AviatorArsenal	Mg151Long	#LOC_AA_151LB_title//WW2 MG 151 15mm Long Barrel		start	42	800	ModuleWeapon
+AviatorArsenal	Mg151Short	#LOC_AA_151SB_title // WW2 MG 151 15mm Short Barrel		start	38	800	ModuleWeapon
+AviatorArsenal	MG151WingPod	#LOC_AA_15120_title //WW2 MG 151 20mm Surface Mounted		start	48	800	ModuleWeapon
+AviatorArsenal	ShVAKWing	#LOC_AA_shVAKWing_title //WW2 ShVAK 20mm Wing Mounted Cannon		start	42	800	ModuleWeapon
+AviatorArsenal	ShVAKBody	#LOC_AA_shVAK_title //WW2 ShVAK 20mm Body Port Cannon		start	41	800	ModuleWeapon
+AviatorArsenal	Bk75	#LOC_AA_bk75_title //WW2 Bk 7.5 75mm Cannon		start	1200	800	ModuleWeapon
+AviatorArsenal	WW2Ho155	#LOC_AA_Ho155_title //WW2 Ho-155 30mm Cannon		start	50	800	ModuleWeapon
+AviatorArsenal	Mk108	#LOC_AA_mk108_title //WW2 MK 108 30mm Cannon		start	60	800	ModuleWeapon
+AviatorArsenal	VickersShortPod	#LOC_AA_Vickers_title //WW2 Vickers S 40mm Cannon		start	134	800	ModuleWeapon
+AviatorArsenal	VYa23	#LOC_AA_VYA_title //WW2 VYa-23 23mm Cannon		start	68	800	ModuleWeapon
+AviatorArsenal	BerezinUBK	#LOC_AA_UBK_title//WW2 Berezin UBK 12.7mm Long Barrel		start	25	800	ModuleWeapon
+AviatorArsenal	BredaSAFATLong	#LOC_AA_SAFATLB_title //WW2 Breda-SAFAT 7.7mm MG Long Barrel		start	12.5	800	ModuleWeapon
+AviatorArsenal	BredaSAFATPort	#LOC_AA_SAFATS_title //WW2 Breda-SAFAT 7.7mm MG Port		start	11	800	ModuleWeapon
+AviatorArsenal	WW2Ho3ExposedBarrel	#LOC_AA_HO3_title //WW2 Ho-103 .50 Long Barrel		start	23	800	ModuleWeapon
+AviatorArsenal	M2Blister	#LOC_AA_M2Pod_title //WW2 Browning M2 .50 Blister Pod		start	50	800	ModuleWeapon
+AviatorArsenal	M2ExposedBarrel	#LOC_AA_M2LB_title //WW2 Browning M2 .50 Long Barrel		start	29	800	ModuleWeapon
+AviatorArsenal	M2GunPort	#LOC_AA_M2Port_title //WW2 Browning M2 .50 Port		start	26	800	ModuleWeapon
+AviatorArsenal	M2Pod	#LOC_AA_M2S_title //WW2 Browning M2 .50 Surface Mounted		start	29	800	ModuleWeapon
+AviatorArsenal	MG131	#LOC_AA_131_title //WW2 MG 131 13mm Surface Mounted		start	16.6	800	ModuleWeapon
+AviatorArsenal	shKAS	#LOC_AA_shKAS_title //WW2 ShKAS 7.62mm		start	10	800	ModuleWeapon
+AviatorArsenal	WW2HVARRocket	#LOC_AA_HVAR_title //WW2 Rocket HVAR		precisionEngineering	0.066	150	ModuleWeapon
+AviatorArsenal	WW2R4MRocket	#LOC_AA_R4M_title //WW2 R4M Rocket Rack		precisionEngineering	5	650	ModuleWeapon
+AviatorArsenal	WW2RocketPod	#LOC_AA_158_title //WW2 Rocket Pod XM158		precisionEngineering	16	650	ModuleWeapon
+AviatorArsenal	WW2RP3Rocket	#LOC_AA_RP3_title //WW2 Rocket RP-3		precisionEngineering	0.05	150	ModuleWeapon
+AviatorArsenal	BallTurret	#LOC_AA_BallTurret_title//WW2 Ball Turret .50 Cal		start	0.35	800	ModuleTurret,ModuleWeapon
+AviatorArsenal	MG131zTurret	#LOC_AA_131zFLD_title //WW2 MG 131z 13mm Turret		start	0.04	800	ModuleTurret,ModuleWeapon
+AviatorArsenal	smallDropTank	#LOC_AA_droptank_title //WW2 Small Drop Tank		start	50	800	
+AviatorArsenal	HeavyMount	#LOC_AA_Heavymount_title //WW2 Heavy Ordnance Mount		start	0.05	800	
+AviatorArsenal	JerichoTrumpet	#LOC_AA_Trumpet_title //WW2 Jericho Trumpet		start	15	800	
+AviatorArsenal	RocketRail	#LOC_AA_rail_title //WW2 Rocket Rail		Unresearcheable	0.005	800	
+AviatorArsenal	StructBomb	#LOC_AA_mount_title //WW2 Structural Bomb Mount		start	20	800	
+KerbalAdvancedDefenseReborn	KAD_PL15_AAM	PL-15 远程空空导弹	Missiles	precisionEngineering	0.198	2500	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_PL5EII_AAM	PL-5EII 近程空空导弹	Missiles	precisionEngineering	0.083	1200	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_R3R_AAM	R-3R “环礁” 近程SARH空空导弹	Missiles	precisionEngineering	0.0835	1100	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_R3S_AAM	R-3S “环礁” 近程IR空空导弹	Missiles	precisionEngineering	0.0753	1000	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_R40R_AAM	R-40R “尖顶” 中程SARH空空导弹	Missiles	precisionEngineering	0.469	2000	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_R40RD_AAM	R-40RD “尖顶” 中程SARH空空导弹	Missiles	precisionEngineering	0.471	3000	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_R40T_AAM	R-40T “尖顶” 中程IR空空导弹	Missiles	precisionEngineering	0.469	2000	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_R40TD_AAM	R-40TD “尖顶” 中程IR空空导弹	Missiles	precisionEngineering	0.471	3000	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_R60K_AAM	R-60K “蚜虫” 近程IR空空导弹	Missiles	precisionEngineering	0.0435	1200	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_R60MK_AAM	R-60MK “蚜虫” 近程IR空空导弹	Missiles	precisionEngineering	0.045	1200	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_RedTop_AAM	“红头” 近程空空导弹	Missiles	precisionEngineering	0.154	1000	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_Super530D_AAM	Super 530D 中程空空导弹	Missiles	precisionEngineering	0.27	1800	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_CM102_ARM	CM-102 反辐射导弹	Missiles	precisionEngineering	0.35	2500	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_Kh58U_ARM	Kh-58U 反辐射导弹	Missiles	precisionEngineering	0.64	3000	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_B28FI_NucBomb	B-28FI 1.45兆吨级核武器	Bombs	precisionEngineering	1.07	8000	MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_B61_NucBomb	B-61 10千吨级战术核弹	Bombs	precisionEngineering	0.32	1000	MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_MK41_NucBomb	MK-41 25兆吨级核武器	Bombs	precisionEngineering	4.84	15000	MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_MK8_NucBomb	MK-8 30千吨级核弹	Bombs	precisionEngineering	1.49	5000	MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_RN28_NucBomb	RN-28 5千吨级战术核弹	Bombs	precisionEngineering	0.25	1000	MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_Tsar_NucBomb	沙皇炸弹|AN602（5000万吨）	Bombs	precisionEngineering	27	15000	MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_Tsar100_NucBomb	沙皇炸弹|AN602（1亿吨）	Bombs	precisionEngineering	28	15000	MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_W88	W88 热核弹头	Warheads	precisionEngineering	0.2	8000	MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_8TK_IRST	8TK/8TP 红外搜索与跟踪系统(IRST)	Radars	precisionEngineering	0.124	5000	
+KerbalAdvancedDefenseReborn	KAD_TP23_IRST	TP-23 红外搜索与跟踪系统(IRST)	Radars	precisionEngineering	0.047	3500	
+KerbalAdvancedDefenseReborn	KAD_TP26_IRST	TP-26 红外搜索与跟踪系统(IRST)	Radars	precisionEngineering	0.054	4000	
+KerbalAdvancedDefenseReborn	KAD_TP26Sh1_IRST	TP-26Sh-1 红外搜索与跟踪系统(IRST)	Radars	precisionEngineering	0.054	4000	
+KerbalAdvancedDefenseReborn	KAD_RP21M_Radar	RP-21M “旋扫-B” 火控雷达	Radars	precisionEngineering	0.196	2500	ModuleRadar
+KerbalAdvancedDefenseReborn	KAD_RP22SM_Radar	RP-22SM “松鸦鸟” 火控雷达	Radars	precisionEngineering	0.200	3000	ModuleRadar
+KerbalAdvancedDefenseReborn	KAD_RP25M_Radar	RP-25M “高云雀” 火控雷达	Radars	precisionEngineering	0.337	5000	ModuleRadar
+KerbalAdvancedDefenseReborn	KAD_RP25_Radar	RP-25 “狐火” 火控雷达	Radars	precisionEngineering	0.500	3500	ModuleRadar
+KerbalAdvancedDefenseReborn	KAD_RP31M_Radar	RP-31M“高云雀”火控雷达	Radars	precisionEngineering	0.35	8000	ModuleRadar
+KerbalAdvancedDefenseReborn	KAD_RP31_Radar	RP-31“闪舞”火控雷达	Radars	precisionEngineering	0.3	7000	ModuleRadar
+KerbalAdvancedDefenseReborn	KAD_9M33M3_Osa	9M33 “黄蜂-AKM” 地空导弹	Missiles	precisionEngineering	0.1263	3000	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_9M38M1_Buk_SAM	9M38M1 “山毛榉” 中程地空导弹	Missiles	precisionEngineering	0.69	3000	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_FIM92K_Stinger	FIM-92K “毒刺” 单兵便携式防空导弹	Missiles	precisionEngineering	0.0101	800	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_IRIS-T_SLM	IRIS-T SLM 中程地空导弹	Missiles	precisionEngineering	0.155	2500	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_RBS98	IRIS-T SLS 近程地空导弹	Missiles	precisionEngineering	0.0874	2000	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_MIM-104E_Patriot	MIM-104E “爱国者” 远程地空导弹	Missiles	precisionEngineering	0.900	8000	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_RapierMk1	“轻剑MK1” 近程地空导弹	Missiles	precisionEngineering	0.0426	1200	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_RapierMk1E	“轻剑MK1E” 近程地空导弹	Missiles	precisionEngineering	0.0426	1200	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_RapierMk2	“轻剑MK2” 近程地空导弹	Missiles	precisionEngineering	0.043	1200	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_S-300PS_5V55R	S300-5V55R 远程地空导弹	Missiles	precisionEngineering	1.664	10000	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_9M37M_SAM	9M37M “箭-10” 近程地空导弹	Missiles	precisionEngineering	0.0392	1200	BDExplosivePart,MissileLauncher
+KerbalAdvancedDefenseReborn	KAD_Type81_C	81式 “短SAM”(C标准型)	Missiles	precisionEngineering	0.105	2000	BDExplosivePart,MissileLauncher
+NKDR	harp12kBomb	12,000lb Conventional Bomb		precisionEngineering	6	950	BDExplosivePart,MissileLauncher
+NKDR	b83Nuke	B-83 Nuclear Bomb		precisionEngineering	1.1	650	MissileLauncher
+NKDR	harpCastleBravo	Castle Bravo		precisionEngineering	10.7	650	MissileLauncher
+NKDR	FAB-100Bomb	FAB-100 Bomb		precisionEngineering	0.185	950	BDExplosivePart,MissileLauncher
+NKDR	FAB-250Bomb	FAB-250 Bomb		precisionEngineering	0.227	950	BDExplosivePart,MissileLauncher
+NKDR	FAB-5000Bomb	FAB-5000 Bomb		precisionEngineering	4.8	950	BDExplosivePart,MissileLauncher
+NKDR	foabBomb	FOAB		precisionEngineering	7.1	650	BDExplosivePart,MissileLauncher
+NKDR	GBU39	GBU-39 Small Diameter Bomb		precisionEngineering	0.093	650	BDExplosivePart,MissileLauncher
+NKDR	GBU44	GBU-44 VIPER SDB		precisionEngineering	0.093	650	BDExplosivePart,MissileLauncher
+NKDR	k12Cloudmaker	K-12 Cloudmaker		precisionEngineering	19.8	950	BDExplosivePart,MissileLauncher
+NKDR	harpKineticBombarder	Kinetic Bombardment Weapon		precisionEngineering	8.2	650	BDExplosivePart,MissileLauncher
+NKDR	paveWayIV	Paveway IV Guided Bomb		precisionEngineering	0.23	650	BDExplosivePart,MissileLauncher
+NKDR	moabBomb	Massive Ordinance Air Burst (MOAB)		precisionEngineering	10.3	650	BDExplosivePart,MissileLauncher
+NKDR	thermoMIRV	W88 ThermoNuclear MIRV		precisionEngineering	0.8	650	MissileLauncher
+NKDR	tsarBomba	Tsar Bob-a		precisionEngineering	27.0	650	MissileLauncher
+NKDR	harpBahaCmPod	Slim Flare Dispenser	Countermeasures	precisionEngineering	0.001	600	CMDropper
+NKDR	harpGSH301Pod	Gryazev-Shipunov GSh-301		precisionEngineering	0.046	950	ModuleWeapon
+NKDR	harpGSHPod	Gryazev-Shipunov GSh-23		precisionEngineering	0.05	950	ModuleWeapon
+NKDR	harpM129Pod	M129 Grenade Launcher		precisionEngineering	0.05	950	ModuleWeapon
+NKDR	harpVulcanPod	M61 Vulcan Cannon		precisionEngineering	0.05	950	ModuleWeapon
+NKDR	harpAtomAnnieR	M65 'Nuclear Valentina' Radial		precisionEngineering	65	3500	ModuleWeapon
+NKDR	harpRailgunR	Prototype Railgun Radial		precisionEngineering	20	3500	ModuleWeapon
+NKDR	harpAK230	AK-230 CIWS		precisionEngineering	1.9	950	ModuleTurret,ModuleWeapon
+NKDR	harpGSHTurret	Gryazev-Shipunov GSh-23 Helicopter Turret		precisionEngineering	0.125	950	ModuleTurret,ModuleWeapon
+NKDR	harpKarl	Karl Gerat 041		precisionEngineering	90	3500	ModuleTurret,ModuleWeapon
+NKDR	harpKompensator	2A3 Kompensator 2P		precisionEngineering	57.8	3500	ModuleTurret,ModuleWeapon
+NKDR	harpKV2	Old KV-2 Turret		precisionEngineering	10	950	ModuleTurret,ModuleWeapon
+NKDR	harpLAVADTurret	LAV AD Turret		precisionEngineering	1.45	950	ModuleTurret,ModuleWeapon
+NKDR	harpLAV25	LAV-25 Turret		precisionEngineering	1.5	950	ModuleTurret,ModuleWeapon
+NKDR	harpM1Howitzer	M1 8-inch Howitzer		precisionEngineering	31.4	3500	ModuleTurret,ModuleWeapon
+NKDR	harpM198Howitzer	M198 155mm Howitzer		precisionEngineering	7.15	3500	ModuleTurret,ModuleWeapon
+NKDR	harpMk45	Mk45 Naval Gun Turret		precisionEngineering	29	950	ModuleTurret,ModuleWeapon
+NKDR	harpAtomAnnie	M65 'Nuclear Valentina'		precisionEngineering	83	3500	ModuleTurret,ModuleWeapon
+NKDR	harpPaladinTurret	M109 Paladin Turret		precisionEngineering	8.3	3500	ModuleTurret,ModuleWeapon
+NKDR	harpRailgun	Prototype Railgun		precisionEngineering	25	3500	ModuleTurret,ModuleWeapon
+NKDR	harpAAD	AAD Anti Ballistic Missile		precisionEngineering	1.2	950	BDExplosivePart,MissileLauncher
+NKDR	agm158	AGM-158B Cruise missile		precisionEngineering	1.05	950	BDExplosivePart,MissileLauncher
+NKDR	harpDavyCrockett	W54 Davy Crockett Warhead		precisionEngineering	0.035	650	MissileLauncher
+NKDR	harpExocet	MM-40 Exocet Anti-Ship Missile		precisionEngineering	0.67	950	BDExplosivePart,MissileLauncher
+NKDR	harpM26	M-26 Artillery Missile		precisionEngineering	0.3	950	BDExplosivePart,MissileLauncher
+NKDR	harpM30	M-30 Artillery Missile		precisionEngineering	0.26	950	BDExplosivePart,MissileLauncher
+NKDR	harpMGM	MGM-140 ATACMS		precisionEngineering	1.67	950	MissileLauncher
+NKDR	harpOhka	Yokosuka MXY7 Ohka		precisionEngineering	2.1	950	BDExplosivePart,MissileLauncher
+NKDR	harpScud	Scud Missile (Conventional)		precisionEngineering	6.5	950	BDExplosivePart,MissileLauncher
+NKDR	harpScudNuclear	Scud Missile (Nuclear)		precisionEngineering	6.5	950	MissileLauncher
+NKDR	harpStinger	Stinger Missile		precisionEngineering	0.015	700	BDExplosivePart,MissileLauncher
+NKDR	harpTomahawkConv	Tomahawk Cruise Missile (Conventional)		precisionEngineering	1.3	950	BDExplosivePart,MissileLauncher
+NKDR	harpV1	V-1 Flying Bomb		precisionEngineering	2.1	950	BDExplosivePart,MissileLauncher
+NKDR	chaparralTurret	Chaparral Missile Turret		precisionEngineering	0.6	950	ModuleTurret
+NKDR	davyCrockettLauncher	Davy Crockett Turret		precisionEngineering	0.15	950	ModuleTurret
+NKDR	launcherMLRSTurret	MLRS Turret		precisionEngineering	3.5	950	ModuleTurret
+NKDR	scudLauncher	Scud Launcher		precisionEngineering	3.75	950	ModuleTurret
+NKDR	Slow Parachute	Kerbalie parachute		start	0.02	42	
+NKDR	harpMGMCap	MGM Tube Cap		precisionEngineering	0.05	650	
+NKDR	harpMGMTube	MGM Tube		precisionEngineering	0.35	650	
+NKDR	harpPod	Modular Gunpod	Misc	precisionEngineering	0.075	950	
+NKDR	harpRocketTube	Rocket Tube		precisionEngineering	0.15	650	
+KerbalPowers	kpaATACMS	MGM-140 集束弹药火箭系统	Missiles	precisionEngineering	1.670	4500	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaGMLRS	MGM-30 制导火箭发射系统	Missiles	precisionEngineering	0.3	1200	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaPRSM	MGM-250 精确打击火箭	Missiles	precisionEngineering	0.75	2550	BDExplosivePart,CMDropper,MissileLauncher
+KerbalPowers	bahaJdamerMk82	Mk82 JDAM-ER 滑翔制导炸弹	Bombs	precisionEngineering	0.227	425	BDExplosivePart,MissileLauncher
+KerbalPowers	bahaJdamerMk83	Mk83 JDAM-ER 滑翔制导炸弹	Bombs	precisionEngineering	0.46	700	BDExplosivePart,MissileLauncher
+KerbalPowers	bahaJdamerMk84	Mk84 JDAM-ER 滑翔制导炸弹	Bombs	precisionEngineering	0.92	1100	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaSUU	SUU-14/A 伞降子弹药布撒器	Bombs	precisionEngineering	0.8	750	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+KerbalPowers	kpaBomblet	Mk3 子弹药		Unresearcheable	0.015	0	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaAim160	AIM-160“CUDA”空空导弹	Missiles	precisionEngineering	0.071	2000	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaComet	SRA-132“彗星”导弹	Missiles	precisionEngineering	0.085	1300	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaMeteor	SRA-1239“流星”导弹	Missiles	precisionEngineering	0.190	3000	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaAST3	SRS-1238“硫磺石”导弹	Missiles	precisionEngineering	0.06	1400	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaSiAW	AGM-88H“SiAW”导弹	Missiles	precisionEngineering	0.355	2500	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaASN4G	ASN4G 高超音速巡航导弹	Missiles	precisionEngineering	1.65	17500	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaMdCN	SRS-2004“深渊区”导弹	Missiles	precisionEngineering	1.4	5000	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaSCALP	SRS-2003“暗影领域”巡航导弹	Missiles	precisionEngineering	1.3	5000	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaSphereEW	SRA-404“硫磺-EW”电子战系统	Missiles	precisionEngineering	0.1	3400	MissileLauncher,ModuleECMJammer
+KerbalPowers	kpaSphereGlide	GBU-30“硫磺”小直径滑翔炸弹	Bombs	precisionEngineering	0.1	350	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaSphere	SRS-30“硫磺”小直径巡航导弹	Missiles	precisionEngineering	0.1	1450	BDExplosivePart,MissileLauncher
+KerbalPowers	kpaMk141Launcher	Mk141“钩”发射管	Missile turrets	precisionEngineering	0.25	500	MissileLauncher,ModuleMissileRearm,MultiMissileLauncher
+KerbalPowers	kpaEsperieye	“鹰眼”预警雷达	Radars	precisionEngineering	0.8	5000	ModuleRadar
+KerbalPowers	kpaSimpson	“辛普森”多功能雷达	Radars	precisionEngineering	1.75	6000	ModuleRadar
+KerbalPowers	kpaSNOOP7Large	SNOOP-7(V)3 大型相控阵雷达	Radars	precisionEngineering	1.75	11250	ModuleRadar
+KerbalPowers	kpaSNOOP7Small	SNOOP-7(V)1 小型相控阵雷达	Radars	precisionEngineering	0.375	5250	ModuleRadar
+KerbalPowers	kpaSNOOPR	SNOOP-R(V)4 机动相控阵雷达	Radars	precisionEngineering	0.65	2250	ModuleRadar
+KerbalPowers	kpa127Mod4	127 毫米 Mk4 舰炮	Gun turrets	precisionEngineering	7.5	4000	ModuleTurret,ModuleWeapon
+KerbalPowers	kpa155Mk51	155 毫米 Mk51 简易炮系统	Gun turrets	precisionEngineering	15	4000	ModuleTurret,ModuleWeapon
+KerbalPowers	kpa40Mk4	40 毫米 Mk4 舰炮	Gun turrets	precisionEngineering	1.5	4000	ModuleTurret,ModuleWeapon
+KerbalPowers	kpa57Mk3	57 毫米 Mk3 舰炮	Gun turrets	precisionEngineering	3.5	4000	ModuleTurret,ModuleWeapon
+KerbalPowers	kpaLynx	KP41“斧”步战车炮塔	Gun turrets	precisionEngineering	1.3	2600	CMDropper,ModuleTurret,ModuleWeapon
+KerbalPowers	kpaNeolidas	“尼奥利达斯”高功率微波炮塔	Laser turrets	precisionEngineering	1.45	7500	ModuleTurret,ModuleWeapon
+KerbalPowers	kpaOTO76	76 毫米 Mk62 舰炮	Gun turrets	precisionEngineering	5	4000	ModuleTurret,ModuleWeapon
+fishy_weapons_dev	102XE	102mm XE (hidden)		start	0.28	70500	ModuleWeapon
+fishy_weapons_dev	12mmm_gun_pod	12mm gun pod		start	0.6	100500	ModuleWeapon
+fishy_weapons_dev	1kg_bomb	1kg bomb		start	0.001	20000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	1M cal turret	1M cal		start	13.0	30000	ModuleTurret,ModuleWeapon
+fishy_weapons_dev	1shot	1shot		start	0.0001	2000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	2mm	2.5mm AP (hidden)		start	0.3	70500	ModuleWeapon
+fishy_weapons_dev	322mm	322mm cannon		start	1.74	140000	ModuleWeapon
+fishy_weapons_dev	3mmXE	3mmXE gun		start	0.6	70500	ModuleWeapon
+fishy_weapons_dev	47HE gun	47mm XE (hidden)		start	0.24	70500	ModuleWeapon
+fishy_weapons_dev	6mm shotgun (fully working in the future)	6mm shotgun		start	0.13	9500	ModuleWeapon
+fishy_weapons_dev	A-90GX	A-90GX		start	0.35	4000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	advanced_AL37	AL-37 (advanced)		start	1.21	30000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	Advanced_cam	128k Advanced camera	Targeting	precisionEngineering	0.24	0	
+fishy_weapons_dev	modern aim-132	aim-132 ASRAAM		start	0.05	320000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	AL37	AL-37a		start	0.21	30000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	active_protection_sys	active protection system		start	0.7	3000	ModuleTurret,ModuleWeapon
+fishy_weapons_dev	anti missile system	anti missile system		start	0.42	5000	ModuleTurret,ModuleWeapon
+fishy_weapons_dev	anti_rad	air to air harm missile		start	0.278	1200	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	guided_rocket_ax2	AX2 guided rocket		start	0.01	40000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	chaffBIG	BIG Chaff Dispenser	Countermeasures	precisionEngineering	0.02	600	CMDropper
+fishy_weapons_dev	FlareBIG	BIG Flare Dispenser	Countermeasures	precisionEngineering	0.16	600	CMDropper
+fishy_weapons_dev	FlareFASTER	FASTER-Flares	Countermeasures	precisionEngineering	0.3	600	CMDropper
+fishy_weapons_dev	FlareFAST	FAST-Flares	Countermeasures	precisionEngineering	0.25	600	CMDropper
+fishy_weapons_dev	FlareBomb	FlareBomb	Countermeasures	precisionEngineering	0.06	600	CMDropper
+fishy_weapons_dev	bird strike missile	bird strike missile x		start	0.01	4000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	bird strike missile	bird strike missile		start	0.05	4000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	bloody-Alpha	bloody-Alpha		start	0.015	5000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	combat_cam	combat camera (low drag)	Targeting	precisionEngineering	0.21	0	
+fishy_weapons_dev	drone_cam	combat camera (low drag)	Targeting	precisionEngineering	0.0971	0	
+fishy_weapons_dev	emp bomb	anti-hydrogen emp smart bomb		start	23.0	5000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	modern emp missile	heavy modern emp missile		start	0.91	5000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	explosive doom	explosive doom (X504)		start	1.2	4000000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	7mm_fast_gun	7mm fast gun (Hu-7k)		start	0.23	95000	ModuleWeapon
+fishy_weapons_dev	7mm_fast_gun2	7mm fast gun (death-ray-edition)		start	0.1	9500	ModuleWeapon
+fishy_weapons_dev	FG-400	FG-400	Missiles	precisionEngineering	0.3	2700	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	FishyAmmoBox	Fishy ammo Box	Ammo	precisionEngineering	0.03	600	
+fishy_weapons_dev	AV-R9_1	AV-R9 Winglet		flightControl	0.1247	640	
+fishy_weapons_dev	gliderWingB	Swept Wing Type B (glider-wing)		aerodynamicSystems	0.264	700	
+fishy_weapons_dev	structuralWing10	Structural Wing Type D		advAerodynamics	0.03	300	
+fishy_weapons_dev	kinetic_missile	kinetic missile		start	1.0	320000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	laser1	close range laser (L-92c)		start	0.83	5000000	ModuleTurret,ModuleWeapon
+fishy_weapons_dev	laser_gun182	Radiation cannon 1.0	Guns	precisionEngineering	0.1	950	ModuleWeapon
+fishy_weapons_dev	laserhellfireHSIV	GHSH IV	Missiles	precisionEngineering	0.2	220	BDExplosivePart,CMDropper,MissileLauncher
+fishy_weapons_dev	laserhellfireHS	GHSH III	Missiles	precisionEngineering	0.1	220	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	laserhellfire2	laser guided AAM Hellfire II LR MOD	Missiles	precisionEngineering	0.071	220	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	laserhellfire	laser guided AAM Hellfire II	Missiles	precisionEngineering	0.050	220	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	X49	X49 locking radar	Radars	precisionEngineering	19.7	4000	ModuleRadar,ModuleTurret
+fishy_weapons_dev	LRABL	Long Range Airborne Laser	Laser turrets	precisionEngineering	1.749	10000	ModuleTurret,ModuleWeapon
+fishy_weapons_dev	LRABLOC	Long Range Airborne Laser (high power modification)	Laser turrets	precisionEngineering	1.749	10000	ModuleTurret,ModuleWeapon
+fishy_weapons_dev	m74	m74 Cannon		start	7.0	27000	ModuleTurret,ModuleWeapon
+fishy_weapons_dev	matra_r530	r-530		start	0.193	1200	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	modern aim-120 KN	modern aim-120 KN		start	0.71	4000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	modern aim-120 LR	modern aim-120 LR		start	0.96	4000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	modern aim-120	modern aim-120		start	0.71	4000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	modern aim-9	modern aim-9		start	0.42	1200	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	modern r-60 radar	R-60 radar missile		start	0.29	2000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	multi-module-aim-9	multi-module-aim-9		start	0.396	30000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	mini H-200 (nuclear)	H-200 (nuclear)		start	0.071	650	ModuleWeapon
+fishy_weapons_dev	nuclear_maverick2	atomic maverick		start	1.551	200000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	nuclear g40	nuclear g40		start	2.9	1000000000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	nuclear powered aim-120	nuclear core aim-120		start	3.4	2000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	nuke	nuclear warhead	Warheads	advAerodynamics	1.0	1000000	BDExplosivePart
+fishy_weapons_dev	nuke_bomb	nuke		start	5.080	20000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	nuke_bomb2	doomsday-nuke		start	100.0	100000000000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	Small-Bomb0000	mini bomb		start	0.025	500	BDExplosivePart
+fishy_weapons_dev	AIM-7D	AIM-7D Sparrow		start	0.197	250000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	AIM-7E-2	AIM-7E-2 Sparrow		start	0.205	350000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	AIM-7E	AIM-7E Sparrow		start	0.205	300000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	AIM-7F	AIM-7F Sparrow		start	0.229	350000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	AIM-7M	AIM-7M Sparrow		start	0.231	350000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	aim-9b	AIM-9B Sidewinder		basicRocketry	0.0712	180000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	aim-9c	AIM-9C Sidewinder		precisionEngineering	0.088	200000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	aim-9d	AIM-9D Sidewinder		precisionEngineering	0.0885	220000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	aim-9e	AIM-9E Sidewinder		precisionEngineering	0.08	210000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	aim-9g	AIM-9G Sidewinder		precisionEngineering	0.0885	240000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	aim-9h	AIM-9H Sidewinder		precisionEngineering	0.085	260000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	aim-9j	AIM-9J Sidewinder		precisionEngineering	0.085	280000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	AIM-9L	AIM-9L Sidewinder		start	0.090	320000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	AIM-9M	AIM-9M Sidewinder		start	0.084	300000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	R-13M1	R-13M1		start	0.230	150000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	R-23T	R-23T		start	0.295	200000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	R-24T	R-24T		start	0.285	220000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	R-27ET	R-27ET		start	0.300	250000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	R-27T	R-27T		start	0.300	220000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	R-3R	R-3R		start	0.230	130000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	R-3S	R-3S		start	0.200	120000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	R-60	R-60		start	0.025	150000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	R-60M	R-60M		start	0.098	200000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	R-60MK	R-60MK		start	0.098	220000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	R-73	R-73		start	0.200	300000	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	pheonix	Aim-54 Pheonix Missile	Missiles	precisionEngineering	0.27	2500	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	radarDataTransmitterImproved	Radar Data Transmitter Improved	Radars	precisionEngineering	0.1	500	ModuleRadar
+fishy_weapons_dev	radome 2077	radome x27a	Radars	precisionEngineering	1.8	7000	ModuleRadar
+fishy_weapons_dev	radome 3077	radome x37a	Radars	precisionEngineering	3.74	700000	ModuleRadar
+fishy_weapons_dev	radome 3077snub	radome x37b	Radars	precisionEngineering	3.74	700000	ModuleRadar
+fishy_weapons_dev	radome 4077 Ultra	radome x47b Ultra	Radars	precisionEngineering	30.81	100000000	ModuleRadar
+fishy_weapons_dev	radome 4077	radome x47a	Radars	precisionEngineering	17.81	1000000	ModuleRadar
+fishy_weapons_dev	RR	advanced detection radar	Radars	precisionEngineering	50.0	10000000	ModuleRadar
+fishy_weapons_dev	radome x25a 1st gen	radome x25a 1st gen	Radars	precisionEngineering	0.125	7000	ModuleRadar
+fishy_weapons_dev	SPAMRAAM	aim-69 SPAMRAAM		start	0.005	1	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	12mm_storm	12mm storm		start	0.14	9500	ModuleWeapon
+fishy_weapons_dev	radome 1500 1st gen	radome x15a	Radars	precisionEngineering	0.1	7000	ModuleRadar
+fishy_weapons_dev	radome x15a 1st gen	radome x15a	Radars	precisionEngineering	0.1	7000	ModuleRadar
+fishy_weapons_dev	Longtom	longtim torpedo		start	0.3815	470	BDExplosivePart,MissileLauncher
+fishy_weapons_dev	???	???		start	68.7	1000000	ModuleTurret,ModuleWeapon
+FoxDefenseContracts	76MMFlak	3" 50 caliber gun		precisionEngineering	0.46	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	HSTVAP	HSTV-L		precisionEngineering	0.3075	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M103	M103 120mm		precisionEngineering	0.851	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M109A6	M109A6		precisionEngineering	0.345	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M10Wolv	M10 Wolverine		precisionEngineering	0.44	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	m163	M163		survivability	0.168	2700	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M18HellcatAP	M18 Hellcat		precisionEngineering	0.266	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	AbramsA2	M1A2 Abrams		precisionEngineering	0.926	3425	CMDropper,HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M22Locust	M22 Locust		precisionEngineering	0.233	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M24ChaffeeAP	M24 Chaffee		precisionEngineering	0.276	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M26Pershing	M26 Pershing		survivability	0.67	2700	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M36Jackson	M36 Jackson		precisionEngineering	0.462	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M3Bradly	M3 Bradley		precisionEngineering	0.4125	3425	CMDropper,HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M3Stuart	M3 Stuart		precisionEngineering	0.2	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M41	M41HMC Howitzer		precisionEngineering	0.285	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M42DusterAP	M42 Duster		precisionEngineering	0.34	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M4Sherman	M4 Sherman 75mm		precisionEngineering	0.44	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M60A3	M60A3 105MM		precisionEngineering	0.7	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M60A3120	M60A3 120MM		precisionEngineering	0.7	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M6A1	M6A1		precisionEngineering	0.54	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M8HMC	M8 HMC		precisionEngineering	0.485	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	MBT-70	MBT-70		survivability	0.78	2700	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Sherman105	M4A3 Sherman 105mm		precisionEngineering	0.476	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ShermanJumbo	M4A3E2 Sherman Jumbo		precisionEngineering	0.5	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T95	T-95		precisionEngineering	0.43	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T18E2	T18E2 Boarhound		precisionEngineering	0.43	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T26E4	T26E4		survivability	0.75	2700	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	AMT34	T34 Heavy Tank Turret		precisionEngineering	0.977	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T3HMC	T3HMC		precisionEngineering	0.0653	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T56GMC	T56GMC		precisionEngineering	0.154	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T57AP-T	T57 Heavy Tank Turret		precisionEngineering	0.82	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T92HMC	T92Hmc Howitzer		precisionEngineering	0.86	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FDC1000lb	FDC - 1000LB Bomb		start	0.4	3600	BDExplosivePart,HitpointTracker,MissileLauncher
+FoxDefenseContracts	FDC100lb	FDC - 100LB Bomb		start	0.041	800	BDExplosivePart,HitpointTracker,MissileLauncher
+FoxDefenseContracts	FDC2000lb	FDC - 2000LB Bomb		start	0.8	3600	BDExplosivePart,HitpointTracker,MissileLauncher
+FoxDefenseContracts	FDC250lb	FDC - 250LB Bomb		start	0.1	1800	BDExplosivePart,HitpointTracker,MissileLauncher
+FoxDefenseContracts	FDC5000lb	FDC - 5000LB Bomb		start	2	3600	BDExplosivePart,HitpointTracker,MissileLauncher
+FoxDefenseContracts	FDC500lb	FDC - 500LB Bomb		start	0.2	3600	BDExplosivePart,HitpointTracker,MissileLauncher
+FoxDefenseContracts	Challenger2	Challenger 2		survivability	0.938	2700	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Chieftain	Chieftain		survivability	0.86	2700	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ChurchillAVRE	Churchill AVRE		precisionEngineering	1.5	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Churchill_III	Churchill III		precisionEngineering	1.3	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Churchill_VII	Churchill VII		precisionEngineering	1.6	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Comet	Comet		survivability	0.503	2700	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Conqueror	Conqueror		survivability	0.99	2700	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Cromwell	Cromwell Mk.V		survivability	0.42	2700	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Crusader	Crusader Mk.III		survivability	0.305	2700	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	CrusaderAA	Crusader AA MkII		precisionEngineering	0.294	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Falcon	Falcon		precisionEngineering	0.239	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FV4005	FV4005 Stage II 183MM		precisionEngineering	0.9	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Marksmen	Marksman anti-aircraft system		precisionEngineering	0.83	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Sexton	Sexton HE		precisionEngineering	0.16	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ShermanFF	M4A4 Sherman FireFly		precisionEngineering	0.46	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Skink	Skink		precisionEngineering	0.24	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	TogIIClassic	TOGII*		precisionEngineering	0.57	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	TortoiseAPCBC	Tortoise Gun		precisionEngineering	0.407	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	UC2pdr	UC 2pdr		precisionEngineering	0.0814	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ValentineAT	Valentine AT		survivability	0.1140	2700	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Za-35	Za-35		precisionEngineering	0.48	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	PGZ09	PGZ09		precisionEngineering	0.57	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	PTZ89	PTZ89		precisionEngineering	0.47	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	WMA301	WMA301		precisionEngineering	0.29	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ZSD63	ZSD63 - Type WZ531		precisionEngineering	0.21	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ZTL11	ZLT11		precisionEngineering	0.35	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ZTZ99	ZTZ99 - Type 99		precisionEngineering	0.77	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	40MMFlak	Mle51 T1		precisionEngineering	0.31	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Amx30_DCA	Amx30_DCA		precisionEngineering	0.54	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Amx40	Amx40		precisionEngineering	0.655	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Amx50B	Amx 50B		survivability	0.867	2700	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	AmxELCbis	Amx ELC Bis		survivability	0.101	2700	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Amx_13FM_155	Amx13FM_155		precisionEngineering	0.248	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Amx_13_105	Amx_13_105mm Mk61		precisionEngineering	0.248	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ARL44	ARL 44		survivability	0.75	2700	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	BatChat25	BatChat_25T		survivability	0.375	2700	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Char2C	Char 2C		survivability	0.55	2700	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	EBR	E.B.R		survivability	0.375	2700	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Fcm36Pak	Fcm 36 Pak 40		precisionEngineering	0.15	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FT_AC	FT_AC		precisionEngineering	.0380	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Leclerc	Leclerc		survivability	0.805	2700	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	RenaultFT	RenaultFT 13.2mmAP		survivability	0.072	2700	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	RenaultFTAPCR	RenaultFT 37mm APCR		survivability	0.084	2700	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	5cmFlak	5 cm FlaK 41		precisionEngineering	0.26	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Brummbar	Brummbar		precisionEngineering	0.9	1560	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	DickerMax	Dicker Max		precisionEngineering	0.22	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Flak88	FlakCannon 88		precisionEngineering	0.46	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FlakPanzerI	FlakPanzer I		precisionEngineering	0.54	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Hummel	Hummel		precisionEngineering	2.1	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	JadgPantherCamo	JadgPanther		precisionEngineering	0.23	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	JadgTiger	JadgTiger 128mm		precisionEngineering	0.18	1560	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	KugelBlitz	Kugelblitz		precisionEngineering	0.22	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Leopard1	Leopard I		precisionEngineering	0.6	1560	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Leopard2A5	Leopard 2A5		precisionEngineering	0.9	1560	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Marder38T	Marder38T		precisionEngineering	0.057	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	MAUS	Panzer VIII Maus		precisionEngineering	2.8	1560	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Panther	Panther F Turret		precisionEngineering	0.68	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	PantherA	Panther Ausführung A //Panther A		precisionEngineering	0.48	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	PantherII	PantherII Turret		precisionEngineering	0.8	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	PanzerIIC	PanzerII C		precisionEngineering	0.137	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	PanzerIIIausfJ	PanzerIII ausf J1		precisionEngineering	0.33	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	PanzerIIIausfJSB	PanzerIII ausf J		precisionEngineering	0.31	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	PanzerIVAPCBC	PanzerIV Ausf J		precisionEngineering	0.39	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	PanzerIVF	PanzerIV Ausf F		precisionEngineering	0.31	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Pz38T	Panzer 38-T Ausf F		survivability	0.145	2700	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	PzJagerI	Panzer Jager I		precisionEngineering	0.096	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Ru251	Spähpanzer RU-251		precisionEngineering	0.383	1560	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	SdKfz5cm	Sonderkraftfahrzeug Sd.Kfz. 234		precisionEngineering	0.176	1560	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	StugIII	StugIII G		precisionEngineering	0.12	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	SturerEmil	Sturer Emil		precisionEngineering	1.08	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	SturmPanzerHE	Sturm Panzer II		precisionEngineering	0.239	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	SturmTiger	Sturm Tiger 380MM Cannon		precisionEngineering	1.02	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	TigerI	Tiger I Turret		precisionEngineering	0.86	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	TigerII	Tiger II Turret		precisionEngineering	1.02	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Waffentrager	Waffentrager		precisionEngineering	0.48	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Wespe	Wespe		precisionEngineering	1.4	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Wirbelwind	Flakpanzer IV Wirbelwind		precisionEngineering	0.375	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Ab41	Ab-41		precisionEngineering	0.11	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Ariete	Ariete		precisionEngineering	0.81	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Centauro	Centauro		precisionEngineering	0.377	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	m14-40	m14/40		precisionEngineering	0.218	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M41M90-53	M41M 90-53		precisionEngineering	0.377	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	M42Contraeteo	Semovente da 20/70 quadruplo		precisionEngineering	0.233	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	OTOMATIC	OTOMATIC		precisionEngineering	0.69	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	P40Turret	P40		precisionEngineering	0.74	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	R3T20	Fiat 6616 R3 T20		precisionEngineering	0.046	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Sa4732	Semovente da 47/32		precisionEngineering	0.102	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	TuranI	Turan I		precisionEngineering	0.68	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	TuranIII	Turan III		precisionEngineering	0.74	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Zrinyi_II	Zrinyi II		precisionEngineering	0.38	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ChiHa-LG	ChiHa-Long-Gun		precisionEngineering	1.2	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ChiHa-SG	ChiHa-Short-Gun		precisionEngineering	1.6	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ChiHe	Chi-He		precisionEngineering	2.1	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ChiNu	Chi-Nu		precisionEngineering	0.28	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ChiRi	Chi-Ri		precisionEngineering	0.62	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	O-I	O-I		precisionEngineering	2.26	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	So-Ki	So-Ki		precisionEngineering	0.46	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Ta-Se	Ta-Se		precisionEngineering	0.34	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Type-97	Type-97		precisionEngineering	0.22	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Type10	Type-10		precisionEngineering	0.666	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Type16	Type-16		precisionEngineering	0.39	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Type74	Type-74		precisionEngineering	0.57	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Type87	Type-87		precisionEngineering	0.225	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Type87AA	Type-87 Anti Air		precisionEngineering	0.57	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Type90	Type-90		precisionEngineering	0.753	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_DShk	DShk 1938		precisionEngineering	0.08	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_DShkLG	DShk 1938 Long		precisionEngineering	0.082	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_DShkSG	DShk 1938 Short		precisionEngineering	0.082	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_DShkSSG	DShk 1938 Super Short		precisionEngineering	0.082	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_M1919	M1919 Browning		precisionEngineering	0.09	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_M1919LG	M1919 Browning Long		precisionEngineering	0.09	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_M1919SG	M1919 Browning Short		precisionEngineering	0.09	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_M1919SSG	M1919 Browning Super Short		precisionEngineering	0.09	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_M2BrowningMG	M2 Browning		precisionEngineering	0.95	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_M2BrowningLong	M2 Browning Long		precisionEngineering	0.95	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_M2BrowningShort	M2 Browning Short		precisionEngineering	0.95	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_M2BrowningSuperShort	M2 Browning Super Short		precisionEngineering	0.95	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_MG34MG	MG34		precisionEngineering	0.09	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_MG34LG	MG34 Long		precisionEngineering	0.09	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_MG34SG	MG34 Short		precisionEngineering	0.09	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FoxMG_MG34SSG	MG34 Super Short		precisionEngineering	0.09	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	7TP	7TP		precisionEngineering	0.145	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	FDCUniversalAmmoBox	FDC Universal Ammo Box	Ammo	precisionEngineering	0.01	600	BDExplosivePart,HitpointTracker
+FoxDefenseContracts	FDC380MM	FDC 380MM Rocket AmmoBox	Ammo	precisionEngineering	0.01	600	BDExplosivePart,HitpointTracker
+FoxDefenseContracts	ERA	E.R.A	Armor	composites	0.1	30	HitpointTracker
+FoxDefenseContracts	LandMine15LB	Landmine 15LB		precisionEngineering	0.068	600	BDExplosivePart,HitpointTracker
+FoxDefenseContracts	LandMine8LB	Landmine 8LB		precisionEngineering	0.036	600	BDExplosivePart,HitpointTracker
+FoxDefenseContracts	LandMine4LB	Landmine 4LB		precisionEngineering	0.018	600	BDExplosivePart,HitpointTracker
+FoxDefenseContracts	LandMine1LB	Landmine 1LB		precisionEngineering	0.005	600	BDExplosivePart,HitpointTracker
+FoxDefenseContracts	STvz39T	STvz39T		precisionEngineering	0.24	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	foxAgm119	AGM-119 Penguin Anti-Ship Missile	Missiles	precisionEngineering	0.5	2400	BDExplosivePart,MissileLauncher
+FoxDefenseContracts	HmBriefcase	HM-Briefcase	Missiles	precisionEngineering	0.075	2400	BDExplosivePart,MissileLauncher
+FoxDefenseContracts	37MMAA	37 mm automatic air defense gun M1939		precisionEngineering	0.12	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	BMP3HE	BMP-3		precisionEngineering	0.28	3425	CMDropper,HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	BT-7	BT-7		precisionEngineering	0.21	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	IS-1	IS-1		precisionEngineering	0.66	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	IS2	IS-2		precisionEngineering	0.7	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	IS7	IS-7		precisionEngineering	0.68	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	ISU-152	ISU-152		precisionEngineering	0.32	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	KV-1	KV-1 ZiS-5		precisionEngineering	0.8	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	KV-1-L11	KV-1-L11		precisionEngineering	0.7	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	KV-2He	KV-2		precisionEngineering	8	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Obj268	Object 268		precisionEngineering	0.75	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Obj906	Object 906		precisionEngineering	0.15	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Su100Y	Su100Y		precisionEngineering	0.32	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	SU-14HE	SU-14		precisionEngineering	0.239	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	SU5HE	SU-5 HE		precisionEngineering	0.15	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Su85	Su-85		precisionEngineering	0.445	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T-10	T-10/IS-8		precisionEngineering	0.75	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T-26	T-26		precisionEngineering	0.15	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T-34	T-34-85		precisionEngineering	0.46	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T-34-1940	T-34-1940		precisionEngineering	0.38	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T-34-57	T-34-57		precisionEngineering	0.37	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T-44	T-44-122		precisionEngineering	0.48	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T-54	T-54		precisionEngineering	0.54	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T-64	T-64A		precisionEngineering	0.57	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	T-90	T-90		precisionEngineering	0.698	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Zis-30	Zis-30		precisionEngineering	0.21	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Zis12	Zis-12		precisionEngineering	0.045	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Zsu37ST	ZSU-37		precisionEngineering	0.264	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Zsu37	Zsu-37-2		precisionEngineering	0.382	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Bkan	Bandkanon 1		precisionEngineering	0.80	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Elden40	Vagn Eldledning AutomatKanon 40		precisionEngineering	0.29	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Luft42	Luftvärnskanonvagn 42		precisionEngineering	0.135	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Luft9040c	Luftvärnskanonvagn 9040C		precisionEngineering	0.285	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Pvkv43	Pansarvärnskanonvagn m/43 (1946)		precisionEngineering	0.229	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Spjfm43	Stormpjas fm/43-44		precisionEngineering	0.1	3425	HitpointTracker,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Strids101	Stridsvagn 101		precisionEngineering	0.39	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Strids42Delat	Stridsvagn m/42 Delat Torn		precisionEngineering	0.39	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Strids74	Stridsvagn 74		precisionEngineering	0.39	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+FoxDefenseContracts	Stridsvagn122B	Stridsvagn 122		precisionEngineering	0.625	3425	HitpointTracker,ModuleRadar,ModuleTurret,ModuleWeapon
+BilikermanIndustry	8mmMGComtainer	8MM弹药箱		advExploration	0.15	600	
+BilikermanIndustry	bomb2	大满贯燃料	Warheads	none	4.2	10000	BDExplosivePart
+BilikermanIndustry	CargoContainer	高级贮存柜		advExploration	0.05	600	
+BilikermanIndustry	MG88	8号 8mm 重机枪 1形	Guns	precisionEngineering	0.03	200	ModuleWeapon
+BilikermanIndustry	bomb1	小罐头炸弹	Warheads	none	0.15	100	BDExplosivePart
