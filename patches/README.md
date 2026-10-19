@@ -23,7 +23,7 @@
 | `ZZZ_USI_CN` | MM 配置 | Konstruction / USI-LS / Akita 简体中文 | USI 系列 | **随 USI 删除** |
 | `ZZZ_KONSTRUCTION_INDEPENDENCE` | MM 配置 | 给 Konstruction KS-500 船坞增加本地资源缓冲与合成 | Konstruction | **随 USI 删除** |
 | `WormholeRelay` | Harmony 插件 + 源码 | 让 Kcalbeloh 虫洞两端的中继卫星连通 CommNet | Kcalbeloh、Harmony | **随 Kcalbeloh 删除** |
-| `ZZZ_BDA_CN` | 本地化 cfg + Harmony 插件 | 补 186 个 UI 键、VABOrganizer 子分类和 BDA 顶部分类按钮的中文 | BDArmory Plus、Harmony | **保留** |
+| `ZZZ_BDA_CN` | 本地化 cfg + Harmony 插件 | 补 UI 键、VABOrganizer 子分类、BDA 分类按钮、硬编码部件文本与武器/导弹信息 | BDArmory Plus、Harmony | **保留** |
 | `ZZZ_FAR_CN` | 本地化 cfg | 修正 FAR 自带 zh-cn 中残留的 25 个英文 UI 字符串 | FAR Continued | **保留** |
 | `optional-not-installed/ArcjetXeArPatch-2026-10-15` | MM 配置 | 电弧喷射发动机氙/氩燃料补丁；当前未安装 | Near Future Propulsion 相关部件 | 备用，未进入当前档案 |
 
