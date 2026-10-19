@@ -1,6 +1,6 @@
 # BDA+ 单机安装记录
 
-当前环境：KSP 1.12.5，154 个 GameData 顶层目录，164 个 CKAN 模块，8.96 GB。
+当前环境：KSP 1.12.5，155 个 GameData 顶层目录，165 个 CKAN 模块，8.97 GB。
 
 **多人联机已取消。** LMP 客户端已移除，服务端移到
 `C:\Users\STARM\Documents\KSP-BDA-Work\_disabled_multiplayer\`；
@@ -32,7 +32,7 @@ BDA+ 依赖 `ModuleManager` 和 `PhysicsRangeExtender`；标准单机版不再�
 
 FAR 自带 `zh-cn`，残留的 25 个英文 UI 字符串也已补译。
 
-ModuleManager 最近一次完整启动：**32191 个补丁、0 错误、1 个 TURD 换色警告**；
+ModuleManager 最近一次完整启动：**33440 个补丁、0 错误、1 个 TURD 换色警告**；
 `BDA_CN_Info` 成功替换 23 个武器/导弹信息方法。
 
 ## 已安装的 BDA 部件包
@@ -64,6 +64,16 @@ BDA+ 共存；已改用 `NorthKerbinDynamicsRenewedExtended`。
 已知非致命日志：Aviator Arsenal、NKDR 与 Near Future Aeronautics 的少量旧
 PartModule（`BDACategoryModule`、`BDALookConstraintUp`、`AnimatedIntake`）
 在 BDA+ 1.13 中不存在，部件仍会加载；这些是旧包残留，不影响新装的三个部件包。
+
+## 军事合同包
+
+已安装 **KomUniMun Contractual Warfare 1.0.0**（CKAN `KomUniMunCW`），
+位于 `GameData\ContractPacks\KUM`。它明确依赖 BDA+ 与 Contract Configurator，
+在 Kerbin、月球和轨道提供防空、对地、反舰、太空拦截与武器测试合同。
+自带 `zh-cn`，但部分对地、反舰和太空合同文本仍是英文。
+
+旧的 **Defense Combat Advisors (DCA)** 依赖 `BDArmoryContinued`，与 BDA+ 冲突，
+因此没有安装。
 
 ## 装扩展后的检查
 

@@ -2,11 +2,11 @@
 
 - 快照时间：2026-10-19
 - KSP：1.12.5（zh-cn，Steam）
-- GameData 顶层目录：**154** 个
-- CKAN 已记录模块：**164** 个
-- GameData 总体积：**8.96 GB**
-- 删除后仍存在的顶层目录：**154** 个
-- 可选项（IVA/视觉/科学等，按需保留）：约 **126 MB**
+- GameData 顶层目录：**155** 个
+- CKAN 已记录模块：**165** 个
+- GameData 总体积：**8.97 GB**
+- 删除后仍存在的顶层目录：**155** 个
+- 可选项（IVA/视觉/科学等，按需保留）：约 **111 MB**
 
 > 这是“当前安装”的盘点，不是推荐安装顺序。BDA+ 标准单机版依赖
 > ModuleManager 与 PhysicsRangeExtender；下面标为“必留”的多数是飞行、建造、
@@ -149,9 +149,10 @@
 
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
+| `ContractConfigurator` | Contract Configurator | 合同配置框架，KomUniMun 军事合同包的前置。 | v2.13.4.0 | ✅ 必留 | 18 MB |
+| `ContractPacks` | KomUniMun Contractual Warfare | BDA+ 军事合同包：在 Kerbin、月球和轨道执行防空、对地、反舰、太空拦截与武器测试合同；自带部分中文。 | 1.0.0 | ✅ 必留 | 13 MB |
 | `CommunityTechTree` | Community Tech Tree | 扩展科技树，给 Near Future 等模组提供节点。 | 1:3.4.5 | ✅ 必留 | 1.8 MB |
 | `HideEmptyTechTreeNodes` | Hide Empty Tech Tree Nodes | 隐藏没有可用部件的科技树节点。 | 1.3.2 | ✅ 必留 | <1 MB |
-| `ContractConfigurator` | Contract Configurator | 合同包框架；只有安装合同包时才需要。 | v2.13.4.0 | ◻️ 可选 | 15 MB |
 
 ### IVA 与内饰
 

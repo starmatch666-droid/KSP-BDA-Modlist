@@ -2,7 +2,7 @@
 
 **勾选 = 想删。** 勾选不会立刻删除文件；把勾好的清单发给我，或直接告诉我勾了哪些，我再按名单执行。
 
-当前共 **154** 个 GameData 顶层目录。
+当前共 **155** 个 GameData 顶层目录。
 
 
 ## 基础框架 / 前置
@@ -114,7 +114,8 @@
 ## 生涯 / 合同
 
 - [ ] **Community Tech Tree**（社区科技树）— 扩展科技树，给 Near Future 等模组提供节点。
-- [ ] **Contract Configurator**（合同配置器）— 合同包框架；只有安装合同包时才需要。
+- [ ] **Contract Configurator**（合同配置器）— 合同配置框架，KomUniMun 军事合同包的前置。
+- [ ] **KomUniMun Contractual Warfare**（军事合同包（KomUniMun））— BDA+ 军事合同包：在 Kerbin、月球和轨道执行防空、对地、反舰、太空拦截与武器测试合同；自带部分中文。
 - [ ] **Hide Empty Tech Tree Nodes**（隐藏空科技节点）— 隐藏没有可用部件的科技树节点。
 
 ## 舱内 / IVA

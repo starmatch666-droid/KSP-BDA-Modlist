@@ -1,6 +1,6 @@
 # 当前模组中英对照表
 
-共 154 个 GameData 顶层目录；按类别排序。
+共 155 个 GameData 顶层目录；按类别排序。
 
 | 英文名 | 中文名 | 作用简述 |
 |---|---|---|
@@ -90,7 +90,8 @@
 | RemoteTech Redev Antennas | RemoteTech 天线包 | RemoteTech 风格天线包，接入原版 CommNet。 |
 | SCANsat | SCANsat 测绘 | 扫描卫星、资源/地形测绘与科学数据。 |
 | Community Tech Tree | 社区科技树 | 扩展科技树，给 Near Future 等模组提供节点。 |
-| Contract Configurator | 合同配置器 | 合同包框架；只有安装合同包时才需要。 |
+| Contract Configurator | 合同配置器 | 合同配置框架，KomUniMun 军事合同包的前置。 |
+| KomUniMun Contractual Warfare | 军事合同包（KomUniMun） | BDA+ 军事合同包：在 Kerbin、月球和轨道执行防空、对地、反舰、太空拦截与武器测试合同；自带部分中文。 |
 | Hide Empty Tech Tree Nodes | 隐藏空科技节点 | 隐藏没有可用部件的科技树节点。 |
 | ASET Consolidated | ASET 座舱仪表 | 高精度 IVA 道具、航空仪表、ALCOR 座舱与 Mk1/Mk12 座舱内饰。 |
 | DE_IVAExtension | DE 座舱内饰扩展 | 给原版座舱增加更完整的高级 IVA。 |

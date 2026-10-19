@@ -4,7 +4,7 @@
     "name": "已安装-可移动",
     "abstract": "已安装在 KSP 实例 可移动 的模组列表",
     "author": "STARM",
-    "version": "2026.10.19.11.38.39",
+    "version": "2026.10.19.11.56.21",
     "ksp_version_min": "1.8",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -19,10 +19,10 @@
             "name": "BDArmoryForRunwayProject"
         },
         {
-            "name": "ASETAgency"
+            "name": "Harmony2"
         },
         {
-            "name": "Harmony2"
+            "name": "ASETAgency"
         },
         {
             "name": "ASETProps"
@@ -49,13 +49,16 @@
             "name": "VesselView"
         },
         {
-            "name": "VesselView-UI-RasterPropMonitor"
+            "name": "VesselView-UI-Toolbar"
         },
         {
             "name": "AvionicsSystems"
         },
         {
             "name": "Chatterer"
+        },
+        {
+            "name": "ContractConfigurator"
         },
         {
             "name": "FirespitterCore"
@@ -157,7 +160,7 @@
             "name": "ConformalDecals"
         },
         {
-            "name": "ContractConfigurator"
+            "name": "KomUniMunCW"
         },
         {
             "name": "CorrectCoL"
@@ -400,7 +403,7 @@
             "name": "VertikalSpeedIndicator"
         },
         {
-            "name": "VesselView-UI-Toolbar"
+            "name": "VesselView-UI-RasterPropMonitor"
         },
         {
             "name": "WaypointManager"
@@ -409,6 +412,6 @@
             "name": "ZTheme"
         }
     ],
-    "release_date": "2026-10-19T19:38:39.7920074+08:00",
+    "release_date": "2026-10-19T19:56:21.8681148+08:00",
     "kind": "metapackage"
 }

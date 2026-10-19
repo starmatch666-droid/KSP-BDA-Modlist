@@ -8,7 +8,7 @@
 000_TexturesUnlimited,Textures Unlimited,core,keep,1.6.4.30,TexturesUnlimited,20,11202656,金属度/贴图着色框架，Near Future 换色与 ReStock 外观会用到。,
 001_ToolbarControl,Toolbar Controller,core,keep,1:0.1.9.14,ToolbarController,10,129306,统一管理 Blizzy/原版工具栏按钮。,
 ASET,ASET Consolidated,iva,keep,1.0.1 等 7 个,"ALCOR, ASET-PRC, ASETAgency, ASETAvionics, ASETProps, MK12PodIVAReplacementbyASET, Mk1LanderCanIVAReplbyASET",2244,69138880,高精度 IVA 道具、航空仪表、ALCOR 座舱与 Mk1/Mk12 座舱内饰。,
-AtmosphereAutopilot,AtmosphereAutopilot,flight,keep,v1.6.1,AtmosphereAutopilot,9,264421,大气层电传飞控，喷气机/战斗机保持姿态很好用。,
+AtmosphereAutopilot,AtmosphereAutopilot,flight,keep,v1.6.1,AtmosphereAutopilot,9,264411,大气层电传飞控，喷气机/战斗机保持姿态很好用。,
 AviatorArsenal,Aviator Arsenal Continued,parts,keep,1.5.5,AviatorArsenal,281,32087117,二战风格航空机炮、炸弹、火箭与挂架部件包。,
 B9_Aerospace_ProceduralWings,B9 Procedural Wings,aircraft,keep,3:0.46.1,B9-PWings-Fork,44,3684951,程序化机翼，自由设计战斗机/轰炸机翼型。,
 B9PartSwitch,B9 Part Switch,core,keep,v2.21.0.4,B9PartSwitch,18,293603,部件模型/资源/节点切换框架，大量部件包的前置。,
@@ -29,7 +29,8 @@ CommunityResourcePack,Community Resource Pack,core,keep,v112.0.1,CommunityResour
 CommunityTechTree,Community Tech Tree,career,keep,1:3.4.5,CommunityTechTree,75,1884225,扩展科技树，给 Near Future 等模组提供节点。,
 ConfigurableContainers,Configurable Containers,engineering,keep,2.6.2.1,ConfigurableContainers,36,325113,把油箱/货舱改为可切换资源类型。,
 ConformalDecals,Conformal Decals,visual,optional,0.4.2,ConformalDecals,57,25126040,在任意曲面贴贴花/机徽。,
-ContractConfigurator,Contract Configurator,career,optional,v2.13.4.0,ContractConfigurator,874,16221897,合同包框架；只有安装合同包时才需要。,
+ContractConfigurator,Contract Configurator,career,keep,v2.13.4.0,ContractConfigurator,933,19344878,合同配置框架，KomUniMun 军事合同包的前置。,
+ContractPacks,KomUniMun Contractual Warfare,career,keep,1.0.0,KomUniMunCW,187,13218406,BDA+ 军事合同包：在 Kerbin、月球和轨道执行防空、对地、反舰、太空拦截与武器测试合同；自带部分中文。,
 CorrectCOL,CorrectCoL,flight,keep,1.6.5.5,CorrectCoL,8,50575,修正气动中心/升力中心显示，设计飞机时有用。,
 Custom,Custom（用户目录）,misc,keep,手工,,0,0,KSP 的用户自定义目录，目前只有空的 Flags 子目录。,
 CustomPreLaunchChecks,Custom Pre Launch Checks,core,keep,1.8.1.1,CustomPreLaunchChecks,3,42438,发射前检查 API，供其他模组挂接。,
@@ -73,7 +74,7 @@ KISA_FlagsAgency,KISA Flags Agency,local,keep,手工,,11,3018953,自制：KISA �
 Kopernicus,Kopernicus,core,keep,2:release-1.12.1-251,Kopernicus,46,21466568,行星模组框架；Kerbal Planet Emblems 仍需要它，行星包与 Parallax 删除后保留本体。,不再安装 Kcalbeloh/OPM/Parallax，但星球徽章依赖此框架。
 KSA,KSA IVA Upgrade,iva,keep,v1.6.7,KSAIVAUpgrade,30,357224,原版座舱的高精度 IVA 内饰升级。,
 KSCExtended,KSC Extended,station,keep,3.0.3,KSCExtended,117,751560,扩建肯尼迪航天中心，增加发射台与建筑。,
-KSPCommunityFixes,KSP Community Fixes,core,keep,1:1.41.1,KSPCommunityFixes,3126,1001111116,社区维护的大量底层 bug 修复与性能改进，必留。,
+KSPCommunityFixes,KSP Community Fixes,core,keep,1:1.41.1,KSPCommunityFixes,3128,1001250735,社区维护的大量底层 bug 修复与性能改进，必留。,
 KSPTextureLoader,KSP Texture Loader,core,keep,1.0.36,KSPTextureLoader,11,2232877,运行时纹理加载库。,
 KSPWheel,KSPWheel,core,keep,1:0.16.14.33,KSPWheel,6,233823,轮子/悬挂物理库，Kerbal Foundries 等使用。,
 LithobrakeExplorationTechnologies,Lithobrake Exploration Technologies,parts,optional,0.6.2,LithobrakeExplorationTechnologies,71,8914204,原版风格着陆腿、梯子、居住舱等探索部件。,
@@ -152,4 +153,4 @@ WaterfallRestock,Waterfall Restock,visual,keep,3.1.1,RestockWaterfallExpansion,3
 WaypointManager,Waypoint Manager,flight,keep,2.8.4.7,WaypointManager,49,196150,飞行中显示/创建自定义航点。,
 WildBlueIndustries,Kerbal Actuators（Mk-33 已删除）,core,keep,v1.9.0,KerbalActuators,49,5499941,Near Future Aeronautics 的作动器前置；Mk-33 太空飞机部件包已删除。,目录保留的是 001KerbalActuators，供 NFA 的螺旋桨/倾转发动机使用。
 ZTheme,ZTheme,visual,optional,v1.2.2,ZTheme,668,1764297,深色 UI 主题。,
-ZZZ_BDA_CN,BDA+ 中文补充,local,keep,手工,,15,137357,自制：补 BDA+ 1.13.x 官方 zh-cn 尚未覆盖的 186 个 UI 键。,
+ZZZ_BDA_CN,BDA+ 中文补充,local,keep,手工,,17,145037,自制：补 BDA+ 1.13.x 官方 zh-cn 尚未覆盖的 186 个 UI 键。,

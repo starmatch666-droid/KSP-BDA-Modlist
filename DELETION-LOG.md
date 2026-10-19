@@ -10,7 +10,7 @@
 | 释放空间 | — | **约 9.55 GB** |
 
 上表是第二轮清理结束时的快照。后续取消联机并补装全部兼容 BDA 部件包后，
-当前为 **154 个顶层目录、164 个 CKAN 模块、8.96 GB**；详见文末第四轮。
+当前为 **155 个顶层目录、165 个 CKAN 模块、8.97 GB**；详见文末第四轮。
 
 最初名单 54 个顶层目录。经过两轮调整，相对原始 222 个目录实际移除了 58 个，
 并新增了 Final Frontier 的 `STMRibbons`，当时为 165 个。`Kopernicus`、
@@ -135,10 +135,12 @@ Parallax 与三套纹理已在第二轮按要求删除。
 - `BDArmoryContinued`、`NorthKerbinDynamicRenewed` 与 BDA+ 冲突；
   `BDArmoryMultiplayer` 随联机取消；`BDAUITeamIcons` 引用旧 BDA 1.3.6.4，
   仍不安装。
+- 追加安装 `KomUniMunCW`（KomUniMun Contractual Warfare）军事合同包；
+  它明确依赖 BDA+，自带部分中文。
 - `KISA_Fixes\VABOrganizer_SubcategoryFix.cfg` 中两个部件名列表含制表符，
-  已清除；ModuleManager 最近一次完整启动为 **32191 个补丁、0 错误、1 个警告**。
+  已清除；ModuleManager 最近一次完整启动为 **33440 个补丁、0 错误、1 个警告**。
 
-当前 GameData：**154 个顶层目录、164 个 CKAN 模块、8.96 GB**。
+当前 GameData：**155 个顶层目录、165 个 CKAN 模块、8.97 GB**。
 
 ## 回滚
 

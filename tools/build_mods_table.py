@@ -38,6 +38,7 @@ NAMES = {
     "RetractableLiftingSurface": "可收放升力面",
     "CommunityTechTree": "社区科技树",
     "ContractConfigurator": "合同配置器",
+    "ContractPacks": "军事合同包（KomUniMun）",
     "CustomBarnKit": "自定义建筑套件",
     "DMagicUtilities": "DMagic 生涯工具",
     "HideEmptyTechTreeNodes": "隐藏空科技节点",
