@@ -138,7 +138,7 @@ Parallax 与三套纹理已在第二轮按要求删除。
 - 追加安装 `KomUniMunCW`（KomUniMun Contractual Warfare）军事合同包；
   它明确依赖 BDA+；自带中文残留的 99 个对地、反舰、太空与测试合同键已补全。
 - 追加 `KUM_MilitaryScience.cfg`：原包战斗合同 `science = 0`，现按
-  `原科研 + 合同资金 / 300 + 5` 给全部 60 个合同追加科研点。
+  `原科研 + 合同资金 / 150 + 10` 给全部 60 个合同追加科研点。
 - 追加 `BDA_TechTreeNodes.cfg` + `BDA_TechTree.cfg`：新建 BDA 专属支线，
   按武器/装甲/电子/平台四个方向细分 36 个节点，724 个部件全部重新归档。
 - `KISA_Fixes\VABOrganizer_SubcategoryFix.cfg` 中两个部件名列表含制表符，
