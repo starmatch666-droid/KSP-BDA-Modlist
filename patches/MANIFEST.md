@@ -83,7 +83,7 @@
 | `ZZZ_BDA_CN/Localization/UI/KerbalPowers_zh.cfg` | 14.5 KB | `bacc756d6219e2f3` |
 | `ZZZ_BDA_CN/Localization/UI/KomUniMun_zh.cfg` | 10.6 KB | `326546e8fe3dadd6` |
 | `ZZZ_BDA_CN/Localization/UI/zh-cn-extra.cfg` | 14.4 KB | `3d9cb4287d8e3d2d` |
-| `ZZZ_BDA_CN/Patches/BDA_TechTree.cfg` | 113.2 KB | `168c5ab7aee28d2f` |
+| `ZZZ_BDA_CN/Patches/BDA_TechTree.cfg` | 113.1 KB | `b14ed274466d9f9f` |
 | `ZZZ_BDA_CN/Patches/BDA_TechTreeNodes.cfg` | 18.8 KB | `b5cb8647d9464e80` |
 | `ZZZ_BDA_CN/Patches/BDModular_zh.cfg` | 785 B | `0d057cbc702aa1cd` |
 | `ZZZ_BDA_CN/Patches/Bullets_zh.cfg` | 7.1 KB | `171e1753e6af93b1` |

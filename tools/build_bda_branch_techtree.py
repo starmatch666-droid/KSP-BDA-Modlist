@@ -112,6 +112,17 @@ def resolve_node(row: dict, tier: int) -> str:
     pack = row["pack"]
     text = f"{row['name'].lower()} {clean_title(row)} {row['cat'].lower()}"
 
+    # Keep one representative part in each branch root so
+    # HideEmptyTechTreeNodes cannot hide the whole branch.
+    branch_anchors = {
+        "missileController": "bda_w_root",
+        "BD_PanelArmor": "bda_a_root",
+        "radarDataReceiver": "bda_e_root",
+        "bahaAdjustableRail": "bda_p_root",
+    }
+    if row["name"] in branch_anchors:
+        return branch_anchors[row["name"]]
+
     # Armor and armoured vehicle turrets.
     tankish = pack == "FoxDefenseContracts" or (
         pack == "BDArmoryRefurbished"

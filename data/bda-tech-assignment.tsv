@@ -2,7 +2,7 @@ Tier	Node	Pack	Name	Title	Category
 3	bda_w_cannons_ww2	BDArmory	bahaGatlingGun	#loc_BDArmory_part_20mmVulcan_title	Gun turrets
 2	bda_w_guns_light	BDArmory	bahaTurret	#loc_BDArmory_part_bahaTurret_title  //.50cal Turret	Gun turrets
 8	bda_w_laser	BDArmory	bahaABL	#loc_BDArmory_part_bahaABL_title  //USAF Airborne Laser	Laser turrets
-4	bda_p_launchers	BDArmory	bahaAdjustableRail	#loc_BDArmory_part_bahaAdjustableRail_title  //Adjustable Missile Rail	Missile turrets
+4	bda_p_root	BDArmory	bahaAdjustableRail	#loc_BDArmory_part_bahaAdjustableRail_title  //Adjustable Missile Rail	Missile turrets
 4	bda_w_missiles_cold	BDArmory	bahaAgm86B	#loc_BDArmory_part_bahaAgm86B_title  //AGM-86C Cruise Missile	Missiles
 4	bda_w_missiles_cold	BDArmory	AMRAAM_EMP	#loc_BDArmory_part_bahaEMP120_title  //AMRAAM EMP Missile	Missiles
 6	bda_w_missiles_advanced	BDArmory	bahaAim120	#loc_BDArmory_part_bahaAim120_title //AIM-120 AMRAAM Missile	Missiles
@@ -19,7 +19,7 @@ Tier	Node	Pack	Name	Title	Category
 1	bda_w_guns_light	BDArmory	bahaCannonShellBox	#loc_BDArmory_part_bahaCannonShellBox_title //Cannon Ammunition Box	Ammo
 1	bda_w_missiles_early	BDArmory	bahaRocketBox	70mm 火箭弹药箱	Ammo
 1	bda_a_plates	BDArmory	BD_PanelArmorIsoTri	#loc_BDArmory_part_TriIsoPanel_title //BD Armor Panel Oblique Triangle	Armor
-1	bda_a_plates	BDArmory	BD_PanelArmor	#loc_BDArmory_part_Panel_title //BD Armor Panel	Armor
+1	bda_a_root	BDArmory	BD_PanelArmor	#loc_BDArmory_part_Panel_title //BD Armor Panel	Armor
 1	bda_a_plates	BDArmory	BD_PanelArmorTri	#loc_BDArmory_part_TriPanel_title //BD Armor Panel Right Triangle	Armor
 6	bda_e_aesa	BDArmory	awacsRadar	#loc_BDArmory_part_awacsRadar_title  //AWACS Detection Radar	Radars
 4	bda_e_targeting	BDArmory	bdammGuidanceModule	#loc_BDArmory_part_bdammGuidanceModule_title  //Modular Missile Guidance (EXPERIMENTAL)	Control
@@ -63,7 +63,7 @@ Tier	Node	Pack	Name	Title	Category
 4	bda_w_autocannons	BDArmory	bahaOMillennium	#loc_BDArmory_part_bahaOMillennium_title //Oerlikon Millennium Cannon	Gun turrets
 6	bda_w_missiles_advanced	BDArmory	bahaPac-3	#loc_BDArmory_part_bahaPac-3_title //MIM-104F PATRIOT PAC-3	Missiles
 6	bda_p_launchers	BDArmory	patriotLauncherTurret	#loc_BDArmory_part_patriotLauncherTurret_title //Patriot Launcher Turret	Missile turrets
-4	bda_e_radar_basic	BDArmory	radarDataReceiver	#loc_BDArmory_part_radarDataReceiver_title //Radar Data Receiver	Radars
+4	bda_e_root	BDArmory	radarDataReceiver	#loc_BDArmory_part_radarDataReceiver_title //Radar Data Receiver	Radars
 4	bda_e_radar_basic	BDArmory	bdRadome1	#loc_BDArmory_part_bdRadome1_title //AN/APG-63V2 Radome	Radars
 4	bda_e_radar_basic	BDArmory	bdRadome1GA	#loc_BDArmory_part_bdRadome1_ground_title //APG-77v1 air-to-ground Radar	Radars
 4	bda_e_radar_basic	BDArmory	bdRadome1inline	#loc_BDArmory_part_bdRadome1inline_title //AN/APG-63V2 Inline Radome	Radars
@@ -86,7 +86,7 @@ Tier	Node	Pack	Name	Title	Category
 4	bda_e_targeting	BDArmory	bahaCamPod	#loc_BDArmory_part_bahaCamPod_title //AN/AAQ-28 Targeting Pod	Targeting
 4	bda_p_launchers	BDArmory	towLauncherTurret	#loc_BDArmory_part_towLauncherTurret_title //Tow Launcher	Missile turrets
 4	bda_w_missiles_cold	BDArmory	bahaTowMissile	#loc_BDArmory_part_bahaTowMissile_title //BGM-71 Tow Missile	Missiles
-2	bda_e_targeting	BDArmory	missileController	#loc_BDArmory_part_missileController_title //Weapon Manager	Control
+2	bda_w_root	BDArmory	missileController	#loc_BDArmory_part_missileController_title //Weapon Manager	Control
 5	bda_w_autocannons	BDArmoryExtended	baha100mmTurret	#loc_BDArmory_part_baha100mmTurret_title //100mm Heavy Turret	Gun turrets
 5	bda_w_autocannons	BDArmoryExtended	baha130mmTurret	#loc_BDArmory_part_baha130mmTurret_title //130mm Heavy Turret	Gun turrets
 4	bda_w_autocannons	BDArmoryExtended	baha76mmTurret	#loc_BDArmory_part_baha76mmTurret_title //76mm Turret	Gun turrets
