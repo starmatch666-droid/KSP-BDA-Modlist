@@ -2,10 +2,10 @@
 
 - 快照时间：2026-10-19
 - KSP：1.12.5（zh-cn，Steam）
-- GameData 顶层目录：**168** 个
+- GameData 顶层目录：**169** 个
 - CKAN 已记录模块：**187** 个
 - GameData 总体积：**7.22 GB**
-- 删除后仍存在的顶层目录：**168** 个
+- 删除后仍存在的顶层目录：**169** 个
 - 可选项（IVA/视觉/科学等，按需保留）：约 **314 MB**
 
 > 这是“当前安装”的盘点，不是推荐安装顺序。BDA+ LMP 版依赖
@@ -259,6 +259,7 @@
 | `ResupplyNetwork` | Resupply Network | 自制：付费定时补给任意飞船资源。 | 手工 | ✅ 必留 | <1 MB |
 | `KISA_Fixes` | KISA Fixes | 自制：生涯存档用的杂项修复（USI 资源、CapCom、VAB 分类、Endurance 移除等）。 | 手工 | ✅ 必留 | <1 MB |
 | `RealChute_CN` | RealChute 中文补丁 | 自制：RealChute 界面与预设的简体中文 Harmony 插件。 | 手工 | ✅ 必留 | <1 MB |
+| `ZZZ_BDA_CN` | BDA+ 中文补充 | 自制：补 BDA+ 1.13.x 官方 zh-cn 尚未覆盖的 186 个 UI 键。 | 手工 | ✅ 必留 | <1 MB |
 | `DSH_Plugins` | Engine Thrust Reverser | 自制插件：为喷气发动机提供反推/换向控制。 | 手工 | ✅ 必留 | <1 MB |
 
 ### 原版与官方 DLC

@@ -167,3 +167,4 @@ WindTunnel,Wind Tunnel,flight,keep,2.1.1.1,WindTunnel,50,9070727,在编辑器查
 XenonHallThrusters,Xenon Hall Thrusters,propulsion,keep,1.3.6,NearFuturePropulsion-XenonHETs,2,18270,Near Future Propulsion 的氙霍尔推进器。,
 zFinal_FilterExtensions,Filter Extensions - RemoteTech Patch,engineering,keep,3.2.9.1,FilterExtensionsDefaultConfig,5,41710,补 RemoteTech 天线分类与缺失模块。,
 ZTheme,ZTheme,visual,optional,v1.2.2,ZTheme,668,1764297,深色 UI 主题。,
+ZZZ_BDA_CN,BDA+ 中文补充,local,keep,手工,,2,14436,自制：补 BDA+ 1.13.x 官方 zh-cn 尚未覆盖的 186 个 UI 键。,

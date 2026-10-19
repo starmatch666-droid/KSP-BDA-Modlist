@@ -1,0 +1,260 @@
+#!/usr/bin/env python3
+"""Generate a Simplified Chinese supplement for BDArmory Plus UI strings.
+
+BDA+ ships a zh-cn UI dictionary, but the 1.13.x UI added ~180 keys that were
+never translated.  This script writes a separate Localization file so the
+upstream BDArmory installation stays untouched.
+"""
+
+from __future__ import annotations
+
+import re
+from pathlib import Path
+
+
+KSP = Path(r"C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program")
+UI = KSP / "GameData" / "BDArmory" / "Localization" / "UI"
+OUT = KSP / "GameData" / "ZZZ_BDA_CN" / "Localization" / "UI" / "zh-cn-extra.cfg"
+
+
+T = {
+    # Settings / general
+    "LOC_BDArmory_WMWindow_targetUncontrolled": "攻击不受控目标",
+    "LOC_BDArmory_WMWindow_HMD": "头盔瞄准具",
+    "LOC_BDArmory_Settings_UIScaleFollowsStock": "跟随原版界面缩放",
+    "LOC_BDArmory_Settings_InfiniteCountermeasures": "无限反制措施",
+    "LOC_BDArmory_Settings_DebugHP": "生命值",
+    "LOC_BDArmory_Settings_DebugAPS": "近防系统",
+    "LOC_BDArmory_Settings_DebugMarker": "日志标记",
+    "LOC_BDArmory_Settings_CompChecks": "使用 AI/WM 覆盖",
+    "LOC_BDArmory_Settings_DisableGuardModeOnSpawn": "生成时禁用警戒模式",
+    "LOC_BDArmory_Settings_RetreatIfOrbiting": "允许在轨撤退",
+    "LOC_BDArmory_Settings_WeaponsRespectCrossfeed": "武器尊重燃料交叉供给",
+    "LOC_BDArmory_Settings_HEATExplosiveDamageMultiplier": "破甲弹破片伤害倍率",
+    "LOC_BDArmory_Settings_ExplosionImpulseMultiplier": "爆炸冲量倍率",
+    "LOC_BDArmory_Settings_Max_Armor_Limit": "最大装甲上限",
+    "LOC_BDArmory_Settings_AimingVisualMalus": "目视瞄准惩罚",
+    "LOC_BDArmory_Settings_BD_Proc_Pen": "程序化最小穿深",
+    "LOC_BDArmory_Settings_IgnoreTerrainCheck": "探测忽略地形",
+    "LOC_BDArmory_Settings_CheckWaterTerrain": "探测检查水面",
+    "LOC_BDArmory_Settings_RadarNotching": "雷达陷波",
+    "LOC_BDArmory_Settings_Notching_Factor": "陷波有效性系数",
+    "LOC_BDArmory_Settings_Notching_SCR_Factor": "陷波信杂比系数",
+    "LOC_BDArmory_InputSettings_TemporarilyShowMouse": "临时显示鼠标",
+    "LOC_BDArmory_MissileCMRange": "反制措施范围",
+    "LOC_BDArmory_MissileCMInterval": "反制措施间隔",
+    "LOC_BDArmory_Settings_ClearDebrisAlways": "始终清理残骸",
+    "LOC_BDArmory_Settings_ClearDebrisDuringCompetitions": "比赛期间清理残骸",
+    "LOC_BDArmory_Settings_KerbalSuitType": "坎巴拉宇航服类型",
+    "LOC_BDArmory_Settings_KerbalSuitTypeOverride": "宇航服类型覆盖",
+    "LOC_BDArmory_Settings_CustomSpawnTemplate_SaveCraftToTemplate": "保存飞行器 URL",
+    "LOC_BDArmory_Settings_TournamentTimeWarpDaylight": "白天",
+    "LOC_BDArmory_VesselMover_DeconflictVesselName": "重命名冲突载具",
+    # Craft browser
+    "LOC_BDArmory_CraftBrowser_GenerateMissingThumbnails": "生成缺失缩略图",
+    "LOC_BDArmory_CraftBrowser_GenerateMissingThumbnailsRecurse": "包含子文件夹",
+    "LOC_BDArmory_CraftBrowser_GenerateMissingThumbnailsGeneratingFor": "正在生成缩略图：",
+    "LOC_BDArmory_CraftBrowser_GenerateMissingThumbnailsGeneratingForCraftIn": "正在为以下文件夹中的飞行器生成缩略图：",
+    "LOC_BDArmory_CraftBrowser_GenerateMissingThumbnailsFinished": "缩略图生成完成。",
+    "LOC_BDArmory_CraftBrowser_GenerateMissingThumbnailsFailure": "无法生成缩略图：",
+    # Scores / wing commander
+    "LOC_BDArmory_BDAScores_Unlimited": "无限",
+    "LOC_BDArmory_BDAScores_Score": "分数",
+    "LOC_BDArmory_BDAScores_Lives": "生命",
+    "LOC_BDArmory_ProtoStageIconInfo_CMsOut": "反制措施耗尽",
+    "LOC_BDArmory_WingCommander_ToggleGUI": "开关界面",
+    "LOC_BDArmory_WingCommander_SelectNone": "全不选",
+    "LOC_BDArmory_WingCommander_FormationSpread": "编队间距",
+    "LOC_BDArmory_WingCommander_FormationLag": "编队滞后",
+    "LOC_BDArmory_WingCommander_FormationWindow": "编队窗口",
+    # Missile / targeting / WM
+    "LOC_BDArmory_MissileIFF": "导引头敌我识别",
+    "LOC_BDArmory_MissileIFF_enabledText": "敌我识别已启用",
+    "LOC_BDArmory_MissileIFF_disabledText": "敌我识别已禁用",
+    "LOC_BDArmory_TargetPriority_Uncontrolled": "攻击不受控目标",
+    "LOC_BDArmory_WM_IsPrimaryWM": "设为主武器管理器",
+    "LOC_BDArmory_UnderAttackAG": "受攻击动作组",
+    # AI labels
+    "LOC_BDArmory_AI_SteerMaxError": "最大转向误差",
+    "LOC_BDArmory_AI_3AxisSteerDamping": "三轴转向阻尼",
+    "LOC_BDArmory_AI_SteerDampingPitch": "俯仰转向阻尼 (Dp)",
+    "LOC_BDArmory_AI_SteerDampingYaw": "偏航转向阻尼 (Dy)",
+    "LOC_BDArmory_AI_SteerDampingRoll": "滚转转向阻尼 (Dr)",
+    "LOC_BDArmory_AI_3AxisPID": "完整三轴 PID",
+    "LOC_BDArmory_AI_3AxisPIDPitchMult": "俯仰力度 (Pp)",
+    "LOC_BDArmory_AI_3AxisPIDPitchKi": "俯仰修正 (Ip)",
+    "LOC_BDArmory_AI_3AxisPIDPitchDamping": "俯仰阻尼 (Dp)",
+    "LOC_BDArmory_AI_3AxisPIDYawMult": "偏航力度 (Py)",
+    "LOC_BDArmory_AI_3AxisPIDYawKi": "偏航修正 (Iy)",
+    "LOC_BDArmory_AI_3AxisPIDYawDamping": "偏航阻尼 (Dy)",
+    "LOC_BDArmory_AI_3AxisPIDRollMult": "滚转力度 (Pr)",
+    "LOC_BDArmory_AI_3AxisPIDRollKi": "滚转修正 (Ir)",
+    "LOC_BDArmory_AI_3AxisPIDRollDamping": "滚转阻尼 (Dr)",
+    "LOC_BDArmory_AI_Bombing": "轰炸",
+    "LOC_BDArmory_AI_DiveBombing": "启用俯冲轰炸",
+    "LOC_BDArmory_AI_BombingAltitude": "轰炸高度",
+    "LOC_BDArmory_AI_DiveBombingAngle": "俯冲轰炸角度",
+    "LOC_BDArmory_AI_DiveBombingOvershootPID": "俯冲过冲 PID",
+    "LOC_BDArmory_AI_BombingLateralPID": "横向轰炸 PID",
+    "LOC_BDArmory_AI_BombingExtendDistance": "轰炸延伸距离",
+    "LOC_BDArmory_AI_ExtendMinGainRate": "延伸最小增益率",
+    "LOC_BDArmory_AI_EvasionMissileEmergencyNotch": "导弹紧急陷波速度",
+    "LOC_BDArmory_AI_RetreatDistance": "撤退距离",
+    "LOC_BDArmory_AI_ForceFiringRange": "零油门开火距离",
+    # AI window labels
+    "LOC_BDArmory_AIWindow_Bombing": "轰炸",
+    "LOC_BDArmory_AIWindow_SteerDampingPitch": "俯仰转向阻尼 (Dp)",
+    "LOC_BDArmory_AIWindow_SteerDampingYaw": "偏航转向阻尼 (Dy)",
+    "LOC_BDArmory_AIWindow_SteerDampingRoll": "滚转转向阻尼 (Dr)",
+    "LOC_BDArmory_AIWindow_SteerMaxError": "最大误差",
+    "LOC_BDArmory_AIWindow_SteerMaxError_ContextLow": "← 慢速简单调参",
+    "LOC_BDArmory_AIWindow_SteerMaxError_ContextHigh": "快速困难调参 →",
+    "LOC_BDArmory_AIWindow_3AxisPIDPitchMult": "俯仰力度 (Pp)",
+    "LOC_BDArmory_AIWindow_3AxisPIDPitchKi": "俯仰修正 (Ip)",
+    "LOC_BDArmory_AIWindow_3AxisPIDPitchDamping": "俯仰阻尼 (Dp)",
+    "LOC_BDArmory_AIWindow_3AxisPIDYawMult": "偏航力度 (Py)",
+    "LOC_BDArmory_AIWindow_3AxisPIDYawKi": "偏航修正 (Iy)",
+    "LOC_BDArmory_AIWindow_3AxisPIDYawDamping": "偏航阻尼 (Dy)",
+    "LOC_BDArmory_AIWindow_3AxisPIDRollMult": "滚转力度 (Pr)",
+    "LOC_BDArmory_AIWindow_3AxisPIDRollKi": "滚转修正 (Ir)",
+    "LOC_BDArmory_AIWindow_3AxisPIDRollDamping": "滚转阻尼 (Dr)",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_P": "P",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_I": "I",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_D": "D",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_DPitch": "Dp",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_DYaw": "Dy",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_DRoll": "Dr",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_D_OffTarget": "DOff",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_D_OnTarget": "DOn",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_D_Factor": "DF",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_DPitch_OffTarget": "DpOff",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_DPitch_OnTarget": "DpOn",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_DPitch_Factor": "DpF",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_DYaw_OffTarget": "DyOff",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_DYaw_OnTarget": "DyOn",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_DYaw_Factor": "DyF",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_DRoll_OffTarget": "DrOff",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_DRoll_OnTarget": "DrOn",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_DRoll_Factor": "DrF",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_Pp": "Pp",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_Ip": "Ip",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_Dp": "Dp",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_Py": "Py",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_Iy": "Iy",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_Dy": "Dy",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_Pr": "Pr",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_Ir": "Ir",
+    "LOC_BDArmory_AIWindow_PIDAutoTuningFixed_Dr": "Dr",
+    "LOC_BDArmory_AIWindow_DiveBomb": "俯冲轰炸",
+    "LOC_BDArmory_AIWindow_BombingAltitude": "轰炸高度",
+    "LOC_BDArmory_AIWindow_BombingAltitude_Context": "AI 尝试从该高度轰炸目标",
+    "LOC_BDArmory_AIWindow_DiveBombingAngle": "俯冲轰炸角度",
+    "LOC_BDArmory_AIWindow_DiveBombingAngle_Context": "AI 尝试以该角度俯冲轰炸",
+    "LOC_BDArmory_AIWindow_DiveBombingOvershootPID": "俯冲过冲 PID",
+    "LOC_BDArmory_AIWindow_BombingLateralPID": "横向轰炸 PID",
+    "LOC_BDArmory_AIWindow_BombingExtendDistance": "延伸距离",
+    "LOC_BDArmory_AIWindow_BombingExtendDistance_Context": "轰炸延伸距离（根据投弹时间调整）",
+    "LOC_BDArmory_AIWindow_EvasionMissileEmergencyNotch": "导弹紧急陷波速度",
+    "LOC_BDArmory_AIWindow_EvasionMissileEmergencyNotch_Context": "AI 执行紧急陷波前的最大距离变化率。",
+    "LOC_BDArmory_AIWindow_RetreatDistance": "撤退距离",
+    "LOC_BDArmory_AIWindow_RetreatDistance_Context": "在轨受攻击时反复撤退的距离",
+    "LOC_BDArmory_AIWindow_ExtendMinGainRate": "最小增益率",
+    "LOC_BDArmory_AIWindow_ExtendMinGainRate_Context": "中止计时器所需的最小距离增长率。",
+    "LOC_BDArmory_AIWindow_ForceFiringRange_Context": "在此范围内 AI 始终零油门开火",
+    "LOC_BDArmory_AIWindow_EngineRCSRotation_Context": "使用垂直于推力轴的发动机进行 RCS 旋转",
+    "LOC_BDArmory_AIWindow_EngineRCSTranslation_Context": "使用垂直于推力轴的发动机进行 RCS 平移",
+    "LOC_BDArmory_AIWindow_infolink_Pilot_BombingHelp_divebombing": "俯冲轰炸 - 在水平轰炸与俯冲轰炸模式之间切换。",
+    "LOC_BDArmory_AIWindow_infolink_Pilot_BombingHelp_alt": "轰炸高度 - AI 在对地面目标进行轰炸时，会尝试在目标上方保持该高度的水平飞行。鱼雷使用固定 200 米高度。对空中目标时，使用炸弹爆炸半径的两倍。",
+    "LOC_BDArmory_AIWindow_infolink_Pilot_BombingHelp_divebombing_alt": "轰炸高度 - AI 会先爬升到目标上方该高度，再向预测位置俯冲。",
+    "LOC_BDArmory_AIWindow_infolink_Pilot_BombingHelp_divebombing_angle": "俯冲轰炸角度 - AI 会尝试以该角度向目标预测位置俯冲。",
+    "LOC_BDArmory_AIWindow_infolink_Pilot_BombingHelp_PID": "轰炸 PID - 用于动态调整轰炸目标时飞往位置的 PID。",
+    "LOC_BDArmory_AIWindow_infolink_Pilot_BombingHelp_Extend": "延伸距离 - 除投弹所需计算距离外，AI 针对不同类型目标额外延伸的距离。",
+    "LOC_BDArmory_AIWindow_infolink_Pilot_EvadeHelp_AvoidMass": "质量规避设置障碍物为避免碰撞而不是撞击所需的最低质量。",
+    "LOC_BDArmory_AIWindow_infolink_Pilot_EvadeHelp_RetreatDistance": "撤退距离是在轨飞行器受攻击时从当前位置撤退的距离；之后会在该点周围开始 2 公里轨道。",
+    # Missile / turret / ammo
+    "LOC_BDArmory_CruisePopup": "巡航弹出攻击",
+    "LOC_BDArmory_KappaAngle": "Kappa 成形角",
+    "LOC_BDArmory_useSymCounterpart": "对称开火",
+    "LOC_BDArmory_Deploy_Time": "展开时间",
+    "LOC_BDArmory_HMD_On": "增加头盔瞄准具",
+    "LOC_BDArmory_HMD_Off": "移除头盔瞄准具",
+    "LOC_BDArmory_YawStandbyAngle": "偏航待机角",
+    "LOC_BDArmory_AimOverrideFalse": "用此武器瞄准",
+    "LOC_BDArmory_AimOverrideTrue": "恢复默认瞄准",
+    "LOC_BDArmory_TurretID": "自定义炮塔 ID",
+    "LOC_BDArmory_TurretLoft": "高抛瞄准点",
+    "LOC_BDArmory_TurretLoftFac": "高抛速度系数",
+    "LOC_BDArmory_Allies": "友军",
+    "LOC_BDArmory_weaponChannel": "武器频道",
+    "LOC_BDArmory_AmmoCapacity": "弹药容量",
+    "LOC_BDArmory_AmmoMass": "满载弹药质量",
+    "LOC_BDArmory_Icon_StoreTeamColors": "保存队伍颜色",
+    # Armor tool
+    "LOC_BDArmory_checkVessel": "检查飞行器合法性",
+    "LOC_BDArmory_ArmorToolPartCount": "部件数量超限！",
+    "LOC_BDArmory_ArmorToolEngineCount": "发动机过多：",
+    "LOC_BDArmory_ArmorToolEngineCountFloor": "发动机过少：",
+    "LOC_BDArmory_ArmorToolTWR": "推重比超限：",
+    "LOC_BDArmory_ArmorToolLTW": "升重比超限：",
+    "LOC_BDArmory_ArmorToolMaxMass": "质量超限：",
+    "LOC_BDArmory_ArmorToolMaxPoints": "点数超限：",
+    "LOC_BDArmory_ArmorToolIllegalParts": "非法部件：",
+    "LOC_BDArmory_ArmorToolNonCockpit": "未连接到驾驶舱",
+    "LOC_BDArmory_ArmorToolOversizedPWings": "程序化机翼超过最大升力 - 检查升力视图",
+    "LOC_BDArmory_ArmorToolVesselLegal": "飞行器合法！",
+    "LOC_BDArmory_ArmorNone": "无装甲",
+    "LOC_BDArmory_ArmorSteel": "RHA 钢",
+    "LOC_BDArmory_ArmorTitanium": "β 钛",
+    "LOC_BDArmory_ArmorBeryllium": "铍",
+    "LOC_BDArmory_ArmorAramid": "芳纶纤维",
+    "LOC_BDArmory_ArmorFiberglass": "S-玻璃复合材料",
+    "LOC_BDArmory_ArmorConcrete": "钢筋混凝土",
+    "LOC_BDArmory_ArmorSiCarbide": "碳化硅",
+    "LOC_BDArmory_ArmorDU": "贫铀",
+    "LOC_BDArmory_ArmorRAM": "雷达吸波涂层",
+}
+
+
+def parse(path: Path) -> dict[str, str]:
+    result: dict[str, str] = {}
+    for line in path.read_text(encoding="utf-8-sig").splitlines():
+        text = line.strip()
+        if text.startswith("//") or not text:
+            continue
+        match = re.match(r"#([A-Za-z0-9_]+)\s*=\s*(.*)$", text)
+        if match:
+            result[match.group(1)] = match.group(2)
+    return result
+
+
+def main() -> None:
+    en = parse(UI / "en-us.cfg")
+    zh = parse(UI / "zh-cn.cfg")
+    missing = [key for key in en if key not in zh]
+    untranslated = [key for key in missing if key not in T]
+    if untranslated:
+        print("Missing translations for:")
+        for key in untranslated:
+            print(" ", key)
+        raise SystemExit(1)
+
+    lines = [
+        "// BDArmory Plus 简体中文补充词条",
+        "// 只包含 BDA+ 1.13.x 新增、官方 zh-cn 尚未覆盖的 UI 键。",
+        "// 安装：整个 ZZZ_BDA_CN 放进 GameData。",
+        "",
+        "Localization",
+        "{",
+        "    zh-cn",
+        "    {",
+    ]
+    for key in missing:
+        lines.append(f"        #{key} = {T[key]}")
+    lines.extend(["    }", "}", ""])
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text("\n".join(lines), encoding="utf-8")
+    print(f"Wrote {OUT} ({len(missing)} keys)")
+
+
+if __name__ == "__main__":
+    main()

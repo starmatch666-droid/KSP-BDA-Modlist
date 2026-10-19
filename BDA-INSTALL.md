@@ -1,6 +1,6 @@
 # BDA+ 与多人联机安装记录
 
-当前环境：KSP 1.12.5，168 个 GameData 顶层目录，187 个 CKAN 模块。
+当前环境：KSP 1.12.5，169 个 GameData 顶层目录，187 个 CKAN 模块。
 BDA 与联机部分**已经安装**。
 
 ## 为什么不是直接装 CKAN 的 BDArmoryForRunwayProject
@@ -29,6 +29,15 @@ CKAN 里的 `BDArmoryForRunwayProject` 就是 BDArmory Plus（BDA+），版本
 
 `BDArmory` 的 DLL 里可以看到 `LmpClient`、`LmpCommon`、`LunaMultiplayerSystem`
 等引用，确认是联机分支而不是普通 BDA+。
+
+## 中文
+
+BDA+ 自带 `localization-zh-cn.cfg` 和 `Localization/UI/zh-cn.cfg`，部件名/描述
+以及大部分窗口已经是中文。1.13.x 新增的 AI 设置、轰炸、装甲工具等 186 个 UI 键
+官方没有翻译，已由 `GameData\ZZZ_BDA_CN` 补齐。
+
+如果仍有英文，通常是 BDA 的 DLL 里硬编码的字符串，cfg 词条覆盖不到；那种需要改
+源码重编译。
 
 ## 启动顺序
 
