@@ -1,6 +1,6 @@
 # 补丁文件清单与校验和
 
-共 96 个文件。SHA256 以 `patches/SHA256SUMS.txt` 为准。
+共 98 个文件。SHA256 以 `patches/SHA256SUMS.txt` 为准。
 
 | 文件 | 大小 | SHA256（前 16 位） |
 |---|---:|---|
@@ -60,7 +60,7 @@
 | `optional-not-installed/ArcjetXeArPatch-2026-10-15/ArcjetXeArPatch.cfg` | 5.4 KB | `1b46b5b0e3ea08f3` |
 | `optional-not-installed/ArcjetXeArPatch-2026-10-15/Localization/en-us.cfg` | 1.4 KB | `8954e5a17f4f6b93` |
 | `optional-not-installed/ArcjetXeArPatch-2026-10-15/Localization/zh-cn.cfg` | 1.3 KB | `185b14be6474b2bb` |
-| `README.md` | 3.6 KB | `a543b150a555c1f7` |
+| `README.md` | 3.7 KB | `63152c4d9f949e64` |
 | `RealChute_CN/RealChute_CN.dll` | 26.0 KB | `b65638174ff9f84d` |
 | `RealChute_CN/Source/build.cmd` | 965 B | `027e1714de66de48` |
 | `RealChute_CN/Source/RealChute_CN.cs` | 26.3 KB | `ecf8fa925afb5e32` |
@@ -82,6 +82,8 @@
 | `ZZZ_BDA_CN/Plugins/BDA_CN_Categories.cs` | 2.6 KB | `fe6c644b5285ec46` |
 | `ZZZ_BDA_CN/Plugins/BDA_CN_Categories.dll` | 6.0 KB | `6d8f05b99c6d064e` |
 | `ZZZ_BDA_CN/README.md` | 990 B | `f922af15116653ca` |
+| `ZZZ_FAR_CN/Localization_zh-cn.cfg` | 16.6 KB | `1b3c3ef593dece40` |
+| `ZZZ_FAR_CN/README.md` | 691 B | `189ddde461fd7eee` |
 | `ZZZ_GC_CN/Localization/GroundConstruction_en-us.cfg` | 2.8 KB | `d78ce6ce70a65bb8` |
 | `ZZZ_GC_CN/Localization/GroundConstruction_zh-cn.cfg` | 2.4 KB | `22220afbbe945afa` |
 | `ZZZ_GC_CN/Patches/GroundConstruction_Localization.cfg` | 1.7 KB | `cc61260cbefeb740` |

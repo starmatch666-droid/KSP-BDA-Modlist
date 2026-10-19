@@ -2,11 +2,11 @@
 
 - 快照时间：2026-10-19
 - KSP：1.12.5（zh-cn，Steam）
-- GameData 顶层目录：**170** 个
-- CKAN 已记录模块：**187** 个
-- GameData 总体积：**6.69 GB**
-- 删除后仍存在的顶层目录：**170** 个
-- 可选项（IVA/视觉/科学等，按需保留）：约 **314 MB**
+- GameData 顶层目录：**138** 个
+- CKAN 已记录模块：**146** 个
+- GameData 总体积：**6.21 GB**
+- 删除后仍存在的顶层目录：**138** 个
+- 可选项（IVA/视觉/科学等，按需保留）：约 **126 MB**
 
 > 这是“当前安装”的盘点，不是推荐安装顺序。BDA+ LMP 版依赖
 > ModuleManager 与 PhysicsRangeExtender；下面标为“必留”的多数是飞行、建造、
@@ -62,19 +62,15 @@
 |---|---|---|---|---|---:|
 | `MechJeb2` | MechJeb2 | 自动驾驶、轨道信息、交会/着陆辅助。 | 2.15.3.1 | ✅ 必留 | 8.7 MB |
 | `RealChute` | RealChute Parachute Systems | 更真实的降落伞物理与配置。 | v1.4.9.5 | ✅ 必留 | 5.5 MB |
-| `DockingCamKURS` | Docking Cam / KURS | KURS 风格对接相机，手动对接辅助。 | 1.3.9 | ✅ 必留 | 4.7 MB |
 | `TriggerTech` | Kerbal Alarm Clock + Transfer Window Planner | 闹钟/时间提醒与转移窗口规划。 | 1:3.14.2.7 / v1.9.1.1 | ✅ 必留 | 2.4 MB |
 | `PersistentRotation` | Persistent Rotation Upgraded | 时间加速/切换飞船时保持姿态与自转。 | 1.9.2.1 | ✅ 必留 | 1.9 MB |
-| `NavInstruments` | NavUtilities Updated | 仪表着陆系统/跑道导航仪表。 | 0.8.1.1 | ✅ 必留 | 1.8 MB |
-| `NavyFish` | Docking Port Alignment Indicator | 对接端口对齐指示器。 | 6.13.1.0 | ✅ 必留 | 1.1 MB |
-| `FerramAerospaceResearch` | Ferram Aerospace Research Continued | 真实气动模型；替代原版部件气动，处理跨声速/高超声速与气动稳定性。<br>注：与 WindTunnel 冲突，已移除 WindTunnel。 | 3:0.16.1.2 | ✅ 必留 | 1.1 MB |
+| `FerramAerospaceResearch` | Ferram Aerospace Research Continued | 真实气动模型；替代原版部件气动，处理跨声速/高超声速与气动稳定性；自带中文，残留英文已补。<br>注：与 WindTunnel 冲突，已移除 WindTunnel。 | 3:0.16.1.2 | ✅ 必留 | 1.1 MB |
 | `ThrottleControlledAvionics` | Throttle Controlled Avionics | 动态推力分配与姿态控制，垂直起降/悬停很有用。 | v3.8.0.1 | ✅ 必留 | <1 MB |
 | `EasyVesselSwitch` | Easy Vessel Switch | 在飞行中快速切换附近飞船。 | 2.3 | ✅ 必留 | <1 MB |
 | `Trajectories` | Trajectories | 考虑大气阻力/升力的再入与落点预测。 | v2.4.5.4 | ✅ 必留 | <1 MB |
 | `AtmosphereAutopilot` | AtmosphereAutopilot | 大气层电传飞控，喷气机/战斗机保持姿态很好用。 | v1.6.1 | ✅ 必留 | <1 MB |
 | `TrackingStationEvolved` | Tracking Station Evolved | 改进跟踪站飞船列表与筛选。 | 2:1.0.9.1 | ✅ 必留 | <1 MB |
 | `WaypointManager` | Waypoint Manager | 飞行中显示/创建自定义航点。 | 2.8.4.7 | ✅ 必留 | <1 MB |
-| `Astrogator` | Astrogator | 转移窗口计算与机动节点辅助。 | v1.0.2 | ✅ 必留 | <1 MB |
 | `SpeedUnitAnnex` | Speed Unit Annex | 导航球速度单位与附加读数。 | 1.6.1 | ✅ 必留 | <1 MB |
 | `BetterBurnTime` | BetterBurnTime | 点火、自杀式着陆与交会燃烧时间提示。 | 1.10 | ✅ 必留 | <1 MB |
 | `NavHud` | NavHud | 把导航球信息投射到外部 HUD。 | 1.4.0.5 | ✅ 必留 | <1 MB |
@@ -88,22 +84,12 @@
 
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
-| `KIS` | Kerbal Inventory System | 舱外库存、携带与安装部件。 | 1.29 | ✅ 必留 | 35 MB |
-| `KAS` | Kerbal Inventory System (KAS) | 绳索、抓钩、绞盘与舱外连接。 | 1.12 | ✅ 必留 | 9.4 MB |
-| `000_FilterExtensions` | Filter Extensions | 编辑器部件分类与过滤框架。 | 3.2.9.1 | ✅ 必留 | 2.7 MB |
-| `ShipManifest` | Ship Manifest | 管理飞船乘员、科学数据与资源转移。 | 6.0.8.0 | ✅ 必留 | <1 MB |
 | `DockRotate` | Dock Rotate | 对接后原地旋转飞船，无需 RCS 反复调整。 | v1.12.1.57 | ✅ 必留 | <1 MB |
 | `TweakScale` | TweakScale Rescaled | 在编辑器缩放部件尺寸。 | 3.3.2.1 | ✅ 必留 | <1 MB |
-| `QuickMods` | QuickMods（QuickExit/GoTo/Hide/IVA/Search） | 快速退出、场景跳转、隐藏工具栏、IVA 切换与搜索。 | 1:2.2.0.12 等 5 个 | ✅ 必留 | <1 MB |
 | `ConfigurableContainers` | Configurable Containers | 把油箱/货舱改为可切换资源类型。 | 2.6.2.1 | ✅ 必留 | <1 MB |
-| `JanitorsCloset` | Janitor's Closet | 在编辑器里隐藏/管理不需要的部件。 | 0.4.1.8 | ✅ 必留 | <1 MB |
-| `RCSBuildAid` | RCS Build Aid Continued | 在编辑器显示 RCS 力矩与重心偏移。 | 1:0.10.0 | ✅ 必留 | <1 MB |
 | `EditorExtensionsRedux` | Editor Extensions Redux | 编辑器对齐、对称、选根等增强。 | 3.4.7 | ✅ 必留 | <1 MB |
 | `VABOrganizer` | VAB Organizer | 按尺寸/类别整理 VAB 部件列表。 | 1.2.0 | ✅ 必留 | <1 MB |
-| `000_FilterExtensions_Configs` | Filter Extensions 默认配置 | Filter Extensions 的官方分类配置。 | 3.2.9.1 | ✅ 必留 | <1 MB |
 | `FShangarExtender` | Hangar Extender Extended | 扩大 VAB/SPH 建造空间，方便大型飞机/导弹。 | 3.6.1 | ✅ 必留 | <1 MB |
-| `zFinal_FilterExtensions` | Filter Extensions - RemoteTech Patch | 补 RemoteTech 天线分类与缺失模块。 | 3.2.9.1 | ✅ 必留 | <1 MB |
-| `MoarFilterExtensionConfigs` | Moar Filter Extension Configs | 为大量模组补充 Filter Extensions 分类。 | 1.0.5.2 | ✅ 必留 | <1 MB |
 
 ### 推进、电力与热控
 
@@ -113,8 +99,6 @@
 | `NearFutureSpacecraft` | Near Future Spacecraft | 近未来飞船指令舱、服务舱与发动机。 | 1.4.6 | ✅ 必留 | 212 MB |
 | `NearFutureSolar` | Near Future Solar | 近未来高效太阳能板。 | 1.3.3 | ✅ 必留 | 138 MB |
 | `NearFutureExploration` | Near Future Exploration | 近未来探测、着陆与深空任务部件。 | 1.1.3 | ✅ 必留 | 120 MB |
-| `CryoTanks` | Cryo Tanks | 液氢/低温推进剂储箱与零蒸发技术。 | 1.6.7 | ✅ 必留 | 109 MB |
-| `CryoEngines` | Cryogenic Engines | 液氢低温发动机，高效率上面级/深空推进。 | 1:2.0.8 | ✅ 必留 | 106 MB |
 | `NearFutureElectrical` | Near Future Electrical | 近未来反应堆、电容、电力分配。 | 2.0.1 | ✅ 必留 | 87 MB |
 | `NearFutureConstruction` | Near Future Construction | 近未来结构件、桁架与对接部件。 | 1.3.3 | ✅ 必留 | 86 MB |
 | `NearFutureAeronautics` | Near Future Aeronautics | 近未来喷气发动机、螺旋桨与航空部件，BDA 飞机主力。 | 2.1.2 | ✅ 必留 | 70 MB |
@@ -127,14 +111,12 @@
 | `SystemHeatFissionReactors` | System Heat - Fission Reactors | 核反应堆的 SystemHeat 配置。 | 0.9.1 | ✅ 必留 | <1 MB |
 | `SystemHeatConverters` | System Heat - Converters | 资源转换器的 SystemHeat 配置。 | 0.9.1 | ✅ 必留 | <1 MB |
 | `SystemHeatFissionEngines` | System Heat - Fission Engines | 核热发动机的 SystemHeat 配置。 | 0.9.1 | ✅ 必留 | <1 MB |
-| `XenonHallThrusters` | Xenon Hall Thrusters | Near Future Propulsion 的氙霍尔推进器。 | 1.3.6 | ✅ 必留 | <1 MB |
 | `SystemHeatIonEngines` | System Heat - Ion Engines | 离子发动机的散热配置。 | 0.9.1 | ✅ 必留 | <1 MB |
 | `DeployableEngines` | Deployable Engines | 可展开喷管的动画/状态管理插件。 | 1.3.1 | ✅ 必留 | <1 MB |
 | `SystemHeatHarvesters` | System Heat - Harvesters | 采集器的 SystemHeat 配置。 | 0.9.1 | ✅ 必留 | <1 MB |
-| `DecayingRTGs` | Decaying RTGs | 让 RTG 输出随时间衰减，增加长期任务规划。 | 2.0.1 | ✅ 必留 | <1 MB |
+| `KerbalAtomicsNTRsUseLF` | Kerbal Atomics - Liquid Fuel Only | 把 Kerbal Atomics 的液氢发动机改为只烧液体燃料，避免依赖 CryoTanks。 | 1.3.4 | ✅ 必留 | <1 MB |
 | `SystemHeatBoiloff` | System Heat - Cryo Tanks | 低温储箱的零蒸发/制冷配置。 | 0.9.1 | ✅ 必留 | <1 MB |
 | `OrbitalLFOEngines` | Orbital LFO Engines | Near Future Spacecraft 的轨道级 LFO 发动机。 | 1.4.6 | ✅ 必留 | <1 MB |
-| `CryoEnginesNFAero` | CryoEngines - NFAero | 把 Near Future Aeronautics 的部分发动机改为液氢。 | 2.0.8 | ✅ 必留 | <1 MB |
 
 ### 飞机与地面载具
 
@@ -159,24 +141,14 @@
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
 | `SCANsat` | SCANsat | 扫描卫星、资源/地形测绘与科学数据。 | v21.1 | ✅ 必留 | 49 MB |
-| `SpaceDust` | Space Dust | 大气/近空间资源采集与科学。 | 0.5.5 | ✅ 必留 | 27 MB |
-| `ScienceAlert` | ScienceAlert | 有可用科学实验时提醒。 | 手工 | ✅ 必留 | <1 MB |
-| `SpaceDustNext` | Space Dust Next | 扩展 SpaceDust 可采集资源。 | 4.0.0 | ✅ 必留 | <1 MB |
-| `DMagicOrbitalScience` | DMagic Orbital Science | 新增多种轨道科学实验与部件。 | 1.4.3 | ◻️ 可选 | 27 MB |
-| `TarsierSpaceTech` | Tarsier Space Technology | 太空望远镜、星系观测与科学存储。 | 1:7.13 | ◻️ 可选 | 9.7 MB |
 
 ### 生涯、合同与科技
 
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
 | `CommunityTechTree` | Community Tech Tree | 扩展科技树，给 Near Future 等模组提供节点。 | 1:3.4.5 | ✅ 必留 | 1.8 MB |
-| `ReStrategia` | ReStrategia | 重写生涯策略系统。 | 2.0.0 | ✅ 必留 | <1 MB |
 | `HideEmptyTechTreeNodes` | Hide Empty Tech Tree Nodes | 隐藏没有可用部件的科技树节点。 | 1.3.2 | ✅ 必留 | <1 MB |
-| `STMRibbons` | STM Ribbons | Final Frontier 的工程/操作/科学角色绶带资源。<br>注：随 Final Frontier 角色绶带包安装；不是独立玩法模组。 | 0.5.1 / 0.5.2.1 | ✅ 必留 | <1 MB |
-| `CustomBarnKit` | Custom Barn Kit | 调整生涯建筑升级、费用与科技限制。 | 1.1.22.0 | ✅ 必留 | <1 MB |
 | `ContractConfigurator` | Contract Configurator | 合同包框架；只有安装合同包时才需要。 | v2.13.4.0 | ◻️ 可选 | 15 MB |
-| `Nereid` | Final Frontier + 绶带包 | 乘员个人功勋系统，以及 Kcalbeloh/MPE 的行星绶带包。<br>注：保留 Final Frontier 本体，删除 Kcalbeloh/MPE 绶带。 | 1.10.0-3485 | ◻️ 可选 | 1.7 MB |
-| `DMagicUtilities` | DMagic Utilities | CapCom、合同窗口、合同/进度解析器等生涯工具。 | 2.11 等 4 个 | ◻️ 可选 | <1 MB |
 
 ### IVA 与内饰
 
@@ -207,7 +179,6 @@
 | `RocketSoundEnhancement` | Rocket Sound Enhancement | 分层发动机音效框架。 | 0.9.13 | ✅ 必留 | <1 MB |
 | `WaterfallRestock` | Waterfall Restock | ReStock 发动机的 Waterfall 配置。 | 3.1.1 | ✅ 必留 | <1 MB |
 | `LowEndVolumetricCloudsMod` | Low End Volumetric Clouds | 低配体积云插件/着色器；按用户要求恢复。<br>注：用 CKAN 1.0.3 重新安装，包含 Plugins 与 Shaders，不是旧的手工纹理目录。 | v1.0.3 | ✅ 必留 | <1 MB |
-| `Benjee10_Suits` | Benjee10 Suits | 历史宇航服与可穿戴道具，纯外观。 | v1.1.0 | ◻️ 可选 | 99 MB |
 | `Chatterer` | Chatterer | 乘员无线电闲聊、SSTV 与提示音。 | 0.9.99 / 0.6.2 | ◻️ 可选 | 45 MB |
 | `TextureReplacer` | TextureReplacer | 乘员/宇航服纹理替换。 | v4.5.3 | ◻️ 可选 | 30 MB |
 | `ConformalDecals` | Conformal Decals | 在任意曲面贴贴花/机徽。 | 0.4.2 | ◻️ 可选 | 24 MB |
@@ -217,7 +188,6 @@
 | `KerbalShipEmblems2D` | Kerbal Ship Emblems 2D | 飞船 2D 徽章/贴花。 | V1.1 | ◻️ 可选 | <1 MB |
 | `TU_NearFutureSpacecraft` | Recolor Collection - NF Spacecraft | Near Future Spacecraft 部件的 Textures Unlimited 换色。 | v1.4.1 | ◻️ 可选 | <1 MB |
 | `TU_NearFuturePropulsion` | Recolor Collection - NF Propulsion | Near Future Propulsion 部件的 Textures Unlimited 换色。 | v1.3 | ◻️ 可选 | <1 MB |
-| `CrewLight` | Crew Light | 按舱内是否有乘员自动开关灯光。 | 1:1.20.1.2 | ◻️ 可选 | <1 MB |
 | `HUDReplacer` | HUDReplacer | 替换/美化飞行 HUD 贴图。 | 1.4.2 | ◻️ 可选 | <1 MB |
 | `SoundtrackEditorForked` | Soundtrack Editor Forked | 自定义游戏背景音乐播放列表。 | 手工 | ◻️ 可选 | <1 MB |
 | `IndicatorLightsCommunityExtensions` | IndicatorLights Community Extensions | 给更多模组部件补指示灯配置。 | 1.6.2 | ◻️ 可选 | <1 MB |
@@ -242,7 +212,6 @@
 | `OSSNTR` | Omega's Stockalike Structures: No Textures Required | 原版风格机场、跑道、发射场静态建筑；KSC Extended 的配套建筑。 | 0.0.12 | ✅ 必留 | 34 MB |
 | `KerbalKonstructs` | Kerbal Konstructs | 静态建筑/发射场框架，KSC Extended 的前置。 | v1.12.3.0 | ✅ 必留 | 9.9 MB |
 | `KSCExtended` | KSC Extended | 扩建肯尼迪航天中心，增加发射台与建筑。 | 3.0.3 | ✅ 必留 | <1 MB |
-| `REPOSoftTech` | REPOSoftTech（BackgroundResources/DeepFreeze） | 后台资源处理与乘员冷冻休眠。 | 1:v0.18.0.0 等 3 个 | ◻️ 可选 | 50 MB |
 
 ### 第三方本地化
 
@@ -256,7 +225,6 @@
 |---|---|---|---|---|---:|
 | `KISA_Flags` | KISA Flags | 自制：KISA 机构任务旗与 EVE 任务特别版。 | 手工 | ✅ 必留 | 5.4 MB |
 | `KISA_FlagsAgency` | KISA Flags Agency | 自制：KISA 机构徽章与方形贴花。 | 手工 | ✅ 必留 | 2.9 MB |
-| `ResupplyNetwork` | Resupply Network | 自制：付费定时补给任意飞船资源。 | 手工 | ✅ 必留 | <1 MB |
 | `KISA_Fixes` | KISA Fixes | 自制：生涯存档用的杂项修复（USI 资源、CapCom、VAB 分类、Endurance 移除等）。 | 手工 | ✅ 必留 | <1 MB |
 | `ZZZ_BDA_CN` | BDA+ 中文补充 | 自制：补 BDA+ 1.13.x 官方 zh-cn 尚未覆盖的 186 个 UI 键。 | 手工 | ✅ 必留 | <1 MB |
 | `RealChute_CN` | RealChute 中文补丁 | 自制：RealChute 界面与预设的简体中文 Harmony 插件。 | 手工 | ✅ 必留 | <1 MB |

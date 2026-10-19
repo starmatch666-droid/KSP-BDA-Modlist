@@ -146,6 +146,7 @@ NAMES = {
     "DynamicBatteryStorage": "动态电池管理",
     "HeatControl": "热控",
     "KerbalAtomics": "坎巴拉核推进",
+    "KerbalAtomicsNTRsUseLF": "坎巴拉核推进液体燃料补丁",
     "NearFutureAeronautics": "近未来航空",
     "NearFutureConstruction": "近未来结构",
     "NearFutureElectrical": "近未来电力",
