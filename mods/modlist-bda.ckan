@@ -4,7 +4,7 @@
     "name": "已安装-自定义",
     "abstract": "已安装在 KSP 实例 自定义 的模组列表",
     "author": "STARM",
-    "version": "2026.10.19.09.04.16",
+    "version": "2026.10.19.09.07.46",
     "ksp_version_min": "1.8",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -76,7 +76,7 @@
             "name": "VesselView"
         },
         {
-            "name": "VesselView-UI-RasterPropMonitor"
+            "name": "VesselView-UI-Toolbar"
         },
         {
             "name": "AvionicsSystems"
@@ -487,7 +487,7 @@
             "name": "VertikalSpeedIndicator"
         },
         {
-            "name": "VesselView-UI-Toolbar"
+            "name": "VesselView-UI-RasterPropMonitor"
         },
         {
             "name": "WaypointManager"
@@ -496,6 +496,6 @@
             "name": "ZTheme"
         }
     ],
-    "release_date": "2026-10-19T17:04:16.9247448+08:00",
+    "release_date": "2026-10-19T17:07:46.7962507+08:00",
     "kind": "metapackage"
 }

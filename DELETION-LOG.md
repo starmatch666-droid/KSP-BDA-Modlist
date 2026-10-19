@@ -4,13 +4,15 @@
 
 | 项 | 删除前 | 删除后 |
 |---|---:|---:|
-| GameData 顶层目录 | 222 | 168 |
+| GameData 顶层目录 | 222 | 170 |
 | CKAN 记录模块 | 251 | 195 |
 | GameData 体积 | 16.82 GB | 10.83 GB |
 | 释放空间 | — | **约 5.99 GB** |
 
-目标名单共 54 个顶层目录。CKAN 管理的部分已用 `ckan remove` 注销，手工安装的
-部分已移出 `GameData`。目录没有直接永久删除：原件都在
+目标名单共 54 个顶层目录。最终移除了 53 个原有目录（保留 `Kopernicus` 与
+`WildBlueIndustries\001KerbalActuators`，并新增了 Final Frontier 的 `STMRibbons`）。
+CKAN 管理的部分已用 `ckan remove` 注销，手工安装的部分已移出 `GameData`。
+目录没有直接永久删除：原件都在
 `_disabled_mods\BDA_20261019\` 下，可随时搬回。
 
 ## 实际删掉的主题
@@ -54,6 +56,8 @@ CKAN 在 `--headless` 下把“依赖被删后失去依赖”的模组也一并�
 随后作为主题包再次移除。Near Future Aeronautics、Firespitter、Parallax、Kopernicus、
 KSP Texture Loader、Kerbal Planet Emblems、ModularFlightIntegrator、
 Retractable Lifting Surface、SpacetuxSA 和 KerbalActuators 当前都在。
+- Final Frontier 与三个角色绶带包在连带删除后也已重新安装，`Nereid` 与
+  `STMRibbons` 目录已恢复。
 
 ## 当前需要补的东西
 

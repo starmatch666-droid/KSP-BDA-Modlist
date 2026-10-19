@@ -220,5 +220,6 @@
   "ZTheme": {"title": "ZTheme", "purpose": "深色 UI 主题。", "category": "visual", "action": "optional"},
   "ZZZ_GC_CN": {"title": "GroundConstruction 中文补丁", "purpose": "自制：GroundConstruction 部件与界面简体中文。", "category": "local", "action": "delete-with-parent"},
   "ZZZ_KONSTRUCTION_INDEPENDENCE": {"title": "KS-500 本地工业补丁", "purpose": "自制：给 Konstruction KS-500 船坞增加本地资源缓冲与合成。", "category": "local", "action": "delete-with-parent"},
-  "ZZZ_USI_CN": {"title": "USI 中文补丁", "purpose": "自制：Konstruction/USI-LS/Akita 部件与界面简体中文。", "category": "local", "action": "delete-with-parent"}
+  "ZZZ_USI_CN": {"title": "USI 中文补丁", "purpose": "自制：Konstruction/USI-LS/Akita 部件与界面简体中文。", "category": "local", "action": "delete-with-parent"},
+  "STMRibbons": {"title": "STM Ribbons", "purpose": "Final Frontier 的工程/操作/科学角色绶带资源。", "category": "career", "action": "keep", "note": "随 Final Frontier 角色绶带包安装；不是独立玩法模组。"}
 }

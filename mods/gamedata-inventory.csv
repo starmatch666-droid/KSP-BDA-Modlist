@@ -94,6 +94,7 @@ NearFuturePropulsion,Near Future Propulsion,propulsion,keep,1.3.6,NearFutureProp
 NearFutureRovers,Near Future Rovers,propulsion,keep,手工,,85,40869324,近未来漫游车底盘、轮组与部件。,
 NearFutureSolar,Near Future Solar,propulsion,keep,1.3.3,"NearFutureSolar, NearFutureSolar-Core",175,144545470,近未来高效太阳能板。,
 NearFutureSpacecraft,Near Future Spacecraft,propulsion,keep,1.4.6,NearFutureSpacecraft,289,221874833,近未来飞船指令舱、服务舱与发动机。,
+Nereid,Final Frontier + 绶带包,career,optional,1.10.0-3485,FinalFrontier,598,1797471,乘员个人功勋系统，以及 Kcalbeloh/MPE 的行星绶带包。,保留 Final Frontier 本体，删除 Kcalbeloh/MPE 绶带。
 OrbitalLFOEngines,Orbital LFO Engines,propulsion,keep,1.4.6,NearFutureSpacecraft-OrbitalLFOEngines,1,1105,Near Future Spacecraft 的轨道级 LFO 发动机。,
 Parallax_StockPlanetTextures,Parallax Continued - Planet Textures,visual,keep,1.0.3,ParallaxContinued-Planet-Textures,5,262615629,视差行星纹理。,
 Parallax_StockScatterTextures,Parallax Continued - Scatter Textures,visual,keep,1.0.3,ParallaxContinued-Scatter-Textures,296,1248258869,视差地表散射纹理。,
@@ -136,6 +137,7 @@ SpeedUnitAnnex,Speed Unit Annex,flight,keep,1.6.1,SpeedUnitAnnex,13,114068,导�
 Squad,Squad（原版）,stock,keep,手工,,2952,1238381401,游戏原版部件、资源与场景。,
 SquadExpansion,Squad Expansion（官方 DLC）,stock,keep,手工,,978,1122077128,Making History 与 Breaking Ground 官方 DLC 内容。,
 StagedAnimation,Staged Animation,core,keep,v2.0,StagedAnimation,1,16384,分级时播放部件动画的插件。,
+STMRibbons,STM Ribbons,career,keep,0.5.1 / 0.5.2.1,"STMsFFRibbonPackEngineeringRoles, STMsFFRibbonPackOperationsRoles, ScienceRolesFinalFrontierRibbonPack",41,81888,Final Frontier 的工程/操作/科学角色绶带资源。,随 Final Frontier 角色绶带包安装；不是独立玩法模组。
 StockScattererConfigs,Scatterer Default Config,visual,keep,3:v0.0878,"Scatterer-config, Scatterer-sunflare",16,1881601,原版行星的 Scatterer 参数与太阳耀斑。,
 StockWaterfallEffects,Stock Waterfall Effects,visual,keep,3.1.1,RestockWaterfallExpansion,67,1762538,原版发动机的 Waterfall 尾焰配置。,
 SystemHeat,System Heat,propulsion,keep,0.9.1,SystemHeat,32,3097854,更完整的核/工业热管理系统。,

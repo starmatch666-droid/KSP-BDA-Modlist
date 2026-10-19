@@ -16,7 +16,7 @@
 | 游戏 | Kerbal Space Program 1.12.5（Steam） |
 | 语言 | zh-cn |
 | 路径 | `C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program` |
-| GameData 顶层目录 | 清理前 222 → 清理后 168 |
+| GameData 顶层目录 | 清理前 222 → 清理后 170 |
 | CKAN 已记录模块 | 清理前 251 → 清理后 195 |
 | GameData 体积 | 清理前 16.82 GB → 清理后 10.83 GB |
 | 已释放 | **约 5.99 GB** |
@@ -26,14 +26,14 @@
 | 路径 | 内容 |
 |---|---|
 | [`MODLIST.md`](MODLIST.md) | **清理前**全量清单：名称、用途、版本、BDA 取舍、体积 |
-| [`MODLIST-AFTER.md`](MODLIST-AFTER.md) | **清理后**当前清单（168 个目录） |
+| [`MODLIST-AFTER.md`](MODLIST-AFTER.md) | **清理后**当前清单（170 个目录） |
 | [`DELETION-PLAN.md`](DELETION-PLAN.md) | 删除名单、保留名单、可选项与回滚说明 |
 | [`DELETION-LOG.md`](DELETION-LOG.md) | 实际执行记录、CKAN 连带删除与恢复情况 |
 | [`BDA-INSTALL.md`](BDA-INSTALL.md) | BDA 1.12.5 的版本选择、安装命令与扩展建议 |
 | [`mods/installed-modules-before.csv`](mods/installed-modules-before.csv) | 清理前 CKAN 的 251 个模块 |
 | [`mods/installed-modules.csv`](mods/installed-modules.csv) | 清理后 CKAN 的 195 个模块 |
 | [`mods/gamedata-inventory-before.csv`](mods/gamedata-inventory-before.csv) | 清理前 222 个顶层目录 |
-| [`mods/gamedata-inventory.csv`](mods/gamedata-inventory.csv) | 清理后 168 个顶层目录 |
+| [`mods/gamedata-inventory.csv`](mods/gamedata-inventory.csv) | 清理后 170 个顶层目录 |
 | [`patches/README.md`](patches/README.md) | 我们自己的补丁一览、依赖与安装方法 |
 | [`patches/`](patches/) | 可直接放进 `GameData\` 的补丁目录 |
 | [`tools/build_inventory.py`](tools/build_inventory.py) | 重新生成清单的脚本（只读 GameData，不改游戏文件） |

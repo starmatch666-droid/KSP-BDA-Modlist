@@ -2,11 +2,11 @@
 
 - 快照时间：2026-10-19
 - KSP：1.12.5（zh-cn，Steam）
-- GameData 顶层目录：**168** 个
+- GameData 顶层目录：**170** 个
 - CKAN 已记录模块：**195** 个
 - GameData 总体积：**10.83 GB**
-- 删除后仍存在的顶层目录：**168** 个
-- 可选项（IVA/视觉/科学等，按需保留）：约 **528 MB**
+- 删除后仍存在的顶层目录：**170** 个
+- 可选项（IVA/视觉/科学等，按需保留）：约 **529 MB**
 
 > 这是“当前安装”的盘点，不是推荐安装顺序。BDArmory Continued 本体只依赖
 > ModuleManager 与 PhysicsRangeExtender；下面标为“必留”的多数是飞行、建造、
@@ -169,8 +169,10 @@
 | `CommunityTechTree` | Community Tech Tree | 扩展科技树，给 Near Future 等模组提供节点。 | 1:3.4.5 | ✅ 必留 | 1.8 MB |
 | `ReStrategia` | ReStrategia | 重写生涯策略系统。 | 2.0.0 | ✅ 必留 | <1 MB |
 | `HideEmptyTechTreeNodes` | Hide Empty Tech Tree Nodes | 隐藏没有可用部件的科技树节点。 | 1.3.2 | ✅ 必留 | <1 MB |
+| `STMRibbons` | STM Ribbons | Final Frontier 的工程/操作/科学角色绶带资源。<br>注：随 Final Frontier 角色绶带包安装；不是独立玩法模组。 | 0.5.1 / 0.5.2.1 | ✅ 必留 | <1 MB |
 | `CustomBarnKit` | Custom Barn Kit | 调整生涯建筑升级、费用与科技限制。 | 1.1.22.0 | ✅ 必留 | <1 MB |
 | `ContractConfigurator` | Contract Configurator | 合同包框架；只有安装合同包时才需要。 | v2.13.4.0 | ◻️ 可选 | 16 MB |
+| `Nereid` | Final Frontier + 绶带包 | 乘员个人功勋系统，以及 Kcalbeloh/MPE 的行星绶带包。<br>注：保留 Final Frontier 本体，删除 Kcalbeloh/MPE 绶带。 | 1.10.0-3485 | ◻️ 可选 | 1.7 MB |
 | `DMagicUtilities` | DMagic Utilities | CapCom、合同窗口、合同/进度解析器等生涯工具。 | 2.11 等 4 个 | ◻️ 可选 | <1 MB |
 
 ### IVA 与内饰
