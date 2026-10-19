@@ -2,10 +2,10 @@
 
 - 快照时间：2026-10-19
 - KSP：1.12.5（zh-cn，Steam）
-- GameData 顶层目录：**169** 个
+- GameData 顶层目录：**170** 个
 - CKAN 已记录模块：**187** 个
-- GameData 总体积：**7.22 GB**
-- 删除后仍存在的顶层目录：**169** 个
+- GameData 总体积：**6.69 GB**
+- 删除后仍存在的顶层目录：**170** 个
 - 可选项（IVA/视觉/科学等，按需保留）：约 **314 MB**
 
 > 这是“当前安装”的盘点，不是推荐安装顺序。BDA+ LMP 版依赖
@@ -29,10 +29,10 @@
 
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
-| `KSPCommunityFixes` | KSP Community Fixes | 社区维护的大量底层 bug 修复与性能改进，必留。 | 1:1.41.1 | ✅ 必留 | 1.10 GB |
+| `KSPCommunityFixes` | KSP Community Fixes | 社区维护的大量底层 bug 修复与性能改进，必留。 | 1:1.41.1 | ✅ 必留 | 587 MB |
 | `000_KSPBurst` | KSPBurst | Burst 编译器与粒子/着色器优化库；体积大但属于性能基础设施。 | v1.7.4.11 | ✅ 必留 | 391 MB |
 | `BDArmory` | BDArmory Plus (LMP edition) | BDA+ 1.13.1.0 的 Luna Multiplayer 分支；武器、雷达、导弹、炮塔与 AI。<br>注：来自 LVCKSTRiKE/BDA-MP-Renewed v0.1，不是 CKAN 的 BDArmoryForRunwayProject。 | 手工 | ✅ 必留 | 57 MB |
-| `Kopernicus` | Kopernicus | 行星模组框架；Parallax Continued 与 Kerbal Planet Emblems 仍需要它，行星包删除后保留本体。<br>注：不再安装 Kcalbeloh/OPM，但 Parallax 与星球徽章依赖此框架。 | 2:release-1.12.1-251 | ✅ 必留 | 19 MB |
+| `Kopernicus` | Kopernicus | 行星模组框架；Parallax Continued 与 Kerbal Planet Emblems 仍需要它，行星包删除后保留本体。<br>注：不再安装 Kcalbeloh/OPM，但 Parallax 与星球徽章依赖此框架。 | 2:release-1.12.1-251 | ✅ 必留 | 20 MB |
 | `000_TexturesUnlimited` | Textures Unlimited | 金属度/贴图着色框架，Near Future 换色与 ReStock 外观会用到。 | 1.6.4.30 | ✅ 必留 | 11 MB |
 | `WildBlueIndustries` | Kerbal Actuators（Mk-33 已删除） | Near Future Aeronautics 的作动器前置；Mk-33 太空飞机部件包已删除。<br>注：目录保留的是 001KerbalActuators，供 NFA 的螺旋桨/倾转发动机使用。 | v1.9.0 | ✅ 必留 | 5.2 MB |
 | `KSPTextureLoader` | KSP Texture Loader | 运行时纹理加载库。 | 1.0.36 | ✅ 必留 | 2.1 MB |
@@ -61,13 +61,13 @@
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
 | `MechJeb2` | MechJeb2 | 自动驾驶、轨道信息、交会/着陆辅助。 | 2.15.3.1 | ✅ 必留 | 8.7 MB |
-| `WindTunnel` | Wind Tunnel | 在编辑器查看气动数据/升阻特性。 | 2.1.1.1 | ✅ 必留 | 8.7 MB |
 | `RealChute` | RealChute Parachute Systems | 更真实的降落伞物理与配置。 | v1.4.9.5 | ✅ 必留 | 5.5 MB |
 | `DockingCamKURS` | Docking Cam / KURS | KURS 风格对接相机，手动对接辅助。 | 1.3.9 | ✅ 必留 | 4.7 MB |
 | `TriggerTech` | Kerbal Alarm Clock + Transfer Window Planner | 闹钟/时间提醒与转移窗口规划。 | 1:3.14.2.7 / v1.9.1.1 | ✅ 必留 | 2.4 MB |
 | `PersistentRotation` | Persistent Rotation Upgraded | 时间加速/切换飞船时保持姿态与自转。 | 1.9.2.1 | ✅ 必留 | 1.9 MB |
 | `NavInstruments` | NavUtilities Updated | 仪表着陆系统/跑道导航仪表。 | 0.8.1.1 | ✅ 必留 | 1.8 MB |
 | `NavyFish` | Docking Port Alignment Indicator | 对接端口对齐指示器。 | 6.13.1.0 | ✅ 必留 | 1.1 MB |
+| `FerramAerospaceResearch` | Ferram Aerospace Research Continued | 真实气动模型；替代原版部件气动，处理跨声速/高超声速与气动稳定性。<br>注：与 WindTunnel 冲突，已移除 WindTunnel。 | 3:0.16.1.2 | ✅ 必留 | 1.1 MB |
 | `ThrottleControlledAvionics` | Throttle Controlled Avionics | 动态推力分配与姿态控制，垂直起降/悬停很有用。 | v3.8.0.1 | ✅ 必留 | <1 MB |
 | `EasyVesselSwitch` | Easy Vessel Switch | 在飞行中快速切换附近飞船。 | 2.3 | ✅ 必留 | <1 MB |
 | `Trajectories` | Trajectories | 考虑大气阻力/升力的再入与落点预测。 | v2.4.5.4 | ✅ 必留 | <1 MB |
@@ -174,7 +174,7 @@
 | `HideEmptyTechTreeNodes` | Hide Empty Tech Tree Nodes | 隐藏没有可用部件的科技树节点。 | 1.3.2 | ✅ 必留 | <1 MB |
 | `STMRibbons` | STM Ribbons | Final Frontier 的工程/操作/科学角色绶带资源。<br>注：随 Final Frontier 角色绶带包安装；不是独立玩法模组。 | 0.5.1 / 0.5.2.1 | ✅ 必留 | <1 MB |
 | `CustomBarnKit` | Custom Barn Kit | 调整生涯建筑升级、费用与科技限制。 | 1.1.22.0 | ✅ 必留 | <1 MB |
-| `ContractConfigurator` | Contract Configurator | 合同包框架；只有安装合同包时才需要。 | v2.13.4.0 | ◻️ 可选 | 16 MB |
+| `ContractConfigurator` | Contract Configurator | 合同包框架；只有安装合同包时才需要。 | v2.13.4.0 | ◻️ 可选 | 15 MB |
 | `Nereid` | Final Frontier + 绶带包 | 乘员个人功勋系统，以及 Kcalbeloh/MPE 的行星绶带包。<br>注：保留 Final Frontier 本体，删除 Kcalbeloh/MPE 绶带。 | 1.10.0-3485 | ◻️ 可选 | 1.7 MB |
 | `DMagicUtilities` | DMagic Utilities | CapCom、合同窗口、合同/进度解析器等生涯工具。 | 2.11 等 4 个 | ◻️ 可选 | <1 MB |
 
@@ -258,8 +258,8 @@
 | `KISA_FlagsAgency` | KISA Flags Agency | 自制：KISA 机构徽章与方形贴花。 | 手工 | ✅ 必留 | 2.9 MB |
 | `ResupplyNetwork` | Resupply Network | 自制：付费定时补给任意飞船资源。 | 手工 | ✅ 必留 | <1 MB |
 | `KISA_Fixes` | KISA Fixes | 自制：生涯存档用的杂项修复（USI 资源、CapCom、VAB 分类、Endurance 移除等）。 | 手工 | ✅ 必留 | <1 MB |
-| `RealChute_CN` | RealChute 中文补丁 | 自制：RealChute 界面与预设的简体中文 Harmony 插件。 | 手工 | ✅ 必留 | <1 MB |
 | `ZZZ_BDA_CN` | BDA+ 中文补充 | 自制：补 BDA+ 1.13.x 官方 zh-cn 尚未覆盖的 186 个 UI 键。 | 手工 | ✅ 必留 | <1 MB |
+| `RealChute_CN` | RealChute 中文补丁 | 自制：RealChute 界面与预设的简体中文 Harmony 插件。 | 手工 | ✅ 必留 | <1 MB |
 | `DSH_Plugins` | Engine Thrust Reverser | 自制插件：为喷气发动机提供反推/换向控制。 | 手工 | ✅ 必留 | <1 MB |
 
 ### 原版与官方 DLC
@@ -268,6 +268,12 @@
 |---|---|---|---|---|---:|
 | `Squad` | Squad（原版） | 游戏原版部件、资源与场景。 | 手工 | ✅ 必留 | 1.15 GB |
 | `SquadExpansion` | Squad Expansion（官方 DLC） | Making History 与 Breaking Ground 官方 DLC 内容。 | 手工 | ✅ 必留 | 1.05 GB |
+
+### 其它
+
+| 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
+|---|---|---|---|---|---:|
+| `Custom` | Custom（用户目录） | KSP 的用户自定义目录，目前只有空的 Flags 子目录。 | 手工 | ✅ 必留 | <1 MB |
 
 ## 说明
 

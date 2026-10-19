@@ -1,6 +1,6 @@
 # BDA+ 与多人联机安装记录
 
-当前环境：KSP 1.12.5，169 个 GameData 顶层目录，187 个 CKAN 模块。
+当前环境：KSP 1.12.5，170 个 GameData 顶层目录，187 个 CKAN 模块。
 BDA 与联机部分**已经安装**。
 
 ## 为什么不是直接装 CKAN 的 BDArmoryForRunwayProject
@@ -39,6 +39,18 @@ BDA+ 自带 `localization-zh-cn.cfg` 和 `Localization/UI/zh-cn.cfg`，部件名
 如果仍有英文，通常是 BDA 的 DLL 里硬编码的字符串，cfg 词条覆盖不到；那种需要改
 源码重编译。
 
+## FAR 气动
+
+已安装 **Ferram Aerospace Research Continued 0.16.1.2**：
+
+- 替代原版部件气动，包含跨声速/高超声速、气动稳定性与失速模型
+- 依赖已有：ModuleManager、ModularFlightIntegrator、TweakScale-Redist、KSPBurst
+- 与 `WindTunnel` 冲突，CKAN 已移除 WindTunnel；FAR 自带气动分析
+- BDA+ 对 FAR 有兼容处理：导弹/炸弹离机后改用 BDA 气动，程序化机翼的 HP/装甲计算也识别 FAR
+
+`AtmosphereAutopilot` 仍保留，但它的飞控参数需要按 FAR 重新调；`CorrectCoL` 也保留，
+不过 FAR 自己的稳定性分析更权威。
+
 ## 启动顺序
 
 1. 先启动 LMP 服务器，见 [`MULTIPLAYER.md`](MULTIPLAYER.md)。
@@ -69,3 +81,4 @@ BDA+ 自带 `localization-zh-cn.cfg` 和 `Localization/UI/zh-cn.cfg`，部件名
 3. 发射一架带武器/雷达的飞机，确认右键菜单和 BDA 窗口能打开。
 4. 连接 LMP 服务器，确认服务器列表/聊天可见。
 5. 如果掉帧，优先降低 BDA 的物理范围/AI 数量；环境美化已经移除。
+6. FAR 已安装；它会替换原版气动，`WindTunnel` 与其冲突已被移除。

@@ -4,10 +4,10 @@
 
 | 项 | 删除前 | 删除后 |
 |---|---:|---:|
-| GameData 顶层目录 | 222 | 169 |
+| GameData 顶层目录 | 222 | 170 |
 | CKAN 记录模块 | 251 | 187 |
-| GameData 体积 | 16.82 GB | 7.22 GB |
-| 释放空间 | — | **约 9.66 GB** |
+| GameData 体积 | 16.82 GB | 6.69 GB |
+| 释放空间 | — | **约 10.13 GB** |
 
 最初名单 54 个顶层目录。经过两轮调整，相对原始 222 个目录实际移除了 58 个，
 并新增了 Final Frontier 的 `STMRibbons`，当前 165 个。`Kopernicus`、
@@ -58,6 +58,7 @@ ReStock、Waterfall、Rocket Sound Enhancement、Firefly 等部件/引擎外观�
 - BDA+ LMP 版 `1.13.1.0`：`GameData\BDArmory`（来自 BDA-MP-Renewed v0.1）
 - Luna Multiplayer Client `0.30.0-Draft`
 - Physics Range Extender `1.21.0`
+- Ferram Aerospace Research Continued `0.16.1.2`（WindTunnel 因冲突移除）
 - LMP 服务端在 `C:\Users\STARM\Documents\KSP-BDA-Work\LMP-Server-0.30.0\LMPServer`
 
 详见 [`BDA-INSTALL.md`](BDA-INSTALL.md) 与 [`MULTIPLAYER.md`](MULTIPLAYER.md)。

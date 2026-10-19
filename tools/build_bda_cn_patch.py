@@ -214,6 +214,29 @@ T = {
     "LOC_BDArmory_ArmorRAM": "雷达吸波涂层",
 }
 
+CATEGORY = {
+    "All": "全部",
+    "Control": "控制",
+    "Guns": "机炮",
+    "Gun turrets": "炮塔",
+    "Lasers": "激光",
+    "Laser turrets": "激光炮塔",
+    "Rocket pods": "火箭巢",
+    "Rocket turrets": "火箭炮塔",
+    "Missiles": "导弹",
+    "Missile turrets": "导弹发射架",
+    "Bombs": "炸弹",
+    "Torpedoes": "鱼雷",
+    "Ammo": "弹药",
+    "Radars": "雷达",
+    "Targeting": "瞄准",
+    "Countermeasures": "反制措施",
+    "Armor": "装甲",
+    "Misc": "其他",
+    "Legacy": "旧版",
+    "Armory": "军械库",
+}
+
 
 def parse(path: Path) -> dict[str, str]:
     result: dict[str, str] = {}
@@ -250,6 +273,11 @@ def main() -> None:
     ]
     for key in missing:
         lines.append(f"        #{key} = {T[key]}")
+    lines.append("")
+    lines.append("        // BDA 编辑器分类按钮")
+    for name, text in CATEGORY.items():
+        suffix = "".join(part.capitalize() for part in name.split())
+        lines.append(f"        #LOC_BDA_CN_Category_{suffix} = {text}")
     lines.extend(["    }", "}", ""])
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text("\n".join(lines), encoding="utf-8")

@@ -4,7 +4,7 @@
     "name": "已安装-自定义",
     "abstract": "已安装在 KSP 实例 自定义 的模组列表",
     "author": "STARM",
-    "version": "2026.10.19.09.24.09",
+    "version": "2026.10.19.09.43.16",
     "ksp_version_min": "1.8",
     "ksp_version_max": "1.12",
     "license": "unknown",
@@ -37,6 +37,9 @@
             "name": "FilterExtensions"
         },
         {
+            "name": "KSPBurst-Lite"
+        },
+        {
             "name": "NearFutureElectrical-Core"
         },
         {
@@ -52,7 +55,7 @@
             "name": "VesselView"
         },
         {
-            "name": "VesselView-UI-RasterPropMonitor"
+            "name": "VesselView-UI-Toolbar"
         },
         {
             "name": "AvionicsSystems"
@@ -76,7 +79,10 @@
             "name": "IndicatorLights"
         },
         {
-            "name": "KSPBurst-Lite"
+            "name": "KSPBurst"
+        },
+        {
+            "name": "ModularFlightIntegrator"
         },
         {
             "name": "NearFutureElectrical"
@@ -190,6 +196,9 @@
             "name": "STMsFFRibbonPackEngineeringRoles"
         },
         {
+            "name": "FerramAerospaceResearchContinued"
+        },
+        {
             "name": "FilterExtensionsDefaultConfig"
         },
         {
@@ -241,9 +250,6 @@
             "name": "KerbalShipEmblems2D"
         },
         {
-            "name": "WindTunnel"
-        },
-        {
             "name": "KSAIVAUpgrade"
         },
         {
@@ -257,9 +263,6 @@
         },
         {
             "name": "KSP2PreAlphaStyleNavBall"
-        },
-        {
-            "name": "KSPBurst"
         },
         {
             "name": "LithobrakeExplorationTechnologies"
@@ -287,9 +290,6 @@
         },
         {
             "name": "MoarFEConfigs"
-        },
-        {
-            "name": "ModularFlightIntegrator"
         },
         {
             "name": "NavHudRenewed"
@@ -460,7 +460,7 @@
             "name": "VertikalSpeedIndicator"
         },
         {
-            "name": "VesselView-UI-Toolbar"
+            "name": "VesselView-UI-RasterPropMonitor"
         },
         {
             "name": "WaypointManager"
@@ -469,6 +469,6 @@
             "name": "ZTheme"
         }
     ],
-    "release_date": "2026-10-19T17:24:09.0507625+08:00",
+    "release_date": "2026-10-19T17:43:16.7953005+08:00",
     "kind": "metapackage"
 }

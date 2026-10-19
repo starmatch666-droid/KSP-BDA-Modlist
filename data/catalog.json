@@ -2,6 +2,8 @@
   "BDArmory": {"title": "BDArmory Plus (LMP edition)", "purpose": "BDA+ 1.13.1.0 的 Luna Multiplayer 分支；武器、雷达、导弹、炮塔与 AI。", "category": "core", "action": "keep", "note": "来自 LVCKSTRiKE/BDA-MP-Renewed v0.1，不是 CKAN 的 BDArmoryForRunwayProject。"},
   "LunaMultiplayer": {"title": "Luna Multiplayer Client", "purpose": "LMP 多人联机客户端（0.30.0-Draft）。", "category": "core", "action": "keep"},
   "PhysicsRangeExtender": {"title": "Physics Range Extender", "purpose": "扩展物理范围，BDA 雷达/远距离交战需要。", "category": "core", "action": "keep"},
+  "FerramAerospaceResearch": {"title": "Ferram Aerospace Research Continued", "purpose": "真实气动模型；替代原版部件气动，处理跨声速/高超声速与气动稳定性。", "category": "flight", "action": "keep", "note": "与 WindTunnel 冲突，已移除 WindTunnel。"},
+  "Custom": {"title": "Custom（用户目录）", "purpose": "KSP 的用户自定义目录，目前只有空的 Flags 子目录。", "category": "misc", "action": "keep"},
   "000_AT_Utils": {"title": "AT Utils", "purpose": "Allista 系列模组的通用工具库（资源、动画、UI 辅助）。", "category": "core", "action": "keep"},
   "000_ClickThroughBlocker": {"title": "ClickThrough Blocker", "purpose": "修复模组窗口点击穿透到场景的问题。", "category": "core", "action": "keep"},
   "000_FilterExtensions": {"title": "Filter Extensions", "purpose": "编辑器部件分类与过滤框架。", "category": "engineering", "action": "keep"},

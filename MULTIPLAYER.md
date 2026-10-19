@@ -8,6 +8,7 @@
 | LMP 服务端 | 0.30.0 | `C:\Users\STARM\Documents\KSP-BDA-Work\LMP-Server-0.30.0\LMPServer` |
 | BDA+ LMP 分支 | 1.13.1.0 | `GameData\BDArmory` |
 | Physics Range Extender | 1.21.0 | `GameData\PhysicsRangeExtender` |
+| FAR Continued | 0.16.1.2 | `GameData\FerramAerospaceResearch` |
 
 服务端要求 **.NET 6 Runtime**；本机已安装 `Microsoft.NETCore.App 6.0.33`。
 
@@ -75,7 +76,8 @@ UPnP 或手动转发 UDP 8800。服务器已注册到 LMP 主服务器，通常�
 - **所有玩家必须使用完全相同的 `GameData`**，尤其是 BDA 版本和 BDA 扩展包。
 - `ModControl=false` 是为了让 BDA 部件能进服；代价是服务器不会帮你检查客户端是否缺件。
 - BDA-MP-Renewed 是 WIP：已知子弹不渲染，但伤害/击杀逻辑正常。
-- 双方都要装 `BDArmory`、`LunaMultiplayer`、`PhysicsRangeExtender`。
+- 双方都要装 `BDArmory`、`LunaMultiplayer`、`PhysicsRangeExtender` 和同版本 FAR。
+- FAR 已替换原版气动；所有客户端必须使用同一 FAR 版本，否则气动表现会不一致。
 - 当前服务器密码为空，公网开服前建议先设密码。
 
 ## 恢复到单机 BDA+
