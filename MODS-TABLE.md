@@ -1,6 +1,6 @@
 # 当前模组中英对照表
 
-共 136 个 GameData 顶层目录；按类别排序。
+共 148 个 GameData 顶层目录；按类别排序。
 
 | 英文名 | 中文名 | 作用简述 |
 |---|---|---|
@@ -8,6 +8,7 @@
 | ClickThrough Blocker | 点击穿透修复 | 修复模组窗口点击穿透到场景的问题。 |
 | Harmony2 | Harmony 2 补丁库 | 运行时方法补丁库，大量插件的前置。 |
 | KSPBurst | KSP Burst 优化库 | Burst 编译器与粒子/着色器优化库；体积大但属于性能基础设施。 |
+| KSP Serialization Fix | KSP 序列化修复 | 修复 KSP 配置序列化的兼容性问题，供 Aviator Arsenal 等模组使用。 |
 | Textures Unlimited | 无限纹理着色库 | 金属度/贴图着色框架，Near Future 换色与 ReStock 外观会用到。 |
 | Toolbar Controller | 工具栏控制器 | 统一管理 Blizzy/原版工具栏按钮。 |
 | B9 Part Switch | B9 部件切换 | 部件模型/资源/节点切换框架，大量部件包的前置。 |
@@ -16,6 +17,7 @@
 | Community Resource Pack | 社区资源包 | 社区通用资源定义，Near Future/Cryo/USI 等共用。 |
 | Custom Pre Launch Checks | 自定义发射前检查 | 发射前检查 API，供其他模组挂接。 |
 | Firefly API | Firefly 接口 | Firefly 与其它模组通信的接口。 |
+| Kerbal Changelog | Kerbal 更新日志 | 游戏内模组更新日志窗口。 |
 | Kerbal Joint Reinforcement | 坎巴拉关节加固 | 加固部件连接，减少大型飞行器抖动。 |
 | Kopernicus | Kopernicus 行星框架 | 行星模组框架；Kerbal Planet Emblems 仍需要它，行星包与 Parallax 删除后保留本体。 |
 | KSP Community Fixes | KSP 社区修复 | 社区维护的大量底层 bug 修复与性能改进，必留。 |
@@ -24,6 +26,7 @@
 | Modular Flight Integrator | 模块化飞行集成器 | 气动/热集成框架，FAR 等模组使用。 |
 | PatchManager | 补丁管理器 | 在游戏内查看/管理 ModuleManager 补丁。 |
 | Physics Range Extender | 物理范围扩展 | 扩展物理范围，BDA 雷达/远距离交战需要。 |
+| ROUtils | RO 工具库 | RO 系列模组的通用工具库。 |
 | Shabby | Shabby 着色器加载器 | 着色器资源包加载库。 |
 | SpaceTux Library | SpaceTux 库 | SpaceTux 系列模组的通用库。 |
 | SpacetuxSA | SpaceTux 共享库 | SpaceTux 共享代码/工具。 |
@@ -117,13 +120,22 @@
 | TextureReplacer | 纹理替换 | 乘员/宇航服纹理替换。 |
 | Recolor Collection - NF Propulsion | NF 推进换色 | Near Future Propulsion 部件的 Textures Unlimited 换色。 |
 | Recolor Collection - NF Spacecraft | NF 飞船换色 | Near Future Spacecraft 部件的 Textures Unlimited 换色。 |
+| TURD BD Recolours | TURD BD 换色 | BD Armory 及相关扩展的 Textures Unlimited 换色配置。 |
 | Slim Navball Markers | 细导航球标记 | 更细的导航球标记。 |
 | Waterfall Core | Waterfall 尾焰核心 | 可编程发动机尾焰/羽流核心。 |
 | Waterfall Restock | Waterfall ReStock 配置 | ReStock 发动机的 Waterfall 配置。 |
 | ZTheme | ZTheme 深色 UI | 深色 UI 主题。 |
+| Aviator Arsenal Continued | 航空军械库 | 二战风格航空机炮、炸弹、火箭与挂架部件包。 |
+| BDArmory Extended | BDA 军械库扩展 | BDA+ 半官方扩展，补充武器、雷达、部件与功能示例。 |
+| Refurbished Armory | 翻新军械库 | 重制 BDArmory、Malfunc、PEW 等旧武器包，加入现代 BDA+ 兼容部件。 |
+| BD Modular Missile Parts | BDA 模块化导弹部件 | BDA 自定义导弹的程序化弹体、弹头、SRB 与发射管。 |
+| BK Weapons Pack | BK 武器包 | Bilikerman 工业武器包，含额外机炮与弹药。 |
+| Kerbal Advanced Defense Reborn | 坎巴拉先进防御重制 | 现代防空导弹、雷达与防空系统部件包。 |
 | Lithobrake Exploration Technologies | LET 探索部件 | 原版风格着陆腿、梯子、居住舱等探索部件。 |
 | Mk2 Expansion | Mk2 扩展 | Mk2 机身扩展部件包。 |
 | Mk3 Expansion | Mk3 扩展 | Mk3 机身扩展部件包。 |
+| North Kerbin Dynamics Renewed-Extended | 北坎巴拉动力扩展 | 核武器、重型火炮、巡航导弹与大型爆炸物。 |
+| Procedural Parts | 程序化部件 | 程序化油箱、SRB 与结构件。 |
 | ReStock+ | ReStock+ 补件 | 补充原版缺口的部件。 |
 | SXTContinued | SXT 原版风格扩展 | 内存占用较低的原版风格部件扩展包。 |
 | Kerbal Konstructs | 静态建筑框架 | 静态建筑/发射场框架，KSC Extended 的前置。 |

@@ -2,10 +2,10 @@
 
 - 快照时间：2026-10-19
 - KSP：1.12.5（zh-cn，Steam）
-- GameData 顶层目录：**136** 个
-- CKAN 已记录模块：**145** 个
-- GameData 总体积：**6.09 GB**
-- 删除后仍存在的顶层目录：**136** 个
+- GameData 顶层目录：**148** 个
+- CKAN 已记录模块：**158** 个
+- GameData 总体积：**7.27 GB**
+- 删除后仍存在的顶层目录：**148** 个
 - 可选项（IVA/视觉/科学等，按需保留）：约 **126 MB**
 
 > 这是“当前安装”的盘点，不是推荐安装顺序。BDA+ LMP 版依赖
@@ -29,7 +29,7 @@
 
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
-| `KSPCommunityFixes` | KSP Community Fixes | 社区维护的大量底层 bug 修复与性能改进，必留。 | 1:1.41.1 | ✅ 必留 | 497 MB |
+| `KSPCommunityFixes` | KSP Community Fixes | 社区维护的大量底层 bug 修复与性能改进，必留。 | 1:1.41.1 | ✅ 必留 | 853 MB |
 | `000_KSPBurst` | KSPBurst | Burst 编译器与粒子/着色器优化库；体积大但属于性能基础设施。 | v1.7.4.11 | ✅ 必留 | 391 MB |
 | `BDArmory` | BDArmory Plus | 标准单机 BDA+ 1.13.1.0；武器、雷达、导弹、炮塔与 AI。<br>注：CKAN 包 BDArmoryForRunwayProject；多人联机已取消。 | 2:v1.13.1.0 | ✅ 必留 | 57 MB |
 | `Kopernicus` | Kopernicus | 行星模组框架；Kerbal Planet Emblems 仍需要它，行星包与 Parallax 删除后保留本体。<br>注：不再安装 Kcalbeloh/OPM/Parallax，但星球徽章依赖此框架。 | 2:release-1.12.1-251 | ✅ 必留 | 20 MB |
@@ -46,10 +46,13 @@
 | `000_ClickThroughBlocker` | ClickThrough Blocker | 修复模组窗口点击穿透到场景的问题。 | 1:2.1.10.23 | ✅ 必留 | <1 MB |
 | `CommunityResourcePack` | Community Resource Pack | 社区通用资源定义，Near Future/Cryo/USI 等共用。 | v112.0.1 | ✅ 必留 | <1 MB |
 | `001_ToolbarControl` | Toolbar Controller | 统一管理 Blizzy/原版工具栏按钮。 | 1:0.1.9.14 | ✅ 必留 | <1 MB |
+| `ROUtils` | ROUtils | RO 系列模组的通用工具库。 | v1.2.0.0 | ✅ 必留 | <1 MB |
 | `KerbalJointReinforcement` | Kerbal Joint Reinforcement | 加固部件连接，减少大型飞行器抖动。 | v4.2.28 | ✅ 必留 | <1 MB |
 | `PatchManager` | PatchManager | 在游戏内查看/管理 ModuleManager 补丁。 | 0.0.17.8 | ✅ 必留 | <1 MB |
+| `KerbalChangelog` | Kerbal Changelog | 游戏内模组更新日志窗口。 | v1.4.2 | ✅ 必留 | <1 MB |
 | `CustomPreLaunchChecks` | Custom Pre Launch Checks | 发射前检查 API，供其他模组挂接。 | 1.8.1.1 | ✅ 必留 | <1 MB |
 | `PhysicsRangeExtender` | Physics Range Extender | 扩展物理范围，BDA 雷达/远距离交战需要。 | 1.21.0 | ✅ 必留 | <1 MB |
+| `000_SerializationFix` | KSP Serialization Fix | 修复 KSP 配置序列化的兼容性问题，供 Aviator Arsenal 等模组使用。 | 1.0.1 | ✅ 必留 | <1 MB |
 | `Shabby` | Shabby | 着色器资源包加载库。 | 0.4.2 | ✅ 必留 | <1 MB |
 | `ModularFlightIntegrator` | Modular Flight Integrator | 气动/热集成框架，FAR 等模组使用。 | 1.2.10.0 | ✅ 必留 | <1 MB |
 | `StagedAnimation` | Staged Animation | 分级时播放部件动画的插件。 | v2.0 | ✅ 必留 | <1 MB |
@@ -169,6 +172,7 @@
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
 | `ReStock` | ReStock | 原版部件模型/纹理重制，不改变数值。 | 1.5.1 | ✅ 必留 | 687 MB |
+| `TURD` | TURD BD Recolours | BD Armory 及相关扩展的 Textures Unlimited 换色配置。 | v1.9.2 | ✅ 必留 | 385 MB |
 | `RocketSoundEnhancementDefault` | RSE Default Config | 原版发动机/轮子/分离器的 RSE 音效配置。 | 1.3.1 | ✅ 必留 | 108 MB |
 | `Waterfall` | Waterfall Core | 可编程发动机尾焰/羽流核心。 | 0.11.0 | ✅ 必留 | 11 MB |
 | `RestockWaterfallExpansion` | Restock Waterfall Expansion | ReStock 引擎的 Waterfall 尾焰配置。 | 3.1.1 | ✅ 必留 | 8.5 MB |
@@ -196,10 +200,18 @@
 
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
+| `NKDR` | North Kerbin Dynamics Renewed-Extended | 核武器、重型火炮、巡航导弹与大型爆炸物。 | 0.1.2 | ✅ 必留 | 262 MB |
 | `SXT` | SXTContinued | 内存占用较低的原版风格部件扩展包。 | 2:0.3.31.1 | ✅ 必留 | 96 MB |
 | `ReStockPlus` | ReStock+ | 补充原版缺口的部件。 | 1.5.1 | ✅ 必留 | 65 MB |
+| `BDArmoryRefurbished` | Refurbished Armory | 重制 BDArmory、Malfunc、PEW 等旧武器包，加入现代 BDA+ 兼容部件。 | v1.2.2 | ✅ 必留 | 57 MB |
+| `BDArmoryExtended` | BDArmory Extended | BDA+ 半官方扩展，补充武器、雷达、部件与功能示例。 | 1:1.5.3 | ✅ 必留 | 56 MB |
 | `Mk2Expansion` | Mk2 Expansion | Mk2 机身扩展部件包。 | 2:1.9.1.4 | ✅ 必留 | 42 MB |
 | `Mk3Expansion` | Mk3 Expansion | Mk3 机身扩展部件包。 | 1.6.1.4 | ✅ 必留 | 36 MB |
+| `ProceduralParts` | Procedural Parts | 程序化油箱、SRB 与结构件。 | v2.8.0.0 | ✅ 必留 | 34 MB |
+| `AviatorArsenal` | Aviator Arsenal Continued | 二战风格航空机炮、炸弹、火箭与挂架部件包。 | 1.5.5 | ✅ 必留 | 31 MB |
+| `KerbalAdvancedDefenseReborn` | Kerbal Advanced Defense Reborn | 现代防空导弹、雷达与防空系统部件包。 | V0.4 | ✅ 必留 | 18 MB |
+| `BDModularMissileParts` | BD Modular Missile Parts | BDA 自定义导弹的程序化弹体、弹头、SRB 与发射管。 | v3.0 | ✅ 必留 | 5.6 MB |
+| `BilikermanIndustry` | BK Weapons Pack | Bilikerman 工业武器包，含额外机炮与弹药。 | Pre_0.1.2 | ✅ 必留 | 1.3 MB |
 | `LithobrakeExplorationTechnologies` | Lithobrake Exploration Technologies | 原版风格着陆腿、梯子、居住舱等探索部件。 | 0.6.2 | ◻️ 可选 | 8.5 MB |
 
 ### 空间站、基地与发射场

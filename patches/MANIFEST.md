@@ -1,6 +1,6 @@
 # 补丁文件清单与校验和
 
-共 101 个文件。SHA256 以 `patches/SHA256SUMS.txt` 为准。
+共 106 个文件。SHA256 以 `patches/SHA256SUMS.txt` 为准。
 
 | 文件 | 大小 | SHA256（前 16 位） |
 |---|---:|---|
@@ -60,7 +60,7 @@
 | `optional-not-installed/ArcjetXeArPatch-2026-10-15/ArcjetXeArPatch.cfg` | 5.4 KB | `1b46b5b0e3ea08f3` |
 | `optional-not-installed/ArcjetXeArPatch-2026-10-15/Localization/en-us.cfg` | 1.4 KB | `8954e5a17f4f6b93` |
 | `optional-not-installed/ArcjetXeArPatch-2026-10-15/Localization/zh-cn.cfg` | 1.3 KB | `185b14be6474b2bb` |
-| `README.md` | 3.8 KB | `3783246908bc106b` |
+| `README.md` | 3.9 KB | `5ad6083d10ea22ac` |
 | `RealChute_CN/RealChute_CN.dll` | 26.0 KB | `b65638174ff9f84d` |
 | `RealChute_CN/Source/build.cmd` | 965 B | `027e1714de66de48` |
 | `RealChute_CN/Source/RealChute_CN.cs` | 26.3 KB | `ecf8fa925afb5e32` |
@@ -77,14 +77,17 @@
 | `WormholeRelay/Source/build.ps1` | 1.0 KB | `93dcb6adf65397f5` |
 | `WormholeRelay/Source/WormholeRelay.cs` | 7.0 KB | `592f21046ea77cb1` |
 | `WormholeRelay/WormholeRelay.cfg` | 942 B | `b88489347d424cd4` |
+| `ZZZ_BDA_CN/Localization/UI/Addons_zh.cfg` | 7.3 KB | `eb1571514a319314` |
 | `ZZZ_BDA_CN/Localization/UI/zh-cn-extra.cfg` | 14.4 KB | `3d9cb4287d8e3d2d` |
+| `ZZZ_BDA_CN/Patches/BDModular_zh.cfg` | 785 B | `0d057cbc702aa1cd` |
+| `ZZZ_BDA_CN/Patches/NKDR_zh.cfg` | 9.6 KB | `fbccdc5a242f0e63` |
 | `ZZZ_BDA_CN/Patches/PartText_zh.cfg` | 4.6 KB | `513e5180d75ab53e` |
-| `ZZZ_BDA_CN/Patches/VABOrganizer_zh.cfg` | 3.2 KB | `2f6d7408ec5cc48c` |
+| `ZZZ_BDA_CN/Patches/VABOrganizer_zh.cfg` | 3.5 KB | `15990400c90317ed` |
 | `ZZZ_BDA_CN/Plugins/BDA_CN_Categories.cs` | 2.6 KB | `fe6c644b5285ec46` |
 | `ZZZ_BDA_CN/Plugins/BDA_CN_Categories.dll` | 6.0 KB | `6d8f05b99c6d064e` |
 | `ZZZ_BDA_CN/Plugins/BDA_CN_Info.cs` | 3.9 KB | `de6e24d38dc4446e` |
 | `ZZZ_BDA_CN/Plugins/BDA_CN_Info.dll` | 8.0 KB | `9c925a3dae4ec4b2` |
-| `ZZZ_BDA_CN/README.md` | 1.2 KB | `d96e9ba0f6bf534e` |
+| `ZZZ_BDA_CN/README.md` | 1.5 KB | `62553ad315007e8f` |
 | `ZZZ_FAR_CN/Localization_zh-cn.cfg` | 16.6 KB | `1b3c3ef593dece40` |
 | `ZZZ_FAR_CN/README.md` | 691 B | `189ddde461fd7eee` |
 | `ZZZ_GC_CN/Localization/GroundConstruction_en-us.cfg` | 2.8 KB | `d78ce6ce70a65bb8` |
@@ -93,6 +96,8 @@
 | `ZZZ_GC_CN/Plugins/GroundConstruction_CN.cs` | 7.2 KB | `234a8505df79a6ce` |
 | `ZZZ_GC_CN/Plugins/GroundConstruction_CN.dll` | 10.5 KB | `e1825619eca6c314` |
 | `ZZZ_GC_CN/README.md` | 1.0 KB | `9a9ff3fe15e4162f` |
+| `ZZZ_KAD_CN/Localization/zh-cn.cfg` | 30.7 KB | `0a8da4026e9467d1` |
+| `ZZZ_KAD_CN/README.md` | 413 B | `0f37587bc359520e` |
 | `ZZZ_KONSTRUCTION_INDEPENDENCE/Patches/KS500_Local_Industry.cfg` | 4.3 KB | `7e72639675a7ab4a` |
 | `ZZZ_KONSTRUCTION_INDEPENDENCE/README.md` | 1.7 KB | `8880ecc467ce06cc` |
 | `ZZZ_USI_CN/Localization/Konstruction_zh-cn.cfg` | 5.5 KB | `cb466f7d8c6c3143` |

@@ -4,10 +4,10 @@
 
 | 项 | 删除前 | 删除后 |
 |---|---:|---:|
-| GameData 顶层目录 | 222 | 136 |
-| CKAN 记录模块 | 251 | 145 |
-| GameData 体积 | 16.82 GB | 6.09 GB |
-| 释放空间 | — | **约 10.73 GB** |
+| GameData 顶层目录 | 222 | 148 |
+| CKAN 记录模块 | 251 | 158 |
+| GameData 体积 | 16.82 GB | 7.27 GB |
+| 释放空间 | — | **约 9.55 GB** |
 
 最初名单 54 个顶层目录。经过两轮调整，相对原始 222 个目录实际移除了 58 个，
 并新增了 Final Frontier 的 `STMRibbons`，当前 165 个。`Kopernicus`、
@@ -60,6 +60,11 @@ ReStock、Waterfall、Rocket Sound Enhancement、Firefly 等部件/引擎外观�
 - Ferram Aerospace Research Continued `0.16.1.2`（WindTunnel 因冲突移除）
 - 原 BDA-MP-Renewed 备份在 `_disabled_mods\BDA_20261019\BDA-MP-Renewed_20261019`
 - LMP 客户端已移除；服务端归档在 `KSP-BDA-Work\_disabled_multiplayer`
+- 已安装 BDA 扩展：BDArmoryExtended、BDModularMissileParts、AviatorArsenal、
+  KerbalAdvancedDefenseReborn、NorthKerbinDynamicsRenewedExtended、BDAUITeamIcons、
+  TURD 两套、BKWeaponsPack、RefurbishedArmory
+- `BDAUITeamIcons` 因引用旧 BDA 1.3.6.4 的 `MissileFire`、在 BDA+ 1.13 下
+  加载失败，已移除并备份到 `_disabled_mods\BDA_20261019\BDAUITeamIcons_incompatible_20261019`
 
 详见 [`BDA-INSTALL.md`](BDA-INSTALL.md) 与 [`MULTIPLAYER.md`](MULTIPLAYER.md)。
 
