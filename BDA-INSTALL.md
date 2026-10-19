@@ -23,7 +23,7 @@ CKAN 里的 `BDArmoryForRunwayProject` 就是 BDArmory Plus（BDA+），版本
 | 组件 | 版本 | 安装方式 |
 |---|---|---|
 | BDArmory Plus LMP edition | 1.13.1.0 | GitHub release，手动放进 `GameData\BDArmory` |
-| Luna Multiplayer Client | 0.30.0-Draft | CKAN |
+| Luna Multiplayer Client | 0.29.2 | CKAN |
 | Physics Range Extender | 1.21.0 | CKAN |
 | ModuleManager / Harmony | 已有 | 之前安装 |
 

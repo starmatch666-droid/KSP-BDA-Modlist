@@ -56,10 +56,10 @@ ReStock、Waterfall、Rocket Sound Enhancement、Firefly 等部件/引擎外观�
 ## BDA 与联机安装
 
 - BDA+ LMP 版 `1.13.1.0`：`GameData\BDArmory`（来自 BDA-MP-Renewed v0.1）
-- Luna Multiplayer Client `0.30.0-Draft`
+- Luna Multiplayer Client `0.29.2`
 - Physics Range Extender `1.21.0`
 - Ferram Aerospace Research Continued `0.16.1.2`（WindTunnel 因冲突移除）
-- LMP 服务端在 `C:\Users\STARM\Documents\KSP-BDA-Work\LMP-Server-0.30.0\LMPServer`
+- LMP 服务端在 `C:\Users\STARM\Documents\KSP-BDA-Work\LMP-Server-0.29.2\LMPServer`
 
 详见 [`BDA-INSTALL.md`](BDA-INSTALL.md) 与 [`MULTIPLAYER.md`](MULTIPLAYER.md)。
 
