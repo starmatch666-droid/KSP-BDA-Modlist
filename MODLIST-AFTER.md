@@ -150,7 +150,7 @@
 | 目录 | 名称 | 用途 | 版本 | BDA 取舍 | 大小 |
 |---|---|---|---|---|---:|
 | `ContractConfigurator` | Contract Configurator | 合同配置框架，KomUniMun 军事合同包的前置。 | v2.13.4.0 | ✅ 必留 | 18 MB |
-| `ContractPacks` | KomUniMun Contractual Warfare | BDA+ 军事合同包：在 Kerbin、月球和轨道执行防空、对地、反舰、太空拦截与武器测试合同；自带部分中文。 | 1.0.0 | ✅ 必留 | 13 MB |
+| `ContractPacks` | KomUniMun Contractual Warfare | BDA+ 军事合同包：在 Kerbin、月球和轨道执行防空、对地、反舰、太空拦截与武器测试合同；中文残留已补全。 | 1.0.0 | ✅ 必留 | 13 MB |
 | `CommunityTechTree` | Community Tech Tree | 扩展科技树，给 Near Future 等模组提供节点。 | 1:3.4.5 | ✅ 必留 | 1.8 MB |
 | `HideEmptyTechTreeNodes` | Hide Empty Tech Tree Nodes | 隐藏没有可用部件的科技树节点。 | 1.3.2 | ✅ 必留 | <1 MB |
 

@@ -70,7 +70,8 @@ PartModule（`BDACategoryModule`、`BDALookConstraintUp`、`AnimatedIntake`）
 已安装 **KomUniMun Contractual Warfare 1.0.0**（CKAN `KomUniMunCW`），
 位于 `GameData\ContractPacks\KUM`。它明确依赖 BDA+ 与 Contract Configurator，
 在 Kerbin、月球和轨道提供防空、对地、反舰、太空拦截与武器测试合同。
-自带 `zh-cn`，但部分对地、反舰和太空合同文本仍是英文。
+自带 `zh-cn`；其对地、反舰、太空和测试合同残留的 99 个英文键已由
+`ZZZ_BDA_CN/Localization/UI/KomUniMun_zh.cfg` 补全。
 
 旧的 **Defense Combat Advisors (DCA)** 依赖 `BDArmoryContinued`，与 BDA+ 冲突，
 因此没有安装。

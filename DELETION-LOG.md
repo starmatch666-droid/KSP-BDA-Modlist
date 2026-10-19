@@ -136,7 +136,7 @@ Parallax 与三套纹理已在第二轮按要求删除。
   `BDArmoryMultiplayer` 随联机取消；`BDAUITeamIcons` 引用旧 BDA 1.3.6.4，
   仍不安装。
 - 追加安装 `KomUniMunCW`（KomUniMun Contractual Warfare）军事合同包；
-  它明确依赖 BDA+，自带部分中文。
+  它明确依赖 BDA+；自带中文残留的 99 个对地、反舰、太空与测试合同键已补全。
 - `KISA_Fixes\VABOrganizer_SubcategoryFix.cfg` 中两个部件名列表含制表符，
   已清除；ModuleManager 最近一次完整启动为 **33440 个补丁、0 错误、1 个警告**。
 

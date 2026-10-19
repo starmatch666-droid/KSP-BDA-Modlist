@@ -55,7 +55,7 @@
   "ConfigurableContainers": {"title": "Configurable Containers", "purpose": "把油箱/货舱改为可切换资源类型。", "category": "engineering", "action": "keep"},
   "ConformalDecals": {"title": "Conformal Decals", "purpose": "在任意曲面贴贴花/机徽。", "category": "visual", "action": "optional"},
   "ContractConfigurator": {"title": "Contract Configurator", "purpose": "合同配置框架，KomUniMun 军事合同包的前置。", "category": "career", "action": "keep"},
-  "ContractPacks": {"title": "KomUniMun Contractual Warfare", "purpose": "BDA+ 军事合同包：在 Kerbin、月球和轨道执行防空、对地、反舰、太空拦截与武器测试合同；自带部分中文。", "category": "career", "action": "keep"},
+  "ContractPacks": {"title": "KomUniMun Contractual Warfare", "purpose": "BDA+ 军事合同包：在 Kerbin、月球和轨道执行防空、对地、反舰、太空拦截与武器测试合同；中文残留已补全。", "category": "career", "action": "keep"},
   "Cormorant Aeronology": {"title": "Shuttle Lifting Body", "purpose": "航天飞机升力体、外储箱与助推器部件。", "category": "parts", "action": "delete"},
   "CorrectCOL": {"title": "CorrectCoL", "purpose": "修正气动中心/升力中心显示，设计飞机时有用。", "category": "flight", "action": "keep"},
   "CrewLight": {"title": "Crew Light", "purpose": "按舱内是否有乘员自动开关灯光。", "category": "visual", "action": "optional"},

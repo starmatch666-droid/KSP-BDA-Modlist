@@ -16,6 +16,7 @@ BDA+ 1.13.x 自带 `zh-cn` 词条，但新增的 AI 设置、轰炸、装甲工�
 - `Localization/UI/Addons_zh.cfg`：Refurbished Armory / BDArmoryExtended 缺失词条
 - `Localization/UI/KerbalPowers_zh.cfg`：Kerbal Powers Armory 的 146 个词条
 - `Localization/UI/KerbalPowers_Agencies_zh.cfg`：Kerbal Powers 机构与制造商名称
+- `Localization/UI/KomUniMun_zh.cfg`：补全 KomUniMun 军事合同包残留的 99 个英文键
 - `Plugins/BDA_CN_Categories.dll`：把 BDA 编辑器顶部的分类按钮显示名
   （Guns/Gun turrets/Missiles 等）换成中文，但不改变过滤用的英文键
 - `Plugins/BDA_CN_Info.dll`：替换武器/导弹部件信息里硬编码的
