@@ -11,6 +11,8 @@ BDA+ 1.13.x 自带 `zh-cn` 词条，但新增的 AI 设置、轰炸、装甲工�
 - `Patches/BDModular_zh.cfg`：BD Modular Missile Parts 的 4 个硬编码部件
 - `Patches/Fishy_zh.cfg`：Fishy Weapons Pack 的 104 个硬编码部件
 - `Patches/FoxDefense_zh.cfg`：Fox Defense Contracts 的 209 个硬编码部件
+- `Patches/Bullets_zh.cfg`：Fox / Kerbal Powers 的 65 种弹药类型显示名
+- `Patches/FoxAmmo_zh.cfg`：Fox 的五种弹药资源名
 - `Localization/UI/Addons_zh.cfg`：Refurbished Armory / BDArmoryExtended 缺失词条
 - `Localization/UI/KerbalPowers_zh.cfg`：Kerbal Powers Armory 的 146 个词条
 - `Localization/UI/KerbalPowers_Agencies_zh.cfg`：Kerbal Powers 机构与制造商名称

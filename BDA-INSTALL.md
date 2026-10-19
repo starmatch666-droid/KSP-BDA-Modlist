@@ -27,10 +27,12 @@ BDA+ 依赖 `ModuleManager` 和 `PhysicsRangeExtender`；标准单机版不再�
 - `Fishy_zh.cfg`：Fishy Weapons Pack 104 个部件标题/说明
 - `FoxDefense_zh.cfg`：Fox Defense Contracts 209 个部件标题/说明
 - `KerbalPowers_Agencies_zh.cfg`：Kerbal Powers 机构与制造商名称
+- `Bullets_zh.cfg`：Fox / Kerbal Powers 的 65 种弹药类型显示名
+- `FoxAmmo_zh.cfg`：Fox 的五种弹药资源名
 
 FAR 自带 `zh-cn`，残留的 25 个英文 UI 字符串也已补译。
 
-ModuleManager 最近一次完整启动：**31798 个补丁、0 错误、1 个 TURD 换色警告**；
+ModuleManager 最近一次完整启动：**32191 个补丁、0 错误、1 个 TURD 换色警告**；
 `BDA_CN_Info` 成功替换 23 个武器/导弹信息方法。
 
 ## 已安装的 BDA 部件包

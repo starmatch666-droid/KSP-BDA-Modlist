@@ -130,13 +130,13 @@ Parallax 与三套纹理已在第二轮按要求删除。
 - 补装 `FoxDefenseContracts` + `FDC_Armor`：209 个二战至现代坦克/自行火炮
   炮塔、机炮、炸弹、地雷与装甲兼容配置。
 - 补装 `BDAnimationModules`，供旧式 BDA 部件播放动画。
-- 中文补丁：Kerbal Powers 146 个词条、Fishy 104 个部件、Fox 209 个部件；
-  `ZZZ_BDA_CN` 同步到仓库。
+- 中文补丁：Kerbal Powers 146 个词条、Fishy 104 个部件、Fox 209 个部件、
+  65 种弹药类型显示名与 5 种 Fox 弹药资源名；`ZZZ_BDA_CN` 同步到仓库。
 - `BDArmoryContinued`、`NorthKerbinDynamicRenewed` 与 BDA+ 冲突；
   `BDArmoryMultiplayer` 随联机取消；`BDAUITeamIcons` 引用旧 BDA 1.3.6.4，
   仍不安装。
 - `KISA_Fixes\VABOrganizer_SubcategoryFix.cfg` 中两个部件名列表含制表符，
-  已清除；ModuleManager 最近一次完整启动为 **31798 个补丁、0 错误、1 个警告**。
+  已清除；ModuleManager 最近一次完整启动为 **32191 个补丁、0 错误、1 个警告**。
 
 当前 GameData：**154 个顶层目录、164 个 CKAN 模块、8.96 GB**。
 
