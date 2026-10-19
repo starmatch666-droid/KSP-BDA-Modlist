@@ -1,6 +1,6 @@
 {
-  "BDArmory": {"title": "BDArmory Plus (LMP edition)", "purpose": "BDA+ 1.13.1.0 的 Luna Multiplayer 分支；武器、雷达、导弹、炮塔与 AI。", "category": "core", "action": "keep", "note": "来自 LVCKSTRiKE/BDA-MP-Renewed v0.1，不是 CKAN 的 BDArmoryForRunwayProject。"},
-  "LunaMultiplayer": {"title": "Luna Multiplayer Client", "purpose": "LMP 多人联机客户端（0.29.2，匹配 BDA-MP-Renewed 的 LmpClient 引用）。", "category": "core", "action": "keep"},
+  "BDArmory": {"title": "BDArmory Plus", "purpose": "标准单机 BDA+ 1.13.1.0；武器、雷达、导弹、炮塔与 AI。", "category": "core", "action": "keep", "note": "CKAN 包 BDArmoryForRunwayProject；多人联机已取消。"},
+  "LunaMultiplayer": {"title": "Luna Multiplayer Client", "purpose": "LMP 多人联机客户端；已按用户要求取消。", "category": "core", "action": "delete", "note": "客户端目录与服务端已移到 KSP-BDA-Work\\_disabled_multiplayer。"},
   "PhysicsRangeExtender": {"title": "Physics Range Extender", "purpose": "扩展物理范围，BDA 雷达/远距离交战需要。", "category": "core", "action": "keep"},
   "FerramAerospaceResearch": {"title": "Ferram Aerospace Research Continued", "purpose": "真实气动模型；替代原版部件气动，处理跨声速/高超声速与气动稳定性；自带中文，残留英文已补。", "category": "flight", "action": "keep", "note": "与 WindTunnel 冲突，已移除 WindTunnel。"},
   "Custom": {"title": "Custom（用户目录）", "purpose": "KSP 的用户自定义目录，目前只有空的 Flags 子目录。", "category": "misc", "action": "keep"},

@@ -1,84 +1,53 @@
-# BDA+ 与多人联机安装记录
+# BDA+ 单机安装记录
 
-当前环境：KSP 1.12.5，137 个 GameData 顶层目录，145 个 CKAN 模块。
-BDA 与联机部分**已经安装**。
+当前环境：KSP 1.12.5，136 个 GameData 顶层目录，145 个 CKAN 模块。
 
-## 为什么不是直接装 CKAN 的 BDArmoryForRunwayProject
+**多人联机已取消。** LMP 客户端已移除，服务端移到
+`C:\Users\STARM\Documents\KSP-BDA-Work\_disabled_multiplayer\`；
+当前安装的是标准单机 BDA+。
 
-CKAN 里的 `BDArmoryForRunwayProject` 就是 BDArmory Plus（BDA+），版本
-`2:v1.13.1.0`，支持 KSP 1.9–1.12.999。但标准 BDA+ 不能和 Luna Multiplayer
-同步武器；LMP 官方 wiki 明确写了 BDA/BDAc/BDA+ 不工作。
-
-因此这里装的是社区分支 **BDA-MP-Renewed**：
-
-- 基于 BDA+ 1.13.1.0
-- 为最新 LMP 改写，加入 `LmpClient`/`LmpCommon` 引用
-- 支持枪炮、导弹、雷达、隐身等 BDA+ 功能在多人中同步
-- 版本 `v0.1`，属于 WIP；作者的 TODO 里记录“子弹不渲染，但仍能正常命中/击杀”
-
-来源：<https://github.com/LVCKSTRiKE/BDA-MP-Renewed/releases/tag/BDA-MP-R_v0.1>
-
-## 已安装组件
+## 当前 BDA
 
 | 组件 | 版本 | 安装方式 |
 |---|---|---|
-| BDArmory Plus LMP edition | 1.13.1.0 | GitHub release，手动放进 `GameData\BDArmory` |
-| Luna Multiplayer Client | 0.29.2 | CKAN |
+| BDArmory Plus | 1.13.1.0 | CKAN `BDArmoryForRunwayProject` |
 | Physics Range Extender | 1.21.0 | CKAN |
-| ModuleManager / Harmony | 已有 | 之前安装 |
+| FAR Continued | 0.16.1.2 | CKAN |
 
-`BDArmory` 的 DLL 里可以看到 `LmpClient`、`LmpCommon`、`LunaMultiplayerSystem`
-等引用，确认是联机分支而不是普通 BDA+。
+BDA+ 依赖 `ModuleManager` 和 `PhysicsRangeExtender`；标准单机版不再引用
+`LmpClient`，因此不会再出现之前每帧 `TypeLoadException` 的问题。
 
 ## 中文
 
-BDA+ 自带 `localization-zh-cn.cfg` 和 `Localization/UI/zh-cn.cfg`，部件名/描述
-以及大部分窗口已经是中文。1.13.x 新增的 AI 设置、轰炸、装甲工具等 186 个 UI 键
-官方没有翻译，已由 `GameData\ZZZ_BDA_CN` 补齐。
+- `GameData\ZZZ_BDA_CN`：补齐 186 个 UI 键、VABOrganizer 子分类、
+  硬编码部件文本（Mk1 Open Cockpit Type 2、BD 装甲板等）
+- `BDA_CN_Categories.dll`：编辑器顶部分类按钮显示中文
+- `BDA_CN_Info.dll`：武器/导弹 `GetInfo` 文本中文
 
-如果仍有英文，通常是 BDA 的 DLL 里硬编码的字符串，cfg 词条覆盖不到；那种需要改
-源码重编译。
+FAR 自带 `zh-cn`，残留的 25 个英文 UI 字符串也已补译。
 
-## FAR 气动
+## 可以加装的 BDA 部件包
 
-已安装 **Ferram Aerospace Research Continued 0.16.1.2**：
+取消联机后，不再需要让所有客户端保持同一套 BDA 版本，可以按单机喜好加装。
+建议先只装一两个，确认能进 VAB/SPH 再继续。
 
-- 替代原版部件气动，包含跨声速/高超声速、气动稳定性与失速模型
-- 依赖已有：ModuleManager、ModularFlightIntegrator、TweakScale-Redist、KSPBurst
-- 与 `WindTunnel` 冲突，CKAN 已移除 WindTunnel；FAR 自带气动分析
-- BDA+ 对 FAR 有兼容处理：导弹/炸弹离机后改用 BDA 气动，程序化机翼的 HP/装甲计算也识别 FAR
-
-`AtmosphereAutopilot` 仍保留，但它的飞控参数需要按 FAR 重新调；`CorrectCoL` 也保留，
-不过 FAR 自己的稳定性分析更权威。
-
-## 启动顺序
-
-1. 先启动 LMP 服务器，见 [`MULTIPLAYER.md`](MULTIPLAYER.md)。
-2. 启动 KSP。
-3. 在主菜单点 Luna Multiplayer 按钮，连接服务器。
-4. 进入 SPH/VAB 造带 BDA 武器/雷达的飞机，发射后打开 BDA 武器管理器。
-
-单机测试时也可以先不启动服务器，直接在 KSP 里玩 BDA；但联机战斗必须让服务器
-和所有客户端使用同一套 `GameData`。
-
-## 可选扩展
-
-先确认 BDA 本体和联机稳定，再考虑：
-
-| 包 | 用途 | 注意 |
+| CKAN 名称 | 内容 | 注意事项 |
 |---|---|---|
-| `BDModularMissileParts` | 模块化导弹部件 | BDA 官方推荐 |
-| `BDArmoryExtended` | 额外武器/部件 | 所有联机玩家都必须装同一版本 |
-| `NorthKerbinDynamicRenewed` | 核武器/大型爆炸 | 主题很强，按需 |
-| `KerbalAdvancedDefenseReborn` | 防空/雷达扩展 | 先看版本兼容 |
+| `BDArmoryExtended` | BDA+ 半官方扩展；补充武器、雷达、部件与功能示例 | 稳定版 1.5.3，依赖 BDA+ |
+| `BDModularMissileParts` | 模块化导弹部件 | BDA+ 推荐扩展 |
+| `AviatorArsenal` | 航空武器/挂架部件包 | 先确认 1.12.5 兼容 |
+| `KerbalAdvancedDefenseReborn` | 更真实的防空武器、雷达与导弹 | 偏现代防空主题 |
+| `NorthKerbinDynamicRenewed` | 核武器与大型爆炸 | 主题很强，按需 |
+| `BDAUITeamIcons` | BDA 队伍/目标图标 UI | 纯 UI |
+| `TURD-BDArmory` / `TURD-BDAssociated` | 坦克/地面载具 BDA 部件 | 地面战玩法 |
+| `BKWeaponsPack` / `RefurbishedArmory` | 额外武器包 | 兼容性需逐个确认 |
 
-联机时**不要**只在一端装扩展包；LMP 会因为缺部件报错。
+不要一次把所有包都装上：BDA+ 本体已经有 60 多个部件目录，扩展包主要用于
+特定玩法；出问题时也更难定位。
 
-## 装完后的检查
+## 装扩展后的检查
 
-1. 启动游戏，确认 `KSP.log` 里没有 `BDArmory` 的 `Exception`。
-2. 进 VAB/SPH，确认有 BDA 的武器分类。
-3. 发射一架带武器/雷达的飞机，确认右键菜单和 BDA 窗口能打开。
-4. 连接 LMP 服务器，确认服务器列表/聊天可见。
-5. 如果掉帧，优先降低 BDA 的物理范围/AI 数量；环境美化已经移除。
-6. FAR 已安装；它会替换原版气动，`WindTunnel` 与其冲突已被移除。
+1. 启动 KSP，`KSP.log` 里不应有 BDA 的 `TypeLoadException`。
+2. 进 VAB/SPH，确认 BDA 分类和新增部件都出现。
+3. 检查武器管理器能选中新武器、弹药匹配。
+4. 如果某扩展导致 BDA 窗口或分类异常，先只移除最后装的那个。

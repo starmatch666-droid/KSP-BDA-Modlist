@@ -6,7 +6,7 @@
 2. 按“BDA 空战”主题给出保留/删除名单；
 3. 收纳我们自己写的补丁与插件，方便恢复或迁移到另一台机器。
 
-> 当前状态：**BDA+ LMP 版、Luna Multiplayer、PhysicsRangeExtender 已安装**。
+> 当前状态：**标准单机 BDA+ 已安装；多人联机已取消**。
 > 本仓库同时保留了“清理前”和“清理后”两份清单，方便回滚与继续调整。
 
 ## 环境
@@ -16,44 +16,45 @@
 | 游戏 | Kerbal Space Program 1.12.5（Steam） |
 | 语言 | zh-cn |
 | 路径 | `C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program` |
-| GameData 顶层目录 | 清理前 222 → 当前 137 |
+| GameData 顶层目录 | 清理前 222 → 当前 136 |
 | CKAN 已记录模块 | 清理前 251 → 当前 145 |
-| GameData 体积 | 清理前 16.82 GB → 当前 6.10 GB |
-| 已释放 | **约 10.72 GB** |
+| GameData 体积 | 清理前 16.82 GB → 当前 6.09 GB |
+| 已释放 | **约 10.73 GB** |
 
 ## 文件
 
 | 路径 | 内容 |
 |---|---|
 | [`MODLIST.md`](MODLIST.md) | **清理前**全量清单：名称、用途、版本、BDA 取舍、体积 |
-| [`MODLIST-AFTER.md`](MODLIST-AFTER.md) | **当前**清单（137 个目录） |
-| [`MODS-TABLE.md`](MODS-TABLE.md) | 当前 137 个模组的中英对照表：英文名 / 中文名 / 作用简述 |
+| [`MODLIST-AFTER.md`](MODLIST-AFTER.md) | **当前**清单（136 个目录） |
+| [`MODS-TABLE.md`](MODS-TABLE.md) | 当前 136 个模组的中英对照表：英文名 / 中文名 / 作用简述 |
 | [`MODS-CHECKLIST.md`](MODS-CHECKLIST.md) | 可勾选的删除清单；勾选代表想删 |
 | [`MODS-CHECKLIST-APPLIED-20261019.md`](MODS-CHECKLIST-APPLIED-20261019.md) | 本轮已执行的 33 项勾选记录 |
 | [`DELETION-PLAN.md`](DELETION-PLAN.md) | 删除名单、保留名单、可选项与回滚说明 |
 | [`DELETION-LOG.md`](DELETION-LOG.md) | 实际执行记录、CKAN 连带删除与恢复情况 |
-| [`BDA-INSTALL.md`](BDA-INSTALL.md) | BDA+ LMP 版的版本选择、安装记录与扩展建议 |
-| [`MULTIPLAYER.md`](MULTIPLAYER.md) | LMP 服务器启动、客户端连接、配置与联机注意事项 |
+| [`BDA-INSTALL.md`](BDA-INSTALL.md) | 标准单机 BDA+ 的安装记录与扩展包建议 |
+| [`MULTIPLAYER.md`](MULTIPLAYER.md) | 已取消的多人联机方案（仅作历史记录） |
 | [`mods/installed-modules-before.csv`](mods/installed-modules-before.csv) | 清理前 CKAN 的 251 个模块 |
 | [`mods/installed-modules.csv`](mods/installed-modules.csv) | 当前 CKAN 的 185 个模块 |
 | [`mods/gamedata-inventory-before.csv`](mods/gamedata-inventory-before.csv) | 清理前 222 个顶层目录 |
-| [`mods/gamedata-inventory.csv`](mods/gamedata-inventory.csv) | 当前 137 个顶层目录 |
+| [`mods/gamedata-inventory.csv`](mods/gamedata-inventory.csv) | 当前 136 个顶层目录 |
 | [`patches/README.md`](patches/README.md) | 我们自己的补丁一览、依赖与安装方法 |
 | [`patches/`](patches/) | 可直接放进 `GameData\` 的补丁目录 |
 | [`tools/build_inventory.py`](tools/build_inventory.py) | 重新生成清单的脚本（只读 GameData，不改游戏文件） |
 | [`data/catalog.json`](data/catalog.json) | 人工维护的中文名称/用途/BDA 取舍 |
 
-## BDA 与联机
+## BDA 状态
 
-当前安装的是 **BDArmory Plus LMP edition 1.13.1.0**（BDA-MP-Renewed v0.1）：
+当前安装的是 **标准单机 BDArmory Plus 1.13.1.0**（CKAN
+`BDArmoryForRunwayProject`）：
 
-- 基础是 BDA+ 1.13.1.0，包含武器、雷达、导弹、炮塔、AI、战斗管理界面
-- 为 Luna Multiplayer 增加了武器同步
+- 包含武器、雷达、导弹、炮塔、AI、战斗管理界面
 - 依赖：`ModuleManager`、`PhysicsRangeExtender`
 - 语言：自带多语言词条（含中文）
 
-标准 BDA+ 不能和 LMP 同步武器，所以这里用 LMP 分支；详见
-[`BDA-INSTALL.md`](BDA-INSTALL.md) 和 [`MULTIPLAYER.md`](MULTIPLAYER.md)。
+多人联机已取消，LMP 客户端与服务端已移到
+`C:\Users\STARM\Documents\KSP-BDA-Work\_disabled_multiplayer\`；现在可以按单机
+需求加装 BDA 部件包，详见 [`BDA-INSTALL.md`](BDA-INSTALL.md)。
 
 也就是说，下面这些被删掉的主题包都不是 BDA 的运行前提。真正需要优先保证的是
 `ModuleManager`、`Harmony`、`KSPCommunityFixes`、物理/气动辅助，以及 Near Future

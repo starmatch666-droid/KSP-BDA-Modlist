@@ -55,7 +55,7 @@ NAMES = {
     "000_TexturesUnlimited": "无限纹理着色库",
     "001_ToolbarControl": "工具栏控制器",
     "B9PartSwitch": "B9 部件切换",
-    "BDArmory": "BDA 军械库 Plus（联机版）",
+    "BDArmory": "BDA 军械库 Plus（单机版）",
     "CommunityCategoryKit": "社区分类套件",
     "CommunityResourcePack": "社区资源包",
     "CustomPreLaunchChecks": "自定义发射前检查",

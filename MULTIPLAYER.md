@@ -1,11 +1,15 @@
 # 多人联机（Luna Multiplayer）
 
+> **已取消（2026-10-19）。** LMP 客户端已从 GameData 移除，0.29.2/0.30.0
+> 服务端已移到 `C:\Users\STARM\Documents\KSP-BDA-Work\_disabled_multiplayer\`。
+> 当前是标准单机 BDA+；以下内容仅作历史记录。
+
 ## 已安装
 
 | 组件 | 版本 | 位置 |
 |---|---|---|
-| LMP 客户端 | 0.29.2 | `GameData\LunaMultiplayer` |
-| LMP 服务端 | 0.29.2 | `C:\Users\STARM\Documents\KSP-BDA-Work\LMP-Server-0.29.2\LMPServer` |
+| LMP 客户端 | 已移除 | 历史版本 0.29.2 |
+| LMP 服务端 | 已归档 | `C:\Users\STARM\Documents\KSP-BDA-Work\_disabled_multiplayer\LMP-Server-0.29.2\LMPServer` |
 | BDA+ LMP 分支 | 1.13.1.0 | `GameData\BDArmory` |
 | Physics Range Extender | 1.21.0 | `GameData\PhysicsRangeExtender` |
 | FAR Continued | 0.16.1.2 | `GameData\FerramAerospaceResearch` |

@@ -2,7 +2,7 @@
 
 **勾选 = 想删。** 勾选不会立刻删除文件；把勾好的清单发给我，或直接告诉我勾了哪些，我再按名单执行。
 
-当前共 **138** 个 GameData 顶层目录。
+当前共 **136** 个 GameData 顶层目录。
 
 
 ## 基础框架 / 前置
@@ -14,7 +14,7 @@
 - [ ] **Textures Unlimited**（无限纹理着色库）— 金属度/贴图着色框架，Near Future 换色与 ReStock 外观会用到。
 - [ ] **Toolbar Controller**（工具栏控制器）— 统一管理 Blizzy/原版工具栏按钮。
 - [ ] **B9 Part Switch**（B9 部件切换）— 部件模型/资源/节点切换框架，大量部件包的前置。
-- [ ] **BDArmory Plus (LMP edition)**（BDA 军械库 Plus（联机版））— BDA+ 1.13.1.0 的 Luna Multiplayer 分支；武器、雷达、导弹、炮塔与 AI。
+- [ ] **BDArmory Plus**（BDA 军械库 Plus（单机版））— 标准单机 BDA+ 1.13.1.0；武器、雷达、导弹、炮塔与 AI。
 - [ ] **Community Category Kit**（社区分类套件）— 社区通用部件分类。
 - [ ] **Community Resource Pack**（社区资源包）— 社区通用资源定义，Near Future/Cryo/USI 等共用。
 - [ ] **Custom Pre Launch Checks**（自定义发射前检查）— 发射前检查 API，供其他模组挂接。
@@ -24,7 +24,6 @@
 - [ ] **KSP Community Fixes**（KSP 社区修复）— 社区维护的大量底层 bug 修复与性能改进，必留。
 - [ ] **KSP Texture Loader**（KSP 纹理加载器）— 运行时纹理加载库。
 - [ ] **KSPWheel**（KSP 轮式物理库）— 轮子/悬挂物理库，Kerbal Foundries 等使用。
-- [ ] **Luna Multiplayer Client**（Luna 多人客户端）— LMP 多人联机客户端（0.30.0-Draft）。
 - [ ] **Modular Flight Integrator**（模块化飞行集成器）— 气动/热集成框架，FAR 等模组使用。
 - [ ] **PatchManager**（补丁管理器）— 在游戏内查看/管理 ModuleManager 补丁。
 - [ ] **Physics Range Extender**（物理范围扩展）— 扩展物理范围，BDA 雷达/远距离交战需要。
