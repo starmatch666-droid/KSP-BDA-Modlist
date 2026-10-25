@@ -3,6 +3,7 @@
 2026-10-25，在卸载本机全部 KSP 模组前归档。
 
 - `BDA-MODS.txt`：BDA 最终 CKAN 状态中的 162 个模块名称，一行一个。
+- `mods/modlist-pre-bda-20261017.ckan`：BDA 前的 201 项完整恢复清单。
 - `patches/ZZZ_BDA_CN/`：BDA+、扩展包与军事合同科技树的中文补充。
 - `patches/ZZZ_SpikeX_CN/`：SpikeX 简体中文补丁。
 - `patches/FAR_ModdedAeroPatches/`：SpikeX、Fishy 与 FAR 的机翼/舵面适配。
