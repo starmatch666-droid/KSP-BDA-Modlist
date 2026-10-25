@@ -17,6 +17,7 @@
 - `modlist-before.ckan` 是删除前快照；`modlist-bda.ckan` 是删除后、安装 BDA 前
   的当前状态。不要把旧清单当成 BDA 最终档案。
 - 恢复“BDA 前一大堆模组”时使用 `modlist-pre-bda-20261017.ckan`；
-  SHA256 为 `6C0EEE51DF59C820D70A5BE3316230F8BD4C21532F12389498BD0FACBD5C94E5`。
+  GitHub 原始文件 SHA256 为
+  `09626AFFD6E2B0742D50F0857CFC24917CC4626494C07D07016EACB6F985060E`。
 - `installed-modules.csv` 的摘要保留英文原文，便于和 CKAN/原作者页面核对；
   中文用途与取舍在 `gamedata-inventory.csv` 和 `MODLIST.md`。
