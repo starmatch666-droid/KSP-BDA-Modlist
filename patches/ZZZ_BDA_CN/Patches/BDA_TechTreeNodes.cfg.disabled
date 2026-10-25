@@ -13,7 +13,7 @@
         nodeName = bda_foundations
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_enhancedSurvivability
-        pos = 100,1000,-1
+        pos = -2280,220,-1
         scale = 0.6
         Parent
         {
@@ -32,7 +32,7 @@
         nodeName = bda_w_root
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_subsonicFlight
-        pos = 300,1600,-1
+        pos = -2090,220,-1
         scale = 0.6
         Parent
         {
@@ -51,7 +51,7 @@
         nodeName = bda_w_guns_light
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_subsonicFlight
-        pos = 500,1700,-1
+        pos = -1900,220,-1
         scale = 0.6
         Parent
         {
@@ -70,7 +70,7 @@
         nodeName = bda_w_cannons_ww2
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_specializedFlight
-        pos = 700,1700,-1
+        pos = -1710,220,-1
         scale = 0.6
         Parent
         {
@@ -89,7 +89,7 @@
         nodeName = bda_w_autocannons
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_specializedFlight
-        pos = 900,1700,-1
+        pos = -1520,220,-1
         scale = 0.6
         Parent
         {
@@ -108,7 +108,7 @@
         nodeName = bda_w_naval
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_highPowerElectricalSystems
-        pos = 1100,1700,-1
+        pos = -1330,220,-1
         scale = 0.6
         Parent
         {
@@ -127,7 +127,7 @@
         nodeName = bda_w_rockets
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_efficientFlight
-        pos = 500,1500,-1
+        pos = -1140,220,-1
         scale = 0.6
         Parent
         {
@@ -146,7 +146,7 @@
         nodeName = bda_w_guided_bombs
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_efficientFlight
-        pos = 700,1500,-1
+        pos = -950,220,-1
         scale = 0.6
         Parent
         {
@@ -165,7 +165,7 @@
         nodeName = bda_w_precision_bombs
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_aerospaceComposites
-        pos = 900,1500,-1
+        pos = -760,220,-1
         scale = 0.6
         Parent
         {
@@ -184,7 +184,7 @@
         nodeName = bda_w_heavy_bombs
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_highEnergyNuclearPower
-        pos = 1100,1500,-1
+        pos = -2280,160,-1
         scale = 0.6
         Parent
         {
@@ -203,7 +203,7 @@
         nodeName = bda_w_missiles_early
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_specializedFlight
-        pos = 500,1300,-1
+        pos = -2090,160,-1
         scale = 0.6
         Parent
         {
@@ -222,7 +222,7 @@
         nodeName = bda_w_missiles_cold
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_specializedFlight
-        pos = 700,1300,-1
+        pos = -1900,160,-1
         scale = 0.6
         Parent
         {
@@ -241,7 +241,7 @@
         nodeName = bda_w_missiles_modern
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_aerospaceComposites
-        pos = 900,1300,-1
+        pos = -1710,160,-1
         scale = 0.6
         Parent
         {
@@ -260,7 +260,7 @@
         nodeName = bda_w_missiles_advanced
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_expElectricalSystems
-        pos = 1100,1300,-1
+        pos = -1520,160,-1
         scale = 0.6
         Parent
         {
@@ -279,7 +279,7 @@
         nodeName = bda_w_nuclear
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_highEnergyNuclearPower
-        pos = 1300,1500,-1
+        pos = -1330,160,-1
         scale = 0.6
         Parent
         {
@@ -298,7 +298,7 @@
         nodeName = bda_w_railgun
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_experimentalElectrostaticPropulsion
-        pos = 1300,1300,-1
+        pos = -1140,160,-1
         scale = 0.6
         Parent
         {
@@ -317,7 +317,7 @@
         nodeName = bda_w_laser
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_experimentalElectrostaticPropulsion
-        pos = 1500,1300,-1
+        pos = -950,160,-1
         scale = 0.6
         Parent
         {
@@ -336,7 +336,7 @@
         nodeName = bda_w_exotic
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_exoticElectricalSystems
-        pos = 1700,1300,-1
+        pos = -760,160,-1
         scale = 0.6
         Parent
         {
@@ -355,7 +355,7 @@
         nodeName = bda_a_root
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_enhancedSurvivability
-        pos = 300,1000,-1
+        pos = -2280,100,-1
         scale = 0.6
         Parent
         {
@@ -374,7 +374,7 @@
         nodeName = bda_a_plates
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_enhancedSurvivability
-        pos = 500,1100,-1
+        pos = -2090,100,-1
         scale = 0.6
         Parent
         {
@@ -393,7 +393,7 @@
         nodeName = bda_a_reactive
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_aerospaceComposites
-        pos = 700,1100,-1
+        pos = -1900,100,-1
         scale = 0.6
         Parent
         {
@@ -412,7 +412,7 @@
         nodeName = bda_a_ww2_tanks
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_specializedFlight
-        pos = 500,900,-1
+        pos = -1710,100,-1
         scale = 0.6
         Parent
         {
@@ -431,7 +431,7 @@
         nodeName = bda_a_cold_tanks
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_specializedFlight
-        pos = 700,900,-1
+        pos = -1520,100,-1
         scale = 0.6
         Parent
         {
@@ -450,7 +450,7 @@
         nodeName = bda_a_modern_tanks
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_aerospaceComposites
-        pos = 900,900,-1
+        pos = -1330,100,-1
         scale = 0.6
         Parent
         {
@@ -469,7 +469,7 @@
         nodeName = bda_e_root
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_specializedFlight
-        pos = 300,600,-1
+        pos = -1140,100,-1
         scale = 0.6
         Parent
         {
@@ -488,7 +488,7 @@
         nodeName = bda_e_radar_basic
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_specializedFlight
-        pos = 500,700,-1
+        pos = -950,100,-1
         scale = 0.6
         Parent
         {
@@ -507,7 +507,7 @@
         nodeName = bda_e_radar_advanced
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_highTechElectricalSystems
-        pos = 700,700,-1
+        pos = -760,100,-1
         scale = 0.6
         Parent
         {
@@ -526,7 +526,7 @@
         nodeName = bda_e_aesa
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_expElectricalSystems
-        pos = 900,700,-1
+        pos = -2280,40,-1
         scale = 0.6
         Parent
         {
@@ -545,7 +545,7 @@
         nodeName = bda_e_targeting
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_efficientFlight
-        pos = 500,500,-1
+        pos = -2090,40,-1
         scale = 0.6
         Parent
         {
@@ -564,7 +564,7 @@
         nodeName = bda_e_countermeasures
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_aerospaceComposites
-        pos = 500,350,-1
+        pos = -1900,40,-1
         scale = 0.6
         Parent
         {
@@ -583,7 +583,7 @@
         nodeName = bda_e_ecm
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_expElectricalSystems
-        pos = 700,350,-1
+        pos = -1710,40,-1
         scale = 0.6
         Parent
         {
@@ -602,7 +602,7 @@
         nodeName = bda_e_ai
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_experimentalActuators
-        pos = 1100,700,-1
+        pos = -1520,40,-1
         scale = 0.6
         Parent
         {
@@ -621,7 +621,7 @@
         nodeName = bda_p_root
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_subsonicFlight
-        pos = 300,200,-1
+        pos = -1330,40,-1
         scale = 0.6
         Parent
         {
@@ -640,7 +640,7 @@
         nodeName = bda_p_jets
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_subsonicFlight
-        pos = 500,300,-1
+        pos = -1140,40,-1
         scale = 0.6
         Parent
         {
@@ -659,7 +659,7 @@
         nodeName = bda_p_launchers
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_efficientFlight
-        pos = 500,150,-1
+        pos = -950,40,-1
         scale = 0.6
         Parent
         {
@@ -678,7 +678,7 @@
         nodeName = bda_p_modular
         anyToUnlock = False
         icon = CommunityTechTree/UI/ctt_icon_specializedFlight
-        pos = 700,150,-1
+        pos = -760,40,-1
         scale = 0.6
         Parent
         {

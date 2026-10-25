@@ -9,17 +9,9 @@ BDA+ 1.13.x 自带 `zh-cn` 词条，但新增的 AI 设置、轰炸、装甲工�
 - `Patches/PartText_zh.cfg`：Mk1 Open Cockpit Type 2、BD 装甲板等硬编码部件文本
 - `Patches/NKDR_zh.cfg`：North Kerbin Dynamics Renewed-Extended 的 57 个硬编码部件
 - `Patches/BDModular_zh.cfg`：BD Modular Missile Parts 的 4 个硬编码部件
-- `Patches/Fishy_zh.cfg`：Fishy Weapons Pack 的 104 个硬编码部件
-- `Patches/FoxDefense_zh.cfg`：Fox Defense Contracts 的 209 个硬编码部件
-- `Patches/Bullets_zh.cfg`：Fox / Kerbal Powers 的 65 种弹药类型显示名
-- `Patches/FoxAmmo_zh.cfg`：Fox 的五种弹药资源名
-- `Patches/KUM_MilitaryScience.cfg`：给 KomUniMun 的 60 个军事合同追加科研奖励
-- `Patches/BDA_TechTreeNodes.cfg`：新建 36 个 BDA 专属科技树节点
-- `Patches/BDA_TechTree.cfg`：把 724 个 BDA/扩展部件按武器/装甲/电子/平台分配
+- `Patches/BDA_TechTree.cfg`：BDA 部件科技树补丁
+- `Patches/BDA_TechTreeNodes.cfg.disabled`：已停用的自定义节点实验稿
 - `Localization/UI/Addons_zh.cfg`：Refurbished Armory / BDArmoryExtended 缺失词条
-- `Localization/UI/KerbalPowers_zh.cfg`：Kerbal Powers Armory 的 146 个词条
-- `Localization/UI/KerbalPowers_Agencies_zh.cfg`：Kerbal Powers 机构与制造商名称
-- `Localization/UI/KomUniMun_zh.cfg`：补全 KomUniMun 军事合同包残留的 99 个英文键
 - `Plugins/BDA_CN_Categories.dll`：把 BDA 编辑器顶部的分类按钮显示名
   （Guns/Gun turrets/Missiles 等）换成中文，但不改变过滤用的英文键
 - `Plugins/BDA_CN_Info.dll`：替换武器/导弹部件信息里硬编码的

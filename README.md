@@ -6,7 +6,7 @@
 2. 按“BDA 空战”主题给出保留/删除名单；
 3. 收纳我们自己写的补丁与插件，方便恢复或迁移到另一台机器。
 
-> 当前状态：**标准单机 BDA+ 已安装；多人联机已取消**。
+> 档案状态：**标准单机 BDA+ 最终配置已于 2026-10-25 卸载前归档**。
 > 本仓库同时保留了“清理前”和“清理后”两份清单，方便回滚与继续调整。
 
 ## 环境
@@ -25,6 +25,8 @@
 
 | 路径 | 内容 |
 |---|---|
+| [`BDA-MODS.txt`](BDA-MODS.txt) | BDA 最终 CKAN 状态的 162 个模块名称，一行一个 |
+| [`FINAL-ARCHIVE-20261025.md`](FINAL-ARCHIVE-20261025.md) | 2026-10-25 全量卸载前的归档说明 |
 | [`MODLIST.md`](MODLIST.md) | **清理前**全量清单：名称、用途、版本、BDA 取舍、体积 |
 | [`MODLIST-AFTER.md`](MODLIST-AFTER.md) | **当前**清单（155 个目录） |
 | [`MODS-TABLE.md`](MODS-TABLE.md) | 当前 155 个模组的中英对照表：英文名 / 中文名 / 作用简述 |
@@ -68,9 +70,10 @@ BDA UI Team Icons 未安装。
 
 军事合同包使用 KomUniMun Contractual Warfare；原包战斗合同不给科研点，
 已由 `ZZZ_BDA_CN/Patches/KUM_MilitaryScience.cfg` 按合同资金追加科研奖励；
-`BDA_TechTreeNodes.cfg` 与 `BDA_TechTree.cfg` 又创建了一条 BDA 专属支线，
-按武器/装甲/电子/平台四个大方向拆成 36 个节点，形成完整的“军事承包商”
-科技树路线。
+最终版保留了 `BDA_TechTree.cfg`，并将独立的
+`BDA_TechTreeNodes.cfg.disabled` 停用。KUM 正式词条直接写入
+`ContractPacks/KUM/localization/zh-cn.cfg`，不再依靠后会失效的
+`ZZZ_BDA_CN/Localization/UI/KomUniMun_zh.cfg`。
 
 ## 保留的核心
 
@@ -119,6 +122,9 @@ Kerbal Konstructs、Tundra Space Center、OSSNTR；全部 IVA 相关包也保留
 - `Endurance_适配`、`Endurance_CN`
 - `MLP_CN`、`ZZZ_GC_CN`、`ZZZ_USI_CN`、`ZZZ_KONSTRUCTION_INDEPENDENCE`
 - `WormholeRelay`（含 C# 源码）
+- `ZZZ_BDA_CN`、`ZZZ_SpikeX_CN`
+- `FAR_ModdedAeroPatches`
+- `ContractPacks-KUM` 最终中文词条
 - 未安装的 `ArcjetXeArPatch`
 
 其中 `Endurance_*`、`MLP_CN`、`ZZZ_GC_CN`、`ZZZ_USI_CN`、`ZZZ_KONSTRUCTION_INDEPENDENCE`

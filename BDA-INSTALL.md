@@ -71,7 +71,8 @@ PartModule（`BDACategoryModule`、`BDALookConstraintUp`、`AnimatedIntake`）
 位于 `GameData\ContractPacks\KUM`。它明确依赖 BDA+ 与 Contract Configurator，
 在 Kerbin、月球和轨道提供防空、对地、反舰、太空拦截与武器测试合同。
 自带 `zh-cn`；其对地、反舰、太空和测试合同残留的 99 个英文键已由
-`ZZZ_BDA_CN/Localization/UI/KomUniMun_zh.cfg` 补全。
+`ContractPacks/KUM/localization/zh-cn.cfg` 最终版补全。旧的重复定义补丁
+`ZZZ_BDA_CN/Localization/UI/KomUniMun_zh.cfg` 已移除。
 
 原包的普通战斗合同 `science = 0`，只有测试合同给 0.5–2.5 科研点。
 `ZZZ_BDA_CN/Patches/KUM_MilitaryScience.cfg` 已给全部 60 个合同追加：
@@ -88,11 +89,11 @@ rewardScience = 原科研 + 合同资金 / 150 + 10
 先进导弹线约 2135，核武线约 3495，激光线约 5435。按平均每场约 70 科研，
 一条主分支大约 20–30 场，激光/核武这种顶级路线需要更长时间。
 
-## BDA 科技树：四条大方向 + 36 个节点
+## BDA 科技树
 
-`ZZZ_BDA_CN/Patches/BDA_TechTreeNodes.cfg` 在科技树右侧新建了一条 BDA
-专属支线；`BDA_TechTree.cfg` 把 724 个 BDA/扩展部件分配到 36 个节点。
-不再借用 Community Tech Tree 的少数大节点：
+最终版保留了 `ZZZ_BDA_CN/Patches/BDA_TechTree.cfg`，并把独立节点文件改名为
+`BDA_TechTreeNodes.cfg.disabled`。归档同时保留该停用文件，便于以后重新启用或
+继续调整。此前的 36 节点实验方案如下，仅作历史参考：
 
 | 大方向 | 子节点 | 部件数 |
 |---|---|---:|
