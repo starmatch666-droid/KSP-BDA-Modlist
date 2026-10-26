@@ -122,6 +122,7 @@ Kerbal Konstructs、Tundra Space Center、OSSNTR；全部 IVA 相关包也保留
 - `Endurance_适配`、`Endurance_CN`
 - `MLP_CN`、`ZZZ_GC_CN`、`ZZZ_USI_CN`、`ZZZ_KONSTRUCTION_INDEPENDENCE`
 - `WormholeRelay`（含 C# 源码）
+- `MechJebInfiniteFuel`（含 C# 源码：无限推进剂下的长节点燃烧与自动加速修正）
 - `ZZZ_BDA_CN`、`ZZZ_SpikeX_CN`
 - `FAR_ModdedAeroPatches`
 - `ContractPacks-KUM` 最终中文词条
