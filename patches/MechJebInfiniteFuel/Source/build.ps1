@@ -21,6 +21,8 @@ New-Item -ItemType Directory -Path $packagePlugins -Force | Out-Null
     /r:"$managed\Assembly-CSharp.dll" `
     /r:"$managed\UnityEngine.dll" `
     /r:"$managed\UnityEngine.CoreModule.dll" `
+    /r:"$managed\UnityEngine.IMGUIModule.dll" `
+    /r:"$managed\UnityEngine.UI.dll" `
     /r:"$ksp\GameData\000_Harmony\0Harmony.dll" `
     /r:"$ksp\GameData\MechJeb2\Plugins\MechJeb2.dll" `
     /r:"$ksp\GameData\MechJeb2\Plugins\MechJebLib.dll" `

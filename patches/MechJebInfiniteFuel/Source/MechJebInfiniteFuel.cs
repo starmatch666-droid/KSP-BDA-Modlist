@@ -31,6 +31,141 @@ namespace MechJebInfiniteFuel
         }
     }
 
+    [KSPAddon(KSPAddon.Startup.Flight, false)]
+    public sealed class MechJebInfiniteFuelWindow : MonoBehaviour
+    {
+        private const int WindowId = 0x4D4A4946;
+        private Rect _window = new Rect(Screen.width - 320f, 80f, 300f, 180f);
+
+        private static MechJebCore FindMechJebCore(Vessel vessel)
+        {
+            if (vessel == null || vessel.parts == null)
+            {
+                return null;
+            }
+
+            for (int i = 0; i < vessel.parts.Count; i++)
+            {
+                Part part = vessel.parts[i];
+                if (part == null || part.Modules == null)
+                {
+                    continue;
+                }
+
+                for (int j = 0; j < part.Modules.Count; j++)
+                {
+                    MechJebCore core = part.Modules[j] as MechJebCore;
+                    if (core != null)
+                    {
+                        return core;
+                    }
+                }
+            }
+
+            return null;
+        }
+
+        private static string FormatDuration(double seconds)
+        {
+            long totalSeconds = (long)Math.Round(Math.Abs(seconds));
+            long hours = totalSeconds / 3600;
+            long minutes = (totalSeconds % 3600) / 60;
+            long secs = totalSeconds % 60;
+            return string.Format("{0:00}:{1:00}:{2:00}", hours, minutes, secs);
+        }
+
+        private void OnGUI()
+        {
+            if (!CheatOptions.InfinitePropellant ||
+                HighLogic.LoadedScene != GameScenes.FLIGHT)
+            {
+                return;
+            }
+
+            Vessel vessel = FlightGlobals.ActiveVessel;
+            if (vessel == null || !vessel.loaded || vessel.patchedConicSolver == null)
+            {
+                return;
+            }
+
+            _window = GUILayout.Window(
+                WindowId,
+                _window,
+                DrawWindow,
+                "MechJeb Infinite Fuel",
+                GUILayout.Width(300f));
+        }
+
+        private void DrawWindow(int windowId)
+        {
+            Vessel vessel = FlightGlobals.ActiveVessel;
+            MechJebCore core = FindMechJebCore(vessel);
+            if (core == null || core.Node == null)
+            {
+                GUILayout.Label("MechJeb core not found.");
+                GUI.DragWindow();
+                return;
+            }
+
+            if (vessel.patchedConicSolver.maneuverNodes.Count == 0)
+            {
+                GUILayout.Label("No maneuver node.");
+                GUILayout.Label("Infinite Propellant: ON");
+                GUI.DragWindow();
+                return;
+            }
+
+            ManeuverNode node = vessel.patchedConicSolver.maneuverNodes[0];
+            double deltaV = node.GetBurnVector(vessel.orbit).magnitude;
+            double acceleration = core.Node.VesselState.limitedMaxThrustAccel;
+
+            if (!(acceleration > 0.000001) ||
+                double.IsNaN(acceleration) ||
+                double.IsInfinity(acceleration))
+            {
+                GUILayout.Label("No usable engine acceleration.");
+                GUILayout.Label("Node delta-v: " + deltaV.ToString("F2") + " m/s");
+                GUI.DragWindow();
+                return;
+            }
+
+            double burnDuration = deltaV / acceleration;
+            double burnStartUt = node.UT - burnDuration * 0.5;
+            double burnEndUt = node.UT + burnDuration * 0.5;
+            double now = Planetarium.GetUniversalTime();
+            double ignitionCountdown = burnStartUt - now;
+            double nodeCountdown = node.UT - now;
+
+            GUILayout.Label("Burn duration: " + FormatDuration(burnDuration));
+            GUILayout.Label("Ignition UT: " + burnStartUt.ToString("F0"));
+            GUILayout.Label("Node UT: " + node.UT.ToString("F0"));
+            GUILayout.Space(4f);
+
+            if (now < burnStartUt)
+            {
+                GUILayout.Label("Ignition T-minus: " + FormatDuration(ignitionCountdown));
+            }
+            else if (now <= burnEndUt)
+            {
+                GUILayout.Label("Ignition: BURNING");
+                GUILayout.Label("Burn time left: " + FormatDuration(burnEndUt - now));
+            }
+            else
+            {
+                GUILayout.Label("Ignition: BURN WINDOW PASSED");
+            }
+
+            GUILayout.Label(
+                "Node T-minus: " +
+                (nodeCountdown >= 0.0 ? "-" : "+") +
+                FormatDuration(nodeCountdown));
+            GUILayout.Space(4f);
+            GUILayout.Label("Node delta-v: " + deltaV.ToString("F2") + " m/s");
+            GUILayout.Label("Acceleration: " + acceleration.ToString("F6") + " m/s^2");
+            GUI.DragWindow();
+        }
+    }
+
     [HarmonyPatch(typeof(MechJebModuleNodeExecutor), "BurnTime")]
     internal static class PatchMechJebNodeExecutorBurnTime
     {

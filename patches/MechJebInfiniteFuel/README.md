@@ -43,10 +43,19 @@ Restart KSP after installing.
    `Node Burn Countdown`.
 4. Enable `Autowarp`; MechJeb should now warp toward the real half-burn point.
 
+While infinite propellant is enabled, a draggable `MechJeb Infinite Fuel` window
+shows the actual values directly:
+
+- total burn duration;
+- ignition UT;
+- ignition T-minus or active-burn time remaining;
+- node T-minus;
+- node delta-v and current limited acceleration.
+
 The stock KSP Maneuver Tool can still display its own finite-fuel estimate.
-Use MechJeb's patched Node Burn Length for execution. Very long burns should be
-executed with physical time warp; the current Better Time Warp profile provides
-4x, 8x, and 12x physics warp.
+Use the plugin window or MechJeb's patched Node Burn Length for execution. Very
+long burns should be executed with physical time warp; the current Better Time
+Warp profile provides 4x, 8x, and 12x physics warp.
 
 ## Build
 
