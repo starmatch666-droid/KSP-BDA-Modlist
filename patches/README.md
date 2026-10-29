@@ -29,6 +29,7 @@
 | `ContractPacks-KUM` | 本地化 cfg | KUM 1.0.0 主体中文词条最终补全 | KomUniMunCW | **保留** |
 | `ZZZ_KAD_CN` | 本地化 cfg | 修正 KAD 自带 zh-cn 的制造商/沙皇炸弹名称 | Kerbal Advanced Defense Reborn | **保留** |
 | `ZZZ_FAR_CN` | 本地化 cfg | 修正 FAR 自带 zh-cn 中残留的 25 个英文 UI 字符串 | FAR Continued | **保留** |
+| `ZZZ_RSS_PART_BALANCE` | MM 配置 | RSS-Lite 简化数值平衡：发动机、推进剂、RCS、电力、散热、热盾与深空天线 | RealSolarSystem；与 RealismOverhaul 互斥 | RSS 专用 |
 | `optional-not-installed/ArcjetXeArPatch-2026-10-15` | MM 配置 | 电弧喷射发动机氙/氩燃料补丁；当前未安装 | Near Future Propulsion 相关部件 | 备用，未进入当前档案 |
 
 ## 安装顺序

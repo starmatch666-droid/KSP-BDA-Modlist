@@ -1,6 +1,6 @@
 # 补丁文件清单与校验和
 
-共 127 个文件。SHA256 以 `patches/SHA256SUMS.txt` 为准。
+共 129 个文件。SHA256 以 `patches/SHA256SUMS.txt` 为准。
 
 | 文件 | 大小 | SHA256（前 16 位） |
 |---|---:|---|
@@ -67,7 +67,7 @@
 | `optional-not-installed/ArcjetXeArPatch-2026-10-15/ArcjetXeArPatch.cfg` | 5.7 KB | `788ea9df0efed1ca` |
 | `optional-not-installed/ArcjetXeArPatch-2026-10-15/Localization/en-us.cfg` | 1.4 KB | `d832d9e97fa51577` |
 | `optional-not-installed/ArcjetXeArPatch-2026-10-15/Localization/zh-cn.cfg` | 1.3 KB | `6c5be2f128a26951` |
-| `README.md` | 4.7 KB | `72edf0b487d8ab3e` |
+| `README.md` | 4.9 KB | `0dfdcae779dd1910` |
 | `RealChute_CN/RealChute_CN.dll` | 26.0 KB | `b65638174ff9f84d` |
 | `RealChute_CN/Source/build.cmd` | 997 B | `9589e4f3f9302b98` |
 | `RealChute_CN/Source/RealChute_CN.cs` | 26.9 KB | `fb72bb612398d72d` |
@@ -119,6 +119,8 @@
 | `ZZZ_KAD_CN/README.md` | 424 B | `73b10c4677050c00` |
 | `ZZZ_KONSTRUCTION_INDEPENDENCE/Patches/KS500_Local_Industry.cfg` | 4.5 KB | `d07b1217a9e5cc13` |
 | `ZZZ_KONSTRUCTION_INDEPENDENCE/README.md` | 1.8 KB | `6246b0402bbf8c52` |
+| `ZZZ_RSS_PART_BALANCE/README.md` | 6.4 KB | `a6b1759771d682ab` |
+| `ZZZ_RSS_PART_BALANCE/RSS_PartBalance.cfg` | 18.1 KB | `f4239406c943ac62` |
 | `ZZZ_SpikeX_CN/README.md` | 210 B | `7584dff89027f428` |
 | `ZZZ_SpikeX_CN/SpikeX_zh-cn.cfg` | 4.1 KB | `e7c9d119ae1d29fa` |
 | `ZZZ_USI_CN/Localization/Konstruction_zh-cn.cfg` | 5.6 KB | `8affcf7e1ffbbbf6` |
