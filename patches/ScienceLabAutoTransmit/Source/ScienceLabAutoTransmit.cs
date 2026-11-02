@@ -20,6 +20,8 @@ namespace ScienceLabAutoTransmit
 
         private readonly Dictionary<int, double> nextRetry =
             new Dictionary<int, double>();
+        private readonly HashSet<int> loggedUnloadedProblems =
+            new HashSet<int>();
 
         private float thresholdPercent = 99f;
         private float checkIntervalSeconds = 5f;
@@ -64,18 +66,18 @@ namespace ScienceLabAutoTransmit
                     continue;
                 }
 
-                if (CommNetScenario.CommNetEnabled
-                    && (vessel.connection == null || !vessel.connection.CanScience))
-                {
-                    continue;
-                }
-
                 if (!vessel.loaded)
                 {
                     if (transmitUnloadedLabs)
                     {
                         TryTransmitUnloadedVessel(vessel, now);
                     }
+                    continue;
+                }
+
+                if (CommNetScenario.CommNetEnabled
+                    && (vessel.connection == null || !vessel.connection.CanScience))
+                {
                     continue;
                 }
 
@@ -111,12 +113,12 @@ namespace ScienceLabAutoTransmit
         {
             if (ResearchAndDevelopment.Instance == null
                 || vessel.protoVessel == null
-                || vessel.protoVessel.protoPartSnapshots == null
-                || !HasUnloadedTransmitter(vessel.protoVessel))
+                || vessel.protoVessel.protoPartSnapshots == null)
             {
                 return;
             }
 
+            bool hasTransmitter = HasUnloadedTransmitter(vessel.protoVessel);
             List<ProtoPartSnapshot> parts = vessel.protoVessel.protoPartSnapshots;
             for (int partIndex = 0; partIndex < parts.Count; partIndex++)
             {
@@ -151,6 +153,22 @@ namespace ScienceLabAutoTransmit
                 }
 
                 int labId = part.flightID.GetHashCode();
+                if (!hasTransmitter)
+                {
+                    if (verboseLogging && loggedUnloadedProblems.Add(labId))
+                    {
+                        Debug.LogWarning(string.Format(
+                            CultureInfo.InvariantCulture,
+                            "{0}unloaded lab {1} is ready ({2:0.###}/{3}) but no ModuleDataTransmitter was found on {4}",
+                            LogPrefix,
+                            part.partInfo != null ? part.partInfo.title : part.partName,
+                            storedScience,
+                            scienceCap,
+                            vessel.GetDisplayName()));
+                    }
+                    continue;
+                }
+
                 double retryAt;
                 if (nextRetry.TryGetValue(labId, out retryAt) && now < retryAt)
                 {
@@ -197,15 +215,26 @@ namespace ScienceLabAutoTransmit
             for (int partIndex = 0; partIndex < parts.Count; partIndex++)
             {
                 ProtoPartSnapshot part = parts[partIndex];
-                if (part == null || part.partInfo == null || part.partInfo.partPrefab == null)
+                if (part == null || part.modules == null)
                 {
                     continue;
                 }
 
-                PartModuleList modules = part.partInfo.partPrefab.Modules;
+                List<ProtoPartModuleSnapshot> modules = part.modules;
                 for (int moduleIndex = 0; moduleIndex < modules.Count; moduleIndex++)
                 {
-                    if (modules[moduleIndex] is ModuleDataTransmitter)
+                    ProtoPartModuleSnapshot module = modules[moduleIndex];
+                    if (module == null || module.moduleName == null)
+                    {
+                        continue;
+                    }
+
+                    if (module.moduleName.StartsWith(
+                            "ModuleDataTransmitter",
+                            StringComparison.Ordinal)
+                        || module.moduleName.StartsWith(
+                            "ModuleRTAntenna",
+                            StringComparison.Ordinal))
                     {
                         return true;
                     }

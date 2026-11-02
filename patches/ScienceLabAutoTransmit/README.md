@@ -5,7 +5,9 @@ full, but they do not transmit the accumulated science automatically. This
 small plugin checks every vessel in the save. Loaded labs use the original
 `TransmitScience()` method. Unloaded labs are read from their
 `ProtoVessel` snapshots and their completed science is settled directly when
-the vessel has a science-capable CommNet path and transmitter hardware.
+the persisted vessel still contains transmitter hardware. The unloaded-vessel
+CommNet state is not used as a gate because KSP does not maintain it with the
+same reliability as the loaded-vessel state.
 
 The plugin does not add, duplicate, or modify science. It also does not bypass
 CommNet, antenna range, electric charge, or transmission time. A lab is skipped
@@ -67,9 +69,9 @@ output is normally blocked just below its configured cap.
 ## Limitations
 
 - Unloaded labs are transmitted by directly settling their persisted
-  `storedScience`. This intentionally skips the stock transmission animation
-  and transmission-time delay, while still requiring a science-capable
-  CommNet path and transmitter hardware.
+  `storedScience`. This intentionally skips the stock transmission animation,
+  signal-strength check, and transmission-time delay. A persisted
+  `ModuleDataTransmitter` or RemoteTech antenna module is still required.
 - The plugin transmits already-accumulated science from unloaded labs. It does
   not replace stock background conversion or add offline science processing
   when the lab has not accumulated science in its persisted buffer.
