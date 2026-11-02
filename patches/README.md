@@ -24,6 +24,7 @@
 | `ZZZ_USI_CN` | MM 配置 | Konstruction / USI-LS / Akita 简体中文 | USI 系列 | **随 USI 删除** |
 | `ZZZ_KONSTRUCTION_INDEPENDENCE` | MM 配置 | 给 Konstruction KS-500 船坞增加本地资源缓冲与合成 | Konstruction | **随 USI 删除** |
 | `WormholeRelay` | Harmony 插件 + 源码 | 让 Kcalbeloh 虫洞两端的中继卫星连通 CommNet | Kcalbeloh、Harmony | **随 Kcalbeloh 删除** |
+| `ScienceLabAutoTransmit` | 独立插件 + 源码 | 空间实验室科研缓存达到阈值后逐个自动传输；保留天线、电量和 CommNet 规则 | 无额外依赖 | **保留** |
 | `ZZZ_BDA_CN` | 本地化 cfg + Harmony 插件 | BDA+ 与扩展包的 UI、分类、硬编码部件；覆盖 NKDR、BD Modular、Fishy、Fox、Kerbal Powers 中文 | BDArmory Plus、Harmony | **保留** |
 | `ZZZ_SpikeX_CN` | 本地化 cfg | SpikeX 1.01 简体中文补充 | SpikeX | **保留** |
 | `ContractPacks-KUM` | 本地化 cfg | KUM 1.0.0 主体中文词条最终补全 | KomUniMunCW | **保留** |
